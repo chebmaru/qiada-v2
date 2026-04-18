@@ -1,0 +1,24 @@
+{
+  "name": "Qiada — قيادة",
+  "short_name": "Qiada",
+  "description": "Preparati all'esame della patente italiana in arabo e italiano",
+  "start_url": "/ar",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
