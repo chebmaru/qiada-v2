@@ -148,6 +148,47 @@ export function getLesson(id: string) {
   return fetchApi<Lesson & { topics: Topic[] }>(`/lessons/${id}`);
 }
 
+// Progress
+export interface DashboardStats {
+  totalAnswered: number;
+  totalCorrect: number;
+  uniqueQuestions: number;
+  accuracy: number;
+  totalExams: number;
+  passedExams: number;
+  avgScore: number;
+  streak: number;
+  recentActivity: Array<{
+    date: string;
+    questionsAnswered: number;
+    questionsCorrect: number;
+    quizCount: number;
+    studyMinutes: number;
+  }>;
+}
+
+export interface ChapterProgress {
+  id: number;
+  number: number;
+  nameIt: string;
+  nameAr: string;
+  totalQuestions: number;
+  answeredCorrectly: number;
+  percentage: number;
+}
+
+export function getDashboard(token: string) {
+  return fetchApi<DashboardStats>('/progress/dashboard', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function getChapterProgress(token: string) {
+  return fetchApi<ChapterProgress[]>('/progress/chapters', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
 export function getQuestions(opts: { chapterId?: number; topicKey?: string; limit?: number; offset?: number }) {
   const params = new URLSearchParams();
   if (opts.chapterId) params.set('chapterId', String(opts.chapterId));

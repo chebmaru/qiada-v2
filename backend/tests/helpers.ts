@@ -10,6 +10,7 @@ import { glossaryRoutes } from '../src/routes/glossary.js';
 import { lessonRoutes } from '../src/routes/lessons.js';
 import { authRoutes } from '../src/routes/auth.js';
 import { quizRoutes } from '../src/routes/quiz.js';
+import { progressRoutes } from '../src/routes/progress.js';
 import 'dotenv/config';
 
 export async function buildApp() {
@@ -30,6 +31,7 @@ export async function buildApp() {
   await app.register(lessonRoutes, { prefix: '/api' });
   await app.register(glossaryRoutes, { prefix: '/api' });
   await app.register(quizRoutes, { prefix: '/api' });
+  await app.register(progressRoutes, { prefix: '/api' });
 
   await app.ready();
   return app;
