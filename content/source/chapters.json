@@ -1,242 +1,242 @@
 [
   {
     "id": 1,
-    "ministryWeight": 4,
+    "number": 1,
     "nameIT": "Definizioni Stradali e di Traffico",
     "nameAR": "تعريفات الطريق وحركة المرور",
     "coverImageUrl": null,
-    "number": 1
+    "ministryWeight": 4
   },
   {
     "id": 2,
-    "ministryWeight": 4,
+    "number": 2,
     "nameIT": "Segnali di Pericolo",
     "nameAR": "إشارات الخطر",
     "coverImageUrl": null,
-    "number": 2
+    "ministryWeight": 4
   },
   {
     "id": 3,
-    "ministryWeight": 4,
+    "number": 3,
     "nameIT": "Segnali di Precedenza",
     "nameAR": "إشارات الأولوية",
     "coverImageUrl": null,
-    "number": 3
+    "ministryWeight": 4
   },
   {
     "id": 4,
-    "ministryWeight": 2,
+    "number": 4,
     "nameIT": "Segnali di Divieto",
     "nameAR": "إشارات الحظر",
     "coverImageUrl": null,
-    "number": 4
+    "ministryWeight": 2
   },
   {
     "id": 5,
-    "ministryWeight": 3,
+    "number": 5,
     "nameIT": "Segnali di Obbligo",
     "nameAR": "إشارات الإلزام",
     "coverImageUrl": null,
-    "number": 5
+    "ministryWeight": 3
   },
   {
     "id": 6,
-    "ministryWeight": 3,
+    "number": 6,
     "nameIT": "Segnali di Indicazione",
     "nameAR": "إشارات الإرشاد",
     "coverImageUrl": null,
-    "number": 6
+    "ministryWeight": 3
   },
   {
     "id": 7,
-    "ministryWeight": 2,
+    "number": 7,
     "nameIT": "Segnali Temporanei e di Cantiere",
     "nameAR": "الإشارات المؤقتة وإشارات أعمال الطريق",
     "coverImageUrl": null,
-    "number": 7
+    "ministryWeight": 2
   },
   {
     "id": 8,
-    "ministryWeight": 3,
+    "number": 8,
     "nameIT": "Segnali Complementari",
     "nameAR": "الإشارات التكميلية",
     "coverImageUrl": null,
-    "number": 8
+    "ministryWeight": 3
   },
   {
     "id": 9,
-    "ministryWeight": 2,
+    "number": 9,
     "nameIT": "Pannelli Integrativi dei Segnali",
     "nameAR": "لوحات الإشارات التكميلية",
     "coverImageUrl": null,
-    "number": 9
+    "ministryWeight": 2
   },
   {
     "id": 10,
-    "ministryWeight": 3,
+    "number": 10,
     "nameIT": "Semafori e Segnali Manuali degli Agenti",
     "nameAR": "إشارات المرور الضوئية وإشارات رجال المرور",
     "coverImageUrl": null,
-    "number": 10
+    "ministryWeight": 3
   },
   {
     "id": 11,
-    "ministryWeight": 1,
+    "number": 11,
     "nameIT": "Segnaletica Orizzontale",
     "nameAR": "العلامات الأفقية",
     "coverImageUrl": null,
-    "number": 11
+    "ministryWeight": 1
   },
   {
     "id": 12,
-    "ministryWeight": 2,
+    "number": 12,
     "nameIT": "Velocità, Distanza di Sicurezza e Norme Generali",
     "nameAR": "السرعة ومسافة الأمان والقواعد العامة",
     "coverImageUrl": null,
-    "number": 12
+    "ministryWeight": 2
   },
   {
     "id": 13,
-    "ministryWeight": 1,
+    "number": 13,
     "nameIT": "Posizione dei Veicoli sulla Carreggiata",
     "nameAR": "موضع المركبات على الطريق",
     "coverImageUrl": null,
-    "number": 13
+    "ministryWeight": 1
   },
   {
     "id": 14,
-    "ministryWeight": 1,
+    "number": 14,
     "nameIT": "Precedenza agli Incroci",
     "nameAR": "الأولوية في التقاطعات",
     "coverImageUrl": null,
-    "number": 14
+    "ministryWeight": 1
   },
   {
     "id": 15,
-    "ministryWeight": 2,
+    "number": 15,
     "nameIT": "Il Sorpasso",
     "nameAR": "التجاوز",
     "coverImageUrl": null,
-    "number": 15
+    "ministryWeight": 2
   },
   {
     "id": 16,
-    "ministryWeight": 2,
+    "number": 16,
     "nameIT": "Fermata, Sosta, Arresto e Partenza",
     "nameAR": "التوقف والوقوف والانطلاق",
     "coverImageUrl": null,
-    "number": 16
+    "ministryWeight": 2
   },
   {
     "id": 17,
-    "ministryWeight": 1,
+    "number": 17,
     "nameIT": "Ingombro della Carreggiata e Segnalazione",
     "nameAR": "إشغال الطريق وتنبيه المركبات الواقفة",
     "coverImageUrl": null,
-    "number": 17
+    "ministryWeight": 1
   },
   {
     "id": 18,
-    "ministryWeight": 0,
+    "number": 18,
     "nameIT": "Circolazione Extraurbana e Autostradale",
     "nameAR": "السير على الطرق خارج المدينة والطرق السريعة",
     "coverImageUrl": null,
-    "number": 18
+    "ministryWeight": 0
   },
   {
     "id": 19,
-    "ministryWeight": 0,
+    "number": 19,
     "nameIT": "Luci, Clacson e Dispositivi di Equipaggiamento",
     "nameAR": "الأضواء والبوق وأجهزة التجهيز",
     "coverImageUrl": null,
-    "number": 19
+    "ministryWeight": 0
   },
   {
     "id": 20,
-    "ministryWeight": 0,
+    "number": 20,
     "nameIT": "Spie, Simboli e Comandi del Veicolo",
     "nameAR": "مؤشرات الأعطال ورموز وأجهزة التحكم",
     "coverImageUrl": null,
-    "number": 20
+    "ministryWeight": 0
   },
   {
     "id": 21,
-    "ministryWeight": 0,
+    "number": 21,
     "nameIT": "Cinture, Airbag e Sistemi di Ritenuta",
     "nameAR": "حزام الأمان والوسائد الهوائية وأنظمة التثبيت",
     "coverImageUrl": null,
-    "number": 21
+    "ministryWeight": 0
   },
   {
     "id": 22,
-    "ministryWeight": 0,
+    "number": 22,
     "nameIT": "Trasporto di Persone, Carico e Traino",
     "nameAR": "نقل الأشخاص والشحن والجر",
     "coverImageUrl": null,
-    "number": 22
+    "ministryWeight": 0
   },
   {
     "id": 23,
-    "ministryWeight": 0,
+    "number": 23,
     "nameIT": "Patenti di Guida e Provvedimenti",
     "nameAR": "رخصة القيادة والإجراءات",
     "coverImageUrl": null,
-    "number": 23
+    "ministryWeight": 0
   },
   {
     "id": 24,
-    "ministryWeight": 0,
+    "number": 24,
     "nameIT": "Obblighi verso Agenti e Documenti",
     "nameAR": "الالتزامات تجاه الشرطة والوثائق",
     "coverImageUrl": null,
-    "number": 24
+    "ministryWeight": 0
   },
   {
     "id": 25,
-    "ministryWeight": 0,
+    "number": 25,
     "nameIT": "Cause di Incidenti e Guida Sicura",
     "nameAR": "أسباب الحوادث وقيادة آمنة",
     "coverImageUrl": null,
-    "number": 25
+    "ministryWeight": 0
   },
   {
     "id": 26,
-    "ministryWeight": 0,
+    "number": 26,
     "nameIT": "Comportamento in caso di Incidente, Responsabilità e Assicurazione",
     "nameAR": "السلوك عند الحوادث والمسؤولية والتأمين",
     "coverImageUrl": null,
-    "number": 26
+    "ministryWeight": 0
   },
   {
     "id": 27,
-    "ministryWeight": 0,
+    "number": 27,
     "nameIT": "Alcol, Droghe e Farmaci alla Guida",
     "nameAR": "الكحول والمخدرات والأدوية أثناء القيادة",
     "coverImageUrl": null,
-    "number": 27
+    "ministryWeight": 0
   },
   {
     "id": 28,
-    "ministryWeight": 0,
+    "number": 28,
     "nameIT": "Inquinamento e Risparmio Energetico",
     "nameAR": "التلوث وترشيد استهلاك الوقود",
     "coverImageUrl": null,
-    "number": 28
+    "ministryWeight": 0
   },
   {
     "id": 29,
-    "ministryWeight": 0,
+    "number": 29,
     "nameIT": "Elementi Costitutivi del Veicolo",
     "nameAR": "مكونات المركبة",
     "coverImageUrl": null,
-    "number": 29
+    "ministryWeight": 0
   },
   {
     "id": 30,
-    "ministryWeight": 0,
+    "number": 30,
     "nameIT": "Stabilità e Tenuta di Strada",
     "nameAR": "الاستقرار والثبات على الطريق",
     "coverImageUrl": null,
-    "number": 30
+    "ministryWeight": 0
   }
 ]

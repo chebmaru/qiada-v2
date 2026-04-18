@@ -1,0 +1,162 @@
+{
+  "descriptionIT": "Avverbi assoluti che rendono la domanda quasi sempre FALSA",
+  "descriptionAR": "ظروف مطلقة تجعل السؤال خاطئًا في معظم الحالات",
+  "ruleIT": "Attenzione! Le domande con avverbi assoluti (sempre, mai, esclusivamente, obbligatoriamente) sono FALSE nel 67% dei casi. Se vedi queste parole, la risposta è probabilmente FALSO.",
+  "ruleAR": "انتباه! الأسئلة التي تحتوي على ظروف مطلقة (دائمًا، أبدًا، حصريًا، إلزاميًا) هي خاطئة في 67% من الحالات. إذا رأيت هذه الكلمات، فالإجابة على الأرجح خطأ.",
+  "patterns": [
+    {
+      "patternIT": "non è mai",
+      "total": 2,
+      "trueCount": 0,
+      "falseCount": 2,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "assolutamente",
+      "total": 3,
+      "trueCount": 0,
+      "falseCount": 3,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "obbligatoriamente",
+      "total": 6,
+      "trueCount": 0,
+      "falseCount": 6,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "unicamente",
+      "total": 7,
+      "trueCount": 0,
+      "falseCount": 7,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "in nessun caso",
+      "total": 1,
+      "trueCount": 0,
+      "falseCount": 1,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "nessuno",
+      "total": 2,
+      "trueCount": 0,
+      "falseCount": 2,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "non è necessario",
+      "total": 9,
+      "trueCount": 0,
+      "falseCount": 9,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "energicamente",
+      "total": 3,
+      "trueCount": 0,
+      "falseCount": 3,
+      "falseRate": 100
+    },
+    {
+      "patternIT": "esclusivamente",
+      "total": 14,
+      "trueCount": 1,
+      "falseCount": 13,
+      "falseRate": 93
+    },
+    {
+      "patternIT": "mai",
+      "total": 12,
+      "trueCount": 1,
+      "falseCount": 11,
+      "falseRate": 92
+    },
+    {
+      "patternIT": "in ogni caso",
+      "total": 22,
+      "trueCount": 2,
+      "falseCount": 20,
+      "falseRate": 91
+    },
+    {
+      "patternIT": "non occorre",
+      "total": 11,
+      "trueCount": 2,
+      "falseCount": 9,
+      "falseRate": 82
+    },
+    {
+      "patternIT": "qualunque",
+      "total": 19,
+      "trueCount": 4,
+      "falseCount": 15,
+      "falseRate": 79
+    },
+    {
+      "patternIT": "soltanto",
+      "total": 31,
+      "trueCount": 9,
+      "falseCount": 22,
+      "falseRate": 71
+    },
+    {
+      "patternIT": "qualsiasi",
+      "total": 27,
+      "trueCount": 8,
+      "falseCount": 19,
+      "falseRate": 70
+    },
+    {
+      "patternIT": "sempre",
+      "total": 82,
+      "trueCount": 29,
+      "falseCount": 53,
+      "falseRate": 65
+    },
+    {
+      "patternIT": "tutti",
+      "total": 104,
+      "trueCount": 36,
+      "falseCount": 68,
+      "falseRate": 65
+    },
+    {
+      "patternIT": "bruscamente",
+      "total": 13,
+      "trueCount": 5,
+      "falseCount": 8,
+      "falseRate": 62
+    },
+    {
+      "patternIT": "tutte",
+      "total": 30,
+      "trueCount": 13,
+      "falseCount": 17,
+      "falseRate": 57
+    },
+    {
+      "patternIT": "doppia negazione",
+      "total": 55,
+      "trueCount": 32,
+      "falseCount": 23,
+      "falseRate": 42
+    },
+    {
+      "patternIT": "comunque",
+      "total": 15,
+      "trueCount": 9,
+      "falseCount": 6,
+      "falseRate": 40
+    },
+    {
+      "patternIT": "solamente",
+      "total": 4,
+      "trueCount": 3,
+      "falseCount": 1,
+      "falseRate": 25
+    }
+  ]
+}

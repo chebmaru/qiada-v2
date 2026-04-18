@@ -1,0 +1,4802 @@
+[
+  {
+    "code": "AA002",
+    "oldTopic": "strada",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di 'veicolo' nel Codice della Strada, riguarda la circolazione su strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18330",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda specifica sulla composizione della strada con tre carreggiate",
+    "chapterId": 1
+  },
+  {
+    "code": "B18331",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda specifica sul numero di corsie (otto) nella strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18332",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sul senso di circolazione delle carreggiate laterali nella strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18333",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sul senso di circolazione della carreggiata centrale nella strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18334",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sulla possibilità di sorpasso in curva nella strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18335",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sulla composizione (quattro carreggiate) della strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18336",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sul numero di carreggiate (otto) della strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18337",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sul numero di carreggiate a doppio senso nella strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18338",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sul numero di corsie (tre) della strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18339",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sul senso di circolazione della corsia centrale nella strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18340",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda sull'inversione di marcia nelle carreggiate laterali della strada rappresentata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18353",
+    "oldTopic": "strada",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Domanda specifica sulle caratteristiche della strada extraurbana principale (incroci a raso)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18358",
+    "oldTopic": "area_pedonale",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Domanda sulla velocità massima consentita sulle strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18359",
+    "oldTopic": "area_pedonale",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Domanda sulla segnaletica (verde) delle strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18360",
+    "oldTopic": "carreggiata",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Definizione delle caratteristiche delle strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18361",
+    "oldTopic": "area_pedonale",
+    "newTopic": "limiti_massimi_di_velocita_su_strade_extraurbane",
+    "changed": true,
+    "reason": "Confronto velocità massima strade extraurbane principali e autostrade",
+    "chapterId": 1
+  },
+  {
+    "code": "B18362",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sono_esclusi_dalla_circolazione_in",
+    "changed": true,
+    "reason": "Transito di quadricicli leggeri su strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18363",
+    "oldTopic": "corsia",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Descrizione numero corsie strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18364",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sono_esclusi_dalla_circolazione_in",
+    "changed": true,
+    "reason": "Transito di ciclomotori su strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18365",
+    "oldTopic": "area_pedonale",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Descrizione caratteristiche geometriche strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18366",
+    "oldTopic": "area_pedonale",
+    "newTopic": "strada_extraurbana_principale",
+    "changed": true,
+    "reason": "Dotazione di pannelli a messaggio variabile su strade extraurbane principali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18386",
+    "oldTopic": "area_pedonale",
+    "newTopic": "isola_di_traffico",
+    "changed": true,
+    "reason": "Definizione di isola di traffico",
+    "chapterId": 1
+  },
+  {
+    "code": "B18400",
+    "oldTopic": "strada",
+    "newTopic": "intersezione_incrocio_a_raso",
+    "changed": true,
+    "reason": "Definizione di intersezione a raso",
+    "chapterId": 1
+  },
+  {
+    "code": "B18425",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Transito veicoli elettrici in area pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18426",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Transito pedoni in area pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18427",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Transito biciclette in area pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18428",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Transito veicoli per disabili in area pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18429",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Transito veicoli di polizia in area pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18430",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Transito veicoli vigili del fuoco in area pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18431",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Domanda specifica sulla circolazione nelle aree pedonali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18432",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Domanda specifica sulla circolazione nelle aree pedonali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18433",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Domanda specifica sulla circolazione nelle aree pedonali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18434",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Domanda specifica sulla circolazione nelle aree pedonali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18435",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Domanda specifica sulla circolazione nelle aree pedonali",
+    "chapterId": 1
+  },
+  {
+    "code": "B18436",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e sue suddivisioni",
+    "chapterId": 1
+  },
+  {
+    "code": "B18437",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e suoi elementi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18438",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e sue caratteristiche",
+    "chapterId": 1
+  },
+  {
+    "code": "B18439",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e sue caratteristiche",
+    "chapterId": 1
+  },
+  {
+    "code": "B18440",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e sua destinazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18441",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e suoi elementi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18442",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e sua destinazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18443",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e sua destinazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18444",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada e suoi elementi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18445",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "Definizione generale di strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18446",
+    "oldTopic": "strada",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Definizione di autostrada: assenza di incroci a raso",
+    "chapterId": 1
+  },
+  {
+    "code": "B18447",
+    "oldTopic": "strada",
+    "newTopic": "corsia_di_accelerazione",
+    "changed": true,
+    "reason": "Descrizione delle corsie speciali di ingresso/uscita in autostrada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18448",
+    "oldTopic": "strada",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Definizione di autostrada: carreggiate separate",
+    "chapterId": 1
+  },
+  {
+    "code": "B18453",
+    "oldTopic": "strada",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Definizione di autostrada: recinzione laterale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18456",
+    "oldTopic": "strada",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Definizione di autostrada: possibile inclusione piste ciclabili",
+    "chapterId": 1
+  },
+  {
+    "code": "B18457",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sono_esclusi_dalla_circolazione_in",
+    "changed": true,
+    "reason": "Veicoli esclusi dalla circolazione in autostrada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18458",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sono_ammessi_a_circolare_in",
+    "changed": true,
+    "reason": "Veicoli ammessi in autostrada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18459",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sono_esclusi_dalla_circolazione_in",
+    "changed": true,
+    "reason": "Veicoli esclusi dalla circolazione in autostrada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18460",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione di carreggiata: può essere a senso unico",
+    "chapterId": 1
+  },
+  {
+    "code": "B18461",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione di carreggiata: può essere a doppio senso",
+    "chapterId": 1
+  },
+  {
+    "code": "B18462",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione di carreggiata: può essere suddivisa in corsie",
+    "chapterId": 1
+  },
+  {
+    "code": "B18463",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione di carreggiata: esclusione piste ciclabili",
+    "chapterId": 1
+  },
+  {
+    "code": "B18464",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione di carreggiata: esclusione marciapiedi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18465",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione generale di carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18466",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione di carreggiata: destinata ai veicoli, non solo ai carri",
+    "chapterId": 1
+  },
+  {
+    "code": "B18467",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione della carreggiata e sua destinazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18468",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione della carreggiata e sua destinazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18469",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione della carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18470",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18471",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18472",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18473",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18474",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18475",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18476",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18477",
+    "oldTopic": "carreggiata",
+    "newTopic": "carreggiata",
+    "changed": false,
+    "reason": "Definizione degli elementi che compongono la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18478",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "Definizione della corsia e sua destinazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18479",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "Definizione della corsia e sua delimitazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18480",
+    "oldTopic": "corsia",
+    "newTopic": "corsia_di_accelerazione",
+    "changed": true,
+    "reason": "Definizione specifica di un tipo di corsia",
+    "chapterId": 1
+  },
+  {
+    "code": "B18481",
+    "oldTopic": "corsia",
+    "newTopic": "corsia_di_decelerazione",
+    "changed": true,
+    "reason": "Definizione specifica di un tipo di corsia",
+    "chapterId": 1
+  },
+  {
+    "code": "B18482",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda riguarda le restrizioni di utilizzo della corsia per tipi di veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18483",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda tratta corsie riservate a categorie specifiche di veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18484",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda si riferisce alla destinazione d'uso della corsia per il sorpasso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18485",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda concerne la possibilità di imporre una velocità minima su una corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18486",
+    "oldTopic": "carreggiata",
+    "newTopic": "corsia",
+    "changed": true,
+    "reason": "La domanda definisce la corsia come parte della carreggiata per una fila di veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18487",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda parla della destinazione della corsia per soste di emergenza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18488",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda riguarda corsie specializzate per svolte.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18489",
+    "oldTopic": "corsia",
+    "newTopic": "corsia_di_decelerazione",
+    "changed": true,
+    "reason": "La domanda descrive la corsia di decelerazione per uscita autostradale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18490",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda afferma erroneamente che la corsia è solo per pedoni, ma il topic è corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18491",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda tratta la possibilità di una corsia a doppio senso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18492",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda descrive erroneamente la corsia come pista da corsa, ma il topic è corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18493",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda nega l'attraversamento pedonale della corsia, ma il topic è corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18494",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda fornisce una definizione errata della corsia, ma il topic è corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18495",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda definisce erroneamente la corsia come strada veloce, ma il topic è corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18496",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "La domanda riguarda la circolazione affiancata di motocicli su una corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18497",
+    "oldTopic": "corsia",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Domanda sulla circolazione di ciclomotori affiancati su una stessa corsia fuori dai centri abitati, riguarda la circolazione su strada.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18503",
+    "oldTopic": "corsia",
+    "newTopic": "corsia_di_accelerazione",
+    "changed": true,
+    "reason": "Domanda specifica sulla funzione della corsia di accelerazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18504",
+    "oldTopic": "carreggiata",
+    "newTopic": "corsia_di_accelerazione",
+    "changed": true,
+    "reason": "Domanda specifica sulla funzione della corsia di accelerazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18510",
+    "oldTopic": "corsia",
+    "newTopic": "corsia_di_decelerazione",
+    "changed": true,
+    "reason": "Domanda specifica sulla funzione della corsia di decelerazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18533",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18534",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18535",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18536",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18537",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_fermata",
+    "changed": true,
+    "reason": "Domanda sulla fermata in corrispondenza del passo carrabile, riguarda le regole di fermata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18538",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18539",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18540",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18542",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "topic \"passo_carrabile\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18543",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_sosta",
+    "changed": true,
+    "reason": "Domanda sulla sosta in corrispondenza del passo carrabile, riguarda le regole di sosta.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18544",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Domanda sulla definizione di ciclomotore, riguarda i veicoli guidabili con patente (categoria).",
+    "chapterId": 1
+  },
+  {
+    "code": "B18545",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione dei ciclomotori, rientra nella classificazione dei veicoli guidabili con patente specifica.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18546",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Classificazione dei veicoli a motore a due ruote, riguarda quali veicoli sono considerati ciclomotori.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18547",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Specifica tecnica dei ciclomotori a due ruote (cilindrata massima), parte della definizione dei veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18548",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Si parla di revisione periodica dei ciclomotori, argomento revisione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18549",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione del numero di ruote dei ciclomotori, classificazione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18550",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione delle biciclette a pedalata assistita in relazione ai ciclomotori, classificazione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18551",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione errata dei ciclomotori, riguarda la classificazione dei veicoli a due ruote.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18552",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Caratteristica tecnica (cambio) per la definizione di ciclomotore, classificazione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18553",
+    "oldTopic": "area_pedonale",
+    "newTopic": "limiti_massimi_di_velocita_per_particolari",
+    "changed": true,
+    "reason": "Limite di velocità specifico per ciclomotori fuori dai centri urbani.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18554",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Affermazione sulla revisione periodica dei ciclomotori, argomento revisione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18555",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione dei tricicli a motore, classificazione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18556",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Specifica tecnica (cilindrata) dei tricicli a motore, classificazione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18557",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Specifica tecnica (velocità massima) dei tricicli a motore, classificazione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18558",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Revisione periodica dei tricicli a motore, argomento revisione veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18559",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Requisito di patente per guidare tricicli a motore, classificazione veicoli e patenti.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18560",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di triciclo a motore, rientra nella classificazione dei veicoli guidabili con patente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18561",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di triciclo a motore, rientra nella classificazione dei veicoli guidabili con patente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18562",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Tratta della revisione periodica dei veicoli, argomento associato alla revisione della patente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18563",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di quadriciclo leggero, rientra nella classificazione dei veicoli guidabili con patente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18566",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione generale di quadriciclo, rientra nella classificazione dei veicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18567",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Assimilazione dei quadricicli leggeri ai ciclomotori, riguarda la classificazione dei veicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18568",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Specifica tecnica dei quadricicli non leggeri, rientra nella classificazione dei veicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18569",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Tratta della revisione periodica dei veicoli, argomento associato alla revisione della patente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18570",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Patente necessaria per guidare quadricicli, rientra nella classificazione dei veicoli guidabili",
+    "chapterId": 1
+  },
+  {
+    "code": "B18571",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Equiparazione dei quadricicli non leggeri ai ciclomotori, riguarda la classificazione dei veicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18573",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Modifica del dispositivo di scarico, riguarda la manutenzione e le modifiche vietate per sicurezza",
+    "chapterId": 1
+  },
+  {
+    "code": "B18574",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Età minima per la guida di quadricicli, rientra nella classificazione dei veicoli guidabili",
+    "chapterId": 1
+  },
+  {
+    "code": "B18575",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_casco",
+    "changed": true,
+    "reason": "Obbligo o meno del casco per la guida di quadricicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18576",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Modifica della cilindrata, riguarda la manutenzione e le modifiche vietate per sicurezza",
+    "chapterId": 1
+  },
+  {
+    "code": "B18577",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Sostituzione del motore per aumentare la velocità, riguarda le modifiche vietate per sicurezza",
+    "chapterId": 1
+  },
+  {
+    "code": "B18578",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Domanda sulla revisione periodica dei quadricicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18579",
+    "oldTopic": "strada",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Circolazione su strada delle macchine agricole",
+    "chapterId": 1
+  },
+  {
+    "code": "B18580",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione e tipi di macchine agricole",
+    "chapterId": 1
+  },
+  {
+    "code": "B18581",
+    "oldTopic": "strada",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Circolazione su strada per trasporto agricolo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18582",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Tipologie di macchine agricole",
+    "chapterId": 1
+  },
+  {
+    "code": "B18583",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Attrezzature delle macchine agricole operatrici",
+    "chapterId": 1
+  },
+  {
+    "code": "B18584",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Tipologie di macchine operatrici",
+    "chapterId": 1
+  },
+  {
+    "code": "B18585",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Veicoli sgombraneve come macchine operatrici",
+    "chapterId": 1
+  },
+  {
+    "code": "B18586",
+    "oldTopic": "area_pedonale",
+    "newTopic": "limiti_massimi_di_velocita_per_particolari",
+    "changed": true,
+    "reason": "Limite di velocità per macchine operatrici",
+    "chapterId": 1
+  },
+  {
+    "code": "B18587",
+    "oldTopic": "area_pedonale",
+    "newTopic": "limiti_massimi_di_velocita_per_particolari",
+    "changed": true,
+    "reason": "Limite di velocità per macchine operatrici a cingoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18588",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Trasporto passeggeri su macchine operatrici",
+    "chapterId": 1
+  },
+  {
+    "code": "B18590",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Trasporto passeggeri su macchine agricole",
+    "chapterId": 1
+  },
+  {
+    "code": "B18591",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Trasporto di persone in piedi su macchine agricole",
+    "chapterId": 1
+  },
+  {
+    "code": "B18593",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Veicoli guidabili con patente B",
+    "chapterId": 1
+  },
+  {
+    "code": "B18594",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di caravan (roulottes) come rimorchi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18595",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sull'uso dei caravan come alloggio, riguarda il trasporto e sistemazione delle persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18596",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sulla targa dei caravan, inerente alla classificazione e uso dei veicoli per trasporto persone/alloggio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18597",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sull'alloggio in caravan durante la circolazione, riguarda la sicurezza nel trasporto di persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18598",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sulla destinazione d'uso dei caravan, classificazione come rimorchi per trasporto persone/alloggio, non agricoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18599",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sulla destinazione dei caravan, specifica il trasporto di attrezzature turistiche/sportive, collegato all'uso per persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18600",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda definisce le autocaravan come veicoli per trasporto e alloggio di persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18601",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda specifica il numero massimo di persone nelle autocaravan, riguarda il trasporto di persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18602",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda descrive le autocaravan come veicoli permanentemente attrezzati per trasporto e alloggio persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18603",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Domanda sulla revisione periodica delle autocaravan, riguarda la revisione dei veicoli (patente/veicolo).",
+    "chapterId": 1
+  },
+  {
+    "code": "B18604",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda classifica le autocaravan come rimorchi, inerente al tipo di veicolo per trasporto persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18605",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda nega che le autocaravan siano per lavori agricoli, riguarda la destinazione per trasporto persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18606",
+    "oldTopic": "strada",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda nega che le autocaravan siano per opere stradali, riguarda la destinazione per trasporto persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18607",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sul viaggiare in piedi nelle autocaravan, riguarda la sicurezza nel trasporto di persone.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18608",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Domanda specifica la frequenza della revisione delle autocaravan, riguarda la revisione dei veicoli.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18615",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannelli_posteriori_trasporto_cose",
+    "changed": true,
+    "reason": "Domanda sulle strisce retroriflettenti laterali, riguarda la segnaletica e pannelli applicati sui veicoli per visibilità.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18616",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannelli_posteriori_trasporto_cose",
+    "changed": true,
+    "reason": "Strisce retroriflettenti posteriori su veicoli per trasporto cose",
+    "chapterId": 1
+  },
+  {
+    "code": "B18619",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannelli_posteriori_trasporto_cose",
+    "changed": true,
+    "reason": "Strisce retroriflettenti laterali su autocarri",
+    "chapterId": 1
+  },
+  {
+    "code": "B18621",
+    "oldTopic": "area_pedonale",
+    "newTopic": "segnali_di_velocita_da_applicare_sui_veicoli",
+    "changed": true,
+    "reason": "Segnale di velocità minima su autobus",
+    "chapterId": 1
+  },
+  {
+    "code": "B18622",
+    "oldTopic": "area_pedonale",
+    "newTopic": "segnali_di_velocita_da_applicare_sui_veicoli",
+    "changed": true,
+    "reason": "Segnale di velocità massima su autovetture",
+    "chapterId": 1
+  },
+  {
+    "code": "B18623",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannelli_posteriori_trasporto_cose",
+    "changed": true,
+    "reason": "Strisce retroriflettenti posteriori su caravan",
+    "chapterId": 1
+  },
+  {
+    "code": "B18624",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannelli_posteriori_trasporto_cose",
+    "changed": true,
+    "reason": "Strisce retroriflettenti posteriori su autobus",
+    "chapterId": 1
+  },
+  {
+    "code": "B18626",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di motociclo come veicolo a due ruote",
+    "chapterId": 1
+  },
+  {
+    "code": "B18627",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di motociclo per cilindrata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18628",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Distinzione tra ciclomotori e motocicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18629",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Caratteristiche tecniche dei motocicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18630",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_revisione_della_patente",
+    "changed": true,
+    "reason": "Revisione periodica dei motocicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18631",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di motociclo a tre ruote",
+    "chapterId": 1
+  },
+  {
+    "code": "B18632",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di motociclo con più di due ruote",
+    "chapterId": 1
+  },
+  {
+    "code": "B18633",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione generale di motociclo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18634",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di motocicli per cilindrata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18635",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di motocicli guidabili con patente A1",
+    "chapterId": 1
+  },
+  {
+    "code": "B18636",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di quadricicli leggeri assimilati ai motocicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18637",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di autoveicoli (veicoli a motore con almeno quattro ruote)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18638",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di autoveicoli (veicoli a motore con almeno quattro ruote)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18639",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Classificazione dell'autobus come autoveicolo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18640",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Classificazione dell'autocarro come autoveicolo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18641",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Quadricicli non sono autoveicoli (definizione autoveicoli)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18642",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione errata di autoveicoli (compresi quadricicli)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18643",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione errata di autoveicoli (almeno due ruote)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18644",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione errata di autoveicoli (compresi veicoli senza motore)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18645",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Triciclo a motore non è autoveicolo (definizione autoveicoli)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18646",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione errata di autoveicolo (qualunque veicolo a motore)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18647",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione errata di autoveicolo (solo trasporto merce)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18648",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Definizione di autovettura (sottocategoria autoveicoli)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18649",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_b_si_possono_guidare",
+    "changed": true,
+    "reason": "Autovettura è sottocategoria di autoveicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18650",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di autovettura in base ai posti",
+    "chapterId": 1
+  },
+  {
+    "code": "B18651",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di autobus in relazione alle autovetture",
+    "chapterId": 1
+  },
+  {
+    "code": "B18652",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di autovettura con motore elettrico",
+    "chapterId": 1
+  },
+  {
+    "code": "B18653",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Revisione periodica delle autovetture",
+    "chapterId": 1
+  },
+  {
+    "code": "B18654",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione errata di autovettura (trazione posteriore)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18655",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Capacità di trainare rimorchi delle autovetture",
+    "chapterId": 1
+  },
+  {
+    "code": "B18656",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione errata di autovettura (motore anteriore)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18657",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione errata di autovettura (dieci posti)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18658",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione errata di autovettura (blindato per valori)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18659",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di autocarro in relazione alle autovetture",
+    "chapterId": 1
+  },
+  {
+    "code": "B18660",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione errata di autovettura (massimo cinque posti)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18661",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Periodicità revisione autovetture",
+    "chapterId": 1
+  },
+  {
+    "code": "B18662",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di rimorchi e semirimorchi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18663",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Definizione di rimorchio leggero",
+    "chapterId": 1
+  },
+  {
+    "code": "B18664",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Classificazione autosnodato (non rimorchio)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18665",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_traino_di_un_veicolo_in",
+    "changed": true,
+    "reason": "Definizione di autocaravan come veicolo, non rimorchio",
+    "chapterId": 1
+  },
+  {
+    "code": "B18666",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_traino_di_un_veicolo_in",
+    "changed": true,
+    "reason": "Definizione di caravan come veicolo, non rimorchio",
+    "chapterId": 1
+  },
+  {
+    "code": "B18667",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_traino_di_un_veicolo_in",
+    "changed": true,
+    "reason": "Definizione di rimorchio leggero",
+    "chapterId": 1
+  },
+  {
+    "code": "B18668",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_traino_di_un_veicolo_in",
+    "changed": true,
+    "reason": "Definizione di semirimorchio",
+    "chapterId": 1
+  },
+  {
+    "code": "B18669",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_traino_di_un_veicolo_in",
+    "changed": true,
+    "reason": "Caratteristiche dei rimorchi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18672",
+    "oldTopic": "area_pedonale",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Comportamento agli attraversamenti pedonali e ciclabili",
+    "chapterId": 1
+  },
+  {
+    "code": "B18674",
+    "oldTopic": "area_pedonale",
+    "newTopic": "intersezione_incrocio_a_raso",
+    "changed": true,
+    "reason": "Comportamento agli incroci con semaforo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18676",
+    "oldTopic": "area_pedonale",
+    "newTopic": "ingombro_della_carreggiata",
+    "changed": true,
+    "reason": "Comportamento nelle gallerie",
+    "chapterId": 1
+  },
+  {
+    "code": "B18677",
+    "oldTopic": "area_pedonale",
+    "newTopic": "ingombro_della_carreggiata",
+    "changed": true,
+    "reason": "Comportamento agli ingressi privati",
+    "chapterId": 1
+  },
+  {
+    "code": "B18681",
+    "oldTopic": "area_pedonale",
+    "newTopic": "distanza_di_sicurezza_e",
+    "changed": true,
+    "reason": "Mantenimento distanza di sicurezza in fila",
+    "chapterId": 1
+  },
+  {
+    "code": "B18682",
+    "oldTopic": "area_pedonale",
+    "newTopic": "distanza_di_sicurezza_e",
+    "changed": true,
+    "reason": "Mantenimento distanza di sicurezza in fila",
+    "chapterId": 1
+  },
+  {
+    "code": "B18683",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_delle_luci_nei_centri_abitati",
+    "changed": true,
+    "reason": "Uso luci in città in fila",
+    "chapterId": 1
+  },
+  {
+    "code": "B18684",
+    "oldTopic": "area_pedonale",
+    "newTopic": "distanza_di_sicurezza_e",
+    "changed": true,
+    "reason": "Attenzione durante la marcia in fila",
+    "chapterId": 1
+  },
+  {
+    "code": "B18685",
+    "oldTopic": "corsia",
+    "newTopic": "corsia",
+    "changed": false,
+    "reason": "Posizione sulla carreggiata in fila",
+    "chapterId": 1
+  },
+  {
+    "code": "B18686",
+    "oldTopic": "carreggiata",
+    "newTopic": "corsia",
+    "changed": true,
+    "reason": "Posizione sulla carreggiata in fila",
+    "chapterId": 1
+  },
+  {
+    "code": "B18687",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "La domanda riguarda la manovra di sorpasso in condizioni di scarsa visibilità.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18688",
+    "oldTopic": "area_pedonale",
+    "newTopic": "giungendo_in_prossimita_di_un_incrocio_si",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento all'avvicinarsi di un incrocio in centro abitato, considerando la possibile variazione della precedenza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18689",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda descrive una caratteristica generale della circolazione in centro abitato, riguardante il flusso veicolare.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18690",
+    "oldTopic": "strada",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda descrive una caratteristica generale della circolazione in centro abitato, riguardante l'interazione tra utenti diversi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18691",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda descrive un principio generale di comportamento nella circolazione urbana.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18692",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda riguarda un principio generale di attenzione alla guida in ambiente urbano.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18693",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_sosta_e_vietata",
+    "changed": true,
+    "reason": "La domanda riguarda la regola sulla sosta in corrispondenza degli incroci, specificando un divieto.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18694",
+    "oldTopic": "area_pedonale",
+    "newTopic": "ammessa_la_marcia_per_file",
+    "changed": true,
+    "reason": "La domanda riguarda specificamente la regola sulla marcia per file parallele in centro abitato.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18695",
+    "oldTopic": "area_pedonale",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "La domanda riguarda l'interazione con pedoni e diversamente abili, in particolare in relazione alla precedenza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18699",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "La domanda riguarda un divieto generale di manomissione della segnaletica stradale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18700",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "La domanda riguarda un divieto generale di manomissione della segnaletica stradale, anche dopo avviso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18701",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "La domanda riguarda un divieto generale di manomissione della segnaletica stradale, inclusi coni e barriere.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18704",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "La domanda riguarda un divieto generale di gareggiare in velocità su strade pubbliche.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18705",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "La domanda riguarda un divieto generale relativo a scommesse su gare non autorizzate.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18706",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "La domanda riguarda la necessità di autorizzazione per competizioni sportive su aree pubbliche, un divieto generale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18707",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di gare di velocità non autorizzate su strade pubbliche",
+    "chapterId": 1
+  },
+  {
+    "code": "B18708",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di gare di velocità non autorizzate, indipendentemente dal numero di veicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18709",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di gare di velocità non autorizzate, applicabile a tutti i veicoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18710",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di comportamenti pericolosi come gettare oggetti dal veicolo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18711",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di comportamenti pericolosi per altri utenti della strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18712",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bosco_infiammabile",
+    "changed": true,
+    "reason": "Rischio di incendi in prossimità di boschi o aree verdi",
+    "chapterId": 1
+  },
+  {
+    "code": "B18713",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di sporcare la strada con fango o detriti",
+    "chapterId": 1
+  },
+  {
+    "code": "B18714",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Obbligo di manutenzione e controllo per evitare pericoli",
+    "chapterId": 1
+  },
+  {
+    "code": "B18715",
+    "oldTopic": "strada",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Obbligo di segnalazione di perdite pericolose per la sicurezza",
+    "chapterId": 1
+  },
+  {
+    "code": "B18716",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Regola sul trasporto di animali su veicoli a due ruote",
+    "chapterId": 1
+  },
+  {
+    "code": "B18717",
+    "oldTopic": "area_pedonale",
+    "newTopic": "condizioni_avverse_del_tempo",
+    "changed": true,
+    "reason": "Comportamento di guida a bassa velocità in condizioni specifiche",
+    "chapterId": 1
+  },
+  {
+    "code": "B18718",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di sporcare la strada, con riferimento a sanzioni",
+    "chapterId": 1
+  },
+  {
+    "code": "B18719",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Obbligo di pulizia delle ruote per non sporcare la carreggiata",
+    "chapterId": 1
+  },
+  {
+    "code": "B18720",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Obbligo generale di evitare di sporcare la strada durante la marcia",
+    "chapterId": 1
+  },
+  {
+    "code": "B18721",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Divieto generale di manomissione o spostamento della segnaletica stradale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18722",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento vietato sulla strada (lanciare oggetti)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18724",
+    "oldTopic": "strada",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Domanda su comportamento su strada con superficie sdrucciolevole (brecciolino)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18725",
+    "oldTopic": "corsia",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "Domanda su comportamento pericoloso (accelerare bruscamente e cambiare corsia)",
+    "chapterId": 1
+  },
+  {
+    "code": "B18726",
+    "oldTopic": "strada",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su comportamento corretto e tollerante verso altri utenti",
+    "chapterId": 1
+  },
+  {
+    "code": "B18728",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su dovere di tutelare la sicurezza propria e altrui",
+    "chapterId": 1
+  },
+  {
+    "code": "B18730",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su dovere di prevedere il comportamento altrui",
+    "chapterId": 1
+  },
+  {
+    "code": "B18731",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su comportamento paziente in caso di rallentamento",
+    "chapterId": 1
+  },
+  {
+    "code": "B18732",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su non fare affidamento sul comportamento altrui",
+    "chapterId": 1
+  },
+  {
+    "code": "B18733",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su non pretendere la precedenza in caso di dubbio",
+    "chapterId": 1
+  },
+  {
+    "code": "B18735",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su precedenza non legata alle dimensioni del veicolo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18736",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su non abusare della potenza per non dare precedenza",
+    "chapterId": 1
+  },
+  {
+    "code": "B18737",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su comportamento del conducente pesante",
+    "chapterId": 1
+  },
+  {
+    "code": "B18740",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su non mostrare impazienza",
+    "chapterId": 1
+  },
+  {
+    "code": "B18741",
+    "oldTopic": "area_pedonale",
+    "newTopic": "incidente",
+    "changed": true,
+    "reason": "Domanda su conseguenze fisiche di incidenti a bassa velocità",
+    "chapterId": 1
+  },
+  {
+    "code": "B18742",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda su controllo specchietto per ciclisti/motociclisti",
+    "chapterId": 1
+  },
+  {
+    "code": "B18743",
+    "oldTopic": "carreggiata",
+    "newTopic": "la_sosta",
+    "changed": true,
+    "reason": "Domanda su comportamento dopo il posteggio, riguarda la sosta e la sicurezza nell'aprire lo sportello.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18744",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda su fattori che condizionano la visibilità, legata alla manutenzione e controllo del veicolo per sicurezza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18745",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Simile alla precedente, riguarda riduzione visibilità da montanti, fattore di sicurezza e controllo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18746",
+    "oldTopic": "area_pedonale",
+    "newTopic": "incidente",
+    "changed": true,
+    "reason": "Domanda su conseguenze di un incidente a bassa velocità, tema generale incidenti.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18747",
+    "oldTopic": "area_pedonale",
+    "newTopic": "la_sosta",
+    "changed": true,
+    "reason": "Comportamento errato nello scendere da veicolo in sosta, riguarda la sosta e sicurezza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18748",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Controllo errato dello specchietto, legato a comportamenti di sicurezza e controllo visivo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18749",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Comportamento vietato del motociclista tra veicoli fermi, divieto generale di circolazione pericolosa.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18751",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Circolazione vietata sul marciapiede, divieto generale di uso improprio della strada.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18752",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Prudenza verso persone diversamente abili, tema specifico di attenzione a utenti vulnerabili come bambini/anziani.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18753",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Prudenza verso anziani, assimilabile a categoria vulnerabile come bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18754",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Prudenza verso bambini che attraversano, tema specifico bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18755",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Prudenza verso conducenti incerti, legata a sicurezza e prevenzione incidenti.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18756",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Prudenza verso veicoli adattati per disabili, tema utenti vulnerabili.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18757",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Prudenza verso ciclisti e persone con scarsa mobilità, tema utenti vulnerabili.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18759",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Prudenza verso veicoli elettrici, legata a attenzione e sicurezza per prevenire incidenti.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18760",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su prudenza verso conducenti di taxi, riguarda comportamento generale sulla strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18761",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su prudenza verso conducenti di tricicli, riguarda comportamento generale sulla strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18762",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su prudenza verso pedoni con bastone bianco, riguarda comportamento generale verso utenti vulnerabili",
+    "chapterId": 1
+  },
+  {
+    "code": "B18763",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18764",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18765",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18766",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18767",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18768",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su pericoli per anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18769",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su pericoli per anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18770",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18771",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18772",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento verso anziani che attraversano, riguarda prudenza generale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18773",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento errato verso anziani, riguarda divieti generali sulla strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18774",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su comportamento errato verso anziani, riguarda divieti generali sulla strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B18775",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su comportamento verso pedone non vedente che attraversa fuori strisce, riguarda regole di precedenza e attenzione specifica per attraversamenti pedonali.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18776",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Simile alla precedente, riguarda l'obbligo di fermarsi e facilitare l'attraversamento del pedone non vedente, tema specifico di comportamento su attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18777",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Ancora comportamento verso pedone non vedente che attraversa fuori strisce, focalizzato su precedenza e attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18778",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Riguarda pedone sordocieco con bastone bianco-rosso, comportamento obbligatorio di fermarsi, tema specifico di attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18780",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Comportamento di fermata e prudenza verso pedone non vedente che si accinge ad attraversare, argomento specifico di attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18781",
+    "oldTopic": "carreggiata",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su azione errata (accelerare) con pedone non vedente che attraversa, riguarda comportamento corretto su attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18782",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Riguarda errata affermazione su precedenza con pedone non vedente, tema di comportamento e precedenza su attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18784",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su precedenza a pedone non vedente solo con bastone bianco-rosso, argomento specifico di comportamento su attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18785",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Riguarda previsione del comportamento del pedone non vedente, tema di prudenza e comportamento su attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18786",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su azione errata (suonare clacson) con pedone non vedente, riguarda comportamento corretto su attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18801",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda su prudenza con bambini al semaforo, rischio di attraversamento improvviso, tema specifico di comportamento con bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18802",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Riguarda prudenza con bambini al semaforo che potrebbero attraversare con rosso, argomento specifico di comportamento con bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18803",
+    "oldTopic": "carreggiata",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda su prudenza con bambini al semaforo per rischio di spintoni, tema specifico di comportamento con bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18804",
+    "oldTopic": "carreggiata",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Riguarda prudenza con bambini al semaforo che potrebbero scendere sul rosso, argomento specifico di comportamento con bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18805",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su comportamento all'incrocio dopo verde semaforo, attendere che pedoni finiscano di attraversare, tema di attraversamento pedonale e semafori.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18806",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda specifica su comportamento dei bambini al semaforo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18807",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda su comportamento dei bambini al semaforo",
+    "chapterId": 1
+  },
+  {
+    "code": "B18808",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda su comportamento dei bambini al semaforo pedonale",
+    "chapterId": 1
+  },
+  {
+    "code": "B18809",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda su comportamento dei bambini con semaforo giallo lampeggiante",
+    "chapterId": 1
+  },
+  {
+    "code": "B18810",
+    "oldTopic": "carreggiata",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Attenzione a bambini nascosti da autobus scolastico",
+    "chapterId": 1
+  },
+  {
+    "code": "B18811",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Attenzione a bambini che attraversano per salire sullo scuolabus",
+    "chapterId": 1
+  },
+  {
+    "code": "B18812",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Preparazione a frenare per bambini che attraversano improvvisamente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18813",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Prudenza per comportamenti imprevedibili dei bambini",
+    "chapterId": 1
+  },
+  {
+    "code": "B18814",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Bambini che scendono dall'autobus senza attenzione",
+    "chapterId": 1
+  },
+  {
+    "code": "B18815",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Rallentare in presenza di scuolabus",
+    "chapterId": 1
+  },
+  {
+    "code": "B18816",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Comportamento errato: non rallentare vicino a fermata scuolabus",
+    "chapterId": 1
+  },
+  {
+    "code": "B18817",
+    "oldTopic": "strada",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Comportamento errato: precedenza sui bambini",
+    "chapterId": 1
+  },
+  {
+    "code": "B18818",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Comportamento errato: suonare per far dare precedenza ai bambini",
+    "chapterId": 1
+  },
+  {
+    "code": "B18819",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Rallentare solo se bambini attraversano effettivamente",
+    "chapterId": 1
+  },
+  {
+    "code": "B18820",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Attenzione a scuolabus che potrebbe fare retromarcia",
+    "chapterId": 1
+  },
+  {
+    "code": "B18821",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda specifica su scuolabus con portiere aperte, riguarda la sicurezza dei bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18822",
+    "oldTopic": "area_pedonale",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Domanda su scuolabus fermo, riguarda la prudenza in prossimità di bambini.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18823",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su pedoni che attraversano senza guardare vicino a posteggio taxi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18824",
+    "oldTopic": "area_pedonale",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su attenzione a pedoni che salgono/scendono da taxi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18825",
+    "oldTopic": "area_pedonale",
+    "newTopic": "divieto_di_sosta",
+    "changed": true,
+    "reason": "Domanda specifica sul divieto di sosta in posteggi riservati ai taxi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18826",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Domanda su attenzione a pedoni che attraversano improvvisamente vicino a taxi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18827",
+    "oldTopic": "strada",
+    "newTopic": "dare_precedenza",
+    "changed": true,
+    "reason": "Domanda su obbligo di dare precedenza ai taxi che si immettono.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18828",
+    "oldTopic": "carreggiata",
+    "newTopic": "dare_precedenza",
+    "changed": true,
+    "reason": "Domanda su precedenza ai taxi in partenza da sinistra.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18829",
+    "oldTopic": "area_pedonale",
+    "newTopic": "divieto_di_sosta",
+    "changed": true,
+    "reason": "Domanda su eccezione oraria al divieto di sosta in posteggi taxi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18830",
+    "oldTopic": "carreggiata",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda su distanza di sicurezza laterale durante il sorpasso di ciclisti/pedoni.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18831",
+    "oldTopic": "carreggiata",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda su prudenza nel sorpasso di ciclisti/pedoni se non c'è spazio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18832",
+    "oldTopic": "carreggiata",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda su uso del clacson prima di sorpassare ciclisti/pedoni su strada extraurbana.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18833",
+    "oldTopic": "carreggiata",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda generale sulla prudenza nel sorpasso di ciclisti/pedoni.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18834",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda su considerazione degli sbandamenti dei ciclisti durante il sorpasso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18835",
+    "oldTopic": "carreggiata",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda specifica sulla distanza laterale minima (2 m) nel sorpasso di ciclisti/pedoni.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18836",
+    "oldTopic": "carreggiata",
+    "newTopic": "il_sorpasso_e",
+    "changed": true,
+    "reason": "La domanda riguarda il divieto di sorpasso di ciclisti o pedoni, quindi il topic specifico è il divieto di sorpasso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18838",
+    "oldTopic": "carreggiata",
+    "newTopic": "il_sorpasso_e",
+    "changed": true,
+    "reason": "La domanda tratta del sorpasso di ciclisti o pedoni con limitazione di velocità, quindi rientra nel tema generale dei divieti di sorpasso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18839",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "La domanda si riferisce al comportamento verso pedoni specifici (donne incinte) che attraversano, quindi l'argomento è l'attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B18840",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "Simile alla precedente, riguarda la prudenza verso pedoni che attraversano, quindi attraversamento pedonale.",
+    "chapterId": 1
+  },
+  {
+    "code": "B21208",
+    "oldTopic": "continuazione",
+    "newTopic": "passaggio_a_livello_con_barriere_o_semibarriere",
+    "changed": true,
+    "reason": "La domanda descrive un passaggio a livello con luci rosse e semibarriera, quindi il topic specifico è il passaggio a livello con barriere o semibarriere.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21209",
+    "oldTopic": "continuazione",
+    "newTopic": "passaggio_a_livello_con_barriere_o_semibarriere",
+    "changed": true,
+    "reason": "Come la precedente, riguarda un passaggio a livello con semibarriera e luci rosse.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21210",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "La domanda chiede quali documenti esibire agli agenti, quindi il topic è documenti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21211",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "Riguarda l'esibizione della patente agli agenti, quindi documenti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21212",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "Riguarda l'esibizione del certificato di assicurazione agli agenti, quindi documenti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21214",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "Riguarda la valigetta di pronto soccorso da mostrare agli agenti, quindi rientra nei documenti/oggetti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21215",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "Riguarda l'esibizione del certificato di proprietà agli agenti, quindi documenti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21216",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "Riguarda l'esibizione del codice fiscale agli agenti, quindi documenti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21217",
+    "oldTopic": "continuazione",
+    "newTopic": "documenti_da_esibire_agli",
+    "changed": true,
+    "reason": "Riguarda l'esibizione dell'attestazione di pagamento del bollo agli agenti, quindi documenti da esibire.",
+    "chapterId": 9
+  },
+  {
+    "code": "B21484",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Il segnale raffigurato indica l'inizio di un'area pedonale, quindi il topic specifico è area pedonale.",
+    "chapterId": 6
+  },
+  {
+    "code": "B21485",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Il segnale raffigurato indica, con pannello aggiuntivo, i veicoli che possono entrare in un'area pedonale, quindi l'argomento è area pedonale.",
+    "chapterId": 6
+  },
+  {
+    "code": "B21486",
+    "oldTopic": "area_pedonale",
+    "newTopic": "eccezione",
+    "changed": true,
+    "reason": "Segnale di eccezione per carico/scarico merci in zona a traffico limitato",
+    "chapterId": 6
+  },
+  {
+    "code": "B21487",
+    "oldTopic": "area_pedonale",
+    "newTopic": "eccezione",
+    "changed": true,
+    "reason": "Segnale di eccezione per persone diversamente abili in zona a traffico limitato",
+    "chapterId": 6
+  },
+  {
+    "code": "B21488",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "topic \"stazione_di_polizia\" non esiste, mantenuto originale",
+    "chapterId": 6
+  },
+  {
+    "code": "B21489",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Segnale di inizio area pedonale riservata a persone diversamente abili",
+    "chapterId": 6
+  },
+  {
+    "code": "B21490",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "topic \"polizia_a_piedi\" non esiste, mantenuto originale",
+    "chapterId": 6
+  },
+  {
+    "code": "B21491",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "topic \"venditori_ambulanti\" non esiste, mantenuto originale",
+    "chapterId": 6
+  },
+  {
+    "code": "B21501",
+    "oldTopic": "area_pedonale",
+    "newTopic": "area_pedonale",
+    "changed": false,
+    "reason": "Segnale di inizio di un'area pedonale",
+    "chapterId": 6
+  },
+  {
+    "code": "B22082",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "Pannello integrativo di continuazione del divieto di sorpasso",
+    "chapterId": 9
+  },
+  {
+    "code": "B22083",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "Pannello integrativo di continuazione del limite massimo di velocità",
+    "chapterId": 9
+  },
+  {
+    "code": "B22084",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "Pannello integrativo di continuazione del tratto di strada sdrucciolevole",
+    "chapterId": 9
+  },
+  {
+    "code": "B22124",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "topic \"binari_di_manovra\" non esiste, mantenuto originale",
+    "chapterId": 9
+  },
+  {
+    "code": "B22126",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "topic \"binari_di_manovra\" non esiste, mantenuto originale",
+    "chapterId": 9
+  },
+  {
+    "code": "B22129",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "topic \"area_modellismo\" non esiste, mantenuto originale",
+    "chapterId": 9
+  },
+  {
+    "code": "B22130",
+    "oldTopic": "continuazione",
+    "newTopic": "attraversamento_tranviario",
+    "changed": true,
+    "reason": "Pannello integrativo di preavviso di attraversamento tranviario",
+    "chapterId": 9
+  },
+  {
+    "code": "B22131",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "topic \"rispetto_treni\" non esiste, mantenuto originale",
+    "chapterId": 9
+  },
+  {
+    "code": "B22132",
+    "oldTopic": "continuazione",
+    "newTopic": "passaggio_a_livello_con_barriere_o_semibarriere",
+    "changed": true,
+    "reason": "Il pannello integrativo indica un passaggio a livello con due binari, specificando il tipo di passaggio a livello.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22133",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Il pannello segnala macchine sgombraneve al lavoro, rientrante nella segnaletica di cantieri/lavori.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22135",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Invito a diminuire la velocità per presenza di macchine sgombraneve in funzione, associato a lavori/manutenzione.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22136",
+    "oldTopic": "continuazione",
+    "newTopic": "distanza",
+    "changed": true,
+    "reason": "Indica di mantenere una distanza di sicurezza (20 m) dalle macchine sgombraneve, tema distanza di sicurezza.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22137",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Indica di prestare attenzione a macchine sgombraneve sulla strada, riconducibile a segnaletica di lavori.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22138",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Pannello su strade innevate per segnalare presenza macchine sgombraneve, associato a lavori/manutenzione.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22139",
+    "oldTopic": "continuazione",
+    "newTopic": "bambini",
+    "changed": true,
+    "reason": "Indica costruzione di un parco giochi, pericolo legato a presenza di bambini.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22140",
+    "oldTopic": "continuazione",
+    "newTopic": "divieto_di_transito",
+    "changed": true,
+    "reason": "Indica divieto di transito alle macchine sgombraneve, segnale di divieto generico.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22141",
+    "oldTopic": "continuazione",
+    "newTopic": "catene_o_pneumatici_invernali_obbligatori",
+    "changed": true,
+    "reason": "Indica obbligo di montare le catene, tema specifico di equipaggiamento invernale.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22142",
+    "oldTopic": "continuazione",
+    "newTopic": "distanza",
+    "changed": true,
+    "reason": "Obbliga a distanza di 100 metri dallo sgombraneve, tema distanza di sicurezza.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22143",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Indica percorribilità solo dopo passaggio sgombraneve, associato a lavori/cantieri.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22144",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Indica possibile incontro veicolo raccolta spazzatura, riconducibile a lavori/servizi in strada.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22145",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Indica pericolo di allagamento in caso di pioggia, associato a strada sdrucciolevole/condizioni pericolose.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22146",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Indica tratto di strada che può allagarsi, tema strada sdrucciolevole/condizioni pericolose.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22148",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Indica pericolo di allagamento per pioggia o mareggiata, tema strada sdrucciolevole/condizioni pericolose.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22149",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Pannello integrativo indica pericolo specifico (piscina) non presente nella lista principale",
+    "chapterId": 9
+  },
+  {
+    "code": "B22150",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Pannello integrativo indica strada sdrucciolevole per neve",
+    "chapterId": 9
+  },
+  {
+    "code": "B22151",
+    "oldTopic": "continuazione",
+    "newTopic": "banchina",
+    "changed": true,
+    "reason": "Pannello integrativo preavvisa cedevolezza della banchina",
+    "chapterId": 9
+  },
+  {
+    "code": "B22152",
+    "oldTopic": "continuazione",
+    "newTopic": "divieto_di_transito",
+    "changed": true,
+    "reason": "Pannello integrativo specifica divieto per veicoli inquinanti",
+    "chapterId": 9
+  },
+  {
+    "code": "B22153",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Pannello integrativo indica possibile nebbia, condizione di strada sdrucciolevole",
+    "chapterId": 9
+  },
+  {
+    "code": "B22154",
+    "oldTopic": "continuazione",
+    "newTopic": "dosso",
+    "changed": true,
+    "reason": "Pannello integrativo preavvisa dossi artificiali (rallentatori)",
+    "chapterId": 9
+  },
+  {
+    "code": "B22155",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Pannello integrativo indica traffico intenso, pericolo generico",
+    "chapterId": 9
+  },
+  {
+    "code": "B22156",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Pannello integrativo indica veicoli fermi, pericolo generico",
+    "chapterId": 9
+  },
+  {
+    "code": "B22157",
+    "oldTopic": "continuazione",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Pannello integrativo specifico per autostrada, veicoli lenti",
+    "chapterId": 9
+  },
+  {
+    "code": "B22158",
+    "oldTopic": "continuazione",
+    "newTopic": "distanza_di_sicurezza_e",
+    "changed": true,
+    "reason": "Pannello invita a prudenza per evitare tamponamenti, correlato a distanza di sicurezza",
+    "chapterId": 9
+  },
+  {
+    "code": "B22159",
+    "oldTopic": "continuazione",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Pannello integrativo su autostrada consiglia uscita per code",
+    "chapterId": 9
+  },
+  {
+    "code": "B22160",
+    "oldTopic": "continuazione",
+    "newTopic": "un_parcheggio_autorizzato_e",
+    "changed": true,
+    "reason": "Pannello indica area di parcheggio autorizzato",
+    "chapterId": 9
+  },
+  {
+    "code": "B22161",
+    "oldTopic": "continuazione",
+    "newTopic": "autostrada",
+    "changed": true,
+    "reason": "Pannello integrativo su autostrada per corsia Telepass",
+    "chapterId": 9
+  },
+  {
+    "code": "B22162",
+    "oldTopic": "continuazione",
+    "newTopic": "senso_unico_frontale",
+    "changed": true,
+    "reason": "Pannello integrativo indica senso unico",
+    "chapterId": 9
+  },
+  {
+    "code": "B22163",
+    "oldTopic": "continuazione",
+    "newTopic": "passaggio_obbligatorio_a_sinistra",
+    "changed": true,
+    "reason": "Pannello integrativo indica obbligo di sorpasso a sinistra",
+    "chapterId": 9
+  },
+  {
+    "code": "B22164",
+    "oldTopic": "continuazione",
+    "newTopic": "distanza_di_sicurezza_e",
+    "changed": true,
+    "reason": "Il pannello integrativo si riferisce specificamente alla distanza di sicurezza.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22165",
+    "oldTopic": "continuazione",
+    "newTopic": "limitazione",
+    "changed": true,
+    "reason": "Il pannello integrativo indica un'obbligo di circolazione a passo d'uomo, che è una limitazione.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22166",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Il pannello segnala la possibile presenza di macchine operatrici in movimento, tipico dei cantieri stradali.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22167",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Il pannello indica pale meccaniche al lavoro sulla corsia, quindi presenza di lavori.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22168",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Il pannello segnala escavatori in movimento sulla strada, associato a lavori.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22169",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Il pannello invita a prudenza per pale meccaniche in movimento, tipico dei cantieri.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22170",
+    "oldTopic": "continuazione",
+    "newTopic": "lavori",
+    "changed": true,
+    "reason": "Il pannello indica esplicitamente cantieri stradali con macchine in azione.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22171",
+    "oldTopic": "continuazione",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "Il pannello segnala la presenza di veicoli militari.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22172",
+    "oldTopic": "continuazione",
+    "newTopic": "area_pedonale",
+    "changed": true,
+    "reason": "Il pannello indica un'area per lo scarico della spazzatura, tipicamente in aree pedonali o ZTL.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22173",
+    "oldTopic": "continuazione",
+    "newTopic": "divieto_di_transito",
+    "changed": true,
+    "reason": "Il pannello integrativo specifica un divieto di transito per macchine operatrici prima di un ponte.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22174",
+    "oldTopic": "continuazione",
+    "newTopic": "strada",
+    "changed": true,
+    "reason": "Il pannello indica una strada riservata a macchine operatrici, riguarda la destinazione d'uso della strada.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22175",
+    "oldTopic": "continuazione",
+    "newTopic": "divieto_di_transito",
+    "changed": true,
+    "reason": "Il pannello indica un divieto di transito per veicoli con cingoli.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22176",
+    "oldTopic": "continuazione",
+    "newTopic": "area_pedonale",
+    "changed": true,
+    "reason": "Il pannello indica un'area di parcheggio riservata, tipicamente in aree specifiche come ZTL o pedonali.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22178",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Il pannello segnala la possibilità di ghiaccio sulla strada, condizione di strada sdrucciolevole.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22179",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Il pannello indica presenza di tratti pericolosi per ghiaccio, quindi strada sdrucciolevole.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22180",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Il pannello integrativo si riferisce al pericolo di ghiaccio sulla strada, associato al segnale di strada sdrucciolevole.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22181",
+    "oldTopic": "continuazione",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Il pannello integrativo avverte del rischio di ghiaccio, collegato al segnale di strada sdrucciolevole.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22183",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello indica la presenza di impianti di risalita, un pericolo generico non specificato in altri topic.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22184",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello indica la direzione per le Alpi, un'indicazione generica non coperta da topic specifici.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22185",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello segnala la vicinanza di una stazione sciistica, un pericolo generico.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22186",
+    "oldTopic": "continuazione",
+    "newTopic": "uso_delle_luci_di_posizione",
+    "changed": true,
+    "reason": "Il pannello invita all'uso delle luci di emergenza (di posizione) durante la sosta.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22187",
+    "oldTopic": "continuazione",
+    "newTopic": "uso_dei_proiettori_abbaglianti_e",
+    "changed": true,
+    "reason": "Il pannello invita a non usare i fari abbaglianti, riguardante l'uso dei proiettori abbaglianti.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22188",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello indica una zona con frequenti nevicate, un pericolo generico.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22201",
+    "oldTopic": "continuazione",
+    "newTopic": "salita_ripida",
+    "changed": true,
+    "reason": "Il pannello indica un tratto in salita con autocarri lenti, associato al segnale di salita ripida.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22202",
+    "oldTopic": "continuazione",
+    "newTopic": "salita_ripida",
+    "changed": true,
+    "reason": "Il pannello indica una ripida salita che rallenta gli autocarri, collegato al segnale di salita ripida.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22203",
+    "oldTopic": "continuazione",
+    "newTopic": "salita_ripida",
+    "changed": true,
+    "reason": "Il pannello avverte della presenza di veicoli pesanti lenti in salita, pertinente al segnale di salita ripida.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22205",
+    "oldTopic": "continuazione",
+    "newTopic": "salita_ripida",
+    "changed": true,
+    "reason": "Il pannello invita a velocità prudenziale per autocarri in salita, associato al segnale di salita ripida.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22206",
+    "oldTopic": "continuazione",
+    "newTopic": "incidente",
+    "changed": true,
+    "reason": "Il pannello indica un tratto chiuso per tamponamento, riguardante incidenti.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22207",
+    "oldTopic": "continuazione",
+    "newTopic": "divieto_di_sorpasso",
+    "changed": true,
+    "reason": "Il pannello vieta il sorpasso degli autocarri, pertinente al divieto di sorpasso.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22208",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello si trova nei pontili d'imbarco, un'indicazione generica non coperta da topic specifici.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22209",
+    "oldTopic": "continuazione",
+    "newTopic": "distanza_di_sicurezza_e",
+    "changed": true,
+    "reason": "Il pannello integrativo riguarda la distanza di sicurezza.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22210",
+    "oldTopic": "continuazione",
+    "newTopic": "uso_delle_luci_nei_centri_abitati",
+    "changed": true,
+    "reason": "Il pannello integrativo indica l'obbligo di proseguire con le luci accese, relativo all'uso delle luci.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22211",
+    "oldTopic": "continuazione",
+    "newTopic": "divieto_di_segnalazioni_acustiche",
+    "changed": true,
+    "reason": "Il pannello integrativo riguarda l'uso del clacson, anche se la domanda nega l'obbligo, il topic è sulle segnalazioni acustiche.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22212",
+    "oldTopic": "continuazione",
+    "newTopic": "il_traino_di_un_veicolo_in",
+    "changed": true,
+    "reason": "Il pannello integrativo segnala la possibilità di trainare veicoli in avaria.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22213",
+    "oldTopic": "continuazione",
+    "newTopic": "la_sosta_e_vietata",
+    "changed": true,
+    "reason": "Il pannello integrativo indica rimozione forzata per sosta vietata.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22216",
+    "oldTopic": "continuazione",
+    "newTopic": "la_sosta_e_vietata",
+    "changed": true,
+    "reason": "Il pannello integrativo indica divieto di sosta con rimozione.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22218",
+    "oldTopic": "continuazione",
+    "newTopic": "mergenza",
+    "changed": true,
+    "reason": "Il pannello integrativo indica officine per soccorso stradale, relativo al soccorso in emergenza.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22219",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello integrativo indica imbarco autovetture su treni, segnale di pericolo specifico non in lista, uso generico.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22220",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello integrativo indica officina per cambio olio, segnale informativo non specifico in lista.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22221",
+    "oldTopic": "continuazione",
+    "newTopic": "la_sosta",
+    "changed": true,
+    "reason": "Il pannello integrativo indica sosta riservata a veicoli di soccorso.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22222",
+    "oldTopic": "continuazione",
+    "newTopic": "la_sosta_e_vietata",
+    "changed": true,
+    "reason": "Il pannello integrativo indica limitazione di sosta con rimozione.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22223",
+    "oldTopic": "continuazione",
+    "newTopic": "incidente",
+    "changed": true,
+    "reason": "Il pannello integrativo indica strada chiusa per incidente.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22224",
+    "oldTopic": "corsia",
+    "newTopic": "segnale_di_corsia",
+    "changed": true,
+    "reason": "Il pannello integrativo indica la corsia da prendere per una località.",
+    "chapterId": 2
+  },
+  {
+    "code": "B22225",
+    "oldTopic": "corsia",
+    "newTopic": "segnale_di_corsia",
+    "changed": true,
+    "reason": "Il pannello integrativo specifica a quale corsia si riferisce un segnale.",
+    "chapterId": 2
+  },
+  {
+    "code": "B22226",
+    "oldTopic": "corsia",
+    "newTopic": "segnale_di_corsia",
+    "changed": true,
+    "reason": "Il pannello integrativo indica che il segnale vale per la sola corsia indicata.",
+    "chapterId": 2
+  },
+  {
+    "code": "B22227",
+    "oldTopic": "corsia",
+    "newTopic": "fasce_orarie_dei_giorni_lavorativi",
+    "changed": true,
+    "reason": "Il pannello integrativo indica la fermata degli autobus nei giorni lavorativi.",
+    "chapterId": 2
+  },
+  {
+    "code": "B22228",
+    "oldTopic": "corsia",
+    "newTopic": "dare_precedenza",
+    "changed": true,
+    "reason": "Il pannello integrativo indica di dare precedenza ai veicoli che vengono di fronte.",
+    "chapterId": 2
+  },
+  {
+    "code": "B22229",
+    "oldTopic": "corsia",
+    "newTopic": "fine",
+    "changed": true,
+    "reason": "Il pannello integrativo indica la fine di una prescrizione.",
+    "chapterId": 2
+  },
+  {
+    "code": "B22232",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Il pannello integrativo indica curve strette, associato a delineatori di curva stretta.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22233",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Il pannello integrativo (B) indica curve particolarmente pericolose, associato a delineatori di curva stretta.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22234",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Il pannello integrativo indica curve particolarmente pericolose, associato a delineatori di curva stretta.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22236",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Il pannello integrativo può indicare tornanti, associato a delineatori di curva stretta.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22238",
+    "oldTopic": "continuazione",
+    "newTopic": "corsia",
+    "changed": true,
+    "reason": "Il pannello integrativo (B) indica il numero di corsie della strada.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22239",
+    "oldTopic": "continuazione",
+    "newTopic": "curva_a_destra",
+    "changed": true,
+    "reason": "Il pannello integrativo (B) indica quanti veicoli possono percorrere contemporaneamente la curva, riferito a curva a destra.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22240",
+    "oldTopic": "continuazione",
+    "newTopic": "intersezione_incrocio_a_livelli_sfalsati",
+    "changed": true,
+    "reason": "Il pannello integrativo (B) indica la distanza per un cavalcavia per invertire il senso di marcia, riferito a intersezione a livelli sfalsati.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22241",
+    "oldTopic": "continuazione",
+    "newTopic": "segnale_di_itinerario_extraurbano",
+    "changed": true,
+    "reason": "Il pannello integrativo (B) indica il numero degli svincoli autostradali, riferito a segnali di itinerario extraurbano.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22242",
+    "oldTopic": "continuazione",
+    "newTopic": "animali_selvatici",
+    "changed": true,
+    "reason": "Il pannello integrativo indica l'incrocio con strada da cui si immettono autocarri da discarica, potenziale presenza di animali selvatici.",
+    "chapterId": 9
+  },
+  {
+    "code": "B22672",
+    "oldTopic": "carreggiata",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "Comportamento vietato perché pericoloso per la circolazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22673",
+    "oldTopic": "area_pedonale",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "Comportamento vietato perché pericoloso per la circolazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22674",
+    "oldTopic": "area_pedonale",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "Comportamento vietato perché pericoloso per la circolazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22675",
+    "oldTopic": "area_pedonale",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "La domanda vieta esplicitamente un comportamento pericoloso per la circolazione (gareggiare in velocità).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22676",
+    "oldTopic": "area_pedonale",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "La domanda vieta un comportamento (circolare a velocità troppo bassa) perché costituisce pericolo o intralcio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22677",
+    "oldTopic": "area_pedonale",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "La domanda vieta un'azione (immissione nel flusso) in quanto pericolosa o di intralcio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22678",
+    "oldTopic": "area_pedonale",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "La domanda indica come vietato (perché pericoloso) NON regolare la velocità in base a strade e condizioni.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22679",
+    "oldTopic": "carreggiata",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "La domanda vieta una fermata (anche momentanea) in quanto pericolosa o di intralcio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22680",
+    "oldTopic": "area_pedonale",
+    "newTopic": "limiti_di_velocita_limiti_massimi_di_velocita",
+    "changed": true,
+    "reason": "La domanda riguarda il rispetto dei limiti di velocità previsti dalla legge.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22681",
+    "oldTopic": "area_pedonale",
+    "newTopic": "obbligatorio_dare_la_precedenza_a_destra_e_a",
+    "changed": true,
+    "reason": "La domanda tratta l'obbligo di dare la precedenza a destra nei crocevia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22682",
+    "oldTopic": "strada",
+    "newTopic": "vietato_in_quanto_costituisce_pericolo_per_la",
+    "changed": true,
+    "reason": "La domanda impone di evitare comportamenti che costituiscono pericolo per gli altri utenti.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22683",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "La domanda descrive una procedura (guardare lo specchietto) prima di cambiare corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22684",
+    "oldTopic": "carreggiata",
+    "newTopic": "la_svolta_a_destra_si",
+    "changed": true,
+    "reason": "La domanda riguarda la corretta esecuzione di una svolta a destra (tenersi vicino al margine destro).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22685",
+    "oldTopic": "corsia",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda tratta la posizione di guida sulla strada (centro, senza superare striscia).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22686",
+    "oldTopic": "area_pedonale",
+    "newTopic": "uso_delle_luci_nei_centri_abitati",
+    "changed": true,
+    "reason": "La domanda riguarda l'uso delle luci (abbaglianti) di giorno in città.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22689",
+    "oldTopic": "area_pedonale",
+    "newTopic": "divieto_di_segnalazioni_acustiche",
+    "changed": true,
+    "reason": "La domanda tratta l'uso di trombe bitonali, argomento coperto dal divieto di segnalazioni acustiche non conformi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22690",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "La domanda riguarda il trasporto di animali (non persone, ma il topic più vicino è 'trasporto di persone' per regole di carico su motocicli).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22691",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "La domanda tratta specificamente la sistemazione del carico sui motocicli e i limiti di sporgenza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22692",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sulla sistemazione del carico per non diminuire la visibilità",
+    "chapterId": 1
+  },
+  {
+    "code": "B22693",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sulla sistemazione del carico per non impedire i movimenti di guida",
+    "chapterId": 1
+  },
+  {
+    "code": "B22694",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sulla sistemazione del carico per evitarne la caduta",
+    "chapterId": 1
+  },
+  {
+    "code": "B22695",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sulla sporgenza posteriore del carico",
+    "chapterId": 1
+  },
+  {
+    "code": "B22696",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sul rispetto della portata indicata nella carta di circolazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B22697",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sulla sporgenza laterale del carico",
+    "chapterId": 1
+  },
+  {
+    "code": "B22698",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sull'altezza massima del carico",
+    "chapterId": 1
+  },
+  {
+    "code": "B22699",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sul superamento della portata utile",
+    "chapterId": 1
+  },
+  {
+    "code": "B22700",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_carico_deve_essere_sistemato_sul_veicolo_in_modo",
+    "changed": true,
+    "reason": "Domanda sulla sporgenza anteriore del carico",
+    "chapterId": 1
+  },
+  {
+    "code": "B22701",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannello_per_carichi_sporgenti",
+    "changed": true,
+    "reason": "Domanda sulla segnalazione di carico sporgente con panno rosso",
+    "chapterId": 1
+  },
+  {
+    "code": "B22702",
+    "oldTopic": "area_pedonale",
+    "newTopic": "pannello_per_carichi_sporgenti",
+    "changed": true,
+    "reason": "Domanda sulla segnalazione di sporgenza posteriore con pannello retroriflettente",
+    "chapterId": 1
+  },
+  {
+    "code": "B22703",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sul trasporto di carico sui motocicli (nessun carico consentito)",
+    "chapterId": 1
+  },
+  {
+    "code": "B22704",
+    "oldTopic": "area_pedonale",
+    "newTopic": "trasporto_di_persone",
+    "changed": true,
+    "reason": "Domanda sul trasporto di oggetti sui motocicli",
+    "chapterId": 1
+  },
+  {
+    "code": "B22705",
+    "oldTopic": "strada",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda sulla velocità adeguata come parte dell'uso corretto della strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B22706",
+    "oldTopic": "strada",
+    "newTopic": "uso_corretto_della_strada_comporta",
+    "changed": true,
+    "reason": "Domanda sull'osservanza delle norme come parte dell'uso corretto della strada",
+    "chapterId": 1
+  },
+  {
+    "code": "B22707",
+    "oldTopic": "strada",
+    "newTopic": "la_luce_gialla_fissa_del_semaforo_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento alla luce gialla fissa del semaforo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22708",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "La domanda riguarda la precedenza ai pedoni sugli attraversamenti pedonali.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22709",
+    "oldTopic": "strada",
+    "newTopic": "uso_dei_proiettori_anabbaglianti",
+    "changed": true,
+    "reason": "La domanda riguarda l'uso dei proiettori anabbaglianti nei centri abitati di notte.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22710",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "La domanda riguarda il cambio di corsia e l'uso degli specchi retrovisori.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22711",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda riguarda l'ingaggio della carreggiata, comportamento generale di circolazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22712",
+    "oldTopic": "strada",
+    "newTopic": "attraversamento_pedonale",
+    "changed": true,
+    "reason": "La domanda riguarda l'arresto ai passaggi pedonali e la precedenza ai pedoni.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22713",
+    "oldTopic": "strada",
+    "newTopic": "uso_dei_proiettori_abbaglianti_e",
+    "changed": true,
+    "reason": "La domanda riguarda l'uso dei proiettori abbaglianti.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22715",
+    "oldTopic": "strada",
+    "newTopic": "la_velocita_deve_essere_regolata",
+    "changed": true,
+    "reason": "La domanda riguarda la regolazione della velocità per non creare intralcio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22740",
+    "oldTopic": "area_pedonale",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento in caso di incontro con un corteo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22741",
+    "oldTopic": "area_pedonale",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento in caso di incontro con un corteo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22742",
+    "oldTopic": "strada",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento in caso di incontro con un corteo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22743",
+    "oldTopic": "area_pedonale",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento in caso di incontro con un corteo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22744",
+    "oldTopic": "area_pedonale",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento in caso di incontro con un corteo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22745",
+    "oldTopic": "area_pedonale",
+    "newTopic": "convogli_militari_e_cortei_e",
+    "changed": true,
+    "reason": "La domanda riguarda il comportamento in caso di incontro con un corteo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22750",
+    "oldTopic": "area_pedonale",
+    "newTopic": "divieto_di_segnalazioni_acustiche",
+    "changed": true,
+    "reason": "La domanda riguarda il divieto di uso del clacson per sollecitare la ripartenza al semaforo verde.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22755",
+    "oldTopic": "carreggiata",
+    "newTopic": "alla_luce_verde_del_semaforo_se_un_veicolo_tarda_a_ripartire",
+    "changed": true,
+    "reason": "Domanda specifica sul comportamento quando un veicolo precede tarda a ripartire al verde del semaforo.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22761",
+    "oldTopic": "strada",
+    "newTopic": "incrociamo_un_veicolo_con_fari_abbaglianti_accesi",
+    "changed": true,
+    "reason": "Domanda sul comportamento notturno quando si incrocia un veicolo con abbaglianti accesi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22762",
+    "oldTopic": "strada",
+    "newTopic": "incrociamo_un_veicolo_con_fari_abbaglianti_accesi",
+    "changed": true,
+    "reason": "Domanda sul comportamento notturno quando si incrocia un veicolo con abbaglianti accesi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22763",
+    "oldTopic": "strada",
+    "newTopic": "incrociamo_un_veicolo_con_fari_abbaglianti_accesi",
+    "changed": true,
+    "reason": "Domanda sul comportamento notturno quando si incrocia un veicolo con abbaglianti accesi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22764",
+    "oldTopic": "strada",
+    "newTopic": "incrociamo_un_veicolo_con_fari_abbaglianti_accesi",
+    "changed": true,
+    "reason": "Domanda sul comportamento notturno quando si incrocia un veicolo con abbaglianti accesi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22765",
+    "oldTopic": "strada",
+    "newTopic": "incrociamo_un_veicolo_con_fari_abbaglianti_accesi",
+    "changed": true,
+    "reason": "Domanda sul comportamento notturno quando si incrocia un veicolo con abbaglianti accesi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22789",
+    "oldTopic": "strada",
+    "newTopic": "strada_extraurbana_a_doppio_senso_con_quattro_corsie_e",
+    "changed": true,
+    "reason": "Domanda specifica sulla circolazione su strada a tre corsie a doppio senso (configurazione in figura).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22795",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sul controllo necessario prima di cambiare corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22796",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sul controllo necessario prima di cambiare corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22799",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sull'obbligo di non creare intralcio cambiando corsia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22802",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sulle condizioni per cambiare corsia (riferimento alla striscia).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22812",
+    "oldTopic": "strada",
+    "newTopic": "debbono_essere_tenuti_il_piu_possibile_vicino_al_margine",
+    "changed": true,
+    "reason": "Domanda sulla regola generale di circolazione vicino al margine destro.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22814",
+    "oldTopic": "strada",
+    "newTopic": "strada_a_tre_carreggiate_e_otto_corsie_e",
+    "changed": true,
+    "reason": "Domanda specifica sulla circolazione su strada a tre carreggiate separate (configurazione in figura).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22817",
+    "oldTopic": "strada",
+    "newTopic": "ammessa_la_marcia_per_file",
+    "changed": true,
+    "reason": "Domanda sulla marcia per file parallele in prossimità di incroci regolati.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22818",
+    "oldTopic": "strada",
+    "newTopic": "strada_extraurbana_a_doppio_senso_con_quattro_corsie_e",
+    "changed": true,
+    "reason": "Domanda specifica sull'uso della corsia centrale su strada a doppio senso con tre corsie.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22819",
+    "oldTopic": "strada",
+    "newTopic": "ammessa_la_marcia_per_file",
+    "changed": true,
+    "reason": "Domanda specifica sulla marcia per file parallele su strada a doppio senso con tre corsie.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22820",
+    "oldTopic": "strada",
+    "newTopic": "svolta_a_sinistra",
+    "changed": true,
+    "reason": "Domanda sulla posizione dei veicoli per eseguire una svolta a sinistra.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22821",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Domanda generica sulla circolazione al centro della carreggiata quando la strada è libera.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22823",
+    "oldTopic": "strada",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Domanda sulla circolazione per file parallele in caso di traffico intenso, con riferimento a corsie riservate.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22825",
+    "oldTopic": "carreggiata",
+    "newTopic": "debbono_essere_tenuti_il_piu_possibile_vicino_al_margine",
+    "changed": true,
+    "reason": "Domanda sulla posizione degli animali condotti sulla carreggiata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22828",
+    "oldTopic": "carreggiata",
+    "newTopic": "debbono_essere_tenuti_il_piu_possibile_vicino_al_margine",
+    "changed": true,
+    "reason": "Domanda sulla posizione dei veicoli in salita su strada a doppio senso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22829",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Domanda sulla posizione dei veicoli in curva a sinistra su strada a senso unico.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22832",
+    "oldTopic": "carreggiata",
+    "newTopic": "svolta_a_sinistra",
+    "changed": true,
+    "reason": "Domanda sulla posizione dei veicoli per eseguire una svolta a sinistra.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22833",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Domanda specifica sulla posizione dei filobus sulla carreggiata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22836",
+    "oldTopic": "carreggiata",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "Domanda sulla circolazione di ciclomotori e motocicli sulla pista ciclabile in caso di traffico.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22838",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sul cambio di corsia senza creare intralcio.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22849",
+    "oldTopic": "area_pedonale",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sull'uso dell'indicatore di direzione per cambiare direzione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22855",
+    "oldTopic": "area_pedonale",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda sull'obbligo di segnalazioni acustiche per cambiare direzione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22869",
+    "oldTopic": "strada",
+    "newTopic": "ammessa_la_marcia_per_file",
+    "changed": true,
+    "reason": "Domanda sulla marcia per file parallele in condizioni di traffico intenso su carreggiata a senso unico.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22871",
+    "oldTopic": "strada",
+    "newTopic": "ammessa_la_marcia_per_file",
+    "changed": true,
+    "reason": "Domanda sulla marcia per file parallele in prossimità di un incrocio non regolato.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22879",
+    "oldTopic": "area_pedonale",
+    "newTopic": "attraversamento_tranviario",
+    "changed": true,
+    "reason": "Domanda specifica sulla precedenza ai veicoli su rotaie (tram) agli incroci.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22880",
+    "oldTopic": "area_pedonale",
+    "newTopic": "obbligatorio_dare_la_precedenza_a_destra_e_a",
+    "changed": true,
+    "reason": "Regola di precedenza quando ci si immette nella circolazione da fermi.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22881",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_veicolo_s_muovendosi_in_retromarcia",
+    "changed": true,
+    "reason": "Precedenza durante l'inversione di marcia, manovra correlata alla retromarcia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22882",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_veicolo_s_muovendosi_in_retromarcia",
+    "changed": true,
+    "reason": "Precedenza obbligatoria durante la retromarcia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22883",
+    "oldTopic": "area_pedonale",
+    "newTopic": "obbligatorio_dare_la_precedenza_a_destra_e_a",
+    "changed": true,
+    "reason": "Precedenza obbligatoria a destra e sinistra uscendo da un passo carrabile.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22887",
+    "oldTopic": "area_pedonale",
+    "newTopic": "lanterne_semaforiche_gialle_lampeggianti",
+    "changed": true,
+    "reason": "Precedenza agli incroci con semaforo a luce gialla lampeggiante.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22888",
+    "oldTopic": "area_pedonale",
+    "newTopic": "svolta_a_sinistra",
+    "changed": true,
+    "reason": "Precedenza obbligatoria quando si svolta a sinistra.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22914",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Prudenza generale uscendo da proprietà privata, comportamento sulla strada.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22915",
+    "oldTopic": "area_pedonale",
+    "newTopic": "obbligatorio_dare_la_precedenza_a_destra_e_a",
+    "changed": true,
+    "reason": "Precedenza ai pedoni uscendo da proprietà privata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22916",
+    "oldTopic": "area_pedonale",
+    "newTopic": "il_veicolo_s_muovendosi_in_retromarcia",
+    "changed": true,
+    "reason": "Lentezza e prudenza in retromarcia uscendo da proprietà privata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22917",
+    "oldTopic": "strada",
+    "newTopic": "intersezione_con_precedenza_a_destra",
+    "changed": true,
+    "reason": "Regola di precedenza all'incrocio per veicoli da strade diverse.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22918",
+    "oldTopic": "area_pedonale",
+    "newTopic": "simbolo_del_clacson",
+    "changed": true,
+    "reason": "Uso del clacson uscendo da proprietà privata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22919",
+    "oldTopic": "area_pedonale",
+    "newTopic": "obbligatorio_dare_la_precedenza_a_destra_e_a",
+    "changed": true,
+    "reason": "Precedenza ai pedoni uscendo da proprietà privata (negazione della precedenza).",
+    "chapterId": 1
+  },
+  {
+    "code": "B22920",
+    "oldTopic": "strada",
+    "newTopic": "strada",
+    "changed": false,
+    "reason": "topic \"svolta_a_destra_si\" non esiste, mantenuto originale",
+    "chapterId": 1
+  },
+  {
+    "code": "B22995",
+    "oldTopic": "carreggiata",
+    "newTopic": "uso_degli_indicatori_di",
+    "changed": true,
+    "reason": "Uso degli indicatori di direzione (lampeggiante) per fermarsi sul margine destro.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22996",
+    "oldTopic": "carreggiata",
+    "newTopic": "lampeggio_simultaneo_degli_indicatori_di_direzione",
+    "changed": true,
+    "reason": "Domanda sull'uso delle quattro frecce lampeggianti simultaneamente per segnalare la fermata.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22997",
+    "oldTopic": "carreggiata",
+    "newTopic": "lampeggio_simultaneo_degli_indicatori_di_direzione",
+    "changed": true,
+    "reason": "Domanda sull'obbligo di segnalare la fermata con le quattro frecce, anche con traffico scarso.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22998",
+    "oldTopic": "area_pedonale",
+    "newTopic": "alla_partenza_dal_margine_della_carreggiata",
+    "changed": true,
+    "reason": "Domanda sulle conseguenze per mancato rispetto delle norme di immissione nel flusso di circolazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B22999",
+    "oldTopic": "area_pedonale",
+    "newTopic": "alla_partenza_dal_margine_della_carreggiata",
+    "changed": true,
+    "reason": "Domanda sulle sanzioni per mancato rispetto delle norme di immissione nel flusso di circolazione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23000",
+    "oldTopic": "carreggiata",
+    "newTopic": "lampeggio_simultaneo_degli_indicatori_di_direzione",
+    "changed": true,
+    "reason": "Domanda sulle conseguenze per fermata senza segnalazione anticipata con le quattro frecce.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23002",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sulla regolazione dello specchio retrovisore centrale per una buona visione posteriore.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23004",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sulla regolazione dello specchio retrovisore centrale per visione dell'intero lunotto.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23005",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sul posizionamento dello specchio retrovisore centrale nel campo visivo del conducente.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23006",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sulla caratteristica dello specchio retrovisore centrale di ridurre la distorsione della distanza.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23008",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sulla posizione antiriflesso dello specchio retrovisore centrale per uso notturno.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23009",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sulla funzione della posizione antiriflesso per ridurre il fastidio dei fari posteriori.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23010",
+    "oldTopic": "strada",
+    "newTopic": "il_veicolo_s_muovendosi_in_retromarcia",
+    "changed": true,
+    "reason": "Domanda sull'uso degli specchi retrovisori prima di una manovra di parcheggio in retromarcia.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23013",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sull'uso non obbligatorio della posizione antiriflesso di notte.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23014",
+    "oldTopic": "strada",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sull'uso della posizione antiriflesso in autostrada.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23016",
+    "oldTopic": "area_pedonale",
+    "newTopic": "per_evitare_il_prodursi_di_incidenti",
+    "changed": true,
+    "reason": "Domanda sull'accensione dell'illuminazione interna dello specchio retrovisore con le luci di posizione.",
+    "chapterId": 1
+  },
+  {
+    "code": "B23018",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su requisiti generali dei veicoli (specchi retrovisori)",
+    "chapterId": 1
+  },
+  {
+    "code": "B23025",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su regolazione corretta degli specchi retrovisori",
+    "chapterId": 1
+  },
+  {
+    "code": "B23026",
+    "oldTopic": "strada",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su regolazione corretta degli specchi retrovisori",
+    "chapterId": 1
+  },
+  {
+    "code": "B23027",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su caratteristiche degli specchi retrovisori",
+    "chapterId": 1
+  },
+  {
+    "code": "B23028",
+    "oldTopic": "corsia",
+    "newTopic": "quando_si_vuole_cambiare_corsia_o",
+    "changed": true,
+    "reason": "Domanda su controllo specchi prima di cambio corsia",
+    "chapterId": 1
+  },
+  {
+    "code": "B23029",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda su controllo specchi prima di sorpasso",
+    "chapterId": 1
+  },
+  {
+    "code": "B23030",
+    "oldTopic": "area_pedonale",
+    "newTopic": "svolta_a_sinistra",
+    "changed": true,
+    "reason": "Domanda su controllo specchi prima di svolta a sinistra",
+    "chapterId": 1
+  },
+  {
+    "code": "B23031",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su caratteristiche degli specchi retrovisori (angolo cieco)",
+    "chapterId": 1
+  },
+  {
+    "code": "B23032",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "Domanda su controllo visivo integrato durante sorpasso",
+    "chapterId": 1
+  },
+  {
+    "code": "B23033",
+    "oldTopic": "strada",
+    "newTopic": "alla_partenza_dal_margine_della_carreggiata",
+    "changed": true,
+    "reason": "Domanda su controlli prima di immissione in circolazione",
+    "chapterId": 1
+  },
+  {
+    "code": "B23035",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su uso specchi in condizioni particolari (strade strette)",
+    "chapterId": 1
+  },
+  {
+    "code": "B23040",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su requisiti specchi retrovisori con poggiatesta",
+    "chapterId": 1
+  },
+  {
+    "code": "B23041",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_tutte_le_strade_e",
+    "changed": true,
+    "reason": "Domanda su uso corretto degli specchi retrovisori",
+    "chapterId": 1
+  },
+  {
+    "code": "QB00002",
+    "oldTopic": "area_pedonale",
+    "newTopic": "si_possono_guidare",
+    "changed": true,
+    "reason": "Domanda su patente necessaria per macchine operatrici",
+    "chapterId": 1
+  },
+  {
+    "code": "QB00003",
+    "oldTopic": "area_pedonale",
+    "newTopic": "con_la_patente_di_categoria_a_si_possono_guidare",
+    "changed": true,
+    "reason": "Domanda su veicoli guidabili con patente A",
+    "chapterId": 1
+  },
+  {
+    "code": "QB00004",
+    "oldTopic": "area_pedonale",
+    "newTopic": "incidente",
+    "changed": true,
+    "reason": "La domanda riguarda la pericolosità di un incidente a bassa velocità, quindi topic specifico per incidente.",
+    "chapterId": 1
+  },
+  {
+    "code": "QB00005",
+    "oldTopic": "area_pedonale",
+    "newTopic": "su_una",
+    "changed": true,
+    "reason": "La domanda tratta la prudenza verso conducenti con patente estera, rientra nella circolazione su strada.",
+    "chapterId": 1
+  },
+  {
+    "code": "QB00006",
+    "oldTopic": "area_pedonale",
+    "newTopic": "sorpasso",
+    "changed": true,
+    "reason": "La domanda si concentra sul sorpasso di ciclisti, quindi topic specifico per sorpasso.",
+    "chapterId": 1
+  },
+  {
+    "code": "QB00022",
+    "oldTopic": "strada",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "La domanda parla di un segnale di strada sdrucciolevole, topic esatto per quel pericolo.",
+    "chapterId": 2
+  },
+  {
+    "code": "QB00023",
+    "oldTopic": "strada",
+    "newTopic": "strada_sdrucciolevole",
+    "changed": true,
+    "reason": "Simile alla precedente, riguarda la presenza di ghiaccio, quindi strada sdrucciolevole.",
+    "chapterId": 2
+  },
+  {
+    "code": "QB00178",
+    "oldTopic": "continuazione",
+    "newTopic": "continuazione",
+    "changed": false,
+    "reason": "Il pannello indica la continuazione di un segnale di pericolo, topic specifico.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00179",
+    "oldTopic": "continuazione",
+    "newTopic": "direzione_obbligatoria_a_sinistra_e",
+    "changed": true,
+    "reason": "Il pannello mostra una freccia a sinistra, indicando direzione obbligatoria a sinistra.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00181",
+    "oldTopic": "continuazione",
+    "newTopic": "direzioni_consentite_destra_e_sinistra",
+    "changed": true,
+    "reason": "Il pannello mostra frecce a destra e sinistra, direzioni consentite.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00184",
+    "oldTopic": "continuazione",
+    "newTopic": "direzione_obbligatoria_diritto_e",
+    "changed": true,
+    "reason": "Il pannello mostra freccia dritto, direzione obbligatoria diritto.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00186",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Il pannello è abbinato al segnale ALTRI PERICOLI, topic specifico.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00187",
+    "oldTopic": "continuazione",
+    "newTopic": "altri_pericoli",
+    "changed": true,
+    "reason": "Simile alla precedente, pannello per ALTRI PERICOLI.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00188",
+    "oldTopic": "corsia",
+    "newTopic": "kmh_e",
+    "changed": true,
+    "reason": "Il pannello indica la fine del limite di velocità, topic corrispondente.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00189",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Il pannello indica curve strette, topic per delineatore di curva stretta.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00190",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Simile, indica tornanti, stesso topic.",
+    "chapterId": 9
+  },
+  {
+    "code": "QB00191",
+    "oldTopic": "continuazione",
+    "newTopic": "delineatore_di_curva_stretta_o_di_tornante_e",
+    "changed": true,
+    "reason": "Il pannello si trova sotto segnale di curva, topic per delineatore di curva.",
+    "chapterId": 9
+  }
+]

@@ -109,16 +109,19 @@ const noContentAR = l.filter(x => !x.contentAR?.trim());
 if (noContentAR.length > 0) WARN(`${noContentAR.length} lezioni senza contentAR`);
 else PASS('100% contentAR');
 
-const noTopics = l.filter(x => !x.topics || x.topics.length === 0);
-if (noTopics.length > 0) WARN(`${noTopics.length} lezioni senza topics[]`);
-else PASS('Tutte le lezioni hanno topics[]');
+const noTopics = l.filter(x => (!x.topicKeys || x.topicKeys.length === 0) && (!x.topics || x.topics.length === 0));
+if (noTopics.length > 0) WARN(`${noTopics.length} lezioni senza topicKeys[]`);
+else PASS('Tutte le lezioni hanno topicKeys[]');
 
 const hasLegacy = l.filter(x => x.topicsJson);
 if (hasLegacy.length > 0) FAIL(`${hasLegacy.length} lezioni con topicsJson legacy — rimuovere!`);
 else PASS('Zero topicsJson legacy');
 
-// Orfani: topicKey quiz senza lezione
-const allLessonTopics = new Set(l.flatMap(x => (x.topics || []).map(t => t.topicKey)).filter(Boolean));
+// Orfani: topicKey quiz senza lezione (supporta sia topicKeys[] che topics[].topicKey)
+const allLessonTopics = new Set(l.flatMap(x => {
+  if (x.topicKeys) return x.topicKeys;
+  return (x.topics || []).map(t => t.topicKey);
+}).filter(Boolean));
 const orphanTopics = topicKeys.filter(tk => !allLessonTopics.has(tk));
 if (orphanTopics.length > 0) {
   WARN(`${orphanTopics.length} topicKey quiz senza lezione: ${orphanTopics.slice(0, 5).join(', ')}${orphanTopics.length > 5 ? '...' : ''}`);
