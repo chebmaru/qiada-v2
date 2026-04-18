@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-04-17T14:00:42.698Z",
+  "totalQuestionsWithStats": 3,
+  "minAttempts": 3,
+  "flop10": [
+    {
+      "code": "A001",
+      "textIT": "Il segnale di STOP impone:",
+      "textAR": "إشارة STOP تعني:",
+      "isTrue": false,
+      "topicKey": "segnale_di_itinerario_extraurbano",
+      "chapterId": 6,
+      "imageUrl": "/signs/stop.svg",
+      "explanationIT": "Affermazione errata. Secondo il Codice della Strada (Segnali luminosi), questa affermazione non è valida. Ricorda di studiare attentamente le norme relative a: Segnali luminosi.",
+      "explanationAR": "بيان غير صحيح. وفقًا لقانون الطريق السريع (الإشارات الضوئية)، فإن هذا البيان غير صالح. تذكر أن تدرس بعناية اللوائح المتعلقة بما يلي: الإشارات الضوئية.",
+      "errorRate": 67,
+      "totalAttempts": 3,
+      "totalWrong": 2
+    },
+    {
+      "code": "A002",
+      "textIT": "Il segnale triangolare con bordo rosso indica:",
+      "textAR": "المثلث ذو الحافة الحمراء يشير إلى:",
+      "isTrue": false,
+      "topicKey": "segnale_di_itinerario_extraurbano",
+      "chapterId": 6,
+      "imageUrl": "/signs/altri-pericoli.svg",
+      "explanationIT": "Affermazione errata. Secondo il Codice della Strada (Segnali luminosi), questa affermazione non è valida. Ricorda di studiare attentamente le norme relative a: Segnali luminosi.",
+      "explanationAR": "بيان غير صحيح. وفقًا لقانون الطريق السريع (الإشارات الضوئية)، فإن هذا البيان غير صالح. تذكر أن تدرس بعناية اللوائح المتعلقة بما يلي: الإشارات الضوئية.",
+      "errorRate": 67,
+      "totalAttempts": 3,
+      "totalWrong": 2
+    },
+    {
+      "code": "A005",
+      "textIT": "Il cartello con sfondo blu indica:",
+      "textAR": "اللافتة ذات الخلفية الزرقاء تشير إلى:",
+      "isTrue": false,
+      "topicKey": "segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e",
+      "chapterId": 6,
+      "imageUrl": "/signs/direzione_obbligatoria_a_sinistra.svg",
+      "explanationIT": "Affermazione errata. Secondo il Codice della Strada (Segnali luminosi), questa affermazione non è valida. Ricorda di studiare attentamente le norme relative a: Segnali luminosi.",
+      "explanationAR": "بيان غير صحيح. وفقًا لقانون الطريق السريع (الإشارات الضوئية)، فإن هذا البيان غير صالح. تذكر أن تدرس بعناية اللوائح المتعلقة بما يلي: الإشارات الضوئية.",
+      "errorRate": 67,
+      "totalAttempts": 3,
+      "totalWrong": 2
+    }
+  ],
+  "flop50": [
+    {
+      "code": "A001",
+      "textIT": "Il segnale di STOP impone:",
+      "textAR": "إشارة STOP تعني:",
+      "isTrue": false,
+      "topicKey": "segnale_di_itinerario_extraurbano",
+      "errorRate": 67,
+      "totalAttempts": 3
+    },
+    {
+      "code": "A002",
+      "textIT": "Il segnale triangolare con bordo rosso indica:",
+      "textAR": "المثلث ذو الحافة الحمراء يشير إلى:",
+      "isTrue": false,
+      "topicKey": "segnale_di_itinerario_extraurbano",
+      "errorRate": 67,
+      "totalAttempts": 3
+    },
+    {
+      "code": "A005",
+      "textIT": "Il cartello con sfondo blu indica:",
+      "textAR": "اللافتة ذات الخلفية الزرقاء تشير إلى:",
+      "isTrue": false,
+      "topicKey": "segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e",
+      "errorRate": 67,
+      "totalAttempts": 3
+    }
+  ],
+  "hardestChapters": [
+    {
+      "chapterId": 6,
+      "questions": 3,
+      "totalErrors": 6,
+      "totalAttempts": 9,
+      "errorRate": 67
+    }
+  ],
+  "hardestTopics": [],
+  "allByErrorRate": [
+    {
+      "code": "A001",
+      "errorRate": 67,
+      "totalAttempts": 3,
+      "isTrue": false,
+      "topicKey": "segnale_di_itinerario_extraurbano"
+    },
+    {
+      "code": "A002",
+      "errorRate": 67,
+      "totalAttempts": 3,
+      "isTrue": false,
+      "topicKey": "segnale_di_itinerario_extraurbano"
+    },
+    {
+      "code": "A005",
+      "errorRate": 67,
+      "totalAttempts": 3,
+      "isTrue": false,
+      "topicKey": "segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e"
+    }
+  ]
+}

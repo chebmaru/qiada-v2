@@ -1,0 +1,1143 @@
+{
+  "generatedAt": "2026-04-17T11:01:58.522Z",
+  "totalQuestions": 7064,
+  "trueQuestions": 3523,
+  "falseQuestions": 3541,
+  "paroleAmiche": {
+    "description": "Parole che compaiono ESCLUSIVAMENTE in domande VERE o ESCLUSIVAMENTE in domande FALSE",
+    "onlyInTrue": {
+      "count": 191,
+      "note": "Se vedi questa parola nella domanda → risposta VERA",
+      "words": [
+        {
+          "word": "richiede",
+          "count": 16,
+          "examples": [
+            "B18956",
+            "B19445",
+            "B19318"
+          ]
+        },
+        {
+          "word": "brusche",
+          "count": 14,
+          "examples": [
+            "B19277",
+            "B24733",
+            "B19399"
+          ]
+        },
+        {
+          "word": "improvvisamente",
+          "count": 12,
+          "examples": [
+            "B22900",
+            "B18787",
+            "B21593"
+          ]
+        },
+        {
+          "word": "potrebbe",
+          "count": 12,
+          "examples": [
+            "B25152",
+            "B18791",
+            "B22923"
+          ]
+        },
+        {
+          "word": "impedire",
+          "count": 10,
+          "examples": [
+            "B23821",
+            "QB00218",
+            "B22693"
+          ]
+        },
+        {
+          "word": "alcune",
+          "count": 10,
+          "examples": [
+            "B18483",
+            "QB00193",
+            "B24843"
+          ]
+        },
+        {
+          "word": "ordinariamente",
+          "count": 9,
+          "examples": [
+            "B22369",
+            "B22331",
+            "B22332"
+          ]
+        },
+        {
+          "word": "urto",
+          "count": 8,
+          "examples": [
+            "QB00296",
+            "B24379",
+            "B23574"
+          ]
+        },
+        {
+          "word": "effettiva",
+          "count": 8,
+          "examples": [
+            "B19841",
+            "B19843",
+            "B19840"
+          ]
+        },
+        {
+          "word": "limitare",
+          "count": 8,
+          "examples": [
+            "B25143",
+            "B24379",
+            "B31026"
+          ]
+        },
+        {
+          "word": "causare",
+          "count": 8,
+          "examples": [
+            "B24849",
+            "B18712",
+            "B22384"
+          ]
+        },
+        {
+          "word": "difficoltoso",
+          "count": 8,
+          "examples": [
+            "B22958",
+            "B22487",
+            "B22300"
+          ]
+        },
+        {
+          "word": "ben",
+          "count": 7,
+          "examples": [
+            "B23614",
+            "B23615",
+            "B24066"
+          ]
+        },
+        {
+          "word": "dovuto",
+          "count": 7,
+          "examples": [
+            "B25120",
+            "B25034",
+            "QB00217"
+          ]
+        },
+        {
+          "word": "abbagliare",
+          "count": 7,
+          "examples": [
+            "B24267",
+            "B24143",
+            "B24142"
+          ]
+        },
+        {
+          "word": "ripetuto",
+          "count": 7,
+          "examples": [
+            "B25352",
+            "B19899",
+            "QB00084"
+          ]
+        },
+        {
+          "word": "comportare",
+          "count": 7,
+          "examples": [
+            "B25352",
+            "B31011",
+            "B25351"
+          ]
+        },
+        {
+          "word": "rendere",
+          "count": 7,
+          "examples": [
+            "B21953",
+            "B23810",
+            "B23955"
+          ]
+        },
+        {
+          "word": "diminuzione",
+          "count": 7,
+          "examples": [
+            "B21740",
+            "B21902",
+            "B25269"
+          ]
+        },
+        {
+          "word": "aprire",
+          "count": 7,
+          "examples": [
+            "B23797",
+            "B18743",
+            "B23624"
+          ]
+        },
+        {
+          "word": "sopraggiungano",
+          "count": 7,
+          "examples": [
+            "B23797",
+            "B23623",
+            "B18743"
+          ]
+        },
+        {
+          "word": "accinge",
+          "count": 7,
+          "examples": [
+            "B18775",
+            "B23964",
+            "B18780"
+          ]
+        },
+        {
+          "word": "sedile",
+          "count": 7,
+          "examples": [
+            "B24322",
+            "B24366",
+            "B23003"
+          ]
+        },
+        {
+          "word": "frenate",
+          "count": 7,
+          "examples": [
+            "B25324",
+            "B19399",
+            "B25087"
+          ]
+        },
+        {
+          "word": "luoghi",
+          "count": 7,
+          "examples": [
+            "B19928",
+            "B19298",
+            "B21356"
+          ]
+        },
+        {
+          "word": "inefficienti",
+          "count": 6,
+          "examples": [
+            "B25348",
+            "B25353",
+            "B25354"
+          ]
+        },
+        {
+          "word": "tornanti",
+          "count": 6,
+          "examples": [
+            "B19005",
+            "B22236",
+            "B21828"
+          ]
+        },
+        {
+          "word": "rimuovere",
+          "count": 6,
+          "examples": [
+            "B23812",
+            "B22496",
+            "B23816"
+          ]
+        },
+        {
+          "word": "periodo",
+          "count": 6,
+          "examples": [
+            "B21821",
+            "B25285",
+            "B20974"
+          ]
+        },
+        {
+          "word": "sporgente",
+          "count": 6,
+          "examples": [
+            "B24066",
+            "B18716",
+            "B23855"
+          ]
+        },
+        {
+          "word": "incorrere",
+          "count": 6,
+          "examples": [
+            "B24978",
+            "B24977",
+            "B25021"
+          ]
+        },
+        {
+          "word": "intralciare",
+          "count": 6,
+          "examples": [
+            "B19132",
+            "B25282",
+            "B23728"
+          ]
+        },
+        {
+          "word": "compromettere",
+          "count": 6,
+          "examples": [
+            "B23926",
+            "QB00397",
+            "B24843"
+          ]
+        },
+        {
+          "word": "potersi",
+          "count": 6,
+          "examples": [
+            "B18956",
+            "B19501",
+            "B18979"
+          ]
+        },
+        {
+          "word": "tamponare",
+          "count": 6,
+          "examples": [
+            "B24878",
+            "B22557",
+            "B24877"
+          ]
+        },
+        {
+          "word": "ridotto",
+          "count": 6,
+          "examples": [
+            "B25109",
+            "B21828",
+            "QB00458"
+          ]
+        },
+        {
+          "word": "movimenti",
+          "count": 6,
+          "examples": [
+            "B22693",
+            "B18767",
+            "B23925"
+          ]
+        },
+        {
+          "word": "diventare",
+          "count": 5,
+          "examples": [
+            "B25348",
+            "B18787",
+            "B22191"
+          ]
+        },
+        {
+          "word": "provocare",
+          "count": 5,
+          "examples": [
+            "B24952",
+            "B22484",
+            "B22748"
+          ]
+        },
+        {
+          "word": "l'esterno",
+          "count": 5,
+          "examples": [
+            "B25169",
+            "B25202",
+            "B25408"
+          ]
+        },
+        {
+          "word": "adottare",
+          "count": 5,
+          "examples": [
+            "B23705",
+            "B23700",
+            "B19049"
+          ]
+        },
+        {
+          "word": "elevate",
+          "count": 5,
+          "examples": [
+            "B22683",
+            "B22680",
+            "B22682"
+          ]
+        },
+        {
+          "word": "guidando",
+          "count": 5,
+          "examples": [
+            "B23966",
+            "B25126",
+            "B24436"
+          ]
+        },
+        {
+          "word": "proprie",
+          "count": 5,
+          "examples": [
+            "B23966",
+            "B24937",
+            "B31017"
+          ]
+        },
+        {
+          "word": "dell'inizio",
+          "count": 5,
+          "examples": [
+            "QB00064",
+            "B20375",
+            "B21048"
+          ]
+        },
+        {
+          "word": "strettoie",
+          "count": 5,
+          "examples": [
+            "B22440",
+            "B21942",
+            "B20547"
+          ]
+        },
+        {
+          "word": "maggiormente",
+          "count": 5,
+          "examples": [
+            "B24805",
+            "B23984",
+            "B25307"
+          ]
+        },
+        {
+          "word": "nove",
+          "count": 5,
+          "examples": [
+            "B18650",
+            "B24055",
+            "B24056"
+          ]
+        },
+        {
+          "word": "improvviso",
+          "count": 5,
+          "examples": [
+            "B18956",
+            "B19420",
+            "B18979"
+          ]
+        },
+        {
+          "word": "finestrini",
+          "count": 5,
+          "examples": [
+            "B25143",
+            "B18712",
+            "B25069"
+          ]
+        }
+      ]
+    },
+    "onlyInFalse": {
+      "count": 98,
+      "note": "Se vedi questa parola nella domanda → risposta FALSA",
+      "words": [
+        {
+          "word": "frizione",
+          "count": 9,
+          "examples": [
+            "B25103",
+            "B19196",
+            "B25330"
+          ]
+        },
+        {
+          "word": "chiusa",
+          "count": 9,
+          "examples": [
+            "B22223",
+            "B21650",
+            "B22109"
+          ]
+        },
+        {
+          "word": "d'emergenza",
+          "count": 8,
+          "examples": [
+            "B25429",
+            "B20888",
+            "B25430"
+          ]
+        },
+        {
+          "word": "unicamente",
+          "count": 7,
+          "examples": [
+            "B24261",
+            "B24455",
+            "B25362"
+          ]
+        },
+        {
+          "word": "vanno",
+          "count": 7,
+          "examples": [
+            "B22507",
+            "B22506",
+            "B24321"
+          ]
+        },
+        {
+          "word": "anno",
+          "count": 6,
+          "examples": [
+            "QB00436",
+            "B24604",
+            "B24598"
+          ]
+        },
+        {
+          "word": "quanti",
+          "count": 6,
+          "examples": [
+            "B22240",
+            "B21775",
+            "B19114"
+          ]
+        },
+        {
+          "word": "pagamento",
+          "count": 6,
+          "examples": [
+            "B20753",
+            "B19908",
+            "B21217"
+          ]
+        },
+        {
+          "word": "diurne",
+          "count": 6,
+          "examples": [
+            "B22307",
+            "B18998",
+            "B22468"
+          ]
+        },
+        {
+          "word": "interrotta",
+          "count": 6,
+          "examples": [
+            "B21431",
+            "B21688",
+            "B21417"
+          ]
+        },
+        {
+          "word": "richiamare",
+          "count": 6,
+          "examples": [
+            "QB00240",
+            "B19622",
+            "B22764"
+          ]
+        },
+        {
+          "word": "obbligatoriamente",
+          "count": 6,
+          "examples": [
+            "B21597",
+            "B20518",
+            "B23835"
+          ]
+        },
+        {
+          "word": "facoltativo",
+          "count": 5,
+          "examples": [
+            "B22845",
+            "B24419",
+            "B23836"
+          ]
+        },
+        {
+          "word": "bere",
+          "count": 5,
+          "examples": [
+            "B24883",
+            "B24905",
+            "B24874"
+          ]
+        },
+        {
+          "word": "parco",
+          "count": 5,
+          "examples": [
+            "B19663",
+            "B19440",
+            "B21451"
+          ]
+        },
+        {
+          "word": "dall'altro",
+          "count": 5,
+          "examples": [
+            "B21936",
+            "B19226",
+            "B19103"
+          ]
+        },
+        {
+          "word": "affiancati",
+          "count": 5,
+          "examples": [
+            "B18496",
+            "B18800",
+            "B18497"
+          ]
+        },
+        {
+          "word": "infrazione",
+          "count": 4,
+          "examples": [
+            "B24671",
+            "B24598",
+            "B24648"
+          ]
+        },
+        {
+          "word": "ognuna",
+          "count": 4,
+          "examples": [
+            "B20895",
+            "QB00383",
+            "B20908"
+          ]
+        },
+        {
+          "word": "l'avvisatore",
+          "count": 4,
+          "examples": [
+            "B24806",
+            "B19333",
+            "B23577"
+          ]
+        },
+        {
+          "word": "area",
+          "count": 4,
+          "examples": [
+            "B23020",
+            "B18445",
+            "B19334"
+          ]
+        },
+        {
+          "word": "nastro",
+          "count": 4,
+          "examples": [
+            "B25414",
+            "B24421",
+            "B24422"
+          ]
+        },
+        {
+          "word": "messaggio",
+          "count": 4,
+          "examples": [
+            "B18366",
+            "B25288",
+            "B31038"
+          ]
+        },
+        {
+          "word": "necessitano",
+          "count": 4,
+          "examples": [
+            "B25385",
+            "B25369",
+            "B24132"
+          ]
+        },
+        {
+          "word": "caffè",
+          "count": 4,
+          "examples": [
+            "QB00387",
+            "QB00392",
+            "B24837"
+          ]
+        },
+        {
+          "word": "amaro",
+          "count": 4,
+          "examples": [
+            "QB00387",
+            "QB00392",
+            "B24837"
+          ]
+        },
+        {
+          "word": "allontanare",
+          "count": 4,
+          "examples": [
+            "B24867",
+            "B23824",
+            "B19333"
+          ]
+        },
+        {
+          "word": "chilometro",
+          "count": 4,
+          "examples": [
+            "B22456",
+            "B21448",
+            "B24361"
+          ]
+        },
+        {
+          "word": "smontare",
+          "count": 4,
+          "examples": [
+            "B25264",
+            "B25262",
+            "B25263"
+          ]
+        },
+        {
+          "word": "veda",
+          "count": 4,
+          "examples": [
+            "B23905",
+            "B23908",
+            "B23907"
+          ]
+        },
+        {
+          "word": "mezzeria",
+          "count": 4,
+          "examples": [
+            "B22860",
+            "B22934",
+            "B23581"
+          ]
+        },
+        {
+          "word": "alternato",
+          "count": 4,
+          "examples": [
+            "B19225",
+            "B21855",
+            "B19417"
+          ]
+        },
+        {
+          "word": "autovelox",
+          "count": 4,
+          "examples": [
+            "B22315",
+            "QB00202",
+            "B22325"
+          ]
+        },
+        {
+          "word": "integratori",
+          "count": 4,
+          "examples": [
+            "B24839",
+            "B24840",
+            "QB00394"
+          ]
+        },
+        {
+          "word": "tenuti",
+          "count": 4,
+          "examples": [
+            "B22387",
+            "B22388",
+            "B22389"
+          ]
+        },
+        {
+          "word": "spazzatura",
+          "count": 4,
+          "examples": [
+            "B24071",
+            "B22172",
+            "B22144"
+          ]
+        },
+        {
+          "word": "moto",
+          "count": 3,
+          "examples": [
+            "B24446",
+            "B22752",
+            "B25452"
+          ]
+        },
+        {
+          "word": "garantisce",
+          "count": 3,
+          "examples": [
+            "B25036",
+            "QB00308",
+            "B25029"
+          ]
+        },
+        {
+          "word": "pontili",
+          "count": 3,
+          "examples": [
+            "B21103",
+            "B20453",
+            "B22208"
+          ]
+        },
+        {
+          "word": "cruscotto",
+          "count": 3,
+          "examples": [
+            "B24384",
+            "B24315",
+            "B24357"
+          ]
+        },
+        {
+          "word": "utilizza",
+          "count": 3,
+          "examples": [
+            "B23037",
+            "B25274",
+            "B23785"
+          ]
+        },
+        {
+          "word": "avvenuto",
+          "count": 3,
+          "examples": [
+            "B24866",
+            "B24459",
+            "B22120"
+          ]
+        },
+        {
+          "word": "l'incidente",
+          "count": 3,
+          "examples": [
+            "B24866",
+            "B24858",
+            "B22120"
+          ]
+        },
+        {
+          "word": "dell'autovettura",
+          "count": 3,
+          "examples": [
+            "B25127",
+            "B25084",
+            "B23709"
+          ]
+        },
+        {
+          "word": "condotte",
+          "count": 3,
+          "examples": [
+            "B20399",
+            "B20407",
+            "B20393"
+          ]
+        },
+        {
+          "word": "assolutamente",
+          "count": 3,
+          "examples": [
+            "B24883",
+            "B21348",
+            "B25444"
+          ]
+        },
+        {
+          "word": "interruttore",
+          "count": 3,
+          "examples": [
+            "B25429",
+            "B25426",
+            "B25280"
+          ]
+        },
+        {
+          "word": "energicamente",
+          "count": 3,
+          "examples": [
+            "B24747",
+            "B25077",
+            "B24717"
+          ]
+        },
+        {
+          "word": "l'uno",
+          "count": 3,
+          "examples": [
+            "B21936",
+            "B19103",
+            "B19586"
+          ]
+        },
+        {
+          "word": "essendo",
+          "count": 3,
+          "examples": [
+            "B21042",
+            "B24811",
+            "B25360"
+          ]
+        }
+      ]
+    }
+  },
+  "paroleTendenza": {
+    "description": "Parole con forte tendenza (>90%) verso VERO o FALSO, ma non esclusive",
+    "mostlyTrue": [
+      {
+        "word": "moderare",
+        "total": 40,
+        "trueCount": 39,
+        "falseCount": 1,
+        "trueRate": 98
+      },
+      {
+        "word": "invita",
+        "total": 32,
+        "trueCount": 29,
+        "falseCount": 3,
+        "trueRate": 91
+      },
+      {
+        "word": "potrebbero",
+        "total": 18,
+        "trueCount": 17,
+        "falseCount": 1,
+        "trueRate": 94
+      },
+      {
+        "word": "assicurarsi",
+        "total": 14,
+        "trueCount": 13,
+        "falseCount": 1,
+        "trueRate": 93
+      },
+      {
+        "word": "l'altro",
+        "total": 13,
+        "trueCount": 12,
+        "falseCount": 1,
+        "trueRate": 92
+      },
+      {
+        "word": "verificare",
+        "total": 12,
+        "trueCount": 11,
+        "falseCount": 1,
+        "trueRate": 92
+      },
+      {
+        "word": "prendere",
+        "total": 11,
+        "trueCount": 10,
+        "falseCount": 1,
+        "trueRate": 91
+      },
+      {
+        "word": "impianti",
+        "total": 10,
+        "trueCount": 9,
+        "falseCount": 1,
+        "trueRate": 90
+      },
+      {
+        "word": "scopo",
+        "total": 10,
+        "trueCount": 9,
+        "falseCount": 1,
+        "trueRate": 90
+      }
+    ],
+    "mostlyFalse": [
+      {
+        "word": "esclusivamente",
+        "total": 14,
+        "trueCount": 1,
+        "falseCount": 13,
+        "falseRate": 93
+      },
+      {
+        "word": "mai",
+        "total": 12,
+        "trueCount": 1,
+        "falseCount": 11,
+        "falseRate": 92
+      },
+      {
+        "word": "abbaglianti",
+        "total": 12,
+        "trueCount": 1,
+        "falseCount": 11,
+        "falseRate": 92
+      },
+      {
+        "word": "primi",
+        "total": 11,
+        "trueCount": 1,
+        "falseCount": 10,
+        "falseRate": 91
+      },
+      {
+        "word": "significa",
+        "total": 10,
+        "trueCount": 1,
+        "falseCount": 9,
+        "falseRate": 90
+      }
+    ]
+  },
+  "avverbiTranello": {
+    "description": "Avverbi che spesso cambiano la risposta. Alto falseRate = la domanda con questo avverbio è probabilmente FALSA",
+    "stats": [
+      {
+        "adverb": "unicamente",
+        "total": 7,
+        "trueCount": 0,
+        "falseCount": 7,
+        "falseRate": 100
+      },
+      {
+        "adverb": "obbligatoriamente",
+        "total": 6,
+        "trueCount": 0,
+        "falseCount": 6,
+        "falseRate": 100
+      },
+      {
+        "adverb": "assolutamente",
+        "total": 3,
+        "trueCount": 0,
+        "falseCount": 3,
+        "falseRate": 100
+      },
+      {
+        "adverb": "energicamente",
+        "total": 3,
+        "trueCount": 0,
+        "falseCount": 3,
+        "falseRate": 100
+      },
+      {
+        "adverb": "nessuno",
+        "total": 2,
+        "trueCount": 0,
+        "falseCount": 2,
+        "falseRate": 100
+      },
+      {
+        "adverb": "esclusivamente",
+        "total": 14,
+        "trueCount": 1,
+        "falseCount": 13,
+        "falseRate": 93
+      },
+      {
+        "adverb": "mai",
+        "total": 12,
+        "trueCount": 1,
+        "falseCount": 11,
+        "falseRate": 92
+      },
+      {
+        "adverb": "qualunque",
+        "total": 19,
+        "trueCount": 4,
+        "falseCount": 15,
+        "falseRate": 79
+      },
+      {
+        "adverb": "soltanto",
+        "total": 31,
+        "trueCount": 9,
+        "falseCount": 22,
+        "falseRate": 71
+      },
+      {
+        "adverb": "qualsiasi",
+        "total": 27,
+        "trueCount": 8,
+        "falseCount": 19,
+        "falseRate": 70
+      },
+      {
+        "adverb": "sempre",
+        "total": 82,
+        "trueCount": 29,
+        "falseCount": 53,
+        "falseRate": 65
+      },
+      {
+        "adverb": "tutti",
+        "total": 104,
+        "trueCount": 36,
+        "falseCount": 68,
+        "falseRate": 65
+      },
+      {
+        "adverb": "bruscamente",
+        "total": 13,
+        "trueCount": 5,
+        "falseCount": 8,
+        "falseRate": 62
+      },
+      {
+        "adverb": "tutte",
+        "total": 30,
+        "trueCount": 13,
+        "falseCount": 17,
+        "falseRate": 57
+      },
+      {
+        "adverb": "comunque",
+        "total": 15,
+        "trueCount": 9,
+        "falseCount": 6,
+        "falseRate": 40
+      },
+      {
+        "adverb": "solamente",
+        "total": 4,
+        "trueCount": 3,
+        "falseCount": 1,
+        "falseRate": 25
+      }
+    ]
+  }
+}
