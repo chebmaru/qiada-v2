@@ -97,7 +97,7 @@ export interface Topic {
 
 export function getTopics(chapterId?: number) {
   const params = chapterId ? `?chapterId=${chapterId}` : '';
-  return fetchApi<{ data: Topic[]; total: number }>(`/topics${params}`);
+  return fetchApi<Topic[]>(`/topics${params}`);
 }
 
 // Questions
@@ -112,6 +112,40 @@ export interface Question {
   imageUrl: string | null;
   chapterId: number;
   topicKey: string;
+}
+
+// Glossary
+export interface GlossaryTerm {
+  id: number;
+  termIt: string;
+  termAr: string;
+  definitionIt: string;
+  definitionAr: string;
+  category: string;
+}
+
+export function getGlossary() {
+  return fetchApi<GlossaryTerm[]>('/glossary');
+}
+
+// Lessons
+export interface Lesson {
+  id: string;
+  chapterId: number;
+  titleIt: string;
+  titleAr: string;
+  contentIt: string;
+  contentAr: string;
+  sortOrder: number;
+}
+
+export function getLessons(chapterId?: number) {
+  const params = chapterId ? `?chapterId=${chapterId}` : '';
+  return fetchApi<Lesson[]>(`/lessons${params}`);
+}
+
+export function getLesson(id: string) {
+  return fetchApi<Lesson & { topics: Topic[] }>(`/lessons/${id}`);
 }
 
 export function getQuestions(opts: { chapterId?: number; topicKey?: string; limit?: number; offset?: number }) {

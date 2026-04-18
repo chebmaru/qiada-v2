@@ -19,7 +19,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
   useEffect(() => {
     Promise.all([
       getTopics().then((data) => {
-        const found = data.data.find((t) => t.topicKey === topicKey);
+        const found = data.find((t) => t.topicKey === topicKey);
         setTopic(found || null);
       }),
       getQuestions({ topicKey, limit: 100 }).then((data) => setQuestions(data.data)),
@@ -72,7 +72,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
 
       {/* Practice button */}
       <Link
-        href={`/quiz/exam?topic=${topicKey}`}
+        href={`/quiz/exam?topic=${encodeURIComponent(topicKey)}`}
         className="block text-center bg-blue-600 text-white py-3 rounded-lg font-medium mb-6"
       >
         {isAr ? `تدرب على ${questions.length} سؤال` : `Esercitati su ${questions.length} domande`}

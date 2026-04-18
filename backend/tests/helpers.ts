@@ -7,6 +7,7 @@ import { chapterRoutes } from '../src/routes/chapters.js';
 import { topicRoutes } from '../src/routes/topics.js';
 import { questionRoutes } from '../src/routes/questions.js';
 import { glossaryRoutes } from '../src/routes/glossary.js';
+import { lessonRoutes } from '../src/routes/lessons.js';
 import { authRoutes } from '../src/routes/auth.js';
 import { quizRoutes } from '../src/routes/quiz.js';
 import 'dotenv/config';
@@ -26,6 +27,7 @@ export async function buildApp() {
   await app.register(chapterRoutes, { prefix: '/api' });
   await app.register(topicRoutes, { prefix: '/api' });
   await app.register(questionRoutes, { prefix: '/api' });
+  await app.register(lessonRoutes, { prefix: '/api' });
   await app.register(glossaryRoutes, { prefix: '/api' });
   await app.register(quizRoutes, { prefix: '/api' });
 
