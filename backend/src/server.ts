@@ -11,6 +11,7 @@ import { glossaryRoutes } from './routes/glossary.js';
 import { lessonRoutes } from './routes/lessons.js';
 import { authRoutes } from './routes/auth.js';
 import { quizRoutes } from './routes/quiz.js';
+import { progressRoutes } from './routes/progress.js';
 
 const app = Fastify({ logger: true });
 
@@ -31,6 +32,7 @@ await app.register(questionRoutes, { prefix: '/api' });
 await app.register(lessonRoutes, { prefix: '/api' });
 await app.register(glossaryRoutes, { prefix: '/api' });
 await app.register(quizRoutes, { prefix: '/api' });
+await app.register(progressRoutes, { prefix: '/api' });
 
 // Start
 try {

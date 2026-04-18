@@ -7,3 +7,5 @@ export { glossary } from './glossary.js';
 export { users } from './users.js';
 export { accessCodes } from './access-codes.js';
 export { quizAttempts } from './quiz-attempts.js';
+export { userQuestionStats } from './user-question-stats.js';
+export { userProgress, userDailyActivity } from './user-progress.js';
