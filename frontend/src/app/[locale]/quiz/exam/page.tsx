@@ -3,7 +3,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
-import { startExam, submitQuiz, type QuizQuestion, type QuizResult } from "@/lib/api";
+import { useSearchParams } from "next/navigation";
+import { startExam, startPractice, submitQuiz, type QuizQuestion, type QuizResult } from "@/lib/api";
 
 type Phase = "loading" | "active" | "submitting" | "result";
 
@@ -11,7 +12,12 @@ export default function ExamPage() {
   const t = useTranslations();
   const locale = useLocale();
   const router = useRouter();
+  const searchParams = useSearchParams();
   const isAr = locale === "ar";
+
+  const topicKey = searchParams.get("topic") || undefined;
+  const chapterId = searchParams.get("chapter") ? Number(searchParams.get("chapter")) : undefined;
+  const isPractice = !!(topicKey || chapterId);
 
   const [phase, setPhase] = useState<Phase>("loading");
   const [attemptId, setAttemptId] = useState(0);
@@ -22,28 +28,32 @@ export default function ExamPage() {
   const [result, setResult] = useState<QuizResult | null>(null);
   const [error, setError] = useState("");
 
-  // Start exam on mount
+  // Start exam or practice on mount
   useEffect(() => {
-    startExam()
+    const start = isPractice
+      ? startPractice({ topicKey, chapterId, count: 20 })
+      : startExam();
+
+    start
       .then((data) => {
         setAttemptId(data.attemptId);
         setQuestions(data.questions);
-        setTimeLeft(data.timeLimitSeconds || 1800);
+        setTimeLeft(data.timeLimitSeconds || 0);
         setPhase("active");
       })
       .catch((e) => setError(e.message));
   }, []);
 
-  // Timer
+  // Timer (only for exam mode)
   useEffect(() => {
-    if (phase !== "active") return;
+    if (phase !== "active" || isPractice) return;
     if (timeLeft <= 0) {
       handleSubmit();
       return;
     }
     const timer = setInterval(() => setTimeLeft((t) => t - 1), 1000);
     return () => clearInterval(timer);
-  }, [phase, timeLeft]);
+  }, [phase, timeLeft, isPractice]);
 
   const handleAnswer = (answer: boolean) => {
     setAnswers((prev) => new Map(prev).set(questions[current].id, answer));

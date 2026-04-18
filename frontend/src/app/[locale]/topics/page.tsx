@@ -15,7 +15,7 @@ export default function TopicsPage() {
 
   useEffect(() => {
     getTopics()
-      .then((data) => setTopics(data.data))
+      .then((data) => setTopics(data))
       .catch(() => {})
       .finally(() => setLoading(false));
   }, []);
