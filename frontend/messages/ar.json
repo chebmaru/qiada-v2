@@ -1,0 +1,54 @@
+{
+  "common": {
+    "appName": "قيادة",
+    "home": "الرئيسية",
+    "quiz": "اختبار",
+    "topics": "المواضيع",
+    "glossary": "المصطلحات",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "خروج",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "retry": "إعادة المحاولة",
+    "next": "التالي",
+    "back": "رجوع",
+    "true": "صحيح",
+    "false": "خطأ",
+    "correct": "إجابة صحيحة!",
+    "wrong": "إجابة خاطئة!",
+    "score": "النتيجة",
+    "chapter": "فصل",
+    "question": "سؤال",
+    "questions": "أسئلة",
+    "explanation": "الشرح"
+  },
+  "home": {
+    "title": "استعد لامتحان رخصة القيادة",
+    "subtitle": "٧٠٥٦ سؤال وزاري بالإيطالية والعربية",
+    "startQuiz": "ابدأ الاختبار",
+    "studyTopics": "ادرس حسب الموضوع",
+    "progress": "تقدمك"
+  },
+  "quiz": {
+    "title": "اختبار رخصة القيادة",
+    "random": "٤٠ سؤال عشوائي",
+    "byChapter": "حسب الفصل",
+    "byTopic": "حسب الموضوع",
+    "result": "النتيجة",
+    "passed": "ناجح!",
+    "failed": "راسب",
+    "reviewErrors": "راجع الأخطاء"
+  },
+  "auth": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم",
+    "loginTitle": "تسجيل الدخول",
+    "registerTitle": "إنشاء حساب",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "activateCode": "تفعيل الرمز",
+    "codePlaceholder": "XXXX-XXXX-XXXX"
+  }
+}

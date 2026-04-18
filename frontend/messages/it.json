@@ -1,0 +1,54 @@
+{
+  "common": {
+    "appName": "Qiada",
+    "home": "Home",
+    "quiz": "Quiz",
+    "topics": "Argomenti",
+    "glossary": "Glossario",
+    "login": "Accedi",
+    "register": "Registrati",
+    "logout": "Esci",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "retry": "Riprova",
+    "next": "Avanti",
+    "back": "Indietro",
+    "true": "VERO",
+    "false": "FALSO",
+    "correct": "Corretto!",
+    "wrong": "Sbagliato!",
+    "score": "Punteggio",
+    "chapter": "Capitolo",
+    "question": "Domanda",
+    "questions": "Domande",
+    "explanation": "Spiegazione"
+  },
+  "home": {
+    "title": "Preparati all'esame della patente",
+    "subtitle": "7.056 domande ministeriali in italiano e arabo",
+    "startQuiz": "Inizia Quiz",
+    "studyTopics": "Studia per argomento",
+    "progress": "I tuoi progressi"
+  },
+  "quiz": {
+    "title": "Quiz Patente",
+    "random": "40 Domande casuali",
+    "byChapter": "Per capitolo",
+    "byTopic": "Per argomento",
+    "result": "Risultato",
+    "passed": "Superato!",
+    "failed": "Non superato",
+    "reviewErrors": "Rivedi gli errori"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Nome",
+    "loginTitle": "Accedi",
+    "registerTitle": "Registrati",
+    "noAccount": "Non hai un account?",
+    "hasAccount": "Hai già un account?",
+    "activateCode": "Attiva codice",
+    "codePlaceholder": "XXXX-XXXX-XXXX"
+  }
+}
