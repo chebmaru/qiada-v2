@@ -1,0 +1,24 @@
+{
+  "exportedAt": "2026-04-17T14:13:37.748Z",
+  "questions": {
+    "total": 7064,
+    "withTextAR": 7064,
+    "withExplanationIT": 7064,
+    "withExplanationAR": 7064,
+    "withImage": 3770,
+    "withTopicKey": 7064,
+    "trueCount": 3523,
+    "falseCount": 3541
+  },
+  "lessons": {
+    "total": 30,
+    "totalTopics": 327,
+    "withContentAR": 30
+  },
+  "glossary": {
+    "total": 133
+  },
+  "chapters": {
+    "total": 30
+  }
+}

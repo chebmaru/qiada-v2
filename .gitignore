@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+.next/
+out/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Local-only (MAI committare)
+CLAUDE.md
+docs/
+sessions/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Content (immagini troppo grandi per git, usare LFS o copiare manualmente)
+content/signs/
+content/argomenti/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage/
+.playwright/
+
+# Docker
+docker-compose.override.yml

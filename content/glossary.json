@@ -1,0 +1,933 @@
+[
+  {
+    "definitionIT": "Luci anteriori ad alta intensità, vietate in presenza di altri veicoli",
+    "termIT": "Abbaglianti",
+    "termAR": "الأضواء الطويلة",
+    "definitionAR": "الأضواء الأمامية عالية الشدة، ممنوعة عند وجود مركبات أخرى",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Sistema antibloccaggio dei freni che mantiene il controllo sterzante",
+    "termIT": "ABS",
+    "termAR": "نظام مانع الانغلاق",
+    "definitionAR": "نظام يمنع انغلاق المكابح محافظاً على التحكم في التوجيه",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Cuscino gonfiabile che si attiva in caso di urto violento per proteggere gli occupanti",
+    "termIT": "Airbag",
+    "termAR": "الوسادة الهوائية",
+    "definitionAR": "وسادة قابلة للنفخ تنشط في حالة الاصطدام العنيف لحماية ركاب المركبة.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Sistema di sicurezza passiva che si gonfia in caso di impatto",
+    "termIT": "Airbag",
+    "termAR": "الوسادة الهوائية",
+    "definitionAR": "نظام أمان سلبي ينتفخ عند الاصطدام لحماية الركاب",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Componente della sospensione che frena le oscillazioni del veicolo dopo un urto",
+    "termIT": "Ammortizzatore",
+    "termAR": "الممتص / المخمد",
+    "definitionAR": "مكون من مكونات نظام التعليق يعمل على تخفيف وتيرة اهتزازات المركبة بعد الاصطدام بعقبة.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Luci anteriori a bassa intensità per uso normale di notte e in galleria",
+    "termIT": "Anabbaglianti",
+    "termAR": "الأضواء القصيرة",
+    "definitionAR": "الأضواء الأمامية منخفضة الشدة للاستخدام الليلي العادي والأنفاق",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Perdita di aderenza delle ruote sull'asfalto bagnato, il veicolo 'galleggia' sull'acqua",
+    "termIT": "Aquaplaning",
+    "termAR": "الانزلاق المائي (أكوابلانينغ)",
+    "definitionAR": "فقدان إطارات المركبة للالتصاق بالطريق المعبد والمبتل بالماء، مما يؤدي إلى 'طفو' المركبة على سطح الماء وفقدان السيطرة عليها.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Copertura assicurativa obbligatoria per la responsabilità verso terzi",
+    "termIT": "Assicurazione RC Auto",
+    "termAR": "تأمين المسؤولية المدنية",
+    "definitionAR": "التغطية التأمينية الإلزامية للمسؤولية تجاه الآخرين",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Veicolo per il trasporto di persone con più di 9 posti",
+    "termIT": "Autobus",
+    "termAR": "حافلة",
+    "definitionAR": "مركبة لنقل الأشخاص بأكثر من 9 مقاعد",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Occorre rallentare e tenere la distanza di sicurezza.",
+    "termIT": "Autocarro",
+    "termAR": "شاحنة",
+    "definitionAR": "مركبة لنقل البضائع بكتلة تتجاوز 3.5 طن",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Strada a più corsie a scorrimento veloce con accesso controllato",
+    "termIT": "Autostrada",
+    "termAR": "الطريق السريع",
+    "definitionAR": "طريق متعدد الحارات بسرعة عالية ودخول محكوم",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Veicolo a motore per il trasporto di persone (max 9 posti)",
+    "termIT": "Autovettura",
+    "termAR": "سيارة الركاب",
+    "definitionAR": "مركبة ذات محرك لنقل الأشخاص بحد أقصى 9 مقاعد",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Zona laterale della carreggiata non destinata al transito dei veicoli",
+    "termIT": "Banchina",
+    "termAR": "الرصيف الجانبي",
+    "definitionAR": "المنطقة الجانبية غير المخصصة لعبور المركبات",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Parte del pneumatico a contatto con l'asfalto con profondità minima 1,6mm",
+    "termIT": "Battistrada",
+    "termAR": "نقش الإطار",
+    "definitionAR": "جزء الإطار الملامس للإسفلت بعمق أدنى 1.6 مم",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Parte esterna del pneumatico con scanalature che garantisce aderenza. Profondità minima: 1,6 mm",
+    "termIT": "Battistrada",
+    "termAR": "سطح الإطار / المداس",
+    "definitionAR": "الجزء الخارجي من الإطار الذي يحتوي على أخاديد تضمن التصاقًا جيدًا بالطريق. الحد الأدنى لعمقه: 1.6 ملم.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Tassa annuale sul possesso del veicolo",
+    "termIT": "Bollo auto",
+    "termAR": "ضريبة المركبة",
+    "definitionAR": "ضريبة سنوية مرتبطة بامتلاك المركبة",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Spostamento laterale da una corsia all'altra",
+    "termIT": "Cambio di corsia",
+    "termAR": "تغيير الحارة",
+    "definitionAR": "التحرك الجانبي من حارة مرور إلى أخرى",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Merce trasportata che supera la sagoma del veicolo, segnalata con pannello quadrato a strisce rosse",
+    "termIT": "Carico sporgente",
+    "termAR": "الحمولة البارزة",
+    "definitionAR": "بضائع منقولة تتجاوز حدود هيكل المركبة، ويجب الإشارة إليها بلوحة مربعة ذات خطوط حمراء وبيضاء.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Parte della strada destinata allo scorrimento dei veicoli",
+    "termIT": "Carreggiata",
+    "termAR": "مسار المركبات",
+    "definitionAR": "الجزء من الطريق المخصص لحركة المركبات",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Parte della strada destinata al transito dei veicoli, suddivisa in corsie",
+    "termIT": "Carreggiata",
+    "termAR": "مسار المركبات",
+    "definitionAR": "جزء من الطريق مخصص لمرور المركبات، مقسم إلى حارات.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Copricapo protettivo obbligatorio per motocicli e ciclomotori",
+    "termIT": "Casco",
+    "termAR": "الخوذة الواقية",
+    "definitionAR": "غطاء رأس واقٍ إلزامي لراكبي الدراجات النارية",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Dispositivi antiscivolo montati sulle ruote motrici per circolare su neve o ghiaccio",
+    "termIT": "Catene da neve",
+    "termAR": "سلاسل الثلج",
+    "definitionAR": "أجهزة مضادة للانزلاق تُركب على العجلات الدافعة للسماح بالسير على الثلج أو الجليد.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Area urbana con edifici, segnalata da apposito cartello",
+    "termIT": "Centro abitato",
+    "termAR": "المنطقة العمرانية",
+    "definitionAR": "منطقة حضرية ذات مبانٍ مشار إليها بلافتة خاصة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Veicolo a due ruote con cilindrata max 50cc e velocità max 45 km/h",
+    "termIT": "Ciclomotore",
+    "termAR": "دراجة بخارية صغيرة",
+    "definitionAR": "مركبة بعجلتين بسعة أقصاها 50 سم³ وسرعة أقصاها 45 كم/س",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Dispositivo obbligatorio che protegge in caso di incidente",
+    "termIT": "Cintura di sicurezza",
+    "termAR": "حزام الأمان",
+    "definitionAR": "جهاز إلزامي يحمي في حالة وقوع حادث",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Improvvisa perdita di lucidità e controllo durante la guida",
+    "termIT": "Colpo di sonno",
+    "termAR": "النعاس أثناء القيادة",
+    "definitionAR": "الفقدان المفاجئ لليقظة والتحكم خلال القيادة",
+    "category": "ALCOOL_DROGHE"
+  },
+  {
+    "definitionIT": "Modulo compilato dai conducenti coinvolti in un incidente per descrivere la dinamica del sinistro",
+    "termIT": "Constatazione amichevole (CID)",
+    "termAR": "التقرير الودي عن الحادث (CID)",
+    "definitionAR": "نموذج يملأه السائقون المشتركون في حادث لوصف كيفية وقوعه وتفاصيله.",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Parte della carreggiata delimitata da strisce longitudinali",
+    "termIT": "Corsia",
+    "termAR": "مجرى السير",
+    "definitionAR": "جزء من مسار السير تحدده خطوط طولية",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Corsia che consente ai veicoli di raggiungere la velocità necessaria per immettersi nel flusso di traffico autostradale",
+    "termIT": "Corsia di accelerazione",
+    "termAR": "حارة التسارع",
+    "definitionAR": "حارة تسمح للمركبات ببلوغ السرعة اللازمة للاندماج في تدفق حركة المرور على الطريق السريع.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Corsia che consente ai veicoli di rallentare per uscire dall'autostrada senza intralciare il traffico",
+    "termIT": "Corsia di decelerazione",
+    "termAR": "حارة التباطؤ",
+    "definitionAR": "حارة تسمح للمركبات بالإبطاء للخروج من الطريق السريع دون عرقلة حركة المرور.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Corsia riservata alla sosta di emergenza e al transito dei veicoli di soccorso",
+    "termIT": "Corsia di emergenza",
+    "termAR": "حارة الطوارئ",
+    "definitionAR": "حارة مخصصة للتوقف في حالات الطوارئ ومرور مركبات الإغاثة والإسعاف.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Segnale a X posto al passaggio a livello senza barriere, indica il numero di binari",
+    "termIT": "Croce di Sant'Andrea",
+    "termAR": "صليب سانت أندريا",
+    "definitionAR": "إشارة على شكل حرف X توضع عند معابر السكك الحديدية غير المحمية بحواجز، تشير إلى عدد خطوط السكة الحديدية.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Avvallamento trasversale della strada (depressione), opposto del dosso",
+    "termIT": "Cunetta",
+    "termAR": "منخفض الطريق",
+    "definitionAR": "انخفاض عرضي في سطح الطريق (حوض)، وهو عكس المطب.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Cedere il passo agli altri veicoli che hanno la precedenza",
+    "termIT": "Dare la precedenza",
+    "termAR": "إعطاء الأولوية",
+    "definitionAR": "السماح للمركبات ذات الأولوية بالمرور أولاً",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Riduzione del punteggio sulla patente a seguito di violazioni del Codice della Strada",
+    "termIT": "Decurtazione punti",
+    "termAR": "خصم النقاط",
+    "definitionAR": "تقليل عدد النقاط المسجلة على رخصة القيادة نتيجة مخالفات قانون المرور.",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Segnale che indica che la strada su cui ci si trova ha la precedenza agli incroci",
+    "termIT": "Diritto di precedenza",
+    "termAR": "حق الأولوية",
+    "definitionAR": "إشارة مرورية تشير إلى أن الطريق الذي تسير عليه المركبة تتمتع بالأولوية عند التقاطعات.",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Somma della distanza di reazione e della distanza di frenata",
+    "termIT": "Distanza di arresto",
+    "termAR": "مسافة الإيقاف الكلية",
+    "definitionAR": "مجموع مسافة رد الفعل ومسافة الكبح",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Spazio percorso dal veicolo durante la frenata",
+    "termIT": "Distanza di frenata",
+    "termAR": "مسافة الكبح",
+    "definitionAR": "المسافة التي تقطعها المركبة خلال عملية الكبح",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Spazio minimo da mantenere dal veicolo che precede per potersi fermare in sicurezza",
+    "termIT": "Distanza di sicurezza",
+    "termAR": "مسافة الأمان",
+    "definitionAR": "المسافة الدنيا التي يجب الحفاظ عليها بين مركبتك والمركبة التي أمامك، لضمان القدرة على التوقف بأمان في حال توقفت فجأة.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Distanza minima da mantenere dal veicolo che precede",
+    "termIT": "Distanza di sicurezza",
+    "termAR": "مسافة الأمان",
+    "definitionAR": "الحد الأدنى للمسافة الواجب الحفاظ عليها من المركبة الأمامية",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Rialzo della strada che limita la visibilità di ciò che si trova oltre",
+    "termIT": "Dosso",
+    "termAR": "مطب طبيعي",
+    "definitionAR": "ارتفاع في سطح الطريق يحد من الرؤية لما يوجد خلفه.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Rialzo trasversale sulla carreggiata che riduce la velocità",
+    "termIT": "Dosso",
+    "termAR": "المطب",
+    "definitionAR": "حاجز عرضي على مسار السير يقلل السرعة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Rialzo costruito appositamente sulla strada per ridurre la velocità (rallentatore)",
+    "termIT": "Dosso artificiale",
+    "termAR": "مطب اصطناعي",
+    "definitionAR": "ارتفاع مُنشأ على الطريق خصيصًا لتقليل سرعة المركبات (مُبطئ السرعة).",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Luci di bassa altezza per migliorare la visibilità nella nebbia",
+    "termIT": "Fendinebbia",
+    "termAR": "أضواء الضباب",
+    "definitionAR": "أضواء منخفضة الارتفاع لتحسين الرؤية في حالة الضباب",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Sosta breve per far salire o scendere passeggeri, il conducente resta al volante",
+    "termIT": "Fermata",
+    "termAR": "التوقف المؤقت",
+    "definitionAR": "توقف قصير للمركبة بهدف صعود أو نزول الركاب، مع بقاء السائق في مقعد القيادة وجاهزية المركبة للتحرك فوراً.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Zona extraurbana al di fuori delle aree urbane",
+    "termIT": "Fuori dal centro abitato",
+    "termAR": "خارج المنطقة العمرانية",
+    "definitionAR": "المنطقة خارج المناطق الحضرية",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Indumento ad alta visibilità obbligatorio quando si scende dal veicolo su strade extraurbane o in galleria",
+    "termIT": "Giubbotto catarifrangente",
+    "termAR": "سترة عاكسة / واقية",
+    "definitionAR": "ملابس عالية الوضوح إلزامية عند النزول من المركبة على الطرق خارج المدن أو داخل الأنفاق.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Indumento ad alta visibilità da indossare uscendo dal veicolo",
+    "termIT": "Giubbotto rifrangente",
+    "termAR": "السترة العاكسة",
+    "definitionAR": "ملبس عالي الرؤية يُرتدى عند الخروج من المركبة على الطريق",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Stile di guida volto a prevenire gli incidenti anticipando i pericoli",
+    "termIT": "Guida difensiva",
+    "termAR": "القيادة الدفاعية",
+    "definitionAR": "أسلوب قيادة يهدف إلى منع الحوادث بتوقع الأخطار",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Reato di guidare con tasso alcolemico superiore al limite consentito",
+    "termIT": "Guida in stato di ebbrezza",
+    "termAR": "القيادة تحت تأثير الكحول",
+    "definitionAR": "جريمة القيادة بنسبة كحول تتجاوز الحد القانوني المسموح به",
+    "category": "ALCOOL_DROGHE"
+  },
+  {
+    "definitionIT": "Punto di incontro di due o più strade",
+    "termIT": "Incrocio",
+    "termAR": "تقاطع الطرق",
+    "definitionAR": "نقطة التقاء طريقين أو أكثر",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Luce lampeggiante (freccia) che segnala l'intenzione di cambiare direzione o corsia",
+    "termIT": "Indicatore di direzione",
+    "termAR": "مؤشر الاتجاه / إشارة الانعطاف",
+    "definitionAR": "ضوء وامض (السهم) يشير إلى نية السائق في تغيير الاتجاه أو الحارة.",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Luci lampeggianti per segnalare le intenzioni di svolta o cambio corsia",
+    "termIT": "Indicatori di direzione",
+    "termAR": "إشارات الاتجاه",
+    "definitionAR": "أضواء وامضة للإشارة عن نية الانعطاف أو تغيير الحارة",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Rumore eccessivo prodotto dai veicoli, ridotto con marmitte efficienti e guida corretta",
+    "termIT": "Inquinamento acustico",
+    "termAR": "التلوث الضوضائي",
+    "definitionAR": "الضجيج المفرط الناتج عن المركبات، والذي يمكن تقليله باستخدام أنظمة عادم فعالة والقيادة الصحيحة.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Incrocio con cavalcavia o sottopassaggio, dove i flussi di traffico non si incrociano",
+    "termIT": "Intersezione a livelli sfalsati",
+    "termAR": "تقاطع متعدد المستويات",
+    "definitionAR": "تقاطع يتضمن جسرًا علويًا أو نفقًا سفليًا، حيث لا تتقاطع تدفقات حركة المرور.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Manovra per cambiare completamente il senso di marcia",
+    "termIT": "Inversione di marcia",
+    "termAR": "الدوران الكامل",
+    "definitionAR": "مناورة لتغيير اتجاه السير بالكامل",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Zona delimitata da strisce sulla carreggiata dove è vietato transitare o sostare",
+    "termIT": "Isola di traffico",
+    "termAR": "جزيرة مرورية",
+    "definitionAR": "منطقة محاطة بخطوط على مسار المركبات يحظر المرور أو الوقوف فيها.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Documento che certifica i dati tecnici e il proprietario del veicolo",
+    "termIT": "Libretto di circolazione",
+    "termAR": "بطاقة تسجيل المركبة",
+    "definitionAR": "وثيقة تُثبت البيانات التقنية ومالك المركبة",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "0,5 g/l per adulti – 0,0 g/l per neopatentati e professionisti",
+    "termIT": "Limite alcolemico",
+    "termAR": "الحد المسموح للكحول",
+    "definitionAR": "0.5 ج/ل للبالغين — 0.0 ج/ل لحديثي الرخصة والسائقين المحترفين",
+    "category": "ALCOOL_DROGHE"
+  },
+  {
+    "definitionIT": "Velocità massima consentita: 50 km/h in città, 90 km/h extraurbana, 110/130 km/h autostrada",
+    "termIT": "Limite di velocità",
+    "termAR": "حد السرعة",
+    "definitionAR": "أقصى سرعة مسموح بها: 50 كم/ساعة داخل المدن، 90 كم/ساعة خارج المناطق الحضرية، 110/130 كم/ساعة على الطرق السريعة.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Tutti gli indicatori di direzione accesi contemporaneamente",
+    "termIT": "Luci di emergenza",
+    "termAR": "أضواء الطوارئ",
+    "definitionAR": "جميع إشارات الاتجاه مضاءة في آنٍ واحد للإشارة عن حالة طوارئ",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Lampeggio simultaneo di tutti gli indicatori di direzione, usato per segnalare pericolo o veicolo fermo",
+    "termIT": "Luci di emergenza",
+    "termAR": "أضواء الطوارئ / التحذير",
+    "definitionAR": "وميض متزامن لجميع مؤشرات الاتجاه، يُستخدم للإشارة إلى خطر أو مركبة متوقفة.",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Luci che rendono visibile il veicolo di notte da lontano, sempre accese con le altre luci",
+    "termIT": "Luci di posizione",
+    "termAR": "أضواء الموضع / الجانبية",
+    "definitionAR": "أضواء تجعل المركبة مرئية من بعيد في الليل، ويجب أن تكون مضاءة دائمًا مع الأضواء الأخرى.",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Luci di ingombro anteriori e posteriori obbligatorie di notte",
+    "termIT": "Luci di posizione",
+    "termAR": "أضواء الموقع",
+    "definitionAR": "أضواء الحجم الأمامية والخلفية الإلزامية ليلاً",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Luci rosse posteriori che si accendono durante la frenata",
+    "termIT": "Luci di stop",
+    "termAR": "أضواء الفرملة",
+    "definitionAR": "أضواء حمراء خلفية تضيء تلقائياً خلال عملية الكبح",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Luce bianca posteriore che si accende inserendo la retromarcia",
+    "termIT": "Luci retromarcia",
+    "termAR": "أضواء الرجوع",
+    "definitionAR": "ضوء أبيض خلفي يضيء عند تفعيل وضع الرجوع للخلف",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Parte della strada rialzata o delimitata, riservata ai pedoni",
+    "termIT": "Marciapiede",
+    "termAR": "الرصيف",
+    "definitionAR": "جزء من الطريق مرتفع أو محدد، مخصص لسير المشاة.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "È indicato l’inizio e la fine di un percorso pedonale affiancato da una pista ciclabile separati.",
+    "termIT": "Marciapiede",
+    "termAR": "الرصيف",
+    "definitionAR": "جزء من الطريق مخصص للمشاة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Dispositivo dello scarico che riduce le emissioni inquinanti trasformando i gas nocivi",
+    "termIT": "Marmitta catalitica",
+    "termAR": "المُحَوِّل الحفاز / الكاتاليزر",
+    "definitionAR": "جهاز في نظام العادم يقلل من الانبعاثات الملوثة بتحويل الغازات الضارة إلى غازات أقل ضرراً.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Peso totale del veicolo a pieno carico",
+    "termIT": "Massa complessiva",
+    "termAR": "الكتلة الإجمالية",
+    "definitionAR": "الوزن الكلي للمركبة محملة بالكامل",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Veicolo a motore a due ruote con cilindrata superiore a 50cc",
+    "termIT": "Motociclo",
+    "termAR": "دراجة نارية",
+    "definitionAR": "مركبة ذات محرك وعجلتين بسعة تتجاوز 50 سم³",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Cartello rettangolare sotto un segnale che aggiunge informazioni (distanza, orario, veicoli)",
+    "termIT": "Pannello integrativo",
+    "termAR": "اللوحة التكميلية",
+    "definitionAR": "لوحة مستطيلة الشكل توضع أسفل إشارة مرورية لتقديم معلومات إضافية مثل المسافة، التوقيت، أو أنواع المركبات المعنية.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Incrocio tra la strada e la ferrovia, può essere con o senza barriere",
+    "termIT": "Passaggio a livello",
+    "termAR": "مفترق سكة حديد",
+    "definitionAR": "تقاطع بين الطريق وسكة الحديد، وقد يكون مزودًا بحواجز أو بدونها.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Questo p.a.l è incustodito e quindi molto pericoloso. Bisogna prestare massima attenzione quando lo si attraversa.",
+    "termIT": "Passaggio a livello",
+    "termAR": "معبر السكة الحديدية",
+    "definitionAR": "تقاطع بين الطريق وخط السكة الحديدية على مستوى واحد",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Questi segnali indicano l’inizio e la fine di un percorso riservato esclusivamente ai pedoni.",
+    "termIT": "Passaggio pedonale",
+    "termAR": "ممر المشاة",
+    "definitionAR": "ممر لعبور الطريق مخصص للمشاة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Documento che abilita alla guida di determinate categorie di veicoli",
+    "termIT": "Patente di guida",
+    "termAR": "رخصة القيادة",
+    "definitionAR": "وثيقة تخول قيادة فئات محددة من المركبات",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Parte della strada riservata alla circolazione dei velocipedi (biciclette)",
+    "termIT": "Pista ciclabile",
+    "termAR": "مسار الدراجات",
+    "definitionAR": "جزء من الطريق مخصص لحركة الدراجات الهوائية.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Segnalano l’inizio di un percorso misto riservato a pedoni e ciclisti",
+    "termIT": "Pista ciclabile",
+    "termAR": "مسار الدراجات",
+    "definitionAR": "مسار مخصص لراكبي الدراجات",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Componente in gomma che avvolge il cerchione della ruota",
+    "termIT": "Pneumatico",
+    "termAR": "الإطار",
+    "definitionAR": "المكون المطاطي الذي يلف حافة العجلة",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Gomma progettata per basse temperature, neve e ghiaccio, con mescola più morbida",
+    "termIT": "Pneumatico invernale",
+    "termAR": "إطار شتوي",
+    "definitionAR": "إطار مصمم لدرجات الحرارة المنخفضة والثلج والجليد، ويتميز بتركيبة مطاطية أكثر ليونة.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Carico massimo trasportabile dichiarato dal costruttore",
+    "termIT": "Portata",
+    "termAR": "الحمولة",
+    "definitionAR": "الحمولة القصوى القابلة للنقل المُعلنة من الصانع",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Posizione in cui adagiare un ferito incosciente che respira, per evitare il soffocamento",
+    "termIT": "Posizione laterale di sicurezza",
+    "termAR": "الوضعية الجانبية الآمنة",
+    "definitionAR": "وضعية يتم فيها إمداد المصاب فاقد الوعي الذي يتنفس، لمنع اختناقه من خلال إبقاء مجرى الهواء مفتوحاً.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Diritto di passare prima degli altri veicoli",
+    "termIT": "Precedenza",
+    "termAR": "الأولوية",
+    "definitionAR": "حق المرور قبل المركبات الأخرى",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Regola che impone di dare la precedenza a chi proviene da destra",
+    "termIT": "Precedenza a destra",
+    "termAR": "الأولوية لليمين",
+    "definitionAR": "قاعدة تفرض إعطاء الأولوية للقادم من اليمين",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Regola generale: agli incroci senza segnaletica si dà precedenza a chi viene da destra",
+    "termIT": "Precedenza a destra",
+    "termAR": "الأولوية لليمين",
+    "definitionAR": "القاعدة العامة: عند التقاطعات الخالية من إشارات تنظيم الأولوية، يجب منح الأولوية للمركبة القادمة من الجهة اليمنى.",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Segnale temporaneo che avvisa di lavori in corso sulla carreggiata",
+    "termIT": "Presegnale di cantiere",
+    "termAR": "الإشارة التحذيرية لأعمال الطريق",
+    "definitionAR": "إشارة مؤقتة تنبه السائقين إلى وجود أعمال صيانة أو إنشاء جارية على مسار المركبات.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Pressione dell'aria all'interno dello pneumatico",
+    "termIT": "Pressione dei pneumatici",
+    "termAR": "ضغط الإطارات",
+    "definitionAR": "ضغط الهواء داخل الإطار المحدد من الصانع",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Intervento immediato in caso di incidente: proteggere, avvertire i soccorsi (112/118), soccorrere",
+    "termIT": "Primo soccorso",
+    "termAR": "الإسعافات الأولية",
+    "definitionAR": "التدخل الفوري في حالة وقوع حادث: تأمين المكان، تنبيه فرق الإنقاذ (الاتصال بالرقم 112 أو 118)، ثم تقديم المساعدة للمصابين.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Faro a lunga portata (luce alta), vietato nei centri abitati e verso veicoli che precedono",
+    "termIT": "Proiettore abbagliante",
+    "termAR": "المصباح العالي / الباهر",
+    "definitionAR": "مصباح بعيد المدى (الضوء العالي)، محظور استخدامه داخل المناطق المأهولة وعند توجيهه نحو المركبات التي تسير أمامك.",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Faro a corta portata (luce bassa), obbligatorio nei centri abitati e di notte su strade illuminate",
+    "termIT": "Proiettore anabbagliante",
+    "termAR": "المصباح المنخفض / الواطي",
+    "definitionAR": "مصباح قصير المدى (الضوء المنخفض)، إلزامي داخل المناطق المأهولة وفي الليل على الطرق المضاءة.",
+    "category": "LUCI"
+  },
+  {
+    "definitionIT": "Manovra di marcia indietro del veicolo",
+    "termIT": "Retromarcia",
+    "termAR": "الرجوع للخلف",
+    "definitionAR": "مناورة تحريك المركبة للخلف",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Manovra per far arretrare il veicolo, vietata in autostrada e su incroci",
+    "termIT": "Retromarcia",
+    "termAR": "الرجوع للخلف",
+    "definitionAR": "مناورة لتحريك المركبة إلى الخلف، محظورة على الطرق السريعة وعند التقاطعات.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Controllo periodico obbligatorio dello stato tecnico del veicolo",
+    "termIT": "Revisione",
+    "termAR": "الفحص الدوري",
+    "definitionAR": "الفحص الدوري الإلزامي للحالة التقنية للمركبة",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Controllo disposto dalla Motorizzazione per verificare che il conducente abbia ancora i requisiti di guida",
+    "termIT": "Revisione della patente",
+    "termAR": "إعادة النظر في رخصة القيادة / مراجعة الرخصة",
+    "definitionAR": "فحص تجريه إدارة المرور للتحقق من استمرار توافر المؤهلات اللازمة للقيادة لدى السائق.",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Ritiro definitivo della patente, il conducente deve sostenere nuovamente l'esame per riottenerne una",
+    "termIT": "Revoca della patente",
+    "termAR": "سحب رخصة القيادة",
+    "definitionAR": "إلغاء رخصة القيادة بشكل نهائي، ويتعين على السائق اجتياز الامتحان من جديد للحصول على رخصة جديدة.",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Veicolo privo di motore, trainato da altro veicolo",
+    "termIT": "Rimorchio",
+    "termAR": "مقطورة",
+    "definitionAR": "مركبة بلا محرك تجرها مركبة أخرى",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Segnala un incrocio a due o più strade con circolazione rotatoria nel senso indicato dalle frecce. Questo segnale di solito si trova sulle strade extraurbane.",
+    "termIT": "Rotatoria",
+    "termAR": "الدوار",
+    "definitionAR": "تقاطع بجزيرة مركزية تسير فيه المركبات عكس عقارب الساعة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Intersezione a forma circolare dove i veicoli devono girare in senso antiorario",
+    "termIT": "Rotatoria",
+    "termAR": "الدوار",
+    "definitionAR": "تقاطع على شكل دائري يجب أن تدور فيه المركبات عكس اتجاه عقارب الساعة.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Sistema di ritenuta obbligatorio per bambini di altezza inferiore a 150 cm",
+    "termIT": "Seggiolino per bambini",
+    "termAR": "مقعد الأطفال",
+    "definitionAR": "نظام تثبيت إلزامي للأطفال الذين يقل طولهم عن 150 سم.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Segnale circolare con bordo rosso che vieta una manovra",
+    "termIT": "Segnale di divieto",
+    "termAR": "علامة الحظر",
+    "definitionAR": "علامة دائرية بحافة حمراء تحظر مناورة معينة",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Segnale circolare blu che impone un comportamento",
+    "termIT": "Segnale di obbligo",
+    "termAR": "علامة الإلزام",
+    "definitionAR": "علامة دائرية زرقاء تفرض سلوكاً معيناً",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Segnale triangolare che avverte di un pericolo imminente",
+    "termIT": "Segnale di pericolo",
+    "termAR": "علامة الخطر",
+    "definitionAR": "علامة مثلثة تحذر من خطر وشيك",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Segnale che regola il diritto di precedenza agli incroci",
+    "termIT": "Segnale di precedenza",
+    "termAR": "علامة الأولوية",
+    "definitionAR": "علامة تنظم حق الأولوية عند التقاطعات",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Pannello che indica le corsie da occupare in base alla direzione da prendere all'incrocio",
+    "termIT": "Segnale di preselezione",
+    "termAR": "إشارة اختيار المسار المسبق",
+    "definitionAR": "لوحة إرشادية تشير إلى الحارات (الممرات) التي يجب على السائق استخدامها بناءً على الاتجاه الذي ينوي سلوكه عند التقاطع القادم.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Segnale rettangolare che fornisce indicazioni stradali",
+    "termIT": "Segnale indicatore",
+    "termAR": "علامة الإرشاد",
+    "definitionAR": "علامة مستطيلة الشكل تقدم معلومات طرقية",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Strisce e simboli dipinti sulla carreggiata",
+    "termIT": "Segnaletica orizzontale",
+    "termAR": "العلامات الأفقية",
+    "definitionAR": "خطوط ورموز مرسومة على مسار السير",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Dispositivo luminoso che regola il traffico",
+    "termIT": "Semaforo",
+    "termAR": "إشارة المرور",
+    "definitionAR": "جهاز ضوئي ينظم حركة المرور",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Manovra per superare un veicolo più lento che precede nella stessa direzione",
+    "termIT": "Sorpasso",
+    "termAR": "التجاوز",
+    "definitionAR": "مناورة يقوم بها السائق لتخطي مركبة أبطأ تسير في نفس الاتجاه.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Manovra per superare un veicolo che precede",
+    "termIT": "Sorpasso",
+    "termAR": "التجاوز",
+    "definitionAR": "مناورة لتجاوز مركبة تسبقك",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Sistema meccanico che assorbe le irregolarità del fondo stradale, collegando le ruote al telaio",
+    "termIT": "Sospensione",
+    "termAR": "نظام التعليق",
+    "definitionAR": "نظام ميكانيكي يمتص الاهتزازات الناتجة عن عدم انتظام سطح الطريق، ويربط العجلات بهيكل المركبة.",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Divieto temporaneo di guidare per un periodo determinato, a seguito di infrazione grave",
+    "termIT": "Sospensione della patente",
+    "termAR": "تعليق رخصة القيادة",
+    "definitionAR": "منع مؤقت من القيادة لمدة محددة، نتيجة ارتكاب مخالفة مرورية جسيمة.",
+    "category": "DOCUMENTI"
+  },
+  {
+    "definitionIT": "Interruzione della marcia del veicolo diversa dalla fermata, con o senza conducente",
+    "termIT": "Sosta",
+    "termAR": "الوقوف / الركن",
+    "definitionAR": "توقف المركبة عن الحركة بشكل يختلف عن التوقف المؤقت، وقد يكون مع أو بدون وجود السائق داخل المركبة، وعادة ما يكون لفترة أطول.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Elemento fisico (aiuola, guard-rail, new jersey) che separa due carreggiate opposte",
+    "termIT": "Spartitraffico",
+    "termAR": "الجزيرة الفاصلة",
+    "definitionAR": "عنصر مادي (مثل حوض زراعي، حاجز واقي، حاجز خرساني) يفصل بين مساري مركبات متعاكسين.",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Struttura che divide le carreggiate di direzione opposta",
+    "termIT": "Spartitraffico",
+    "termAR": "الجزيرة الوسطى",
+    "definitionAR": "هيكل يفصل مسارات السير ذات الاتجاهات المتعاكسة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Distanza totale percorsa dal momento in cui si percepisce il pericolo fino all'arresto completo (reazione + frenata)",
+    "termIT": "Spazio di arresto",
+    "termAR": "مسافة التوقف الكلية",
+    "definitionAR": "المسافة الإجمالية التي تقطعها المركبة من لحظة إدراك السائق للخطر وحتى التوقف التام (وتشمل مسافة رد الفعل ومسافة الكبح).",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Distanza percorsa dal momento in cui si preme il freno fino all'arresto completo",
+    "termIT": "Spazio di frenatura",
+    "termAR": "مسافة الكبح",
+    "definitionAR": "المسافة التي تقطعها المركبة من لحظة ضغط السائق على دواسة الفرامل وحتى التوقف التام.",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Condizione grave in cui il corpo non riceve sufficiente sangue, il ferito è pallido, freddo e confuso",
+    "termIT": "Stato di shock",
+    "termAR": "حالة الصدمة",
+    "definitionAR": "حالة خطيرة لا يتلقى فيها الجسم كمية كافية من الدم، ويبدو المصاب شاحباً، بارداً، ومشوشاً.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Obbligo di fermarsi prima di immettersi nella strada con precedenza",
+    "termIT": "Stop",
+    "termAR": "قف",
+    "definitionAR": "وجوب التوقف الكامل قبل الدخول في الطريق ذي الأولوية",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Restringimento della carreggiata, può essere simmetrico o asimmetrico",
+    "termIT": "Strettoia",
+    "termAR": "ممر ضيق",
+    "definitionAR": "تضيّق في مسار المركبات، وقد يكون متناظرًا أو غير متناظر.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Indicano l’inizio, la continuazione o la fine di una determinata prescrizione Segnaletica orizzontale in rifacimento Indicano un tratto di strada senza segnaletica orizzontale per lavori",
+    "termIT": "Striscia continua",
+    "termAR": "الخط المتواصل",
+    "definitionAR": "خط منتصف الطريق الذي لا يجوز تجاوزه",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Linea tratteggiata superabile con cautela",
+    "termIT": "Striscia discontinua",
+    "termAR": "الخط المتقطع",
+    "definitionAR": "خط متقطع يمكن تجاوزه بحذر",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Linea bianca senza interruzioni al centro della strada: vietato oltrepassarla o superarla",
+    "termIT": "Striscia longitudinale continua",
+    "termAR": "الخط الطولي المتصل",
+    "definitionAR": "خط أبيض متصل في منتصف الطريق: يُحظر تجاوزه أو عبوره.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Linea bianca tratteggiata al centro della strada: è consentito oltrepassarla per sorpassare",
+    "termIT": "Striscia longitudinale discontinua",
+    "termAR": "الخط الطولي المتقطع",
+    "definitionAR": "خط أبيض متقطع في منتصف الطريق: يُسمح بتجاوزه لأداء مناورة التجاوز عند توفر الشروط الآمنة.",
+    "category": "SEGNALI"
+  },
+  {
+    "definitionIT": "Sostanze vietate che alterano le capacità psicofisiche del guidatore",
+    "termIT": "Stupefacenti",
+    "termAR": "المخدرات",
+    "definitionAR": "مواد ممنوعة تؤثر على القدرات النفسية والجسدية للسائق",
+    "category": "ALCOOL_DROGHE"
+  },
+  {
+    "definitionIT": "Raccordo che permette il collegamento tra strade diverse",
+    "termIT": "Svincolo",
+    "termAR": "مفترق الطرق",
+    "definitionAR": "رابط يسمح بالتنقل بين الطرق المختلفة",
+    "category": "STRADA"
+  },
+  {
+    "definitionIT": "Percentuale di alcol etilico nel sangue (misurata in g/l)",
+    "termIT": "Tasso alcolemico",
+    "termAR": "نسبة الكحول في الدم",
+    "definitionAR": "نسبة الكحول الإيثيلي في الدم تُقاس بالغرام لكل لتر",
+    "category": "ALCOOL_DROGHE"
+  },
+  {
+    "definitionIT": "Tempo che intercorre tra la percezione del pericolo e la risposta",
+    "termIT": "Tempo di reazione",
+    "termAR": "وقت رد الفعل",
+    "definitionAR": "الوقت بين إدراك الخطر والاستجابة له",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Segnale rifrangente da posizionare in caso di guasto",
+    "termIT": "Triangolo di emergenza",
+    "termAR": "مثلث الطوارئ",
+    "definitionAR": "إشارة عاكسة تُوضع خلف المركبة في حالة الأعطال",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Segnale mobile di pericolo da posizionare dietro il veicolo fermo, obbligatorio in dotazione",
+    "termIT": "Triangolo di emergenza",
+    "termAR": "مثلث الطوارئ / التحذير",
+    "definitionAR": "إشارة تحذير متنقلة يجب وضعها خلف المركبة المتوقفة، وهو إلزامي أن يكون موجودًا في المركبة.",
+    "category": "SICUREZZA"
+  },
+  {
+    "definitionIT": "Qualsiasi mezzo di trasporto su strada",
+    "termIT": "Veicolo",
+    "termAR": "مركبة",
+    "definitionAR": "أي وسيلة نقل على الطريق",
+    "category": "VEICOLI"
+  },
+  {
+    "definitionIT": "Veicolo di emergenza con diritto di precedenza assoluta",
+    "termIT": "Veicolo prioritario",
+    "termAR": "المركبة ذات الأولوية",
+    "definitionAR": "مركبة الطوارئ ذات حق الأولوية المطلق",
+    "category": "PRECEDENZA"
+  },
+  {
+    "definitionIT": "Segnalano rispettivamente il limite minimo di velocità e la sua fine. Con questo segnale non si può procedere ad una velocità inferire i 30 km/h.",
+    "termIT": "Velocità",
+    "termAR": "السرعة",
+    "definitionAR": "النسبة بين المسافة المقطوعة والوقت المستغرق",
+    "category": "GUIDA"
+  },
+  {
+    "definitionIT": "Velocità limite che non deve essere superata",
+    "termIT": "Velocità massima consentita",
+    "termAR": "الحد الأقصى للسرعة",
+    "definitionAR": "حد السرعة الذي لا يجوز تجاوزه",
+    "category": "GUIDA"
+  }
+]
