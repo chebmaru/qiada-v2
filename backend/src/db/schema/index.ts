@@ -4,3 +4,5 @@ export { topics } from './topics.js';
 export { questions } from './questions.js';
 export { questionTopics } from './question-topics.js';
 export { glossary } from './glossary.js';
+export { users } from './users.js';
+export { accessCodes } from './access-codes.js';
