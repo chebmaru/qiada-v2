@@ -63,14 +63,23 @@ async function seed() {
 
   console.log(`Loaded: ${chaptersData.length} chapters, ${lessonsData.length} lessons, ${topicsData.length} topics, ${questionsData.length} questions, ${glossaryData.length} glossary\n`);
 
-  // Clear tables (reverse FK order)
+  // Clear tables (reverse FK order) + reset sequences
   console.log('Clearing tables...');
+  await db.delete(schema.userQuestionStats);
+  await db.delete(schema.userProgress);
+  await db.delete(schema.userDailyActivity);
+  await db.delete(schema.quizAttempts);
   await db.delete(schema.questionTopics);
   await db.delete(schema.questions);
   await db.delete(schema.topics);
   await db.delete(schema.lessons);
   await db.delete(schema.glossary);
   await db.delete(schema.chapters);
+  // Reset serial sequences so IDs start from 1
+  await db.execute(sql`ALTER SEQUENCE chapters_id_seq RESTART WITH 1`);
+  await db.execute(sql`ALTER SEQUENCE questions_id_seq RESTART WITH 1`);
+  await db.execute(sql`ALTER SEQUENCE topics_id_seq RESTART WITH 1`);
+  await db.execute(sql`ALTER SEQUENCE glossary_id_seq RESTART WITH 1`);
 
   // 1. Chapters
   console.log('Seeding chapters...');

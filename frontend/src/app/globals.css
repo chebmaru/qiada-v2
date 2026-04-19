@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Force Western Arabic numerals (0123456789) everywhere */
+* {
+  font-variant-numeric: lining-nums;
+}
+html[lang="ar"] {
+  font-feature-settings: "lnum";
+}

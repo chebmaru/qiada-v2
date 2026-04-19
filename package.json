@@ -1,12 +1,18 @@
 {
   "name": "qiada-v2",
   "private": true,
-  "workspaces": ["backend", "frontend"],
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
   "scripts": {
     "dev:backend": "npm run dev -w backend",
     "dev:frontend": "npm run dev -w frontend",
     "test:backend": "npm test -w backend",
     "db:seed": "npm run db:seed -w backend",
     "db:push": "npm run db:push -w backend"
+  },
+  "devDependencies": {
+    "pg": "^8.20.0"
   }
 }

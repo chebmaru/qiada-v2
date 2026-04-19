@@ -33,7 +33,7 @@ export default function TopicsPage() {
       <h1 className="text-2xl font-bold mb-6">{t("common.topics")}</h1>
 
       <div className="space-y-2">
-        {topics.map((topic) => (
+        {topics.filter(topic => topic.questionCount > 0).map((topic) => (
           <Link
             key={topic.id}
             href={`/topics/${topic.topicKey}`}
