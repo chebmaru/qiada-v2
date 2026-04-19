@@ -13,6 +13,7 @@ import { authRoutes } from './routes/auth.js';
 import { quizRoutes } from './routes/quiz.js';
 import { progressRoutes } from './routes/progress.js';
 import { adminRoutes } from './routes/admin.js';
+import { pushRoutes } from './routes/push.js';
 
 const app = Fastify({ logger: true });
 
@@ -35,6 +36,7 @@ await app.register(glossaryRoutes, { prefix: '/api' });
 await app.register(quizRoutes, { prefix: '/api' });
 await app.register(progressRoutes, { prefix: '/api' });
 await app.register(adminRoutes, { prefix: '/api' });
+await app.register(pushRoutes, { prefix: '/api' });
 
 // Start
 try {

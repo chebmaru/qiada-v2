@@ -22,7 +22,10 @@
     "question": "سؤال",
     "questions": "أسئلة",
     "explanation": "الشرح",
-    "dashboard": "التقدم"
+    "dashboard": "التقدم",
+    "settings": "الإعدادات",
+    "tricks": "حيل",
+    "confusing": "أسئلة متشابهة"
   },
   "home": {
     "title": "استعد لامتحان رخصة القيادة",
@@ -51,5 +54,30 @@
     "hasAccount": "لديك حساب بالفعل؟",
     "activateCode": "تفعيل الرمز",
     "codePlaceholder": "XXXX-XXXX-XXXX"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "pushNotifications": "الإشعارات",
+    "pushDescription": "تلقي تذكيرات للدراسة",
+    "pushEnable": "تفعيل الإشعارات",
+    "pushDisable": "إلغاء الإشعارات",
+    "pushUnsupported": "متصفحك لا يدعم الإشعارات"
+  },
+  "tricks": {
+    "title": "حيل صح/خطأ",
+    "subtitle": "كلمات مفتاحية وأنماط لتخمين الإجابات",
+    "truePatterns": "أنماط صحيح",
+    "falsePatterns": "أنماط خطأ",
+    "memoryRule": "قاعدة للتذكر",
+    "commonMistake": "خطأ شائع",
+    "keywords": "كلمات صديقة",
+    "alwaysTrue": "دائما صحيح",
+    "alwaysFalse": "دائما خطأ"
+  },
+  "confusing": {
+    "title": "أسئلة متشابهة",
+    "subtitle": "أسئلة بنص متشابه لكن إجابة معاكسة",
+    "questionTrue": "صحيح",
+    "questionFalse": "خطأ"
   }
 }

@@ -22,7 +22,10 @@
     "question": "Domanda",
     "questions": "Domande",
     "explanation": "Spiegazione",
-    "dashboard": "Progressi"
+    "dashboard": "Progressi",
+    "settings": "Impostazioni",
+    "tricks": "Trucchi",
+    "confusing": "Domande simili"
   },
   "home": {
     "title": "Preparati all'esame della patente",
@@ -51,5 +54,30 @@
     "hasAccount": "Hai già un account?",
     "activateCode": "Attiva codice",
     "codePlaceholder": "XXXX-XXXX-XXXX"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "pushNotifications": "Notifiche push",
+    "pushDescription": "Ricevi promemoria per studiare",
+    "pushEnable": "Attiva notifiche",
+    "pushDisable": "Disattiva notifiche",
+    "pushUnsupported": "Il tuo browser non supporta le notifiche push"
+  },
+  "tricks": {
+    "title": "Trucchi V/F",
+    "subtitle": "Parole chiave e pattern per indovinare le risposte",
+    "truePatterns": "Pattern VERO",
+    "falsePatterns": "Pattern FALSO",
+    "memoryRule": "Regola da ricordare",
+    "commonMistake": "Errore comune",
+    "keywords": "Parole amiche",
+    "alwaysTrue": "Sempre VERO",
+    "alwaysFalse": "Sempre FALSO"
+  },
+  "confusing": {
+    "title": "Domande simili",
+    "subtitle": "Domande con testo simile ma risposta opposta",
+    "questionTrue": "VERO",
+    "questionFalse": "FALSO"
   }
 }

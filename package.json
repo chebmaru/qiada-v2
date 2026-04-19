@@ -13,6 +13,10 @@
     "db:push": "npm run db:push -w backend"
   },
   "devDependencies": {
+    "@types/web-push": "^3.6.4",
     "pg": "^8.20.0"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
   }
 }

@@ -65,6 +65,16 @@ export default function Navbar() {
               >
                 {t("common.dashboard")}
               </Link>
+              <Link
+                href="/settings"
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
+                  pathname === "/settings"
+                    ? "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300"
+                    : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                }`}
+              >
+                {t("common.settings")}
+              </Link>
               <button
                 onClick={handleLogout}
                 className="px-3 py-1.5 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800"

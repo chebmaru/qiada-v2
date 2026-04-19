@@ -12,6 +12,7 @@ import { authRoutes } from '../src/routes/auth.js';
 import { quizRoutes } from '../src/routes/quiz.js';
 import { progressRoutes } from '../src/routes/progress.js';
 import { adminRoutes } from '../src/routes/admin.js';
+import { pushRoutes } from '../src/routes/push.js';
 import 'dotenv/config';
 
 export async function buildApp() {
@@ -34,6 +35,7 @@ export async function buildApp() {
   await app.register(quizRoutes, { prefix: '/api' });
   await app.register(progressRoutes, { prefix: '/api' });
   await app.register(adminRoutes, { prefix: '/api' });
+  await app.register(pushRoutes, { prefix: '/api' });
 
   await app.ready();
   return app;
