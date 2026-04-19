@@ -108,6 +108,40 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
     return { message: 'Code activated', expiresAt: expiresAt.toISOString(), durationMinutes: ac.durationMinutes };
   });
 
+  // PUT /api/auth/profile — update user profile
+  app.put('/auth/profile', async (req, reply) => {
+    let decoded: { id: number };
+    try {
+      decoded = await req.jwtVerify<{ id: number }>();
+    } catch {
+      return reply.code(401).send({ error: 'Unauthorized' });
+    }
+
+    const updateSchema = z.object({
+      nameIt: z.string().max(100).optional(),
+      nameAr: z.string().max(100).optional(),
+      password: z.string().min(6).optional(),
+    });
+    const body = updateSchema.parse(req.body);
+
+    const updates: Record<string, unknown> = { updatedAt: new Date() };
+    if (body.nameIt !== undefined) updates.nameIt = body.nameIt;
+    if (body.nameAr !== undefined) updates.nameAr = body.nameAr;
+    if (body.password) updates.passwordHash = await hashPassword(body.password);
+
+    await app.db.update(users).set(updates).where(eq(users.id, decoded.id));
+
+    const [user] = await app.db.select({
+      id: users.id,
+      email: users.email,
+      role: users.role,
+      nameIt: users.nameIt,
+      nameAr: users.nameAr,
+    }).from(users).where(eq(users.id, decoded.id));
+
+    return { message: 'Profile updated', user };
+  });
+
   // GET /api/auth/me — current user info
   app.get('/auth/me', async (req, reply) => {
     let decoded: { id: number };

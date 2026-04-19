@@ -3,7 +3,7 @@
 import { useState, useEffect, use } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { getTopics, getQuestions, type Topic, type Question } from "@/lib/api";
+import { getTopics, getQuestions, getTricks, type Topic, type Question, type TopicTricks } from "@/lib/api";
 import TTSButton from "@/components/TTSButton";
 
 export default function TopicDetailPage({ params }: { params: Promise<{ topicKey: string }> }) {
@@ -17,6 +17,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
   const [loading, setLoading] = useState(true);
   const [showAnswers, setShowAnswers] = useState<Set<number>>(new Set());
   const [signUrl, setSignUrl] = useState<string | null>(null);
+  const [tricks, setTricks] = useState<TopicTricks | null>(null);
 
   useEffect(() => {
     Promise.all([
@@ -29,6 +30,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
         .then((r) => r.json())
         .then((map: Record<string, string>) => setSignUrl(map[topicKey] || null))
         .catch(() => {}),
+      getTricks(topicKey).then(setTricks).catch(() => {}),
     ]).finally(() => setLoading(false));
   }, [topicKey]);
 
@@ -88,6 +90,59 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
           <p className="whitespace-pre-line text-sm">
             {isAr ? topic.contentAr : topic.contentIt}
           </p>
+        </div>
+      )}
+
+      {/* Tricks section */}
+      {tricks && (tricks.truePatternsIT || tricks.falsePatternsIT || tricks.memoryRuleIT) && (
+        <div className="bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-6">
+          <h2 className="text-sm font-bold mb-3 flex items-center gap-1">
+            {isAr ? "حيل وأنماط" : "Trucchi e pattern"}
+          </h2>
+
+          {(isAr ? tricks.truePatternsAR : tricks.truePatternsIT) && (
+            <div className="mb-3">
+              <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-1">
+                {isAr ? "أنماط صحيح" : "Pattern VERO"}
+              </p>
+              <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>
+                {isAr ? tricks.truePatternsAR : tricks.truePatternsIT}
+              </p>
+            </div>
+          )}
+
+          {(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT) && (
+            <div className="mb-3">
+              <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-1">
+                {isAr ? "أنماط خطأ" : "Pattern FALSO"}
+              </p>
+              <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>
+                {isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT}
+              </p>
+            </div>
+          )}
+
+          {(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT) && (
+            <div className="mb-3">
+              <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 mb-1">
+                {isAr ? "قاعدة للتذكر" : "Regola da ricordare"}
+              </p>
+              <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>
+                {isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT}
+              </p>
+            </div>
+          )}
+
+          {(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT) && (
+            <div>
+              <p className="text-xs font-semibold text-orange-700 dark:text-orange-400 mb-1">
+                {isAr ? "خطأ شائع" : "Errore comune"}
+              </p>
+              <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>
+                {isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT}
+              </p>
+            </div>
+          )}
         </div>
       )}
 

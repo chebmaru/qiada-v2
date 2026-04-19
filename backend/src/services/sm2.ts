@@ -77,15 +77,22 @@ export class SM2Service {
     const now = new Date();
 
     return this.db.select({
-      questionId: userQuestionStats.questionId,
+      id: questions.id,
       code: questions.code,
       textIt: questions.textIt,
       textAr: questions.textAr,
+      explanationIt: questions.explanationIt,
+      explanationAr: questions.explanationAr,
+      isTrue: questions.isTrue,
       imageUrl: questions.imageUrl,
       chapterId: questions.chapterId,
+      topicKey: questions.topicKey,
       easeFactor: userQuestionStats.easeFactor,
       interval: userQuestionStats.interval,
+      repetitions: userQuestionStats.repetitions,
       nextReviewAt: userQuestionStats.nextReviewAt,
+      timesCorrect: userQuestionStats.timesCorrect,
+      timesWrong: userQuestionStats.timesWrong,
     })
       .from(userQuestionStats)
       .innerJoin(questions, eq(userQuestionStats.questionId, questions.id))
@@ -102,14 +109,22 @@ export class SM2Service {
    */
   async getWeakQuestions(userId: number, limit = 20) {
     return this.db.select({
-      questionId: userQuestionStats.questionId,
+      id: questions.id,
       code: questions.code,
       textIt: questions.textIt,
       textAr: questions.textAr,
+      explanationIt: questions.explanationIt,
+      explanationAr: questions.explanationAr,
+      isTrue: questions.isTrue,
       imageUrl: questions.imageUrl,
+      chapterId: questions.chapterId,
+      topicKey: questions.topicKey,
       timesCorrect: userQuestionStats.timesCorrect,
       timesWrong: userQuestionStats.timesWrong,
       easeFactor: userQuestionStats.easeFactor,
+      interval: userQuestionStats.interval,
+      repetitions: userQuestionStats.repetitions,
+      nextReviewAt: userQuestionStats.nextReviewAt,
     })
       .from(userQuestionStats)
       .innerJoin(questions, eq(userQuestionStats.questionId, questions.id))

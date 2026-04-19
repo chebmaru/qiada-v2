@@ -185,6 +185,23 @@ export function getDashboard(token: string) {
   });
 }
 
+export interface TopicStat {
+  topicKey: string;
+  titleIt: string;
+  titleAr: string;
+  chapterId: number;
+  totalSeen: number;
+  totalCorrect: number;
+  totalWrong: number;
+  accuracy: number;
+}
+
+export function getTopicStats(token: string) {
+  return fetchApi<TopicStat[]>('/progress/topics', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
 export function getChapterProgress(token: string) {
   return fetchApi<ChapterProgress[]>('/progress/chapters', {
     headers: { authorization: `Bearer ${token}` },
@@ -237,6 +254,124 @@ export function getConfusingPairs(opts?: { topicKey?: string; limit?: number; of
   if (opts?.limit) params.set('limit', String(opts.limit));
   if (opts?.offset) params.set('offset', String(opts.offset));
   return fetchApi<{ data: ConfusingPair[]; total: number }>(`/confusing-pairs?${params}`);
+}
+
+// Review (SM-2 due questions)
+export interface ReviewQuestion {
+  id: number;
+  code: string;
+  textIt: string;
+  textAr: string;
+  explanationIt: string;
+  explanationAr: string;
+  isTrue: boolean;
+  imageUrl: string | null;
+  chapterId: number;
+  topicKey: string;
+  easeFactor: number;
+  interval: number;
+  repetitions: number;
+  nextReviewAt: string;
+  timesCorrect: number;
+  timesWrong: number;
+}
+
+export function getReviewQuestions(token: string, limit = 20) {
+  return fetchApi<ReviewQuestion[]>(`/progress/review?limit=${limit}`, {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function getWeakQuestions(token: string, limit = 20) {
+  return fetchApi<ReviewQuestion[]>(`/progress/weak?limit=${limit}`, {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+// Profile
+export interface UserProfile {
+  id: number;
+  email: string;
+  role: string;
+  nameIt: string;
+  nameAr: string;
+  createdAt: string;
+  subscription: { expiresAt: string; durationMinutes: number } | null;
+}
+
+export function getProfile(token: string) {
+  return fetchApi<UserProfile>('/auth/me', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function updateProfile(token: string, data: { nameIt?: string; nameAr?: string; password?: string }) {
+  return fetchApi<{ message: string; user: { id: number; email: string; role: string; nameIt: string; nameAr: string } }>('/auth/profile', {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify(data),
+  });
+}
+
+// Admin
+export interface AdminStats {
+  questions: number;
+  topics: number;
+  chapters: number;
+  users: number;
+  quizAttempts: number;
+}
+
+export function getAdminStats(token: string) {
+  return fetchApi<AdminStats>('/admin/stats', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function createQuestion(token: string, data: Omit<Question, 'id'>) {
+  return fetchApi<Question>('/admin/questions', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateQuestion(token: string, id: number, data: Partial<Question>) {
+  return fetchApi<Question>(`/admin/questions/${id}`, {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify(data),
+  });
+}
+
+export function deleteQuestion(token: string, id: number) {
+  return fetchApi<{ message: string; id: number }>(`/admin/questions/${id}`, {
+    method: 'DELETE',
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function createTopic(token: string, data: Partial<Topic>) {
+  return fetchApi<Topic>('/admin/topics', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateTopic(token: string, id: number, data: Partial<Topic>) {
+  return fetchApi<Topic>(`/admin/topics/${id}`, {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify(data),
+  });
+}
+
+export function deleteTopic(token: string, id: number) {
+  return fetchApi<{ message: string; id: number }>(`/admin/topics/${id}`, {
+    method: 'DELETE',
+    headers: { authorization: `Bearer ${token}` },
+  });
 }
 
 export function getQuestions(opts: { chapterId?: number; topicKey?: string; limit?: number; offset?: number }) {

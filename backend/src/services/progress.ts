@@ -136,6 +136,43 @@ export class ProgressService {
   }
 
   /**
+   * Get per-topic accuracy stats for a user
+   */
+  async getTopicStats(userId: number) {
+    const rows = await this.db.execute(sql`
+      SELECT
+        q.topic_key,
+        t.title_it,
+        t.title_ar,
+        t.chapter_id,
+        COUNT(*) as total_seen,
+        SUM(uqs.times_correct) as total_correct,
+        SUM(uqs.times_wrong) as total_wrong,
+        ROUND(
+          SUM(uqs.times_correct)::numeric /
+          GREATEST(SUM(uqs.times_correct + uqs.times_wrong), 1) * 100
+        ) as accuracy
+      FROM user_question_stats uqs
+      JOIN questions q ON q.id = uqs.question_id
+      LEFT JOIN topics t ON t.topic_key = q.topic_key
+      WHERE uqs.user_id = ${userId}
+      GROUP BY q.topic_key, t.title_it, t.title_ar, t.chapter_id
+      ORDER BY accuracy ASC, total_seen DESC
+    `);
+
+    return (rows as any[]).map((r: any) => ({
+      topicKey: r.topic_key,
+      titleIt: r.title_it || r.topic_key,
+      titleAr: r.title_ar || '',
+      chapterId: Number(r.chapter_id),
+      totalSeen: Number(r.total_seen),
+      totalCorrect: Number(r.total_correct),
+      totalWrong: Number(r.total_wrong),
+      accuracy: Number(r.accuracy),
+    }));
+  }
+
+  /**
    * Calculate current streak (consecutive days with activity)
    */
   private async calculateStreak(userId: number): Promise<number> {

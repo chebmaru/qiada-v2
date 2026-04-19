@@ -29,6 +29,12 @@ export const progressRoutes: FastifyPluginAsync = async (app) => {
     return progressService.getChapterProgress(userId);
   });
 
+  // GET /api/progress/topics — per-topic accuracy stats
+  app.get('/progress/topics', async (req, reply) => {
+    const userId = await requireAuth(req, reply);
+    return progressService.getTopicStats(userId);
+  });
+
   // GET /api/progress/review — SM-2 due questions
   app.get<{ Querystring: { limit?: string } }>('/progress/review', async (req, reply) => {
     const userId = await requireAuth(req, reply);
