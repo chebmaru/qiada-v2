@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Arial, sans-serif">
+  <rect width="900" height="450" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">IL MARCIAPIEDE</text>
+  <text x="450" y="58" text-anchor="middle" fill="#555" font-size="15">Parte della strada riservata ai pedoni — vista dall'alto</text>
+
+  <!-- === ROAD STRUCTURE — all horizontal strips, same width === -->
+  <!-- Marciapiede top (highlighted) -->
+  <rect x="100" y="80" width="650" height="35" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1.5"/>
+  <rect x="100" y="80" width="650" height="35" fill="#f59e0b" opacity="0.2"/>
+  <!-- Banchina top -->
+  <rect x="100" y="115" width="650" height="15" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Corsia ← -->
+  <rect x="100" y="130" width="650" height="55" fill="#555"/>
+  <line x1="100" y1="132" x2="750" y2="132" stroke="#fff" stroke-width="2.5"/>
+  <!-- Divider -->
+  <line x1="100" y1="185" x2="750" y2="185" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+  <!-- Corsia → -->
+  <rect x="100" y="185" width="650" height="55" fill="#555"/>
+  <line x1="100" y1="238" x2="750" y2="238" stroke="#fff" stroke-width="2.5"/>
+  <!-- Banchina bottom -->
+  <rect x="100" y="240" width="650" height="15" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Marciapiede bottom (highlighted) -->
+  <rect x="100" y="255" width="650" height="35" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1.5"/>
+  <rect x="100" y="255" width="650" height="35" fill="#f59e0b" opacity="0.2"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <polygon points="250,155 230,158 250,161" fill="#fff"/>
+    <polygon points="600,208 620,211 600,214" fill="#fff"/>
+  </g>
+
+  <!-- Cars on road -->
+  <g transform="translate(450, 210)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+  </g>
+
+  <!-- Pedestrians on TOP marciapiede (stick figures with head, body, arms, legs) -->
+  <!-- Person 1 green -->
+  <circle cx="250" cy="88" r="4" fill="#16a34a"/>
+  <line x1="250" y1="92" x2="250" y2="102" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="246" y1="96" x2="254" y2="96" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="250" y1="102" x2="246" y2="110" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="250" y1="102" x2="254" y2="110" stroke="#16a34a" stroke-width="1.5"/>
+  <!-- Person 2 blue -->
+  <circle cx="350" cy="88" r="4" fill="#2563eb"/>
+  <line x1="350" y1="92" x2="350" y2="102" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="346" y1="96" x2="354" y2="96" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="350" y1="102" x2="346" y2="110" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="350" y1="102" x2="354" y2="110" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Person 3 red -->
+  <circle cx="500" cy="88" r="4" fill="#dc2626"/>
+  <line x1="500" y1="92" x2="500" y2="102" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="496" y1="96" x2="504" y2="96" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="500" y1="102" x2="496" y2="110" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="500" y1="102" x2="504" y2="110" stroke="#dc2626" stroke-width="1.5"/>
+
+  <!-- Pedestrians on BOTTOM marciapiede -->
+  <!-- Person 4 orange -->
+  <circle cx="300" cy="263" r="4" fill="#f59e0b"/>
+  <line x1="300" y1="267" x2="300" y2="277" stroke="#f59e0b" stroke-width="1.5"/>
+  <line x1="296" y1="271" x2="304" y2="271" stroke="#f59e0b" stroke-width="1.5"/>
+  <line x1="300" y1="277" x2="296" y2="285" stroke="#f59e0b" stroke-width="1.5"/>
+  <line x1="300" y1="277" x2="304" y2="285" stroke="#f59e0b" stroke-width="1.5"/>
+  <!-- Person 5 green -->
+  <circle cx="550" cy="263" r="4" fill="#16a34a"/>
+  <line x1="550" y1="267" x2="550" y2="277" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="546" y1="271" x2="554" y2="271" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="550" y1="277" x2="546" y2="285" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="550" y1="277" x2="554" y2="285" stroke="#16a34a" stroke-width="1.5"/>
+
+  <!-- Labels — brackets on the RIGHT -->
+  <!-- Marciapiede top bracket -->
+  <line x1="760" y1="80" x2="780" y2="80" stroke="#e65100" stroke-width="2"/>
+  <line x1="760" y1="115" x2="780" y2="115" stroke="#e65100" stroke-width="2"/>
+  <line x1="778" y1="80" x2="778" y2="115" stroke="#e65100" stroke-width="2.5"/>
+  <rect x="790" y="86" width="100" height="22" rx="4" fill="#e65100"/>
+  <text x="840" y="102" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">Marciapiede</text>
+
+  <!-- Banchina top -->
+  <text x="790" y="127" fill="#888" font-size="11">Banchina</text>
+
+  <!-- Carreggiata bracket -->
+  <line x1="760" y1="130" x2="780" y2="130" stroke="#555" stroke-width="1.5"/>
+  <line x1="760" y1="240" x2="780" y2="240" stroke="#555" stroke-width="1.5"/>
+  <line x1="778" y1="130" x2="778" y2="240" stroke="#555" stroke-width="2"/>
+  <text x="790" y="190" fill="#555" font-size="13" font-weight="bold">Carreggiata</text>
+
+  <!-- Banchina bottom -->
+  <text x="790" y="253" fill="#888" font-size="11">Banchina</text>
+
+  <!-- Marciapiede bottom bracket -->
+  <line x1="760" y1="255" x2="780" y2="255" stroke="#e65100" stroke-width="2"/>
+  <line x1="760" y1="290" x2="780" y2="290" stroke="#e65100" stroke-width="2"/>
+  <line x1="778" y1="255" x2="778" y2="290" stroke="#e65100" stroke-width="2.5"/>
+  <rect x="790" y="261" width="100" height="22" rx="4" fill="#e65100"/>
+  <text x="840" y="277" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">Marciapiede</text>
+
+  <!-- Info boxes -->
+  <g transform="translate(50, 310)">
+    <rect x="0" y="0" width="260" height="65" rx="8" fill="#fff" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="130" y="22" text-anchor="middle" fill="#16a34a" font-size="15" font-weight="bold">Consentito</text>
+    <text x="130" y="42" text-anchor="middle" fill="#555" font-size="14">Pedoni, carrozzine</text>
+    <text x="130" y="58" text-anchor="middle" fill="#555" font-size="14">Sedie a rotelle</text>
+  </g>
+
+  <g transform="translate(330, 310)">
+    <rect x="0" y="0" width="260" height="65" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="130" y="22" text-anchor="middle" fill="#dc2626" font-size="15" font-weight="bold">Vietato</text>
+    <text x="130" y="42" text-anchor="middle" fill="#555" font-size="14">Veicoli, bici, motorini</text>
+    <text x="130" y="58" text-anchor="middle" fill="#555" font-size="14">Sosta veicoli</text>
+  </g>
+
+  <g transform="translate(610, 310)">
+    <rect x="0" y="0" width="240" height="65" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="120" y="22" text-anchor="middle" fill="#2563eb" font-size="15" font-weight="bold">Caratteristica</text>
+    <text x="120" y="42" text-anchor="middle" fill="#555" font-size="14">Rialzato (cordolo)</text>
+    <text x="120" y="58" text-anchor="middle" fill="#555" font-size="14">Non confondere con banchina</text>
+  </g>
+
+  <g transform="translate(50, 395)">
+    <rect x="0" y="0" width="800" height="40" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+    <text x="400" y="26" text-anchor="middle" fill="#856404" font-size="14">Il marciapiede NON fa parte della carreggiata — è SEMPRE riservato ai pedoni</text>
+  </g>
+</svg>

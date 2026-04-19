@@ -34,7 +34,20 @@
     "subtitle": "6.845 domande ministeriali in italiano e arabo",
     "startQuiz": "Inizia Quiz",
     "studyTopics": "Studia per argomento",
-    "progress": "I tuoi progressi"
+    "progress": "I tuoi progressi",
+    "examSimulation": "Simulazione esame",
+    "examSimulationDesc": "40 domande, 30 minuti",
+    "practiceDesc": "Esercitati liberamente",
+    "studyTopicsDesc": "25 argomenti ministeriali",
+    "tricksDesc": "Parole chiave V/F",
+    "glossaryDesc": "Termini bilingue IT/AR",
+    "feature1": "Bilingue IT/AR",
+    "feature2": "6.845 domande",
+    "feature3": "25 argomenti",
+    "feature4": "Offline",
+    "continueStudy": "Continua a studiare",
+    "questionsAnswered": "domande risposte",
+    "accuracy": "precisione"
   },
   "quiz": {
     "title": "Quiz Patente",
@@ -67,9 +80,9 @@
   },
   "tricks": {
     "title": "Trucchi V/F",
-    "subtitle": "Parole chiave e pattern per indovinare le risposte",
-    "truePatterns": "Pattern VERO",
-    "falsePatterns": "Pattern FALSO",
+    "subtitle": "Parole chiave per indovinare le risposte",
+    "truePatterns": "VERO",
+    "falsePatterns": "FALSO",
     "memoryRule": "Regola da ricordare",
     "commonMistake": "Errore comune",
     "keywords": "Parole amiche",
@@ -81,5 +94,16 @@
     "subtitle": "Domande con testo simile ma risposta opposta",
     "questionTrue": "VERO",
     "questionFalse": "FALSO"
+  },
+  "onboarding": {
+    "welcome": "Benvenuto su Qiada!",
+    "step1Title": "Studia al tuo ritmo",
+    "step1Desc": "6.845 domande ministeriali in italiano e arabo, organizzate per argomento",
+    "step2Title": "Simula l'esame reale",
+    "step2Desc": "40 domande, 30 minuti — come all'esame vero. Scopri subito se sei pronto",
+    "step3Title": "Impara dai trucchi",
+    "step3Desc": "Parole chiave che ti aiutano a capire se la risposta è vera o falsa",
+    "start": "Inizia",
+    "skip": "Salta"
   }
 }

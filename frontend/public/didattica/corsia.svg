@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, sans-serif">
+  <rect width="900" height="520" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">LA CORSIA</text>
+  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="15">Suddivisione della carreggiata per una fila di veicoli</text>
+
+  <!-- Road with 3 lanes -->
+  <rect x="100" y="80" width="700" height="20" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+  <rect x="100" y="100" width="700" height="10" fill="#8a8a8a"/>
+  <!-- Lane 1 -->
+  <rect x="100" y="110" width="700" height="60" fill="#555"/>
+  <line x1="100" y1="112" x2="800" y2="112" stroke="#fff" stroke-width="2.5"/>
+  <!-- Lane divider 1-2 -->
+  <line x1="100" y1="170" x2="800" y2="170" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+  <!-- Lane 2 -->
+  <rect x="100" y="170" width="700" height="60" fill="#555"/>
+  <!-- Lane divider 2-3 -->
+  <line x1="100" y1="230" x2="800" y2="230" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+  <!-- Lane 3 -->
+  <rect x="100" y="230" width="700" height="60" fill="#555"/>
+  <line x1="100" y1="288" x2="800" y2="288" stroke="#fff" stroke-width="2.5"/>
+  <rect x="100" y="290" width="700" height="10" fill="#8a8a8a"/>
+  <rect x="100" y="300" width="700" height="20" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <polygon points="650,137 670,140 650,143" fill="#fff"/>
+    <polygon points="650,197 670,200 650,203" fill="#fff"/>
+    <polygon points="650,257 670,260 650,263" fill="#fff"/>
+  </g>
+
+  <!-- Cars in lanes -->
+  <g transform="translate(400, 140)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+  </g>
+  <g transform="translate(550, 200)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <g transform="translate(300, 260)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fde68a" opacity="0.6"/>
+  </g>
+
+  <!-- Bracket labels -->
+  <line x1="810" y1="110" x2="830" y2="110" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="810" y1="170" x2="830" y2="170" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="828" y1="110" x2="828" y2="170" stroke="#2563eb" stroke-width="2"/>
+  <text x="840" y="145" fill="#2563eb" font-size="12" font-weight="bold">Corsia 1</text>
+
+  <line x1="810" y1="170" x2="830" y2="170" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="810" y1="230" x2="830" y2="230" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="828" y1="170" x2="828" y2="230" stroke="#16a34a" stroke-width="2"/>
+  <text x="840" y="205" fill="#16a34a" font-size="12" font-weight="bold">Corsia 2</text>
+
+  <line x1="810" y1="230" x2="830" y2="230" stroke="#f59e0b" stroke-width="1.5"/>
+  <line x1="810" y1="290" x2="830" y2="290" stroke="#f59e0b" stroke-width="1.5"/>
+  <line x1="828" y1="230" x2="828" y2="290" stroke="#f59e0b" stroke-width="2"/>
+  <text x="840" y="265" fill="#f59e0b" font-size="12" font-weight="bold">Corsia 3</text>
+
+  <!-- Info boxes -->
+  <g transform="translate(0,340)">
+    <rect x="50" y="0" width="250" height="80" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="175" y="25" text-anchor="middle" fill="#2563eb" font-size="15" font-weight="bold">Larghezza</text>
+    <text x="175" y="48" text-anchor="middle" fill="#555" font-size="13">Minima: 2,80 m</text>
+    <text x="175" y="68" text-anchor="middle" fill="#555" font-size="13">Massima: 4,00 m</text>
+  </g>
+
+  <g transform="translate(325,340)">
+    <rect x="0" y="0" width="250" height="80" rx="8" fill="#fff" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="125" y="25" text-anchor="middle" fill="#16a34a" font-size="15" font-weight="bold">Senso unico</text>
+    <text x="125" y="48" text-anchor="middle" fill="#555" font-size="13">Ogni corsia è sempre</text>
+    <text x="125" y="68" text-anchor="middle" fill="#555" font-size="13">a senso unico</text>
+  </g>
+
+  <g transform="translate(600,340)">
+    <rect x="0" y="0" width="250" height="80" rx="8" fill="#fff" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="125" y="25" text-anchor="middle" fill="#f59e0b" font-size="15" font-weight="bold">Tipi</text>
+    <text x="125" y="48" text-anchor="middle" fill="#555" font-size="13">Di marcia, di sorpasso,</text>
+    <text x="125" y="68" text-anchor="middle" fill="#555" font-size="13">di emergenza, specializzata</text>
+  </g>
+
+  <!-- Striscia types -->
+  <g transform="translate(0,440)">
+    <rect x="50" y="0" width="400" height="55" rx="6" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <line x1="70" y1="27" x2="170" y2="27" stroke="#555" stroke-width="3" stroke-dasharray="15,10"/>
+    <text x="185" y="32" fill="#555" font-size="12">Striscia discontinua = si può cambiare corsia</text>
+  </g>
+  <g transform="translate(460,440)">
+    <rect x="0" y="0" width="390" height="55" rx="6" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <line x1="20" y1="27" x2="120" y2="27" stroke="#555" stroke-width="3"/>
+    <text x="135" y="32" fill="#555" font-size="12">Striscia continua = NON si può cambiare corsia</text>
+  </g>
+</svg>

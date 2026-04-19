@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, sans-serif">
+  <rect width="900" height="540" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">LA ROTATORIA</text>
+  <text x="450" y="54" text-anchor="middle" fill="#555" font-size="15">Intersezione a circolazione rotatoria — vista dall'alto</text>
+
+  <!-- Center: cx=330, cy=230. Ring outer r=100, inner r=55 -->
+
+  <!-- ========== APPROACH ROADS — overlap into circle ========== -->
+  <!-- Top road -->
+  <rect x="270" y="60" width="120" height="180" fill="#555"/>
+  <line x1="272" y1="60" x2="272" y2="132" stroke="#fff" stroke-width="2.5"/>
+  <line x1="388" y1="60" x2="388" y2="132" stroke="#fff" stroke-width="2.5"/>
+  <line x1="330" y1="60" x2="330" y2="128" stroke="#fff" stroke-width="2" stroke-dasharray="10,8"/>
+
+  <!-- Bottom road -->
+  <rect x="270" y="220" width="120" height="180" fill="#555"/>
+  <line x1="272" y1="328" x2="272" y2="400" stroke="#fff" stroke-width="2.5"/>
+  <line x1="388" y1="328" x2="388" y2="400" stroke="#fff" stroke-width="2.5"/>
+  <line x1="330" y1="332" x2="330" y2="400" stroke="#fff" stroke-width="2" stroke-dasharray="10,8"/>
+
+  <!-- Left road -->
+  <rect x="130" y="170" width="210" height="120" fill="#555"/>
+  <line x1="130" y1="172" x2="232" y2="172" stroke="#fff" stroke-width="2.5"/>
+  <line x1="130" y1="288" x2="232" y2="288" stroke="#fff" stroke-width="2.5"/>
+  <line x1="130" y1="230" x2="228" y2="230" stroke="#fff" stroke-width="2" stroke-dasharray="10,8"/>
+
+  <!-- Right road -->
+  <rect x="320" y="170" width="210" height="120" fill="#555"/>
+  <line x1="428" y1="172" x2="530" y2="172" stroke="#fff" stroke-width="2.5"/>
+  <line x1="428" y1="288" x2="530" y2="288" stroke="#fff" stroke-width="2.5"/>
+  <line x1="432" y1="230" x2="530" y2="230" stroke="#fff" stroke-width="2" stroke-dasharray="10,8"/>
+
+  <!-- ========== ROUNDABOUT RING ========== -->
+  <circle cx="330" cy="230" r="100" fill="#555"/>
+  <!-- Inner island -->
+  <circle cx="330" cy="230" r="55" fill="#7cb342" stroke="#558b2f" stroke-width="2"/>
+  <circle cx="330" cy="230" r="32" fill="#8bc34a" opacity="0.5"/>
+
+  <!-- Outer edge -->
+  <circle cx="330" cy="230" r="100" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <!-- Inner edge -->
+  <circle cx="330" cy="230" r="55" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <!-- Middle dashed -->
+  <circle cx="330" cy="230" r="77" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+
+  <!-- ========== Cut openings where roads meet ring ========== -->
+  <rect x="274" y="128" width="112" height="8" fill="#555"/>
+  <rect x="274" y="324" width="112" height="8" fill="#555"/>
+  <rect x="226" y="174" width="8" height="112" fill="#555"/>
+  <rect x="426" y="174" width="8" height="112" fill="#555"/>
+
+  <!-- ========== DIRECTION ARROWS — curved blue on the ring ========== -->
+  <defs>
+    <marker id="arrBlue" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0,0 7,3 0,6" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- 4 curved arrows on the ring showing counterclockwise (antiorario) -->
+  <!-- Top-right quadrant: going left ← -->
+  <path d="M 390,180 A 77,77 0 0,0 360,150" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrBlue)"/>
+  <!-- Top-left quadrant: going down ↓ -->
+  <path d="M 300,150 A 77,77 0 0,0 260,195" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrBlue)"/>
+  <!-- Bottom-left quadrant: going right → -->
+  <path d="M 263,275 A 77,77 0 0,0 300,310" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrBlue)"/>
+  <!-- Bottom-right quadrant: going up ↑ -->
+  <path d="M 365,312 A 77,77 0 0,0 395,275" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrBlue)"/>
+
+
+  <!-- ========== GREEN CAR (inside ring, right side, going UP = antiorario) ========== -->
+  <!-- Positioned in right quadrant of ring, moving up — will cross the right entry -->
+  <g transform="translate(400, 260) rotate(-90)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <rect x="416" y="240" width="56" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="444" y="253" text-anchor="middle" fill="#86efac" font-size="13" font-weight="bold">PASSA</text>
+
+  <!-- ========== RED CAR (approaching from right, TOP lane = going left toward roundabout) ========== -->
+  <g transform="translate(490, 200)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <rect x="462" y="172" width="52" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="488" y="185" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="bold">CEDE</text>
+
+  <!-- Direction label in center island -->
+  <text x="330" y="226" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">SENSO</text>
+  <text x="330" y="240" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">ANTIORARIO</text>
+
+  <!-- ========== RULES (right side) ========== -->
+  <circle cx="610" cy="100" r="14" fill="#2563eb"/>
+  <text x="610" y="106" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+  <text x="632" y="96" fill="#1a1a1a" font-size="14" font-weight="bold">Dare la precedenza ai veicoli</text>
+  <text x="632" y="114" fill="#1a1a1a" font-size="14">GIA nella rotatoria</text>
+
+  <circle cx="610" cy="160" r="14" fill="#2563eb"/>
+  <text x="610" y="166" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+  <text x="632" y="156" fill="#1a1a1a" font-size="14" font-weight="bold">Entrare tenendo la destra</text>
+  <text x="632" y="174" fill="#1a1a1a" font-size="14">Circolare in senso antiorario</text>
+
+  <circle cx="610" cy="220" r="14" fill="#2563eb"/>
+  <text x="610" y="226" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+  <text x="632" y="216" fill="#1a1a1a" font-size="14" font-weight="bold">Segnalare con la freccia destra</text>
+  <text x="632" y="234" fill="#1a1a1a" font-size="14">quando si esce dalla rotatoria</text>
+
+  <!-- Color legend -->
+  <rect x="600" y="270" width="20" height="14" rx="3" fill="#16a34a"/>
+  <text x="628" y="282" fill="#1a1a1a" font-size="13">= ha la precedenza (dentro)</text>
+
+  <rect x="600" y="295" width="20" height="14" rx="3" fill="#dc2626"/>
+  <text x="628" y="307" fill="#1a1a1a" font-size="13">= deve cedere (in entrata)</text>
+
+  <!-- ========== INFO BOXES ========== -->
+  <rect x="50" y="420" width="380" height="55" rx="8" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+  <text x="240" y="442" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">VIETATO</text>
+  <text x="240" y="460" text-anchor="middle" fill="#555" font-size="12">Sorpassare nella rotatoria (se a corsia unica)</text>
+
+  <rect x="460" y="420" width="380" height="55" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+  <text x="650" y="442" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">CONSENTITO</text>
+  <text x="650" y="460" text-anchor="middle" fill="#555" font-size="12">Cambiare corsia dentro (se multi-corsia)</text>
+
+  <!-- Yellow reminder -->
+  <rect x="50" y="490" width="800" height="35" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="450" y="513" text-anchor="middle" fill="#856404" font-size="14" font-weight="bold">Chi e dentro la rotatoria ha SEMPRE la precedenza — chi entra CEDE</text>
+</svg>

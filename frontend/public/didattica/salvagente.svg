@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Arial, sans-serif">
+  <rect width="900" height="440" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">IL SALVAGENTE</text>
+  <text x="450" y="57" text-anchor="middle" fill="#555" font-size="15">Isola rialzata al centro della strada per proteggere i pedoni — vista dall'alto</text>
+
+  <!-- Sidewalk top -->
+  <rect x="50" y="80" width="800" height="22" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+
+  <!-- Road — top lane (going LEFT ←) -->
+  <rect x="50" y="102" width="800" height="55" fill="#555"/>
+  <line x1="50" y1="104" x2="850" y2="104" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Center dashed lines (interrupted by salvagente) -->
+  <line x1="50" y1="157" x2="340" y2="157" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+  <line x1="560" y1="157" x2="850" y2="157" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+
+  <!-- Road — bottom lane (going RIGHT →) -->
+  <rect x="50" y="157" width="800" height="55" fill="#555"/>
+  <line x1="50" y1="210" x2="850" y2="210" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Sidewalk bottom -->
+  <rect x="50" y="212" width="800" height="22" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+
+  <!-- ========== SALVAGENTE — horizontal island along the road ========== -->
+  <rect x="340" y="142" width="220" height="30" rx="12" fill="#d4c4a8" stroke="#b8a88a" stroke-width="2"/>
+  <!-- Hatching pattern on salvagente -->
+  <g opacity="0.3">
+    <line x1="360" y1="145" x2="360" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="380" y1="145" x2="380" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="400" y1="145" x2="400" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="420" y1="145" x2="420" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="440" y1="145" x2="440" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="460" y1="145" x2="460" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="480" y1="145" x2="480" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="500" y1="145" x2="500" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="520" y1="145" x2="520" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+    <line x1="540" y1="145" x2="540" y2="169" stroke="#8a7a5a" stroke-width="1.5"/>
+  </g>
+  <!-- Salvagente label -->
+  <rect x="390" y="148" width="120" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="450" y="162" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">SALVAGENTE</text>
+
+  <!-- ========== ZEBRA CROSSINGS (horizontal stripes across the lane) ========== -->
+  <!-- Left zebra crossing — top lane -->
+  <g opacity="0.8">
+    <rect x="348" y="108" width="38" height="7" fill="#fff"/>
+    <rect x="348" y="119" width="38" height="7" fill="#fff"/>
+    <rect x="348" y="130" width="38" height="7" fill="#fff"/>
+  </g>
+  <!-- Left zebra crossing — bottom lane -->
+  <g opacity="0.8">
+    <rect x="348" y="175" width="38" height="7" fill="#fff"/>
+    <rect x="348" y="186" width="38" height="7" fill="#fff"/>
+    <rect x="348" y="197" width="38" height="7" fill="#fff"/>
+  </g>
+  <!-- Right zebra crossing — top lane -->
+  <g opacity="0.8">
+    <rect x="518" y="108" width="38" height="7" fill="#fff"/>
+    <rect x="518" y="119" width="38" height="7" fill="#fff"/>
+    <rect x="518" y="130" width="38" height="7" fill="#fff"/>
+  </g>
+  <!-- Right zebra crossing — bottom lane -->
+  <g opacity="0.8">
+    <rect x="518" y="175" width="38" height="7" fill="#fff"/>
+    <rect x="518" y="186" width="38" height="7" fill="#fff"/>
+    <rect x="518" y="197" width="38" height="7" fill="#fff"/>
+  </g>
+
+  <!-- ========== PEDESTRIANS ========== -->
+  <!-- Person on salvagente (waiting, step 1 done) -->
+  <circle cx="450" cy="140" r="6" fill="#2563eb"/>
+  <line x1="450" y1="146" x2="450" y2="158" stroke="#2563eb" stroke-width="2"/>
+  <line x1="446" y1="152" x2="454" y2="152" stroke="#2563eb" stroke-width="1.5"/>
+
+  <!-- Crossing arrows -->
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#16a34a"/></marker>
+    <marker id="arr2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#2563eb"/></marker>
+  </defs>
+  <!-- Passo 1: bottom sidewalk → salvagente -->
+  <line x1="365" y1="228" x2="365" y2="178" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arr1)"/>
+  <text x="310" y="205" fill="#16a34a" font-size="13" font-weight="bold">Passo 1</text>
+  <!-- Passo 2: salvagente → top sidewalk -->
+  <line x1="535" y1="138" x2="535" y2="108" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arr2)"/>
+  <text x="570" y="118" fill="#2563eb" font-size="13" font-weight="bold">Passo 2</text>
+
+  <!-- ========== CARS ========== -->
+  <!-- Red car — top lane, going LEFT ← -->
+  <g transform="translate(200, 128)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <!-- Blue car — bottom lane, going RIGHT → -->
+  <g transform="translate(700, 185)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+  </g>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <polygon points="150,125 130,130 150,135" fill="#fff"/>
+    <polygon points="750,180 770,185 750,190" fill="#fff"/>
+  </g>
+
+  <!-- ========== INFO BOXES ========== -->
+  <g transform="translate(50, 255)">
+    <rect x="0" y="0" width="380" height="75" rx="8" fill="#fff" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="190" y="28" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Funzione</text>
+    <text x="190" y="48" text-anchor="middle" fill="#555" font-size="14">Proteggere i pedoni che attraversano</text>
+    <text x="190" y="66" text-anchor="middle" fill="#555" font-size="14">strade larghe in 2 fasi</text>
+  </g>
+
+  <g transform="translate(470, 255)">
+    <rect x="0" y="0" width="380" height="75" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="190" y="28" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">Per i veicoli</text>
+    <text x="190" y="48" text-anchor="middle" fill="#555" font-size="14">Transitano ai lati del salvagente</text>
+    <text x="190" y="66" text-anchor="middle" fill="#555" font-size="14">MAI sopra il salvagente</text>
+  </g>
+
+  <!-- Yellow reminder -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="800" height="60" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+    <text x="400" y="27" text-anchor="middle" fill="#856404" font-size="14" font-weight="bold">Differenza importante</text>
+    <text x="400" y="47" text-anchor="middle" fill="#856404" font-size="13">Il salvagente protegge i pedoni. L'isola di traffico canalizza i veicoli.</text>
+  </g>
+</svg>

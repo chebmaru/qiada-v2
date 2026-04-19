@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="Arial, sans-serif">
+  <rect width="900" height="550" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">SVOLTA A SINISTRA</text>
+  <text x="450" y="58" text-anchor="middle" fill="#555" font-size="15">Manovra in un incrocio — vista dall'alto</text>
+
+  <!-- === ROAD DIMENSIONS ===
+       Horizontal road: y=180 to y=300 (120px = 2 lanes of 60px)
+       Vertical road: x=370 to x=490 (120px = 2 lanes of 60px)
+       Intersection: 370,180 to 490,300
+  -->
+
+  <!-- Full intersection background (one big cross shape) -->
+  <!-- Horizontal band -->
+  <rect x="50" y="180" width="800" height="120" fill="#555"/>
+  <!-- Vertical band -->
+  <rect x="370" y="70" width="120" height="340" fill="#555"/>
+
+  <!-- === WHITE EDGE LINES === -->
+  <!-- Horizontal road — top edge -->
+  <line x1="50" y1="182" x2="370" y2="182" stroke="#fff" stroke-width="2"/>
+  <line x1="490" y1="182" x2="850" y2="182" stroke="#fff" stroke-width="2"/>
+  <!-- Horizontal road — bottom edge -->
+  <line x1="50" y1="298" x2="370" y2="298" stroke="#fff" stroke-width="2"/>
+  <line x1="490" y1="298" x2="850" y2="298" stroke="#fff" stroke-width="2"/>
+  <!-- Horizontal road — center dashed -->
+  <line x1="50" y1="240" x2="370" y2="240" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="490" y1="240" x2="850" y2="240" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+
+  <!-- Vertical road — left edge -->
+  <line x1="372" y1="70" x2="372" y2="180" stroke="#fff" stroke-width="2"/>
+  <line x1="372" y1="300" x2="372" y2="410" stroke="#fff" stroke-width="2"/>
+  <!-- Vertical road — right edge -->
+  <line x1="488" y1="70" x2="488" y2="180" stroke="#fff" stroke-width="2"/>
+  <line x1="488" y1="300" x2="488" y2="410" stroke="#fff" stroke-width="2"/>
+  <!-- Vertical road — center dashed -->
+  <line x1="430" y1="70" x2="430" y2="180" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="430" y1="300" x2="430" y2="410" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.3">
+    <polygon points="200,268 220,271 200,274" fill="#fff"/>
+    <polygon points="700,208 680,211 700,214" fill="#fff"/>
+    <polygon points="450,100 453,120 447,120" fill="#fff"/>
+    <polygon points="410,380 407,360 413,360" fill="#fff"/>
+  </g>
+
+  <!-- === OUR CAR: wants to turn left — MUST YIELD = RED === -->
+
+  <!-- Position 1: approaching from left, bottom lane going right (ghost) -->
+  <g transform="translate(200, 270)" opacity="0.4">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <circle cx="178" cy="259" r="3.5" fill="#f59e0b"/>
+
+  <!-- Position 2: at center of intersection, waiting (full opacity) — slightly back and toward center -->
+  <g transform="translate(415, 252)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <text x="460" y="240" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">CEDE</text>
+
+  <!-- Position 3: completing turn going up in RIGHT lane of vertical road (ghost) -->
+  <g transform="translate(460, 125) rotate(-90)" opacity="0.4">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+
+  <!-- Curved arrow showing the turn path — RED (aligned with car at 415,252) -->
+  <path d="M 220,270 L 400,252 Q 435,248 440,220 L 450,170 Q 455,145 460,130" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <polygon points="455,132 460,118 465,132" fill="#dc2626"/>
+
+  <!-- === ONCOMING CAR: has right of way = GREEN === -->
+  <g transform="translate(650, 210)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <text x="650" y="175" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="bold">PASSA</text>
+
+  <!-- Numbered steps below -->
+  <g transform="translate(50, 430)">
+    <circle cx="14" cy="14" r="14" fill="#dc2626"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="40" y="19" fill="#333" font-size="14">Spostarsi verso il centro della carreggiata (non a sinistra!)</text>
+  </g>
+
+  <g transform="translate(50, 470)">
+    <circle cx="14" cy="14" r="14" fill="#dc2626"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="40" y="19" fill="#333" font-size="14">Fermarsi al centro e DARE PRECEDENZA ai veicoli che vengono di fronte</text>
+  </g>
+
+  <g transform="translate(50, 510)">
+    <circle cx="14" cy="14" r="14" fill="#dc2626"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+    <text x="40" y="19" fill="#333" font-size="14">Quando libero, completare la svolta lasciando il centro dell'incrocio alla propria destra</text>
+  </g>
+</svg>

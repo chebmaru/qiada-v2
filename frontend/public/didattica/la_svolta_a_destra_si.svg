@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, sans-serif">
+  <rect width="900" height="500" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">SVOLTA A DESTRA</text>
+  <text x="450" y="58" text-anchor="middle" fill="#555" font-size="15">Manovra in un incrocio — vista dall'alto</text>
+
+  <!-- Horizontal road (170-280, center at 225) -->
+  <rect x="50" y="170" width="800" height="110" fill="#555"/>
+  <line x1="50" y1="172" x2="330" y2="172" stroke="#fff" stroke-width="2"/>
+  <line x1="570" y1="172" x2="850" y2="172" stroke="#fff" stroke-width="2"/>
+  <line x1="50" y1="225" x2="330" y2="225" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="570" y1="225" x2="850" y2="225" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="50" y1="278" x2="330" y2="278" stroke="#fff" stroke-width="2"/>
+  <line x1="570" y1="278" x2="850" y2="278" stroke="#fff" stroke-width="2"/>
+
+  <!-- Vertical road — same width 110px (330 to 440, center at 385) -->
+  <rect x="330" y="70" width="110" height="100" fill="#555"/>
+  <line x1="332" y1="70" x2="332" y2="170" stroke="#fff" stroke-width="2"/>
+  <line x1="385" y1="70" x2="385" y2="170" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="438" y1="70" x2="438" y2="170" stroke="#fff" stroke-width="2"/>
+
+  <rect x="330" y="280" width="110" height="100" fill="#555"/>
+  <line x1="332" y1="280" x2="332" y2="380" stroke="#fff" stroke-width="2"/>
+  <line x1="385" y1="280" x2="385" y2="380" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="438" y1="280" x2="438" y2="380" stroke="#fff" stroke-width="2"/>
+
+  <!-- Intersection -->
+  <rect x="330" y="170" width="110" height="110" fill="#666"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.3">
+    <polygon points="200,250 220,253 200,256" fill="#fff"/>
+  </g>
+
+  <!-- Car 1: approaching, hugging right edge (blue) — bottom lane center (225+278)/2=252 -->
+  <g transform="translate(180, 262)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+  </g>
+  <!-- Right blinker -->
+  <circle cx="202" cy="275" r="3.5" fill="#f59e0b"/>
+
+  <!-- Car 2: separate car on vertical road going UP — right lane = right column (385-438, center ~412) -->
+  <g transform="translate(412, 320) rotate(-90)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+
+  <!-- Curved arrow showing BLUE car's turn path — starts from center of blue car, goes down the vertical road -->
+  <path d="M 200,262 L 340,262 C 358,262 358,278 358,370" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <polygon points="353,374 358,386 363,374" fill="#2563eb"/>
+
+  <!-- Key point: stay close to right edge -->
+  <line x1="290" y1="278" x2="290" y2="290" stroke="#e65100" stroke-width="1.5"/>
+  <text x="290" y="305" text-anchor="middle" fill="#e65100" font-size="13" font-weight="bold">Vicino al margine destro</text>
+
+  <!-- Numbered steps below -->
+  <g transform="translate(50, 400)">
+    <circle cx="14" cy="14" r="14" fill="#2563eb"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="40" y="19" fill="#333" font-size="14">Tenersi il più possibile vicino al margine destro della carreggiata</text>
+  </g>
+
+  <g transform="translate(50, 440)">
+    <circle cx="14" cy="14" r="14" fill="#16a34a"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="40" y="19" fill="#333" font-size="14">Svoltare "stretti" — la curva deve essere il più possibile vicina all'angolo</text>
+  </g>
+
+  <g transform="translate(50, 480)">
+    <rect x="-6" y="0" width="840" height="30" rx="6" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+    <text x="414" y="20" text-anchor="middle" fill="#856404" font-size="14">Opposto della svolta a sinistra: qui si resta a DESTRA, non al centro</text>
+  </g>
+</svg>

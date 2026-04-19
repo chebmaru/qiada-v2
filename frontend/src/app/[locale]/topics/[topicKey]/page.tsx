@@ -5,6 +5,8 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getTopics, getQuestions, getTricks, type Topic, type Question, type TopicTricks } from "@/lib/api";
 import TTSButton from "@/components/TTSButton";
+import { SkeletonCard, SkeletonLine } from "@/components/Skeleton";
+import EmptyState from "@/components/EmptyState";
 
 export default function TopicDetailPage({ params }: { params: Promise<{ topicKey: string }> }) {
   const { topicKey } = use(params);
@@ -43,51 +45,89 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
     });
   };
 
+  const showAllAnswers = () => {
+    setShowAnswers(new Set(questions.map((q) => q.id)));
+  };
+
+  const hideAllAnswers = () => {
+    setShowAnswers(new Set());
+  };
+
+  // Loading skeleton
   if (loading) {
     return (
-      <main className="flex-1 flex items-center justify-center">
-        <p>{t("common.loading")}</p>
+      <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
+        <SkeletonLine className="w-20 h-4 mb-4" />
+        <SkeletonLine className="w-3/4 h-7 mb-6" />
+        <div className="h-32 bg-gray-200 dark:bg-gray-700 rounded-lg animate-pulse mb-6" />
+        <SkeletonCard />
+        <div className="mt-3"><SkeletonCard /></div>
+        <div className="mt-3"><SkeletonCard /></div>
       </main>
     );
   }
 
+  // Not found
   if (!topic) {
     return (
-      <main className="flex-1 flex items-center justify-center">
-        <p>{t("common.error")}</p>
+      <main className="flex-1">
+        <EmptyState
+          icon={
+            <svg className="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          }
+          title={isAr ? "الموضوع غير موجود" : "Argomento non trovato"}
+          description={isAr ? "هذا الموضوع غير موجود" : "L'argomento richiesto non esiste"}
+          action={{ label: t("common.topics"), href: "/topics" }}
+        />
       </main>
     );
   }
 
   return (
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
-      <Link href="/topics" className="text-blue-600 text-sm mb-4 inline-block">
-        ← {t("common.back")}
+      {/* Back link */}
+      <Link href="/topics" className="text-blue-600 text-sm mb-4 inline-flex items-center gap-1 hover:underline">
+        <svg className="w-4 h-4 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        {t("common.back")}
       </Link>
 
-      <h1 className="text-2xl font-bold mb-2">
-        {isAr ? topic.titleAr : topic.titleIt}
-      </h1>
-
-      {/* Topic sign */}
-      {signUrl && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={signUrl} alt="" className="h-24 mx-auto mb-4" />
-      )}
+      {/* Title + sign */}
+      <div className="flex items-start gap-4 mb-6">
+        <div className="flex-1">
+          <h1 className="text-2xl font-bold mb-1">{isAr ? topic.titleAr : topic.titleIt}</h1>
+          <p className="text-sm text-gray-500">{questions.length} {t("common.questions").toLowerCase()}</p>
+        </div>
+        {signUrl && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={signUrl} alt="" className="h-20 flex-shrink-0" />
+        )}
+      </div>
 
       {/* Didactic illustration */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/didattica/${topicKey}.svg`}
         alt=""
-        className="w-full rounded-lg mb-4 hidden"
-        onLoad={(e) => (e.currentTarget.className = "w-full rounded-lg mb-4")}
+        className="w-full rounded-lg mb-6 hidden"
+        onLoad={(e) => (e.currentTarget.className = "w-full rounded-lg mb-6")}
       />
 
       {/* Didactic content */}
       {(isAr ? topic.contentAr : topic.contentIt) && (
-        <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mb-6">
-          <p className="whitespace-pre-line text-sm">
+        <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 rounded-xl p-4 mb-6">
+          <div className="flex items-center gap-2 mb-2">
+            <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className="text-xs font-semibold text-blue-700 dark:text-blue-300 uppercase tracking-wide">
+              {isAr ? "محتوى تعليمي" : "Contenuto didattico"}
+            </span>
+          </div>
+          <p className="whitespace-pre-line text-sm leading-relaxed">
             {isAr ? topic.contentAr : topic.contentIt}
           </p>
         </div>
@@ -95,109 +135,141 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
 
       {/* Tricks section */}
       {tricks && (tricks.truePatternsIT || tricks.falsePatternsIT || tricks.memoryRuleIT) && (
-        <div className="bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-6">
-          <h2 className="text-sm font-bold mb-3 flex items-center gap-1">
-            {isAr ? "حيل وأنماط" : "Trucchi e pattern"}
-          </h2>
+        <div className="bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 rounded-xl p-4 mb-6">
+          <div className="flex items-center gap-2 mb-3">
+            <svg className="w-4 h-4 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+            <span className="text-xs font-semibold text-amber-700 dark:text-amber-300 uppercase tracking-wide">
+              {isAr ? "حيل" : "Trucchi"}
+            </span>
+          </div>
 
-          {(isAr ? tricks.truePatternsAR : tricks.truePatternsIT) && (
-            <div className="mb-3">
-              <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-1">
-                {isAr ? "أنماط صحيح" : "Pattern VERO"}
-              </p>
-              <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>
-                {isAr ? tricks.truePatternsAR : tricks.truePatternsIT}
-              </p>
-            </div>
-          )}
+          <div className="space-y-3">
+            {(isAr ? tricks.truePatternsAR : tricks.truePatternsIT) && (
+              <div className="bg-green-100/50 dark:bg-green-900/30 rounded-lg p-3">
+                <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-1">{isAr ? "صحيح" : "VERO"}</p>
+                <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.truePatternsAR : tricks.truePatternsIT}</p>
+              </div>
+            )}
 
-          {(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT) && (
-            <div className="mb-3">
-              <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-1">
-                {isAr ? "أنماط خطأ" : "Pattern FALSO"}
-              </p>
-              <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>
-                {isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT}
-              </p>
-            </div>
-          )}
+            {(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT) && (
+              <div className="bg-red-100/50 dark:bg-red-900/30 rounded-lg p-3">
+                <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-1">{isAr ? "خطأ" : "FALSO"}</p>
+                <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT}</p>
+              </div>
+            )}
 
-          {(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT) && (
-            <div className="mb-3">
-              <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 mb-1">
-                {isAr ? "قاعدة للتذكر" : "Regola da ricordare"}
-              </p>
-              <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>
-                {isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT}
-              </p>
-            </div>
-          )}
+            {(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT) && (
+              <div className="bg-blue-100/50 dark:bg-blue-900/30 rounded-lg p-3">
+                <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 mb-1">{isAr ? "قاعدة للتذكر" : "Regola da ricordare"}</p>
+                <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT}</p>
+              </div>
+            )}
 
-          {(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT) && (
-            <div>
-              <p className="text-xs font-semibold text-orange-700 dark:text-orange-400 mb-1">
-                {isAr ? "خطأ شائع" : "Errore comune"}
-              </p>
-              <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>
-                {isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT}
-              </p>
-            </div>
-          )}
+            {(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT) && (
+              <div className="bg-orange-100/50 dark:bg-orange-900/30 rounded-lg p-3">
+                <p className="text-xs font-semibold text-orange-700 dark:text-orange-400 mb-1">{isAr ? "خطأ شائع" : "Errore comune"}</p>
+                <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT}</p>
+              </div>
+            )}
+          </div>
         </div>
       )}
 
       {/* Practice button */}
       <Link
         href={`/quiz/exam?topic=${encodeURIComponent(topicKey)}`}
-        className="block text-center bg-blue-600 text-white py-3 rounded-lg font-medium mb-6"
+        className="flex items-center justify-center gap-2 bg-blue-600 text-white py-3.5 rounded-xl font-medium mb-6 hover:bg-blue-700 transition"
       >
+        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
         {isAr ? `تدرب على ${questions.length} سؤال` : `Esercitati su ${questions.length} domande`}
       </Link>
 
-      {/* Questions list */}
-      <h2 className="text-lg font-bold mb-3">
-        {t("common.questions")} ({questions.length})
-      </h2>
-
-      <div className="space-y-3">
-        {questions.map((q) => (
-          <div
-            key={q.id}
-            className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-4"
-          >
-            {q.imageUrl && (
-              <img src={q.imageUrl} alt="" className="max-h-32 rounded mb-2" />
-            )}
-            <div className="flex items-start gap-1" dir="ltr">
-              <TTSButton text={q.textIt} lang="it" />
-              <p className="font-medium">{q.textIt}</p>
-            </div>
-            <p className="text-gray-600 dark:text-gray-400 mt-1" dir="rtl">{q.textAr}</p>
-
-            <button
-              onClick={() => toggleAnswer(q.id)}
-              className="text-sm text-blue-600 mt-2"
-            >
-              {showAnswers.has(q.id)
-                ? (isAr ? "إخفاء الإجابة" : "Nascondi risposta")
-                : (isAr ? "أظهر الإجابة" : "Mostra risposta")}
-            </button>
-
-            {showAnswers.has(q.id) && (
-              <div className={`mt-2 p-2 rounded text-sm ${q.isTrue ? "bg-green-50 dark:bg-green-950" : "bg-red-50 dark:bg-red-950"}`}>
-                <p className="font-medium">
-                  {q.isTrue ? t("common.true") : t("common.false")}
-                </p>
-                {(isAr ? q.explanationAr : q.explanationIt) && (
-                  <p className="mt-1 text-gray-600 dark:text-gray-400">
-                    {isAr ? q.explanationAr : q.explanationIt}
-                  </p>
-                )}
-              </div>
-            )}
-          </div>
-        ))}
+      {/* Questions list header */}
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-lg font-bold">
+          {t("common.questions")} ({questions.length})
+        </h2>
+        <button
+          onClick={showAnswers.size === questions.length ? hideAllAnswers : showAllAnswers}
+          className="text-xs text-blue-600 hover:underline"
+        >
+          {showAnswers.size === questions.length
+            ? (isAr ? "إخفاء الكل" : "Nascondi tutte")
+            : (isAr ? "أظهر الكل" : "Mostra tutte")}
+        </button>
       </div>
+
+      {/* Questions */}
+      {questions.length === 0 ? (
+        <EmptyState
+          icon={
+            <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+          }
+          title={isAr ? "لا توجد أسئلة" : "Nessuna domanda"}
+          description={isAr ? "هذا الموضوع لا يحتوي على أسئلة بعد" : "Questo argomento non ha ancora domande"}
+        />
+      ) : (
+        <div className="space-y-3">
+          {questions.map((q, idx) => (
+            <div
+              key={q.id}
+              className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-4"
+            >
+              <div className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-7 h-7 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-500 text-xs font-medium flex items-center justify-center mt-0.5">
+                  {idx + 1}
+                </span>
+                <div className="flex-1 min-w-0">
+                  {q.imageUrl && (
+                    <img src={q.imageUrl} alt="" className="max-h-32 rounded-lg mb-2 border border-gray-200 dark:border-gray-700" />
+                  )}
+                  <div className="flex items-start gap-1" dir="ltr">
+                    <TTSButton text={q.textIt} lang="it" />
+                    <p className="font-medium text-sm leading-relaxed">{q.textIt}</p>
+                  </div>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 leading-relaxed" dir="rtl">{q.textAr}</p>
+
+                  <button
+                    onClick={() => toggleAnswer(q.id)}
+                    className="text-xs text-blue-600 mt-2 hover:underline inline-flex items-center gap-1"
+                  >
+                    <svg className={`w-3 h-3 transition-transform ${showAnswers.has(q.id) ? "rotate-90" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                    {showAnswers.has(q.id)
+                      ? (isAr ? "إخفاء الإجابة" : "Nascondi")
+                      : (isAr ? "أظهر الإجابة" : "Mostra risposta")}
+                  </button>
+
+                  {showAnswers.has(q.id) && (
+                    <div className={`mt-2 p-3 rounded-lg text-sm ${
+                      q.isTrue
+                        ? "bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800"
+                        : "bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800"
+                    }`}>
+                      <p className={`font-semibold text-xs ${q.isTrue ? "text-green-700 dark:text-green-400" : "text-red-700 dark:text-red-400"}`}>
+                        {q.isTrue ? t("common.true") : t("common.false")}
+                      </p>
+                      {(isAr ? q.explanationAr : q.explanationIt) && (
+                        <p className="mt-1 text-gray-600 dark:text-gray-400 text-xs leading-relaxed">
+                          {isAr ? q.explanationAr : q.explanationIt}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </main>
   );
 }

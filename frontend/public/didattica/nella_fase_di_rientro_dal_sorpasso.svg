@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, sans-serif">
+  <rect width="900" height="400" fill="#f0f4f0"/>
+  <text x="450" y="32" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">RIENTRO DAL SORPASSO</text>
+  <text x="450" y="54" text-anchor="middle" fill="#555" font-size="15">Come tornare nella propria corsia dopo il sorpasso</text>
+
+  <!-- === ROAD: y=110 to y=230 (120px, 2 lanes of 60px) === -->
+  <rect x="30" y="110" width="840" height="120" fill="#555"/>
+
+  <!-- Edge lines -->
+  <line x1="30" y1="112" x2="870" y2="112" stroke="#fff" stroke-width="2.5"/>
+  <line x1="30" y1="228" x2="870" y2="228" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Center dashed line -->
+  <line x1="30" y1="170" x2="870" y2="170" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+
+  <!-- Direction arrows (subtle) -->
+  <g opacity="0.25">
+    <!-- Bottom lane → right -->
+    <polygon points="120,202 135,199 120,196" fill="#fff"/>
+    <polygon points="780,202 795,199 780,196" fill="#fff"/>
+    <!-- Top lane ← left -->
+    <polygon points="780,142 765,139 780,136" fill="#fff"/>
+    <polygon points="120,142 105,139 120,136" fill="#fff"/>
+  </g>
+
+  <!-- Lane labels on road -->
+  <g>
+    <rect x="50" y="188" width="120" height="20" rx="3" fill="#000" opacity="0.4"/>
+    <text x="110" y="202" text-anchor="middle" fill="#ddd" font-size="13" font-weight="bold">Nostra corsia →</text>
+  </g>
+  <g>
+    <rect x="50" y="124" width="140" height="20" rx="3" fill="#000" opacity="0.4"/>
+    <text x="120" y="138" text-anchor="middle" fill="#ddd" font-size="13" font-weight="bold">← Corsia opposta</text>
+  </g>
+
+  <!-- === BLUE CAR (being overtaken) — bottom lane, stays put === -->
+  <g transform="translate(380, 199)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1d4ed8" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.4"/>
+  </g>
+
+  <!-- === GREEN CAR — Position 1 (ghost): in oncoming lane, alongside blue car === -->
+  <g transform="translate(400, 139)" opacity="0.35">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.4"/>
+  </g>
+  <!-- Step number 1 -->
+  <circle cx="400" cy="117" r="8" fill="#16a34a"/>
+  <text x="400" y="121" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text>
+
+  <!-- === GREEN CAR — Position 2 (ghost): ahead, starting to move right === -->
+  <g transform="translate(560, 152)" opacity="0.35">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.4"/>
+  </g>
+  <!-- Step number 2 -->
+  <circle cx="560" cy="117" r="8" fill="#16a34a"/>
+  <text x="560" y="121" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text>
+
+  <!-- === GREEN CAR — Position 3 (full): back in right lane, well ahead === -->
+  <g transform="translate(730, 199)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.4"/>
+  </g>
+  <!-- Step number 3 -->
+  <circle cx="730" cy="182" r="8" fill="#16a34a"/>
+  <text x="730" y="186" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text>
+
+  <!-- === GREEN DASHED ARROW: smooth return path === -->
+  <path d="M 422,139 L 520,139 Q 560,139 580,155 Q 600,170 640,185 Q 670,195 705,199" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <polygon points="703,194 712,199 703,204" fill="#16a34a"/>
+
+  <!-- === REARVIEW MIRROR indicator === -->
+  <!-- Dashed line from blue car to green car pos 3 (line of sight in mirror) -->
+  <line x1="402" y1="199" x2="705" y2="199" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.6"/>
+
+  <!-- Mirror icon between blue and green pos 3 -->
+  <g transform="translate(545, 199)">
+    <!-- Mirror shape -->
+    <ellipse cx="0" cy="0" rx="14" ry="10" fill="#374151" stroke="#9ca3af" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#60a5fa" opacity="0.4"/>
+    <!-- Small car silhouette in mirror -->
+    <rect x="-4" y="-3" width="8" height="6" rx="2" fill="#2563eb" opacity="0.7"/>
+  </g>
+
+  <!-- Mirror label -->
+  <g>
+    <rect x="460" y="210" width="220" height="20" rx="3" fill="#000" opacity="0.4"/>
+    <text x="570" y="224" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="bold">Visibile nello specchietto retrovisore</text>
+  </g>
+
+  <!-- === NUMBERED STEPS === -->
+  <g transform="translate(50, 252)">
+    <circle cx="14" cy="14" r="14" fill="#16a34a"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="40" y="19" fill="#333" font-size="14">Superare il veicolo con distanza laterale sufficiente</text>
+  </g>
+
+  <g transform="translate(50, 284)">
+    <circle cx="14" cy="14" r="14" fill="#16a34a"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="40" y="19" fill="#333" font-size="14">Rientrare SOLO quando il veicolo sorpassato e visibile nello specchietto</text>
+  </g>
+
+  <g transform="translate(50, 316)">
+    <circle cx="14" cy="14" r="14" fill="#16a34a"/>
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+    <text x="40" y="19" fill="#333" font-size="14">NON tagliare la strada — rientrare gradualmente</text>
+  </g>
+
+  <!-- === YELLOW REMINDER === -->
+  <g transform="translate(50, 358)">
+    <rect x="0" y="0" width="800" height="30" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="20" y="20" fill="#92400e" font-size="13" font-weight="bold">⚠ Mai rientrare bruscamente — mantenere distanza di sicurezza</text>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, sans-serif">
+  <rect width="900" height="500" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">CORSIA DI ACCELERAZIONE</text>
+  <text x="450" y="57" text-anchor="middle" fill="#555" font-size="15">Per immettersi nella corrente di traffico — vista dall'alto</text>
+
+  <!-- ========== MAIN ROAD (2 lanes, going RIGHT →) ========== -->
+  <!-- Top lane -->
+  <rect x="100" y="120" width="750" height="55" fill="#555"/>
+  <line x1="100" y1="122" x2="850" y2="122" stroke="#fff" stroke-width="2.5"/>
+  <line x1="100" y1="175" x2="850" y2="175" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+  <!-- Bottom lane -->
+  <rect x="100" y="175" width="750" height="55" fill="#555"/>
+  <line x1="100" y1="228" x2="420" y2="228" stroke="#fff" stroke-width="2.5"/>
+  <!-- Dashed line between main road and acceleration lane (can merge) -->
+  <line x1="420" y1="228" x2="820" y2="228" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <line x1="820" y1="228" x2="850" y2="228" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Direction arrows on main road -->
+  <g opacity="0.4">
+    <polygon points="700,142 720,147 700,152" fill="#fff"/>
+    <polygon points="300,195 320,200 300,205" fill="#fff"/>
+  </g>
+
+  <!-- ========== CURVED RAMP + ACCELERATION LANE ========== -->
+  <!-- The ramp comes from below-left, curves right, and becomes the acceleration lane -->
+  <!-- Ramp width = 55px (same as a lane), smoothly connects -->
+
+  <!-- Acceleration lane — triangular taper zone (from x=420 to x=820) -->
+  <!-- Full width at x=420, tapers to zero at x=820 -->
+  <polygon points="420,228 420,283 820,228" fill="#555"/>
+  <!-- Bottom edge of acceleration lane -->
+  <line x1="420" y1="283" x2="820" y2="228" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Curved ramp from bottom-left up to acceleration lane start -->
+  <!-- Ramp is 55px wide, curves from vertical to horizontal -->
+  <!-- Outer edge (left/bottom) of ramp -->
+  <path d="M 145,420 L 145,370 C 145,300 200,283 420,283" fill="none" stroke="none"/>
+  <!-- Inner edge (right/top) of ramp -->
+  <path d="M 200,420 L 200,350 C 200,280 250,228 420,228" fill="none" stroke="none"/>
+
+  <!-- Ramp road surface — filled path -->
+  <path d="M 145,420 L 145,355 C 145,290 210,283 420,283 L 420,228 C 250,228 90,235 90,355 L 90,420 Z" fill="#555"/>
+
+  <!-- Ramp edge lines -->
+  <!-- Outer edge -->
+  <line x1="90" y1="420" x2="90" y2="355" stroke="#fff" stroke-width="2.5"/>
+  <path d="M 90,355 C 90,270 180,228 420,228" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <!-- Inner edge -->
+  <line x1="145" y1="420" x2="145" y2="340" stroke="#fff" stroke-width="2.5"/>
+  <path d="M 145,340 C 145,285 220,283 420,283" fill="none" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Ramp label -->
+  <rect x="95" y="375" width="45" height="35" rx="0" fill="none"/>
+  <text x="118" y="400" text-anchor="middle" fill="#ddd" font-size="11" font-weight="bold" transform="rotate(-90,118,400)">RAMPA</text>
+
+  <!-- ========== CARS ========== -->
+
+  <!-- Orange car — on the ramp, approaching curve -->
+  <g transform="translate(118, 340)">
+    <rect x="-12" y="-22" width="24" height="44" rx="6" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="-9" y="-18" width="18" height="8" rx="2" fill="#fde68a" opacity="0.6"/>
+  </g>
+
+  <!-- Green car — in acceleration lane, accelerating -->
+  <g transform="translate(550, 248)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+
+  <!-- Blue car — on main road, bottom lane -->
+  <g transform="translate(650, 200)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+  </g>
+
+  <!-- Merge arrow path -->
+  <defs>
+    <marker id="arrMerge" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#16a34a"/>
+    </marker>
+  </defs>
+  <path d="M 575,245 C 630,240 680,230 730,215" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrMerge)"/>
+
+  <!-- ========== LABELS ========== -->
+
+  <!-- "Accelerare qui" label -->
+  <rect x="460" y="262" width="130" height="22" rx="4" fill="#16a34a" opacity="0.9"/>
+  <text x="525" y="278" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">Accelerare qui</text>
+
+  <!-- Bracket for acceleration lane -->
+  <line x1="420" y1="293" x2="420" y2="310" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="820" y1="235" x2="820" y2="310" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="420" y1="308" x2="820" y2="308" stroke="#e65100" stroke-width="2"/>
+  <text x="620" y="328" text-anchor="middle" fill="#e65100" font-size="14" font-weight="bold">Corsia di accelerazione</text>
+
+  <!-- Main road label -->
+  <rect x="200" y="140" width="140" height="22" rx="4" fill="#000" opacity="0.4"/>
+  <text x="270" y="156" text-anchor="middle" fill="#ddd" font-size="13" font-weight="bold">STRADA PRINCIPALE</text>
+
+  <!-- ========== RULES BOX ========== -->
+  <rect x="60" y="355" width="780" height="120" rx="10" fill="#fff" stroke="#ddd" stroke-width="1.5"/>
+  <text x="450" y="382" text-anchor="middle" fill="#1a1a1a" font-size="18" font-weight="bold">Regole</text>
+
+  <g transform="translate(100, 395)">
+    <circle cx="14" cy="12" r="14" fill="#16a34a"/>
+    <text x="14" y="17" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="40" y="17" fill="#333" font-size="14">Accelerare nella corsia per raggiungere la velocità del traffico</text>
+  </g>
+
+  <g transform="translate(100, 428)">
+    <circle cx="14" cy="12" r="14" fill="#2563eb"/>
+    <text x="14" y="17" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="40" y="17" fill="#333" font-size="14">Immettersi dando <tspan font-weight="bold">precedenza</tspan> ai veicoli già in transito</text>
+  </g>
+</svg>

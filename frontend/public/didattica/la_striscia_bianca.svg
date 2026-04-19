@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, sans-serif">
+  <rect width="900" height="400" fill="#f0f4f0"/>
+  <text x="450" y="32" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">STRISCIA BIANCA DISCONTINUA (TRATTEGGIATA)</text>
+  <text x="450" y="54" text-anchor="middle" fill="#555" font-size="15">Separa i sensi di marcia — si PUO superare con cautela</text>
+
+  <!-- Road -->
+  <!-- Top lane (left direction ←) -->
+  <rect x="50" y="75" width="800" height="55" fill="#555"/>
+  <line x1="50" y1="77" x2="850" y2="77" stroke="#fff" stroke-width="2.5"/>
+  <!-- DASHED WHITE CENTER LINE -->
+  <line x1="50" y1="130" x2="850" y2="130" stroke="#fff" stroke-width="3" stroke-dasharray="20,14"/>
+  <!-- Bottom lane (right direction →) -->
+  <rect x="50" y="130" width="800" height="55" fill="#555"/>
+  <line x1="50" y1="183" x2="850" y2="183" stroke="#fff" stroke-width="2.5"/>
+  <!-- Redraw dashed line on top of bottom lane -->
+  <line x1="50" y1="130" x2="850" y2="130" stroke="#fff" stroke-width="3" stroke-dasharray="20,14"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.35">
+    <!-- Bottom lane → right -->
+    <polygon points="750,155 770,158 750,161" fill="#fff"/>
+    <polygon points="600,155 620,158 600,161" fill="#fff"/>
+    <!-- Top lane ← left -->
+    <polygon points="200,100 180,103 200,106" fill="#fff"/>
+    <polygon points="350,100 330,103 350,106" fill="#fff"/>
+  </g>
+
+  <!-- Blue car in bottom lane (being overtaken) -->
+  <g transform="translate(480, 158)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1d4ed8" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.4"/>
+  </g>
+
+  <!-- Overtaking path (dashed green curve — wider arc, rientra più avanti) -->
+  <path d="M 350,158 C 370,158 380,103 410,103 L 620,103 C 660,103 680,158 720,158"
+        fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="6,4" opacity="0.7"/>
+  <!-- Arrow head on overtaking path -->
+  <polygon points="620,98 635,103 620,108" fill="#16a34a" opacity="0.7"/>
+
+  <!-- Green car in top lane (overtaking) -->
+  <g transform="translate(530, 103)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.4"/>
+  </g>
+  <text x="530" y="82" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="bold">SORPASSO</text>
+
+  <!-- Label for the dashed line -->
+  <line x1="250" y1="130" x2="250" y2="200" stroke="#e65100" stroke-width="1.5"/>
+  <circle cx="250" cy="130" r="3" fill="#e65100"/>
+  <text x="250" y="215" text-anchor="middle" fill="#e65100" font-size="14" font-weight="bold">Striscia discontinua</text>
+
+  <!-- Info box: CONSENTITO (green border) -->
+  <g transform="translate(50,235)">
+    <rect x="0" y="0" width="380" height="70" rx="8" fill="#fff" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="190" y="22" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">CONSENTITO</text>
+    <text x="190" y="42" text-anchor="middle" fill="#555" font-size="13">Superare la striscia per sorpasso</text>
+    <text x="190" y="60" text-anchor="middle" fill="#555" font-size="13">Cambiare corsia</text>
+  </g>
+
+  <!-- Info box: ATTENZIONE (orange border) -->
+  <g transform="translate(470,235)">
+    <rect x="0" y="0" width="380" height="70" rx="8" fill="#fff" stroke="#e65100" stroke-width="1.5"/>
+    <text x="190" y="22" text-anchor="middle" fill="#e65100" font-size="14" font-weight="bold">ATTENZIONE</text>
+    <text x="190" y="42" text-anchor="middle" fill="#555" font-size="13">Solo se la visibilita lo consente</text>
+    <text x="190" y="60" text-anchor="middle" fill="#555" font-size="13">Dare la precedenza ai veicoli in arrivo</text>
+  </g>
+
+  <!-- Yellow reminder box -->
+  <g transform="translate(50,325)">
+    <rect x="0" y="0" width="800" height="50" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+    <text x="400" y="20" text-anchor="middle" fill="#856404" font-size="13" font-weight="bold">Ricorda</text>
+    <text x="400" y="40" text-anchor="middle" fill="#856404" font-size="13">Striscia DISCONTINUA = consentito il superamento | Striscia CONTINUA = vietato</text>
+  </g>
+</svg>

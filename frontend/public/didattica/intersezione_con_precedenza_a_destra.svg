@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Arial, sans-serif">
+  <rect width="900" height="620" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">PRECEDENZA A DESTRA</text>
+  <text x="450" y="54" text-anchor="middle" fill="#555" font-size="15">Regola generale agli incroci non regolati</text>
+
+  <!-- ========== CROSS INTERSECTION ========== -->
+  <!-- Horizontal road -->
+  <rect x="100" y="200" width="500" height="120" fill="#555"/>
+  <!-- Vertical road -->
+  <rect x="290" y="70" width="120" height="360" fill="#555"/>
+
+  <!-- Road edge lines — horizontal -->
+  <line x1="100" y1="202" x2="290" y2="202" stroke="#fff" stroke-width="2.5"/>
+  <line x1="410" y1="202" x2="600" y2="202" stroke="#fff" stroke-width="2.5"/>
+  <line x1="100" y1="318" x2="290" y2="318" stroke="#fff" stroke-width="2.5"/>
+  <line x1="410" y1="318" x2="600" y2="318" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Road edge lines — vertical -->
+  <line x1="292" y1="70" x2="292" y2="200" stroke="#fff" stroke-width="2.5"/>
+  <line x1="408" y1="70" x2="408" y2="200" stroke="#fff" stroke-width="2.5"/>
+  <line x1="292" y1="320" x2="292" y2="430" stroke="#fff" stroke-width="2.5"/>
+  <line x1="408" y1="320" x2="408" y2="430" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Center dashed lines — horizontal -->
+  <line x1="100" y1="260" x2="290" y2="260" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+  <line x1="410" y1="260" x2="600" y2="260" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+
+  <!-- Center dashed lines — vertical -->
+  <line x1="350" y1="70" x2="350" y2="200" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+  <line x1="350" y1="320" x2="350" y2="430" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+
+  <!-- ========== DIRECTION ARROWS on roads ========== -->
+  <defs>
+    <marker id="arrGray" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#aaa"/>
+    </marker>
+  </defs>
+
+  <!-- Arrow on bottom horizontal lane (going right →) for red car -->
+  <line x1="140" y1="290" x2="200" y2="290" stroke="#aaa" stroke-width="2.5" marker-end="url(#arrGray)"/>
+
+  <!-- Arrow on right vertical lane (going UP ↑) — car coming from below -->
+  <line x1="380" y1="400" x2="380" y2="340" stroke="#aaa" stroke-width="2.5" marker-end="url(#arrGray)"/>
+
+  <!-- ========== RED CAR — our car, bottom lane, going right → STOPPED before intersection ========== -->
+  <g transform="translate(170, 290)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="12" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <!-- A label + CEDE -->
+  <rect x="144" y="300" width="52" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="170" y="313" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="bold">CEDE</text>
+  <circle cx="170" cy="275" r="11" fill="#dc2626"/>
+  <text x="170" y="280" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">A</text>
+
+  <!-- ========== GREEN CAR — from the RIGHT, on vertical road going down ↓ ========== -->
+  <!-- Has priority (is to the right of our red car) -->
+  <!-- Green car from BELOW (right of red car), going UP, in right lane (x=380) -->
+  <g transform="translate(380, 370) rotate(-90)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="12" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <!-- B label + PASSA -->
+  <rect x="406" y="355" width="56" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="434" y="368" text-anchor="middle" fill="#86efac" font-size="13" font-weight="bold">PASSA</text>
+  <circle cx="380" cy="395" r="11" fill="#16a34a"/>
+  <text x="380" y="400" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">B</text>
+
+  <!-- ========== RULES (right side) ========== -->
+  <circle cx="660" cy="100" r="14" fill="#2563eb"/>
+  <text x="660" y="106" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+  <text x="682" y="96" fill="#1a1a1a" font-size="14" font-weight="bold">Chi arriva da DESTRA</text>
+  <text x="682" y="114" fill="#1a1a1a" font-size="14">ha la precedenza</text>
+
+  <circle cx="660" cy="165" r="14" fill="#2563eb"/>
+  <text x="660" y="171" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+  <text x="682" y="161" fill="#1a1a1a" font-size="14" font-weight="bold">Rallentare e guardare</text>
+  <text x="682" y="179" fill="#1a1a1a" font-size="14">a destra prima dell'incrocio</text>
+
+  <circle cx="660" cy="230" r="14" fill="#2563eb"/>
+  <text x="660" y="236" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+  <text x="682" y="226" fill="#1a1a1a" font-size="14" font-weight="bold">Si applica SOLO senza</text>
+  <text x="682" y="244" fill="#1a1a1a" font-size="14">segnali di precedenza</text>
+
+  <!-- Color legend -->
+  <rect x="650" y="280" width="20" height="14" rx="3" fill="#16a34a"/>
+  <text x="678" y="292" fill="#1a1a1a" font-size="13">= ha la precedenza (da destra)</text>
+
+  <rect x="650" y="305" width="20" height="14" rx="3" fill="#dc2626"/>
+  <text x="678" y="317" fill="#1a1a1a" font-size="13">= deve cedere (noi)</text>
+
+  <!-- ========== INTERSECTION LABEL ========== -->
+  <rect x="310" y="248" width="80" height="22" rx="4" fill="#000" opacity="0.35"/>
+  <text x="350" y="264" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">INCROCIO</text>
+
+  <!-- ========== INFO BOXES ========== -->
+  <rect x="50" y="460" width="380" height="75" rx="8" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+  <text x="240" y="488" text-anchor="middle" fill="#dc2626" font-size="18" font-weight="bold">VIETATO</text>
+  <text x="240" y="510" text-anchor="middle" fill="#555" font-size="14">Impegnare l'incrocio se c'è un</text>
+  <text x="240" y="526" text-anchor="middle" fill="#555" font-size="14">veicolo che arriva da destra</text>
+
+  <rect x="470" y="460" width="380" height="75" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+  <text x="660" y="488" text-anchor="middle" fill="#16a34a" font-size="18" font-weight="bold">CONSENTITO</text>
+  <text x="660" y="510" text-anchor="middle" fill="#555" font-size="14">Proseguire se nessun veicolo</text>
+  <text x="660" y="526" text-anchor="middle" fill="#555" font-size="14">arriva da destra</text>
+
+  <!-- Yellow reminder -->
+  <rect x="50" y="545" width="800" height="55" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="450" y="570" text-anchor="middle" fill="#856404" font-size="14" font-weight="bold">In assenza di segnali, vale SEMPRE la precedenza a destra.</text>
+  <text x="450" y="590" text-anchor="middle" fill="#856404" font-size="13">Se non ci sono semafori, vigili o cartelli, chi viene da destra passa per primo.</text>
+</svg>

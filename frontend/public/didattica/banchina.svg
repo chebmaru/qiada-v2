@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" font-family="Arial, sans-serif">
+  <rect width="900" height="380" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">LA BANCHINA</text>
+  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="15">Parte della strada ai lati della carreggiata — vista dall'alto</text>
+
+  <!-- Marciapiede top -->
+  <rect x="100" y="80" width="700" height="25" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+  <!-- Banchina top -->
+  <rect x="100" y="105" width="700" height="30" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Lane going right -->
+  <rect x="100" y="135" width="700" height="55" fill="#555"/>
+  <line x1="100" y1="137" x2="800" y2="137" stroke="#fff" stroke-width="2.5"/>
+  <!-- Center divider -->
+  <line x1="100" y1="190" x2="800" y2="190" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+  <!-- Lane going left -->
+  <rect x="100" y="190" width="700" height="55" fill="#555"/>
+  <line x1="100" y1="243" x2="800" y2="243" stroke="#fff" stroke-width="2.5"/>
+  <!-- Banchina bottom -->
+  <rect x="100" y="245" width="700" height="30" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Marciapiede bottom -->
+  <rect x="100" y="275" width="700" height="25" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+
+  <!-- Labels -->
+  <text x="450" y="97" text-anchor="middle" fill="#6b5b3e" font-size="11">Marciapiede</text>
+  <text x="450" y="293" text-anchor="middle" fill="#6b5b3e" font-size="11">Marciapiede</text>
+
+  <!-- Banchina highlight -->
+  <rect x="100" y="105" width="700" height="30" fill="#f59e0b" opacity="0.25"/>
+  <rect x="100" y="245" width="700" height="30" fill="#f59e0b" opacity="0.25"/>
+
+  <!-- Banchina labels -->
+  <text x="650" y="125" text-anchor="middle" fill="#b45309" font-size="13" font-weight="bold">BANCHINA</text>
+  <text x="450" y="265" text-anchor="middle" fill="#b45309" font-size="13" font-weight="bold">BANCHINA</text>
+
+  <!-- Brackets right -->
+  <line x1="810" y1="105" x2="830" y2="105" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="810" y1="135" x2="830" y2="135" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="828" y1="105" x2="828" y2="135" stroke="#f59e0b" stroke-width="2"/>
+  <text x="840" y="124" fill="#b45309" font-size="11" font-weight="bold">Banchina</text>
+
+  <line x1="810" y1="135" x2="830" y2="135" stroke="#e65100" stroke-width="2"/>
+  <line x1="810" y1="245" x2="830" y2="245" stroke="#e65100" stroke-width="2"/>
+  <line x1="828" y1="135" x2="828" y2="245" stroke="#e65100" stroke-width="2.5"/>
+  <text x="840" y="195" fill="#e65100" font-size="11" font-weight="bold">Carreggiata</text>
+
+  <!-- Cars -->
+  <g transform="translate(550, 162)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+  </g>
+
+  <!-- Emergency car on banchina (top) -->
+  <g transform="translate(300, 120)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <rect x="335" y="110" width="150" height="20" rx="4" fill="#000" opacity="0.4"/>
+  <text x="410" y="124" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="bold">Fermata d'emergenza</text>
+
+  <!-- Info boxes -->
+  <g transform="translate(50, 310)">
+    <rect x="0" y="0" width="250" height="55" rx="8" fill="#fff" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="125" y="22" text-anchor="middle" fill="#16a34a" font-size="13" font-weight="bold">Uso consentito</text>
+    <text x="125" y="42" text-anchor="middle" fill="#555" font-size="12">Fermata d'emergenza</text>
+  </g>
+  <g transform="translate(325, 310)">
+    <rect x="0" y="0" width="250" height="55" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="125" y="22" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="bold">Vietato</text>
+    <text x="125" y="42" text-anchor="middle" fill="#555" font-size="12">Marcia e sosta normale</text>
+  </g>
+  <g transform="translate(600, 310)">
+    <rect x="0" y="0" width="250" height="55" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="125" y="22" text-anchor="middle" fill="#2563eb" font-size="13" font-weight="bold">Nota</text>
+    <text x="125" y="42" text-anchor="middle" fill="#555" font-size="12">Non è rialzata (≠ marciapiede)</text>
+  </g>
+</svg>

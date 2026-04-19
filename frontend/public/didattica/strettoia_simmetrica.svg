@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="480" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">STRETTOIA SIMMETRICA</text>
+  <text x="450" y="60" text-anchor="middle" fill="#555" font-size="15">La strada si restringe da entrambi i lati</text>
+
+  <!-- === ROAD === -->
+
+  <!-- SECTION 1: Normal road (x=80 to x=300) -->
+  <!-- Top lane (goes LEFT ←) -->
+  <rect x="80" y="90" width="220" height="55" fill="#555"/>
+  <line x1="80" y1="92" x2="300" y2="92" stroke="#fff" stroke-width="2.5"/>
+  <line x1="80" y1="145" x2="300" y2="145" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <!-- Bottom lane (goes RIGHT →) -->
+  <rect x="80" y="145" width="220" height="55" fill="#555"/>
+  <line x1="80" y1="198" x2="300" y2="198" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- SECTION 2: Transition — narrows symmetrically (x=300 to x=420) -->
+  <!-- Top edge angles DOWN (inward) -->
+  <polygon points="300,90 420,110 420,145 300,145" fill="#555"/>
+  <line x1="300" y1="92" x2="420" y2="112" stroke="#fff" stroke-width="2.5"/>
+  <line x1="300" y1="145" x2="420" y2="145" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <!-- Bottom edge angles UP (inward) -->
+  <polygon points="300,145 420,145 420,180 300,198" fill="#555"/>
+  <line x1="300" y1="198" x2="420" y2="180" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- SECTION 3: Narrow road (x=420 to x=600) -->
+  <rect x="420" y="110" width="180" height="35" fill="#555"/>
+  <line x1="420" y1="112" x2="600" y2="112" stroke="#fff" stroke-width="2.5"/>
+  <line x1="420" y1="145" x2="600" y2="145" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <rect x="420" y="145" width="180" height="35" fill="#555"/>
+  <line x1="420" y1="180" x2="600" y2="180" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- SECTION 4: Transition widens again (x=600 to x=720) -->
+  <polygon points="600,110 720,90 720,145 600,145" fill="#555"/>
+  <line x1="600" y1="112" x2="720" y2="92" stroke="#fff" stroke-width="2.5"/>
+  <line x1="600" y1="145" x2="720" y2="145" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <polygon points="600,145 720,145 720,198 600,180" fill="#555"/>
+  <line x1="600" y1="180" x2="720" y2="198" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- SECTION 5: Normal road again (x=720 to x=820) -->
+  <rect x="720" y="90" width="100" height="55" fill="#555"/>
+  <line x1="720" y1="92" x2="820" y2="92" stroke="#fff" stroke-width="2.5"/>
+  <line x1="720" y1="145" x2="820" y2="145" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <rect x="720" y="145" width="100" height="55" fill="#555"/>
+  <line x1="720" y1="198" x2="820" y2="198" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Narrowing hatched areas (top and bottom) -->
+  <!-- Top narrowing area -->
+  <polygon points="300,90 420,110 600,110 720,90" fill="#c4a882" stroke="#a08060" stroke-width="1"/>
+  <g opacity="0.2">
+    <line x1="340" y1="93" x2="360" y2="106" stroke="#888" stroke-width="1.5"/>
+    <line x1="380" y1="96" x2="400" y2="108" stroke="#888" stroke-width="1.5"/>
+    <line x1="460" y1="92" x2="460" y2="110" stroke="#888" stroke-width="1.5"/>
+    <line x1="510" y1="92" x2="510" y2="110" stroke="#888" stroke-width="1.5"/>
+    <line x1="560" y1="92" x2="560" y2="110" stroke="#888" stroke-width="1.5"/>
+    <line x1="640" y1="106" x2="660" y2="93" stroke="#888" stroke-width="1.5"/>
+    <line x1="680" y1="98" x2="700" y2="92" stroke="#888" stroke-width="1.5"/>
+  </g>
+  <!-- Bottom narrowing area -->
+  <polygon points="300,198 420,180 600,180 720,198" fill="#c4a882" stroke="#a08060" stroke-width="1"/>
+  <g opacity="0.2">
+    <line x1="340" y1="197" x2="360" y2="184" stroke="#888" stroke-width="1.5"/>
+    <line x1="380" y1="194" x2="400" y2="182" stroke="#888" stroke-width="1.5"/>
+    <line x1="460" y1="198" x2="460" y2="180" stroke="#888" stroke-width="1.5"/>
+    <line x1="510" y1="198" x2="510" y2="180" stroke="#888" stroke-width="1.5"/>
+    <line x1="560" y1="198" x2="560" y2="180" stroke="#888" stroke-width="1.5"/>
+    <line x1="640" y1="184" x2="660" y2="197" stroke="#888" stroke-width="1.5"/>
+    <line x1="680" y1="192" x2="700" y2="198" stroke="#888" stroke-width="1.5"/>
+  </g>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <!-- Top lane — LEFT ← -->
+    <polygon points="180,110 160,115 180,120" fill="#fff"/>
+    <polygon points="770,110 750,115 770,120" fill="#fff"/>
+    <!-- Bottom lane — RIGHT → -->
+    <polygon points="200,165 220,170 200,175" fill="#fff"/>
+  </g>
+
+  <!-- RED car B — BOTTOM lane, approaching narrowing, going RIGHT → (must YIELD) -->
+  <g transform="translate(240, 170)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.7"/>
+  </g>
+  <circle cx="240" cy="155" r="11" fill="#dc2626"/>
+  <text x="240" y="160" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">B</text>
+  <rect x="256" y="160" width="50" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="281" y="174" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="bold">CEDE</text>
+
+  <!-- GREEN car A — TOP lane, inside narrow section, going LEFT ← (has PRIORITY) -->
+  <g transform="translate(510, 125)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.7"/>
+  </g>
+  <circle cx="510" cy="108" r="11" fill="#16a34a"/>
+  <text x="510" y="113" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">A</text>
+  <rect x="526" y="108" width="55" height="18" rx="3" fill="#000" opacity="0.4"/>
+  <text x="553" y="122" text-anchor="middle" fill="#86efac" font-size="13" font-weight="bold">PASSA</text>
+
+  <!-- === VERTICAL WIDTH BRACKETS === -->
+
+  <!-- Normal width — left side -->
+  <line x1="65" y1="90" x2="75" y2="90" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="65" y1="198" x2="75" y2="198" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="68" y1="90" x2="68" y2="198" stroke="#2563eb" stroke-width="2"/>
+  <polygon points="64,96 68,90 72,96" fill="#2563eb"/>
+  <polygon points="64,192 68,198 72,192" fill="#2563eb"/>
+  <text x="46" y="148" text-anchor="middle" fill="#2563eb" font-size="13" font-weight="bold" transform="rotate(-90, 46, 148)">Larghezza normale</text>
+
+  <!-- Narrow width — right side -->
+  <line x1="830" y1="110" x2="840" y2="110" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="830" y1="180" x2="840" y2="180" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="837" y1="110" x2="837" y2="180" stroke="#e65100" stroke-width="2"/>
+  <polygon points="833,116 837,110 841,116" fill="#e65100"/>
+  <polygon points="833,174 837,180 841,174" fill="#e65100"/>
+  <text x="859" y="148" text-anchor="middle" fill="#e65100" font-size="13" font-weight="bold" transform="rotate(90, 859, 148)">Zona ristretta</text>
+
+  <!-- === RULES BOX === -->
+  <rect x="80" y="230" width="740" height="165" rx="10" fill="#fff" stroke="#ddd" stroke-width="1.5"/>
+  <text x="450" y="262" text-anchor="middle" fill="#1a1a1a" font-size="18" font-weight="bold">Regole nella strettoia simmetrica</text>
+
+  <g transform="translate(120, 280)">
+    <circle cx="14" cy="12" r="14" fill="#2563eb"/>
+    <text x="14" y="17" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="40" y="17" fill="#333" font-size="14"><tspan font-weight="bold">Rallentare</tspan> in prossimita della strettoia</text>
+  </g>
+
+  <g transform="translate(120, 318)">
+    <circle cx="14" cy="12" r="14" fill="#dc2626"/>
+    <text x="14" y="17" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="40" y="17" fill="#333" font-size="14">Chi ha l'ostacolo dal proprio lato <tspan font-weight="bold">CEDE il passo</tspan></text>
+  </g>
+
+  <g transform="translate(120, 356)">
+    <circle cx="14" cy="12" r="14" fill="#16a34a"/>
+    <text x="14" y="17" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+    <text x="40" y="17" fill="#333" font-size="14">Dare <tspan font-weight="bold">precedenza ai veicoli gia nella strettoia</tspan></text>
+  </g>
+
+  <!-- === YELLOW REMINDER BOX === -->
+  <rect x="80" y="420" width="740" height="44" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="450" y="447" text-anchor="middle" fill="#856404" font-size="14">Nella strettoia simmetrica, la strada si restringe ugualmente da <tspan font-weight="bold">ENTRAMBI</tspan> i lati</text>
+</svg>

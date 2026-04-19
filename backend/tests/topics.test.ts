@@ -9,7 +9,7 @@ describe('GET /api/topics', () => {
     const res = await app.inject({ method: 'GET', url: '/api/topics' });
     expect(res.statusCode).toBe(200);
     const body = res.json();
-    expect(body.length).toBe(327);
+    expect(body.length).toBe(393);
   });
 
   it('filters by chapterId', async () => {

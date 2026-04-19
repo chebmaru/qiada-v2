@@ -3,8 +3,8 @@
   <rect width="900" height="620" fill="#f0f4f0"/>
 
   <!-- Title -->
-  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="22" font-weight="bold">LA CARREGGIATA</text>
-  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="13">Parti della strada — vista dall'alto</text>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">LA CARREGGIATA</text>
+  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="15">Parti della strada — vista dall'alto</text>
 
   <!-- ===== SINGLE CARRIAGEWAY ===== -->
   <text x="450" y="85" text-anchor="middle" fill="#1a1a1a" font-size="16" font-weight="bold">Strada a carreggiata unica</text>
@@ -29,26 +29,20 @@
 
   <!-- Direction arrows -->
   <g opacity="0.4">
-    <polygon points="650,165 670,170 650,175" fill="#fff"/>
-    <polygon points="250,220 230,225 250,230" fill="#fff"/>
+    <polygon points="250,165 230,170 250,175" fill="#fff"/>
+    <polygon points="650,220 670,225 650,230" fill="#fff"/>
   </g>
 
   <!-- Cars -->
+  <!-- Blue car — top lane, going LEFT ← -->
   <g transform="translate(550, 168)">
     <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
-    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
-    <rect x="-16" y="-15" width="10" height="4" rx="1" fill="#333"/>
-    <rect x="-16" y="11" width="10" height="4" rx="1" fill="#333"/>
-    <rect x="6" y="-15" width="10" height="4" rx="1" fill="#333"/>
-    <rect x="6" y="11" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
   </g>
+  <!-- Red car — bottom lane, going RIGHT → -->
   <g transform="translate(350, 225)">
     <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
-    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
-    <rect x="-16" y="-15" width="10" height="4" rx="1" fill="#333"/>
-    <rect x="-16" y="11" width="10" height="4" rx="1" fill="#333"/>
-    <rect x="6" y="-15" width="10" height="4" rx="1" fill="#333"/>
-    <rect x="6" y="11" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
   </g>
 
   <!-- Labels on the RIGHT side — vertical brackets -->
@@ -86,8 +80,8 @@
   <text x="785" y="284" fill="#888" font-size="10">Marciapiede</text>
 
   <!-- Lane labels inside -->
-  <text x="450" y="175" text-anchor="middle" fill="#ddd" font-size="11">&#x2192; Corsia 1</text>
-  <text x="450" y="232" text-anchor="middle" fill="#ddd" font-size="11">&#x2190; Corsia 2</text>
+  <text x="450" y="175" text-anchor="middle" fill="#ddd" font-size="11">&#x2190; Corsia 1</text>
+  <text x="450" y="232" text-anchor="middle" fill="#ddd" font-size="11">&#x2192; Corsia 2</text>
 
   <!-- ===== DOUBLE CARRIAGEWAY ===== -->
   <text x="450" y="335" text-anchor="middle" fill="#1a1a1a" font-size="16" font-weight="bold">Strada a carreggiate separate (doppia)</text>
@@ -121,30 +115,24 @@
   <!-- Marciapiede bottom -->
   <rect x="150" y="573" width="600" height="22" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
 
-  <!-- Direction arrows -->
+  <!-- Direction arrows — Carreggiata A: LEFT ←, Carreggiata B: RIGHT → -->
   <g opacity="0.4">
-    <polygon points="600,405 620,410 600,415" fill="#fff"/>
-    <polygon points="600,445 620,450 600,455" fill="#fff"/>
-    <polygon points="300,500 280,505 300,510" fill="#fff"/>
-    <polygon points="300,540 280,545 300,550" fill="#fff"/>
+    <polygon points="300,405 280,410 300,415" fill="#fff"/>
+    <polygon points="300,445 280,450 300,455" fill="#fff"/>
+    <polygon points="600,500 620,505 600,510" fill="#fff"/>
+    <polygon points="600,540 620,545 600,550" fill="#fff"/>
   </g>
 
   <!-- Cars -->
+  <!-- Orange car — Carreggiata A (top), going LEFT ← -->
   <g transform="translate(500, 410)">
     <rect x="-18" y="-10" width="36" height="20" rx="5" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
-    <rect x="8" y="-7" width="7" height="14" rx="2" fill="#fde68a" opacity="0.6"/>
-    <rect x="-13" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
-    <rect x="-13" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
-    <rect x="5" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
-    <rect x="5" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="-14" y="-7" width="7" height="14" rx="2" fill="#fde68a" opacity="0.6"/>
   </g>
+  <!-- Green car — Carreggiata B (bottom), going RIGHT → -->
   <g transform="translate(400, 540)">
     <rect x="-18" y="-10" width="36" height="20" rx="5" fill="#16a34a" stroke="#15803d" stroke-width="1"/>
-    <rect x="-14" y="-7" width="7" height="14" rx="2" fill="#86efac" opacity="0.6"/>
-    <rect x="-13" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
-    <rect x="-13" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
-    <rect x="5" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
-    <rect x="5" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="8" y="-7" width="7" height="14" rx="2" fill="#86efac" opacity="0.6"/>
   </g>
 
   <!-- Labels on the RIGHT side -->

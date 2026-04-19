@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, sans-serif">
+  <rect width="900" height="500" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">TIPI DI STRADA</text>
+  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="15">Classificazione delle strade italiane</text>
+
+  <!-- Autostrada -->
+  <g transform="translate(0,70)">
+    <rect x="30" y="0" width="840" height="80" rx="8" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+    <rect x="40" y="10" width="60" height="60" rx="6" fill="#2563eb"/>
+    <text x="70" y="48" text-anchor="middle" fill="#fff" font-size="24" font-weight="bold">A</text>
+    <text x="120" y="30" fill="#1a1a1a" font-size="16" font-weight="bold">Autostrada</text>
+    <text x="120" y="50" fill="#555" font-size="13">Carreggiate separate, almeno 2 corsie per senso + emergenza</text>
+    <text x="120" y="68" fill="#2563eb" font-size="13" font-weight="bold">130 km/h max (110 pioggia)</text>
+    <rect x="700" y="15" width="150" height="50" rx="5" fill="#2563eb"/>
+    <text x="775" y="45" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Pedaggio</text>
+  </g>
+
+  <!-- Extraurbana principale -->
+  <g transform="translate(0,160)">
+    <rect x="30" y="0" width="840" height="80" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+    <rect x="40" y="10" width="60" height="60" rx="6" fill="#16a34a"/>
+    <text x="70" y="48" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">SS</text>
+    <text x="120" y="30" fill="#1a1a1a" font-size="16" font-weight="bold">Strada extraurbana principale (superstrada)</text>
+    <text x="120" y="50" fill="#555" font-size="13">Carreggiate separate, senza incroci a raso, senza accessi privati</text>
+    <text x="120" y="68" fill="#16a34a" font-size="13" font-weight="bold">110 km/h max (90 pioggia)</text>
+  </g>
+
+  <!-- Extraurbana secondaria -->
+  <g transform="translate(0,250)">
+    <rect x="30" y="0" width="840" height="80" rx="8" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="40" y="10" width="60" height="60" rx="6" fill="#f59e0b"/>
+    <text x="70" y="48" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">SP</text>
+    <text x="120" y="30" fill="#1a1a1a" font-size="16" font-weight="bold">Strada extraurbana secondaria</text>
+    <text x="120" y="50" fill="#555" font-size="13">Fuori dai centri abitati, ad unica carreggiata</text>
+    <text x="120" y="68" fill="#f59e0b" font-size="13" font-weight="bold">90 km/h max</text>
+  </g>
+
+  <!-- Urbana -->
+  <g transform="translate(0,340)">
+    <rect x="30" y="0" width="400" height="80" rx="8" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+    <rect x="40" y="10" width="60" height="60" rx="6" fill="#dc2626"/>
+    <text x="70" y="48" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">URB</text>
+    <text x="120" y="30" fill="#1a1a1a" font-size="15" font-weight="bold">Strada urbana</text>
+    <text x="120" y="50" fill="#555" font-size="13">Dentro centri abitati</text>
+    <text x="120" y="68" fill="#dc2626" font-size="13" font-weight="bold">50 km/h max</text>
+  </g>
+
+  <!-- Locale -->
+  <g transform="translate(460,340)">
+    <rect x="0" y="0" width="410" height="80" rx="8" fill="#fff" stroke="#888" stroke-width="2"/>
+    <rect x="10" y="10" width="60" height="60" rx="6" fill="#888"/>
+    <text x="40" y="48" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">LOC</text>
+    <text x="85" y="30" fill="#1a1a1a" font-size="15" font-weight="bold">Strada locale</text>
+    <text x="85" y="50" fill="#555" font-size="13">Non classificata, accesso proprietà</text>
+    <text x="85" y="68" fill="#888" font-size="13" font-weight="bold">Limiti variabili</text>
+  </g>
+
+  <!-- Note -->
+  <text x="450" y="460" text-anchor="middle" fill="#555" font-size="12">I limiti si riducono in caso di pioggia, nebbia o neve</text>
+  <text x="450" y="480" text-anchor="middle" fill="#555" font-size="12">Neopatentati: max 100 km/h in autostrada, 90 km/h su extraurbane principali</text>
+</svg>

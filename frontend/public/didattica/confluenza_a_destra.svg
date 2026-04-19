@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" font-family="Arial, sans-serif">
+  <rect width="900" height="660" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">CONFLUENZA A DESTRA</text>
+  <text x="450" y="60" text-anchor="middle" fill="#555" font-size="15">Immissione di traffico dalla destra</text>
+
+  <!-- ========== MAIN HORIZONTAL ROAD (2 lanes, 120px) ========== -->
+  <rect x="0" y="200" width="900" height="120" fill="#555"/>
+  <!-- Top edge (interrupted at merge) -->
+  <line x1="0" y1="202" x2="400" y2="202" stroke="#fff" stroke-width="2.5"/>
+  <line x1="560" y1="202" x2="900" y2="202" stroke="#fff" stroke-width="2.5"/>
+  <!-- Bottom edge -->
+  <line x1="0" y1="318" x2="900" y2="318" stroke="#fff" stroke-width="2.5"/>
+  <!-- Center dashed -->
+  <line x1="0" y1="260" x2="900" y2="260" stroke="#fff" stroke-width="2" stroke-dasharray="20,14"/>
+
+  <!-- ========== MERGING ROAD — extends beyond viewBox, no flat cut ========== -->
+  <polygon points="400,200 950,-5 950,50 560,200" fill="#555"/>
+  <!-- Left edge line -->
+  <line x1="400" y1="200" x2="950" y2="-5" stroke="#fff" stroke-width="2.5"/>
+  <!-- Right edge line -->
+  <line x1="560" y1="200" x2="950" y2="50" stroke="#fff" stroke-width="2.5"/>
+
+
+  <!-- Direction arrows on main road -->
+  <g opacity="0.35">
+    <!-- Top lane ← left -->
+    <polygon points="350,230 330,233 350,236" fill="#fff"/>
+    <polygon points="200,230 180,233 200,236" fill="#fff"/>
+    <polygon points="700,230 680,233 700,236" fill="#fff"/>
+    <!-- Bottom lane → right -->
+    <polygon points="300,290 320,293 300,296" fill="#fff"/>
+    <polygon points="600,290 620,293 600,296" fill="#fff"/>
+  </g>
+
+  <!-- Direction arrow on merge road -->
+  <g opacity="0.35">
+    <polygon points="560,155 548,164 555,167" fill="#fff"/>
+  </g>
+
+  <!-- ========== GREEN CAR A — top lane, going LEFT ←, approaching merge zone ========== -->
+  <g transform="translate(600, 230)">
+    <rect x="-25" y="-13" width="50" height="26" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <!-- Windshield on LEFT (front) -->
+    <rect x="-22" y="-10" width="9" height="20" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <!-- A label + PRIORITÀ -->
+  <circle cx="600" cy="215" r="11" fill="#16a34a"/>
+  <text x="600" y="220" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">A</text>
+  <rect x="495" y="237" width="85" height="22" rx="4" fill="#000" opacity="0.4"/>
+  <text x="537" y="253" text-anchor="middle" fill="#86efac" font-size="13" font-weight="bold">PRIORITÀ</text>
+
+  <!-- ========== RED CAR B — on merge road, single lane, heading towards main road ========== -->
+  <!-- Road angle ≈ 18°. Car faces towards merge point. rotate(162) -->
+  <g transform="translate(573, 165) rotate(162)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#b91c1c" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <!-- B label + CEDE -->
+  <circle cx="610" cy="140" r="11" fill="#dc2626"/>
+  <text x="610" y="145" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">B</text>
+  <rect x="625" y="150" width="55" height="22" rx="4" fill="#000" opacity="0.4"/>
+  <text x="652" y="166" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="bold">CEDE</text>
+
+  <!-- Arrow showing merge path from red car into top lane -->
+  <defs>
+    <marker id="arrowMerge" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <path d="M 555,178 C 520,192 480,210 450,222 Q 435,228 415,232" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowMerge)"/>
+
+  <!-- Road labels -->
+  <rect x="80" y="222" width="120" height="22" rx="4" fill="#000" opacity="0.4"/>
+  <text x="140" y="238" text-anchor="middle" fill="#ddd" font-size="13" font-weight="bold">La tua corsia ←</text>
+
+  <rect x="100" y="282" width="170" height="22" rx="4" fill="#000" opacity="0.4"/>
+  <text x="185" y="298" text-anchor="middle" fill="#ddd" font-size="13" font-weight="bold">STRADA PRINCIPALE</text>
+
+  <!-- Merge road label -->
+  <g transform="translate(680, 100) rotate(-18)">
+    <rect x="-95" y="-12" width="190" height="22" rx="4" fill="#000" opacity="0.4"/>
+    <text x="0" y="4" text-anchor="middle" fill="#ddd" font-size="13" font-weight="bold">CORSIA DI IMMISSIONE</text>
+  </g>
+
+  <!-- Color legend -->
+  <g transform="translate(50, 380)">
+    <rect x="0" y="0" width="20" height="14" rx="3" fill="#16a34a"/>
+    <text x="28" y="12" fill="#1a1a1a" font-size="13">= ha la priorità (strada principale)</text>
+    <rect x="300" y="0" width="20" height="14" rx="3" fill="#dc2626"/>
+    <text x="328" y="12" fill="#1a1a1a" font-size="13">= deve cedere (si immette)</text>
+  </g>
+
+  <!-- Rules section -->
+  <g transform="translate(50, 410)">
+    <rect x="0" y="0" width="800" height="130" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="20" y="25" fill="#1a1a1a" font-size="18" font-weight="bold">Regole</text>
+
+    <circle cx="35" cy="55" r="14" fill="#2563eb"/>
+    <text x="35" y="60" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="60" y="60" fill="#333" font-size="14">Chi si immette CEDE sempre la precedenza ai veicoli sulla strada principale</text>
+
+    <circle cx="35" cy="85" r="14" fill="#2563eb"/>
+    <text x="35" y="90" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="60" y="90" fill="#333" font-size="14">Moderare la velocità nella zona di confluenza</text>
+
+    <circle cx="35" cy="115" r="14" fill="#2563eb"/>
+    <text x="35" y="120" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+    <text x="60" y="120" fill="#333" font-size="14">Non fermarsi sulla corsia di accelerazione</text>
+  </g>
+
+  <!-- Yellow reminder box -->
+  <g transform="translate(50, 555)">
+    <rect x="0" y="0" width="800" height="50" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="2"/>
+    <text x="30" y="20" fill="#856404" font-size="16" font-weight="bold">Ricorda</text>
+    <text x="30" y="40" fill="#856404" font-size="14">Chi si immette deve SEMPRE cedere il passo ai veicoli sulla strada principale.</text>
+  </g>
+</svg>

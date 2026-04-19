@@ -9,7 +9,7 @@ describe('GET /api/chapters', () => {
     const res = await app.inject({ method: 'GET', url: '/api/chapters' });
     expect(res.statusCode).toBe(200);
     const body = res.json();
-    expect(body).toHaveLength(30);
+    expect(body).toHaveLength(25);
     expect(body[0]).toHaveProperty('nameIt');
     expect(body[0]).toHaveProperty('nameAr');
     expect(body[0]).toHaveProperty('number');

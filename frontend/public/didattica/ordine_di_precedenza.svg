@@ -1,103 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" font-family="Arial, sans-serif">
-  <!-- Background -->
-  <rect width="600" height="600" fill="#f0f4f0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Arial, sans-serif">
+  <rect width="900" height="620" fill="#f0f4f0"/>
 
   <!-- Title -->
-  <text x="300" y="35" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">ORDINE DI PRECEDENZA</text>
-  <text x="300" y="55" text-anchor="middle" fill="#555" font-size="13">Incrocio senza segnali — regola della destra</text>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">ORDINE DI PRECEDENZA</text>
+  <text x="450" y="57" text-anchor="middle" fill="#555" font-size="15">Incrocio senza segnali — regola della destra</text>
 
-  <!-- Intersection roads -->
+  <!-- ========== CROSS INTERSECTION ========== -->
   <!-- Vertical road -->
-  <rect x="230" y="70" width="140" height="460" fill="#555"/>
+  <rect x="330" y="70" width="140" height="380" fill="#555"/>
   <!-- Horizontal road -->
-  <rect x="70" y="230" width="460" height="140" fill="#555"/>
+  <rect x="120" y="200" width="560" height="140" fill="#555"/>
 
-  <!-- Center lines -->
-  <line x1="300" y1="70" x2="300" y2="230" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
-  <line x1="300" y1="370" x2="300" y2="530" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
-  <line x1="70" y1="300" x2="230" y2="300" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
-  <line x1="370" y1="300" x2="530" y2="300" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <!-- Road edges — vertical -->
+  <line x1="332" y1="70" x2="332" y2="200" stroke="#fff" stroke-width="2.5"/>
+  <line x1="468" y1="70" x2="468" y2="200" stroke="#fff" stroke-width="2.5"/>
+  <line x1="332" y1="340" x2="332" y2="450" stroke="#fff" stroke-width="2.5"/>
+  <line x1="468" y1="340" x2="468" y2="450" stroke="#fff" stroke-width="2.5"/>
 
-  <!-- Road edges -->
-  <line x1="232" y1="70" x2="232" y2="230" stroke="#fff" stroke-width="2"/>
-  <line x1="368" y1="70" x2="368" y2="230" stroke="#fff" stroke-width="2"/>
-  <line x1="232" y1="370" x2="232" y2="530" stroke="#fff" stroke-width="2"/>
-  <line x1="368" y1="370" x2="368" y2="530" stroke="#fff" stroke-width="2"/>
-  <line x1="70" y1="232" x2="230" y2="232" stroke="#fff" stroke-width="2"/>
-  <line x1="70" y1="368" x2="230" y2="368" stroke="#fff" stroke-width="2"/>
-  <line x1="370" y1="232" x2="530" y2="232" stroke="#fff" stroke-width="2"/>
-  <line x1="370" y1="368" x2="530" y2="368" stroke="#fff" stroke-width="2"/>
+  <!-- Road edges — horizontal -->
+  <line x1="120" y1="202" x2="330" y2="202" stroke="#fff" stroke-width="2.5"/>
+  <line x1="120" y1="338" x2="330" y2="338" stroke="#fff" stroke-width="2.5"/>
+  <line x1="470" y1="202" x2="680" y2="202" stroke="#fff" stroke-width="2.5"/>
+  <line x1="470" y1="338" x2="680" y2="338" stroke="#fff" stroke-width="2.5"/>
 
-  <!-- Car A - from BOTTOM (going up) - GREEN = passes 1st -->
-  <g transform="translate(265, 440)">
+  <!-- Center dashed — vertical -->
+  <line x1="400" y1="70" x2="400" y2="200" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+  <line x1="400" y1="340" x2="400" y2="450" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+  <!-- Center dashed — horizontal -->
+  <line x1="120" y1="270" x2="330" y2="270" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+  <line x1="470" y1="270" x2="680" y2="270" stroke="#fff" stroke-width="2" stroke-dasharray="12,8"/>
+
+  <!-- ========== DIRECTION ARROWS ========== -->
+  <defs>
+    <marker id="arrGray" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#aaa"/>
+    </marker>
+  </defs>
+  <!-- Arrow going UP (left lane of vertical road, x=365) -->
+  <line x1="365" y1="430" x2="365" y2="380" stroke="#aaa" stroke-width="2.5" marker-end="url(#arrGray)"/>
+  <!-- Arrow going DOWN (right lane of vertical road, x=435) — for reference -->
+  <line x1="435" y1="80" x2="435" y2="130" stroke="#aaa" stroke-width="2.5" marker-end="url(#arrGray)"/>
+  <!-- Arrow going LEFT (top lane of horizontal road, y=235) -->
+  <line x1="620" y1="235" x2="570" y2="235" stroke="#aaa" stroke-width="2.5" marker-end="url(#arrGray)"/>
+
+  <!-- ========== CAR C — from TOP, going DOWN ↓ — GREEN = passes 1st ========== -->
+  <!-- Right lane going down = left side of road (x < 400) = x=365 -->
+  <g transform="translate(365, 140) rotate(180)">
     <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
     <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#86efac" opacity="0.7"/>
-    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
   </g>
-  <!-- Arrow up -->
-  <line x1="265" y1="405" x2="265" y2="380" stroke="#16a34a" stroke-width="3"/>
-  <polygon points="258,385 265,372 272,385" fill="#16a34a"/>
-  <!-- Label -->
-  <circle cx="265" cy="500" r="18" fill="#16a34a"/>
-  <text x="265" y="506" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">1</text>
-  <text x="265" y="530" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="bold">A - Passa 1°</text>
+  <!-- C label -->
+  <circle cx="365" cy="88" r="13" fill="#16a34a"/>
+  <text x="365" y="93" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">C</text>
+  <rect x="385" y="82" width="75" height="20" rx="4" fill="#000" opacity="0.4"/>
+  <text x="422" y="97" text-anchor="middle" fill="#86efac" font-size="13" font-weight="bold">PASSA 1°</text>
 
-  <!-- Car B - from RIGHT (going left) - BLUE = passes 2nd -->
-  <g transform="translate(460, 265) rotate(90)">
-    <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
-    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#93c5fd" opacity="0.7"/>
-    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+  <!-- ========== CAR B — from RIGHT, going LEFT ← — BLUE = passes 2nd ========== -->
+  <!-- Top lane going left = y=235 -->
+  <g transform="translate(580, 235)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.7"/>
   </g>
-  <!-- Arrow left -->
-  <line x1="425" y1="265" x2="400" y2="265" stroke="#2563eb" stroke-width="3"/>
-  <polygon points="405,258 392,265 405,272" fill="#2563eb"/>
-  <!-- Label -->
-  <circle cx="510" cy="265" r="18" fill="#2563eb"/>
-  <text x="510" y="271" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">2</text>
-  <text x="510" y="245" text-anchor="middle" fill="#2563eb" font-size="12" font-weight="bold">B - Passa 2°</text>
+  <!-- B label -->
+  <circle cx="580" cy="218" r="13" fill="#2563eb"/>
+  <text x="580" y="223" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">B</text>
+  <rect x="598" y="212" width="75" height="20" rx="4" fill="#000" opacity="0.4"/>
+  <text x="635" y="227" text-anchor="middle" fill="#93c5fd" font-size="13" font-weight="bold">PASSA 2°</text>
 
-  <!-- Car C - from TOP (going down) - ORANGE = passes 3rd -->
-  <g transform="translate(335, 160) rotate(180)">
-    <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
-    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#fde68a" opacity="0.7"/>
-    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
-  </g>
-  <!-- Arrow down -->
-  <line x1="335" y1="195" x2="335" y2="220" stroke="#f59e0b" stroke-width="3"/>
-  <polygon points="328,215 335,228 342,215" fill="#f59e0b"/>
-  <!-- Label -->
-  <circle cx="335" cy="100" r="18" fill="#f59e0b"/>
-  <text x="335" y="106" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">3</text>
-  <text x="335" y="82" text-anchor="middle" fill="#b45309" font-size="12" font-weight="bold">C - Passa 3°</text>
-
-  <!-- Car D - from LEFT (going right) - RED = passes 4th -->
-  <g transform="translate(140, 335) rotate(-90)">
+  <!-- ========== CAR A — from BOTTOM, going UP ↑ — RED = passes 3rd (last) ========== -->
+  <!-- Right lane going up = right side of road (x > 400) = x=435 -->
+  <g transform="translate(435, 400)">
     <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
-    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#fca5a5" opacity="0.7"/>
-    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
-    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="-10" y="6" width="20" height="12" rx="2" fill="#fca5a5" opacity="0.7"/>
   </g>
-  <!-- Arrow right -->
-  <line x1="175" y1="335" x2="200" y2="335" stroke="#dc2626" stroke-width="3"/>
-  <polygon points="195,328 208,335 195,342" fill="#dc2626"/>
-  <!-- Label -->
-  <circle cx="90" cy="335" r="18" fill="#dc2626"/>
-  <text x="90" y="341" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">4</text>
-  <text x="90" y="362" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">D - Passa 4°</text>
+  <!-- A label -->
+  <circle cx="435" cy="443" r="13" fill="#dc2626"/>
+  <text x="435" y="448" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">A</text>
+  <rect x="455" y="437" width="75" height="20" rx="4" fill="#000" opacity="0.4"/>
+  <text x="492" y="452" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="bold">PASSA 3°</text>
 
-  <!-- Rule explanation -->
-  <rect x="100" y="545" width="400" height="40" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
-  <text x="300" y="565" text-anchor="middle" fill="#333" font-size="13">Dai precedenza a chi viene da DESTRA</text>
-  <text x="300" y="580" text-anchor="middle" fill="#888" font-size="11">A non ha nessuno a destra → passa primo</text>
+  <!-- ========== INTERSECTION LABEL ========== -->
+  <rect x="365" y="258" width="80" height="22" rx="4" fill="#000" opacity="0.35"/>
+  <text x="405" y="274" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">INCROCIO</text>
+
+  <!-- ========== ANALYSIS — right side ========== -->
+  <g transform="translate(700, 90)">
+    <text x="0" y="0" fill="#1a1a1a" font-size="18" font-weight="bold">Analisi</text>
+
+    <circle cx="14" cy="30" r="14" fill="#16a34a"/>
+    <text x="14" y="36" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">C</text>
+    <text x="38" y="30" fill="#333" font-size="14">Alla destra di C</text>
+    <text x="38" y="48" fill="#333" font-size="14" font-weight="bold">non c'è nessuno → PASSA</text>
+
+    <circle cx="14" cy="90" r="14" fill="#2563eb"/>
+    <text x="14" y="96" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">B</text>
+    <text x="38" y="90" fill="#333" font-size="14">Alla destra di B c'è C</text>
+    <text x="38" y="108" fill="#333" font-size="14">C è passato → <tspan font-weight="bold">B PASSA</tspan></text>
+
+    <circle cx="14" cy="150" r="14" fill="#dc2626"/>
+    <text x="14" y="156" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">A</text>
+    <text x="38" y="150" fill="#333" font-size="14">Alla destra di A c'è B</text>
+    <text x="38" y="168" fill="#333" font-size="14">B è passato → <tspan font-weight="bold">A PASSA</tspan></text>
+  </g>
+
+  <!-- ========== RULES BOX ========== -->
+  <rect x="80" y="475" width="740" height="60" rx="10" fill="#fff" stroke="#ddd" stroke-width="1.5"/>
+  <text x="450" y="500" text-anchor="middle" fill="#1a1a1a" font-size="18" font-weight="bold">Regola della destra</text>
+  <text x="450" y="522" text-anchor="middle" fill="#555" font-size="14">Senza segnali, dai precedenza a chi viene dalla tua <tspan font-weight="bold">DESTRA</tspan></text>
+
+  <!-- Yellow reminder -->
+  <rect x="80" y="550" width="740" height="50" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="450" y="572" text-anchor="middle" fill="#856404" font-size="14" font-weight="bold">Metodo: trova chi NON ha nessuno a destra → passa primo.</text>
+  <text x="450" y="590" text-anchor="middle" fill="#856404" font-size="13">Poi elimina quella auto e ripeti. Così trovi l'ordine completo.</text>
 </svg>

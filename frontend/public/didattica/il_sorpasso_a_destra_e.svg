@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="420" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">IL SORPASSO A DESTRA</text>
+  <text x="450" y="50" text-anchor="middle" fill="#555" font-size="15">Di norma VIETATO — consentito solo in casi specifici</text>
+
+  <!-- Road: 3 lanes — top = oncoming (left), middle+bottom = same direction (right) -->
+  <rect x="60" y="65" width="780" height="150" fill="#555" rx="4"/>
+
+  <!-- Road edge lines (white) -->
+  <line x1="60" y1="67" x2="840" y2="67" stroke="#fff" stroke-width="2.5"/>
+  <line x1="60" y1="213" x2="840" y2="213" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Center solid line — separates directions -->
+  <line x1="60" y1="115" x2="840" y2="115" stroke="#fff" stroke-width="3"/>
+
+  <!-- Dashed line — separates the 2 same-direction lanes -->
+  <line x1="60" y1="165" x2="840" y2="165" stroke="#fff" stroke-width="2.5" stroke-dasharray="25,18"/>
+
+  <!-- Direction arrows on road -->
+  <g opacity="0.35">
+    <!-- Oncoming lane (top) — going left -->
+    <polygon points="130,90 110,95 130,100" fill="#fff"/>
+    <!-- Right lanes — going right -->
+    <polygon points="770,140 790,145 770,150" fill="#fff"/>
+    <polygon points="770,188 790,193 770,198" fill="#fff"/>
+  </g>
+
+  <!-- Lane labels -->
+  <text x="75" y="96" fill="#fff" font-size="10" opacity="0.5">SENSO OPPOSTO</text>
+  <text x="75" y="148" fill="#fff" font-size="10" opacity="0.5">CORSIA SINISTRA</text>
+  <text x="75" y="198" fill="#fff" font-size="10" opacity="0.5">CORSIA DESTRA</text>
+
+  <!-- Blue car (being overtaken) — in left lane, going right -->
+  <g transform="translate(450, 140)">
+    <rect x="-28" y="-16" width="56" height="32" rx="7" fill="#2563eb" stroke="#1d4ed8" stroke-width="1.5"/>
+    <rect x="14" y="-12" width="10" height="24" rx="3" fill="#93c5fd" opacity="0.6"/>
+    <rect x="-22" y="-12" width="8" height="24" rx="3" fill="#93c5fd" opacity="0.4"/>
+    <!-- Wheels -->
+    <rect x="-22" y="-20" width="12" height="5" rx="1.5" fill="#333"/>
+    <rect x="-22" y="15" width="12" height="5" rx="1.5" fill="#333"/>
+    <rect x="10" y="-20" width="12" height="5" rx="1.5" fill="#333"/>
+    <rect x="10" y="15" width="12" height="5" rx="1.5" fill="#333"/>
+  </g>
+  <text x="450" y="125" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold" opacity="0.7">BLU</text>
+
+  <!-- Red car (attempting forbidden right overtake) — in right lane -->
+  <g transform="translate(520, 190)">
+    <rect x="-28" y="-16" width="56" height="32" rx="7" fill="#dc2626" stroke="#b91c1c" stroke-width="1.5"/>
+    <rect x="14" y="-12" width="10" height="24" rx="3" fill="#fca5a5" opacity="0.6"/>
+    <rect x="-22" y="-12" width="8" height="24" rx="3" fill="#fca5a5" opacity="0.4"/>
+    <!-- Wheels -->
+    <rect x="-22" y="-20" width="12" height="5" rx="1.5" fill="#333"/>
+    <rect x="-22" y="15" width="12" height="5" rx="1.5" fill="#333"/>
+    <rect x="10" y="-20" width="12" height="5" rx="1.5" fill="#333"/>
+    <rect x="10" y="15" width="12" height="5" rx="1.5" fill="#333"/>
+  </g>
+
+  <!-- Dashed red arrow showing forbidden right-side pass -->
+  <defs>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <path d="M 400,190 C 420,195 470,195 540,190" stroke="#dc2626" stroke-width="2.5" fill="none" stroke-dasharray="8,5" marker-end="url(#arrowRed)"/>
+
+  <!-- X mark over the red arrow -->
+  <g transform="translate(470, 186)">
+    <circle cx="0" cy="0" r="12" fill="#dc2626" opacity="0.15"/>
+    <line x1="-7" y1="-7" x2="7" y2="7" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="7" y1="-7" x2="-7" y2="7" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="470" y="210" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="bold">VIETATO</text>
+
+  <!-- Info box 1: VIETATO di norma (red border) -->
+  <rect x="60" y="230" width="380" height="80" rx="6" fill="#fff" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="60" y="230" width="380" height="24" rx="6" fill="#dc2626"/>
+  <rect x="60" y="244" width="380" height="6" fill="#dc2626"/>
+  <text x="250" y="247" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">VIETATO di norma</text>
+  <text x="75" y="272" fill="#333" font-size="13">Il sorpasso si effettua normalmente a <tspan font-weight="bold" fill="#dc2626">SINISTRA</tspan></text>
+  <text x="75" y="292" fill="#555" font-size="13">A destra e vietato nella maggior parte dei casi</text>
+
+  <!-- Info box 2: ECCEZIONI (green border) -->
+  <rect x="460" y="230" width="380" height="110" rx="6" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+  <rect x="460" y="230" width="380" height="24" rx="6" fill="#16a34a"/>
+  <rect x="460" y="244" width="380" height="6" fill="#16a34a"/>
+  <text x="650" y="247" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">ECCEZIONI — consentito a destra</text>
+
+  <!-- Green bullet points -->
+  <circle cx="478" cy="270" r="4" fill="#16a34a"/>
+  <text x="488" y="274" fill="#333" font-size="12.5">Quando il veicolo davanti svolta a sinistra</text>
+
+  <circle cx="478" cy="294" r="4" fill="#16a34a"/>
+  <text x="488" y="298" fill="#333" font-size="12.5">Quando si e in una corsia con freccia</text>
+  <text x="488" y="313" fill="#333" font-size="12.5">direzionale diversa</text>
+
+  <circle cx="478" cy="330" r="4" fill="#16a34a"/>
+  <text x="488" y="334" fill="#333" font-size="12.5">Tram in marcia (si sorpassano a destra)</text>
+
+  <!-- Yellow reminder bar -->
+  <rect x="60" y="360" width="780" height="44" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="450" y="387" text-anchor="middle" fill="#92400e" font-size="14" font-weight="bold">Sorpasso = normalmente a SINISTRA. A destra SOLO nelle eccezioni previste</text>
+</svg>

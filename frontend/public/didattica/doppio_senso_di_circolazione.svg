@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, sans-serif">
+  <rect width="900" height="520" fill="#f0f4f0"/>
+  <text x="450" y="32" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">DOPPIO SENSO DI CIRCOLAZIONE</text>
+  <text x="450" y="54" text-anchor="middle" fill="#555" font-size="15">Due direzioni opposte sulla stessa carreggiata</text>
+
+  <!-- Road -->
+  <rect x="50" y="75" width="800" height="150" fill="#555"/>
+  <!-- Top edge line -->
+  <line x1="50" y1="77" x2="850" y2="77" stroke="#fff" stroke-width="2.5"/>
+  <!-- Bottom edge line -->
+  <line x1="50" y1="223" x2="850" y2="223" stroke="#fff" stroke-width="2.5"/>
+  <!-- Center dashed line -->
+  <line x1="50" y1="150" x2="850" y2="150" stroke="#fff" stroke-width="3" stroke-dasharray="20,15"/>
+
+  <!-- Direction arrows on road -->
+  <g opacity="0.35">
+    <!-- Bottom lane arrows → right -->
+    <polygon points="680,188 700,191 680,194" fill="#fff"/>
+    <polygon points="580,188 600,191 580,194" fill="#fff"/>
+    <polygon points="480,188 500,191 480,194" fill="#fff"/>
+    <!-- Top lane arrows ← left -->
+    <polygon points="280,108 260,111 280,114" fill="#fff"/>
+    <polygon points="380,108 360,111 380,114" fill="#fff"/>
+    <polygon points="480,108 460,111 480,114" fill="#fff"/>
+  </g>
+
+  <!-- Label on road: bottom lane -->
+  <g transform="translate(300, 190)">
+    <rect x="-70" y="-12" width="140" height="20" rx="3" fill="#000" opacity="0.4"/>
+    <text x="0" y="4" text-anchor="middle" fill="#e0e0e0" font-size="13" font-weight="bold">La tua corsia &#x2192;</text>
+  </g>
+  <!-- Label on road: top lane -->
+  <g transform="translate(600, 110)">
+    <rect x="-80" y="-12" width="160" height="20" rx="3" fill="#000" opacity="0.4"/>
+    <text x="0" y="4" text-anchor="middle" fill="#e0e0e0" font-size="13" font-weight="bold">&#x2190; Senso contrario</text>
+  </g>
+
+  <!-- Green car in bottom lane going right -->
+  <g transform="translate(200, 190)">
+    <rect x="-24" y="-13" width="48" height="26" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="12" y="-10" width="8" height="20" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+
+  <!-- Orange car in top lane going left -->
+  <g transform="translate(700, 110)">
+    <rect x="-24" y="-13" width="48" height="26" rx="6" fill="#f97316" stroke="#ea580c" stroke-width="1.5"/>
+    <rect x="-20" y="-10" width="8" height="20" rx="2" fill="#fed7aa" opacity="0.6"/>
+  </g>
+
+  <!-- Label pointing to dashed center line -->
+  <line x1="450" y1="150" x2="450" y2="243" stroke="#e65100" stroke-width="1.5"/>
+  <text x="450" y="258" text-anchor="middle" fill="#e65100" font-size="15" font-weight="bold">Linea tratteggiata di mezzeria</text>
+
+  <!-- Rules section -->
+  <g transform="translate(50, 278)">
+    <!-- Rule 1 -->
+    <circle cx="18" cy="14" r="14" fill="#1a1a1a"/>
+    <text x="18" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+    <text x="42" y="19" fill="#1a1a1a" font-size="14">Tenere sempre la <tspan font-weight="bold">DESTRA</tspan></text>
+
+    <!-- Rule 2 -->
+    <circle cx="295" cy="14" r="14" fill="#1a1a1a"/>
+    <text x="295" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+    <text x="319" y="19" fill="#1a1a1a" font-size="14">Non superare la linea di <tspan font-weight="bold">mezzeria</tspan></text>
+
+    <!-- Rule 3 -->
+    <circle cx="598" cy="14" r="14" fill="#1a1a1a"/>
+    <text x="598" y="19" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+    <text x="622" y="19" fill="#1a1a1a" font-size="14">Attenzione ai veicoli in <tspan font-weight="bold">senso contrario</tspan></text>
+  </g>
+
+  <!-- Info box: dashed center line explanation -->
+  <g transform="translate(50, 325)">
+    <rect x="0" y="0" width="800" height="70" rx="8" fill="#fff" stroke="#555" stroke-width="1.5"/>
+    <text x="400" y="25" text-anchor="middle" fill="#1a1a1a" font-size="18" font-weight="bold">Linea tratteggiata centrale</text>
+    <text x="400" y="48" text-anchor="middle" fill="#555" font-size="14">Separa le due corsie di marcia opposta. Indica che il sorpasso e il cambio corsia</text>
+    <text x="400" y="65" text-anchor="middle" fill="#555" font-size="14">sono possibili con cautela, verificando che non sopraggiungano veicoli dal senso opposto.</text>
+  </g>
+
+  <!-- Legend: cars -->
+  <g transform="translate(50, 410)">
+    <rect x="0" y="0" width="480" height="50" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <rect x="15" y="15" width="30" height="18" rx="4" fill="#16a34a"/>
+    <text x="55" y="29" fill="#1a1a1a" font-size="14">= Il tuo veicolo (corsia destra)</text>
+    <rect x="295" y="15" width="30" height="18" rx="4" fill="#f97316"/>
+    <text x="335" y="29" fill="#1a1a1a" font-size="14">= Veicolo in arrivo</text>
+  </g>
+
+  <!-- Yellow reminder box -->
+  <g transform="translate(50, 470)">
+    <rect x="0" y="0" width="800" height="42" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+    <text x="400" y="18" text-anchor="middle" fill="#856404" font-size="16" font-weight="bold">Ricorda</text>
+    <text x="400" y="36" text-anchor="middle" fill="#856404" font-size="14">Su strada a doppio senso, restare SEMPRE nella propria corsia</text>
+  </g>
+</svg>

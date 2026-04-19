@@ -34,7 +34,20 @@
     "subtitle": "6845 سؤال وزاري بالإيطالية والعربية",
     "startQuiz": "ابدأ الاختبار",
     "studyTopics": "ادرس حسب الموضوع",
-    "progress": "تقدمك"
+    "progress": "تقدمك",
+    "examSimulation": "محاكاة الامتحان",
+    "examSimulationDesc": "40 سؤال، 30 دقيقة",
+    "practiceDesc": "تدرب بحرية",
+    "studyTopicsDesc": "25 موضوع وزاري",
+    "tricksDesc": "كلمات مفتاحية صح/خطأ",
+    "glossaryDesc": "مصطلحات ثنائية اللغة",
+    "feature1": "ثنائي اللغة",
+    "feature2": "6845 سؤال",
+    "feature3": "25 موضوع",
+    "feature4": "بدون انترنت",
+    "continueStudy": "تابع الدراسة",
+    "questionsAnswered": "سؤال مجاب",
+    "accuracy": "دقة"
   },
   "quiz": {
     "title": "اختبار رخصة القيادة",
@@ -67,9 +80,9 @@
   },
   "tricks": {
     "title": "حيل صح/خطأ",
-    "subtitle": "كلمات مفتاحية وأنماط لتخمين الإجابات",
-    "truePatterns": "أنماط صحيح",
-    "falsePatterns": "أنماط خطأ",
+    "subtitle": "كلمات مفتاحية لتخمين الإجابات",
+    "truePatterns": "صحيح",
+    "falsePatterns": "خطأ",
     "memoryRule": "قاعدة للتذكر",
     "commonMistake": "خطأ شائع",
     "keywords": "كلمات صديقة",
@@ -81,5 +94,16 @@
     "subtitle": "أسئلة بنص متشابه لكن إجابة معاكسة",
     "questionTrue": "صحيح",
     "questionFalse": "خطأ"
+  },
+  "onboarding": {
+    "welcome": "مرحبا بك في قيادة!",
+    "step1Title": "ادرس بوتيرتك",
+    "step1Desc": "6845 سؤال وزاري بالإيطالية والعربية، مرتبة حسب الموضوع",
+    "step2Title": "حاكي الامتحان الحقيقي",
+    "step2Desc": "40 سؤال، 30 دقيقة — مثل الامتحان الحقيقي. اكتشف فورا إذا كنت جاهزا",
+    "step3Title": "تعلم من الحيل",
+    "step3Desc": "كلمات مفتاحية تساعدك على فهم إذا كانت الإجابة صحيحة أو خاطئة",
+    "start": "ابدأ",
+    "skip": "تخطي"
   }
 }

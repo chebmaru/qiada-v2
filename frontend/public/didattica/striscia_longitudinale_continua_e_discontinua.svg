@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, sans-serif">
+  <rect width="900" height="480" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">STRISCIA CONTINUA E DISCONTINUA AFFIANCATE</text>
+  <text x="450" y="54" text-anchor="middle" fill="#555" font-size="15">Regola: vale la striscia dalla TUA parte</text>
+
+  <!-- Road — one wide block -->
+  <rect x="50" y="75" width="800" height="160" fill="#555"/>
+
+  <!-- Top edge line -->
+  <line x1="50" y1="77" x2="850" y2="77" stroke="#fff" stroke-width="2.5"/>
+  <!-- Bottom edge line -->
+  <line x1="50" y1="233" x2="850" y2="233" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- === DOUBLE CENTER LINES — white on dark road, well spaced === -->
+  <!-- Continuous line (top, closer to left-going lane) -->
+  <line x1="50" y1="148" x2="850" y2="148" stroke="#fff" stroke-width="4"/>
+  <!-- Dashed line (bottom, closer to right-going lane) — 16px gap from continuous -->
+  <line x1="50" y1="164" x2="850" y2="164" stroke="#fff" stroke-width="4" stroke-dasharray="30,18"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.35">
+    <!-- Top lane ← left -->
+    <polygon points="250,112 230,115 250,118" fill="#fff"/>
+    <!-- Bottom lane → right -->
+    <polygon points="650,200 670,203 650,206" fill="#fff"/>
+  </g>
+
+  <!-- Green car in bottom lane (going right) — CAN cross (dashed on its side) -->
+  <g transform="translate(400, 200)">
+    <rect x="-24" y="-13" width="48" height="26" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="12" y="-10" width="8" height="20" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <!-- Green dashed arrow showing overtake path — ends at arrow point -->
+  <path d="M 420,195 C 435,195 445,115 465,115 L 530,115" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <polygon points="530,110 545,115 530,120" fill="#16a34a"/>
+  <text x="490" y="105" fill="#16a34a" font-size="14" font-weight="bold">PUO superare</text>
+
+  <!-- Red car in top lane (going left) — CANNOT cross (continuous on its side) -->
+  <g transform="translate(250, 115)">
+    <rect x="-24" y="-13" width="48" height="26" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="-20" y="-10" width="8" height="20" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <!-- X mark -->
+  <line x1="240" y1="138" x2="260" y2="158" stroke="#dc2626" stroke-width="3"/>
+  <line x1="260" y1="138" x2="240" y2="158" stroke="#dc2626" stroke-width="3"/>
+  <text x="250" y="175" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">NON puo superare</text>
+
+  <!-- Labels pointing to each line -->
+  <!-- Arrow to continuous line -->
+  <line x1="150" y1="148" x2="150" y2="260" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="150" cy="148" r="3.5" fill="#dc2626"/>
+  <text x="150" y="278" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">CONTINUA</text>
+
+  <!-- Arrow to dashed line -->
+  <line x1="300" y1="164" x2="300" y2="300" stroke="#16a34a" stroke-width="1.5"/>
+  <circle cx="300" cy="164" r="3.5" fill="#16a34a"/>
+  <text x="300" y="318" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">DISCONTINUA</text>
+
+  <!-- Info box green -->
+  <g transform="translate(50,335)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+    <text x="190" y="22" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Dal tuo lato c'e la DISCONTINUA?</text>
+    <text x="190" y="42" text-anchor="middle" fill="#16a34a" font-size="15" font-weight="bold">→ PUOI superare</text>
+    <text x="190" y="58" text-anchor="middle" fill="#555" font-size="12">(corsia inferiore, direzione →)</text>
+  </g>
+
+  <!-- Info box red -->
+  <g transform="translate(470,335)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+    <text x="190" y="22" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">Dal tuo lato c'e la CONTINUA?</text>
+    <text x="190" y="42" text-anchor="middle" fill="#dc2626" font-size="15" font-weight="bold">→ NON puoi superare</text>
+    <text x="190" y="58" text-anchor="middle" fill="#555" font-size="12">(corsia superiore, direzione ←)</text>
+  </g>
+
+  <!-- Yellow reminder box -->
+  <g transform="translate(50,420)">
+    <rect x="0" y="0" width="800" height="45" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+    <text x="400" y="18" text-anchor="middle" fill="#856404" font-size="14" font-weight="bold">Ricorda</text>
+    <text x="400" y="36" text-anchor="middle" fill="#856404" font-size="14">Guarda sempre la striscia PIU VICINA alla tua corsia — quella vale per te</text>
+  </g>
+</svg>

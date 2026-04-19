@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Arial, sans-serif">
+  <rect width="900" height="460" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">LA SOSTA</text>
+  <text x="450" y="50" text-anchor="middle" fill="#555" font-size="15">Sospensione prolungata della marcia — regole di parcheggio</text>
+
+  <!-- === ROAD SCENE === -->
+  <!-- Top sidewalk -->
+  <rect x="40" y="62" width="820" height="16" fill="#d4c9a8" rx="2"/>
+  <!-- Road -->
+  <rect x="40" y="78" width="820" height="120" fill="#555"/>
+  <!-- Top edge line -->
+  <line x1="40" y1="80" x2="860" y2="80" stroke="#fff" stroke-width="2.5"/>
+  <!-- Center dashed line -->
+  <line x1="40" y1="138" x2="860" y2="138" stroke="#fff" stroke-width="2" stroke-dasharray="14,10"/>
+  <!-- Bottom edge line -->
+  <line x1="40" y1="196" x2="860" y2="196" stroke="#fff" stroke-width="2.5"/>
+  <!-- Bottom sidewalk -->
+  <rect x="40" y="198" width="820" height="16" fill="#d4c9a8" rx="2"/>
+
+  <!-- Direction arrows -->
+  <polygon points="150,110 170,104 170,116" fill="#fff" opacity="0.3"/>
+  <polygon points="750,170 730,164 730,176" fill="#fff" opacity="0.3"/>
+
+  <!-- === GREEN CAR — correct: parked at right edge, against curb === -->
+  <g transform="translate(600, 188)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+  <!-- Label -->
+  <rect x="565" y="158" width="74" height="16" rx="3" fill="#000" opacity="0.4"/>
+  <text x="602" y="170" text-anchor="middle" fill="#86efac" font-size="11" font-weight="bold">CORRETTO ✓</text>
+
+  <!-- === RED CAR — wrong: parked on LEFT side (contromano) facing right === -->
+  <!-- Car goes right (→) but parked at top edge = wrong side -->
+  <g transform="translate(300, 90)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <!-- Label -->
+  <rect x="255" y="110" width="90" height="16" rx="3" fill="#000" opacity="0.4"/>
+  <text x="300" y="122" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="bold">CONTROMANO ✗</text>
+
+  <!-- Annotation -->
+  <text x="450" y="228" text-anchor="middle" fill="#555" font-size="12">Senso di marcia →</text>
+
+  <!-- === NUMBERED RULES === -->
+  <circle cx="65" cy="260" r="14" fill="#2563eb"/>
+  <text x="65" y="266" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1</text>
+  <text x="88" y="266" fill="#333" font-size="14">Parcheggiare sempre sul lato <tspan fill="#16a34a" font-weight="bold">DESTRO</tspan> della strada, accostati al margine</text>
+
+  <circle cx="65" cy="298" r="14" fill="#2563eb"/>
+  <text x="65" y="304" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">2</text>
+  <text x="88" y="304" fill="#333" font-size="14">Il veicolo <tspan fill="#dc2626" font-weight="bold">NON</tspan> deve intralciare la circolazione</text>
+
+  <circle cx="65" cy="336" r="14" fill="#2563eb"/>
+  <text x="65" y="342" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">3</text>
+  <text x="88" y="342" fill="#333" font-size="14">Motore <tspan fill="#dc2626" font-weight="bold">SPENTO</tspan>, freno a mano <tspan fill="#16a34a" font-weight="bold">TIRATO</tspan>, marcia inserita</text>
+
+  <!-- === INFO BOXES === -->
+  <rect x="50" y="365" width="380" height="50" rx="8" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+  <text x="240" y="384" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">VIETATO</text>
+  <text x="240" y="402" text-anchor="middle" fill="#555" font-size="12">Doppia fila, marciapiedi, strisce, curve, dossi</text>
+
+  <rect x="460" y="365" width="380" height="50" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+  <text x="650" y="384" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">CONSENTITO</text>
+  <text x="650" y="402" text-anchor="middle" fill="#555" font-size="12">Lato destro, aree parcheggio, banchina</text>
+
+  <!-- === COMPARISON: SOSTA vs FERMATA === -->
+  <rect x="50" y="425" width="800" height="28" rx="6" fill="#fff3cd" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="250" y="444" text-anchor="middle" fill="#856404" font-size="13"><tspan font-weight="bold">SOSTA</tspan> = prolungata, motore spento</text>
+  <text x="650" y="444" text-anchor="middle" fill="#856404" font-size="13"><tspan font-weight="bold">FERMATA</tspan> = breve, conducente a bordo</text>
+</svg>

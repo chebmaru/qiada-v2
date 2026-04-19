@@ -10,7 +10,7 @@ describe('GET /api/questions', () => {
     expect(res.statusCode).toBe(200);
     const body = res.json();
     expect(body.data).toHaveLength(40);
-    expect(body.total).toBe(7056);
+    expect(body.total).toBe(6845);
     expect(body.limit).toBe(40);
     expect(body.offset).toBe(0);
   });

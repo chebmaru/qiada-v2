@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, sans-serif">
+  <rect width="900" height="400" fill="#f0f4f0"/>
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="22" font-weight="bold">STRISCIA BIANCA CONTINUA</text>
+  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="13">Separa i sensi di marcia — NON si può superare</text>
+
+  <!-- Road -->
+  <rect x="50" y="80" width="800" height="55" fill="#555"/>
+  <line x1="50" y1="82" x2="850" y2="82" stroke="#fff" stroke-width="2.5"/>
+  <!-- CONTINUOUS WHITE LINE -->
+  <line x1="50" y1="135" x2="850" y2="135" stroke="#fff" stroke-width="3"/>
+  <rect x="50" y="135" width="800" height="55" fill="#555"/>
+  <line x1="50" y1="188" x2="850" y2="188" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <!-- Top lane ← left -->
+    <polygon points="200,105 180,108 200,111" fill="#fff"/>
+    <!-- Bottom lane → right -->
+    <polygon points="700,160 720,163 700,166" fill="#fff"/>
+  </g>
+
+  <!-- Green car going right in bottom lane (correct) -->
+  <g transform="translate(500, 163)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#86efac" opacity="0.6"/>
+  </g>
+
+  <!-- Red car trying to cross the line (wrong) — on the line between lanes -->
+  <g transform="translate(300, 135)" opacity="0.7">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+  </g>
+  <!-- X mark on red car -->
+  <line x1="285" y1="125" x2="295" y2="135" stroke="#dc2626" stroke-width="3"/>
+  <line x1="295" y1="125" x2="285" y2="135" stroke="#dc2626" stroke-width="3"/>
+  <text x="290" y="118" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">VIETATO</text>
+
+  <!-- Label for the line -->
+  <line x1="450" y1="195" x2="450" y2="210" stroke="#e65100" stroke-width="1.5"/>
+  <text x="450" y="225" text-anchor="middle" fill="#e65100" font-size="14" font-weight="bold">Striscia continua</text>
+
+  <!-- Rules -->
+  <g transform="translate(50,245)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="190" y="22" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">DIVIETI</text>
+    <text x="190" y="42" text-anchor="middle" fill="#555" font-size="12">Non si può superare o scavalcare</text>
+    <text x="190" y="58" text-anchor="middle" fill="#555" font-size="12">Non si può sorpassare</text>
+  </g>
+
+  <g transform="translate(470,245)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="#fff" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="190" y="22" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">ECCEZIONI</text>
+    <text x="190" y="42" text-anchor="middle" fill="#555" font-size="12">Superare veicolo fermo (ostacolo)</text>
+    <text x="190" y="58" text-anchor="middle" fill="#555" font-size="12">Svoltare in proprietà privata</text>
+  </g>
+
+  <g transform="translate(50,325)">
+    <rect x="0" y="0" width="800" height="50" rx="8" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+    <text x="400" y="20" text-anchor="middle" fill="#856404" font-size="13" font-weight="bold">Ricorda</text>
+    <text x="400" y="40" text-anchor="middle" fill="#856404" font-size="13">Striscia CONTINUA = divieto | Striscia DISCONTINUA = consentito il superamento</text>
+  </g>
+</svg>
