@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="620" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" fill="#1a1a1a" font-size="22" font-weight="bold">LA CARREGGIATA</text>
+  <text x="450" y="55" text-anchor="middle" fill="#555" font-size="13">Parti della strada — vista dall'alto</text>
+
+  <!-- ===== SINGLE CARRIAGEWAY ===== -->
+  <text x="450" y="85" text-anchor="middle" fill="#1a1a1a" font-size="16" font-weight="bold">Strada a carreggiata unica</text>
+
+  <!-- All strips same width (600px), stacked top to bottom -->
+  <!-- Marciapiede top -->
+  <rect x="150" y="100" width="600" height="28" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+  <!-- Banchina top -->
+  <rect x="150" y="128" width="600" height="14" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Corsia 1 (going right) -->
+  <rect x="150" y="142" width="600" height="55" fill="#555"/>
+  <line x1="150" y1="144" x2="750" y2="144" stroke="#fff" stroke-width="2.5"/>
+  <!-- Lane divider -->
+  <line x1="150" y1="197" x2="750" y2="197" stroke="#fff" stroke-width="2.5" stroke-dasharray="20,14"/>
+  <!-- Corsia 2 (going left) -->
+  <rect x="150" y="197" width="600" height="55" fill="#555"/>
+  <line x1="150" y1="250" x2="750" y2="250" stroke="#fff" stroke-width="2.5"/>
+  <!-- Banchina bottom -->
+  <rect x="150" y="252" width="600" height="14" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Marciapiede bottom -->
+  <rect x="150" y="266" width="600" height="28" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <polygon points="650,165 670,170 650,175" fill="#fff"/>
+    <polygon points="250,220 230,225 250,230" fill="#fff"/>
+  </g>
+
+  <!-- Cars -->
+  <g transform="translate(550, 168)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="10" y="-9" width="8" height="18" rx="2" fill="#93c5fd" opacity="0.6"/>
+    <rect x="-16" y="-15" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="-16" y="11" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="6" y="-15" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="6" y="11" width="10" height="4" rx="1" fill="#333"/>
+  </g>
+  <g transform="translate(350, 225)">
+    <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="-18" y="-9" width="8" height="18" rx="2" fill="#fca5a5" opacity="0.6"/>
+    <rect x="-16" y="-15" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="-16" y="11" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="6" y="-15" width="10" height="4" rx="1" fill="#333"/>
+    <rect x="6" y="11" width="10" height="4" rx="1" fill="#333"/>
+  </g>
+
+  <!-- Labels on the RIGHT side — vertical brackets -->
+  <!-- Marciapiede top -->
+  <line x1="760" y1="100" x2="775" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="760" y1="128" x2="775" y2="128" stroke="#888" stroke-width="1"/>
+  <line x1="772" y1="100" x2="772" y2="128" stroke="#888" stroke-width="1.5"/>
+  <text x="785" y="118" fill="#888" font-size="10">Marciapiede</text>
+
+  <!-- Banchina top -->
+  <line x1="760" y1="128" x2="775" y2="128" stroke="#aaa" stroke-width="1"/>
+  <line x1="760" y1="142" x2="775" y2="142" stroke="#aaa" stroke-width="1"/>
+  <line x1="772" y1="128" x2="772" y2="142" stroke="#aaa" stroke-width="1"/>
+  <text x="785" y="139" fill="#aaa" font-size="9">Banchina</text>
+
+  <!-- CARREGGIATA bracket -->
+  <line x1="760" y1="142" x2="790" y2="142" stroke="#e65100" stroke-width="2"/>
+  <line x1="760" y1="252" x2="790" y2="252" stroke="#e65100" stroke-width="2"/>
+  <line x1="787" y1="142" x2="787" y2="252" stroke="#e65100" stroke-width="2.5"/>
+  <polygon points="783,148 787,142 791,148" fill="#e65100"/>
+  <polygon points="783,246 787,252 791,246" fill="#e65100"/>
+  <rect x="800" y="177" width="95" height="24" rx="5" fill="#e65100"/>
+  <text x="847" y="194" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">CARREGGIATA</text>
+
+  <!-- Banchina bottom -->
+  <line x1="760" y1="252" x2="775" y2="252" stroke="#aaa" stroke-width="1"/>
+  <line x1="760" y1="266" x2="775" y2="266" stroke="#aaa" stroke-width="1"/>
+  <line x1="772" y1="252" x2="772" y2="266" stroke="#aaa" stroke-width="1"/>
+  <text x="785" y="263" fill="#aaa" font-size="9">Banchina</text>
+
+  <!-- Marciapiede bottom -->
+  <line x1="760" y1="266" x2="775" y2="266" stroke="#888" stroke-width="1"/>
+  <line x1="760" y1="294" x2="775" y2="294" stroke="#888" stroke-width="1"/>
+  <line x1="772" y1="266" x2="772" y2="294" stroke="#888" stroke-width="1.5"/>
+  <text x="785" y="284" fill="#888" font-size="10">Marciapiede</text>
+
+  <!-- Lane labels inside -->
+  <text x="450" y="175" text-anchor="middle" fill="#ddd" font-size="11">&#x2192; Corsia 1</text>
+  <text x="450" y="232" text-anchor="middle" fill="#ddd" font-size="11">&#x2190; Corsia 2</text>
+
+  <!-- ===== DOUBLE CARRIAGEWAY ===== -->
+  <text x="450" y="335" text-anchor="middle" fill="#1a1a1a" font-size="16" font-weight="bold">Strada a carreggiate separate (doppia)</text>
+
+  <!-- All strips same width (600px), stacked top to bottom -->
+  <!-- Marciapiede top -->
+  <rect x="150" y="355" width="600" height="22" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+  <!-- Banchina top -->
+  <rect x="150" y="377" width="600" height="10" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Corsia A1 -->
+  <rect x="150" y="387" width="600" height="40" fill="#555"/>
+  <line x1="150" y1="389" x2="750" y2="389" stroke="#fff" stroke-width="2"/>
+  <!-- Lane divider A -->
+  <line x1="150" y1="427" x2="750" y2="427" stroke="#fff" stroke-width="2" stroke-dasharray="18,12"/>
+  <!-- Corsia A2 -->
+  <rect x="150" y="427" width="600" height="40" fill="#555"/>
+  <line x1="150" y1="465" x2="750" y2="465" stroke="#fff" stroke-width="2"/>
+  <!-- SPARTITRAFFICO -->
+  <rect x="150" y="467" width="600" height="16" fill="#4a7a4a" stroke="#3d6b3d" stroke-width="1"/>
+  <line x1="150" y1="475" x2="750" y2="475" stroke="#6b9f6b" stroke-width="1" stroke-dasharray="8,6"/>
+  <!-- Corsia B1 -->
+  <rect x="150" y="483" width="600" height="40" fill="#555"/>
+  <line x1="150" y1="485" x2="750" y2="485" stroke="#fff" stroke-width="2"/>
+  <!-- Lane divider B -->
+  <line x1="150" y1="523" x2="750" y2="523" stroke="#fff" stroke-width="2" stroke-dasharray="18,12"/>
+  <!-- Corsia B2 -->
+  <rect x="150" y="523" width="600" height="40" fill="#555"/>
+  <line x1="150" y1="561" x2="750" y2="561" stroke="#fff" stroke-width="2"/>
+  <!-- Banchina bottom -->
+  <rect x="150" y="563" width="600" height="10" fill="#8a8a8a" stroke="#777" stroke-width="0.5"/>
+  <!-- Marciapiede bottom -->
+  <rect x="150" y="573" width="600" height="22" fill="#d4c4a8" stroke="#b8a88a" stroke-width="1"/>
+
+  <!-- Direction arrows -->
+  <g opacity="0.4">
+    <polygon points="600,405 620,410 600,415" fill="#fff"/>
+    <polygon points="600,445 620,450 600,455" fill="#fff"/>
+    <polygon points="300,500 280,505 300,510" fill="#fff"/>
+    <polygon points="300,540 280,545 300,550" fill="#fff"/>
+  </g>
+
+  <!-- Cars -->
+  <g transform="translate(500, 410)">
+    <rect x="-18" y="-10" width="36" height="20" rx="5" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
+    <rect x="8" y="-7" width="7" height="14" rx="2" fill="#fde68a" opacity="0.6"/>
+    <rect x="-13" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="-13" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="5" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="5" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
+  </g>
+  <g transform="translate(400, 540)">
+    <rect x="-18" y="-10" width="36" height="20" rx="5" fill="#16a34a" stroke="#15803d" stroke-width="1"/>
+    <rect x="-14" y="-7" width="7" height="14" rx="2" fill="#86efac" opacity="0.6"/>
+    <rect x="-13" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="-13" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="5" y="-13" width="8" height="3.5" rx="1" fill="#333"/>
+    <rect x="5" y="9.5" width="8" height="3.5" rx="1" fill="#333"/>
+  </g>
+
+  <!-- Labels on the RIGHT side -->
+  <!-- Marciapiede top -->
+  <text x="785" y="370" fill="#888" font-size="9">Marciapiede</text>
+
+  <!-- Carreggiata A bracket -->
+  <line x1="760" y1="387" x2="790" y2="387" stroke="#2563eb" stroke-width="2"/>
+  <line x1="760" y1="467" x2="790" y2="467" stroke="#2563eb" stroke-width="2"/>
+  <line x1="787" y1="387" x2="787" y2="467" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="783,393 787,387 791,393" fill="#2563eb"/>
+  <polygon points="783,461 787,467 791,461" fill="#2563eb"/>
+  <text x="800" y="431" fill="#2563eb" font-size="11" font-weight="bold">Carreggiata A</text>
+
+  <!-- Spartitraffico label -->
+  <text x="800" y="479" fill="#4a7a4a" font-size="9" font-weight="bold">Spartitraffico</text>
+
+  <!-- Carreggiata B bracket -->
+  <line x1="760" y1="483" x2="790" y2="483" stroke="#16a34a" stroke-width="2"/>
+  <line x1="760" y1="563" x2="790" y2="563" stroke="#16a34a" stroke-width="2"/>
+  <line x1="787" y1="483" x2="787" y2="563" stroke="#16a34a" stroke-width="2.5"/>
+  <polygon points="783,489 787,483 791,489" fill="#16a34a"/>
+  <polygon points="783,557 787,563 791,557" fill="#16a34a"/>
+  <text x="800" y="527" fill="#16a34a" font-size="11" font-weight="bold">Carreggiata B</text>
+
+  <!-- Marciapiede bottom -->
+  <text x="785" y="589" fill="#888" font-size="9">Marciapiede</text>
+</svg>

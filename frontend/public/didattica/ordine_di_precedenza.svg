@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#f0f4f0"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">ORDINE DI PRECEDENZA</text>
+  <text x="300" y="55" text-anchor="middle" fill="#555" font-size="13">Incrocio senza segnali — regola della destra</text>
+
+  <!-- Intersection roads -->
+  <!-- Vertical road -->
+  <rect x="230" y="70" width="140" height="460" fill="#555"/>
+  <!-- Horizontal road -->
+  <rect x="70" y="230" width="460" height="140" fill="#555"/>
+
+  <!-- Center lines -->
+  <line x1="300" y1="70" x2="300" y2="230" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="300" y1="370" x2="300" y2="530" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="70" y1="300" x2="230" y2="300" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+  <line x1="370" y1="300" x2="530" y2="300" stroke="#fff" stroke-width="2" stroke-dasharray="15,10"/>
+
+  <!-- Road edges -->
+  <line x1="232" y1="70" x2="232" y2="230" stroke="#fff" stroke-width="2"/>
+  <line x1="368" y1="70" x2="368" y2="230" stroke="#fff" stroke-width="2"/>
+  <line x1="232" y1="370" x2="232" y2="530" stroke="#fff" stroke-width="2"/>
+  <line x1="368" y1="370" x2="368" y2="530" stroke="#fff" stroke-width="2"/>
+  <line x1="70" y1="232" x2="230" y2="232" stroke="#fff" stroke-width="2"/>
+  <line x1="70" y1="368" x2="230" y2="368" stroke="#fff" stroke-width="2"/>
+  <line x1="370" y1="232" x2="530" y2="232" stroke="#fff" stroke-width="2"/>
+  <line x1="370" y1="368" x2="530" y2="368" stroke="#fff" stroke-width="2"/>
+
+  <!-- Car A - from BOTTOM (going up) - GREEN = passes 1st -->
+  <g transform="translate(265, 440)">
+    <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#86efac" opacity="0.7"/>
+    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+  </g>
+  <!-- Arrow up -->
+  <line x1="265" y1="405" x2="265" y2="380" stroke="#16a34a" stroke-width="3"/>
+  <polygon points="258,385 265,372 272,385" fill="#16a34a"/>
+  <!-- Label -->
+  <circle cx="265" cy="500" r="18" fill="#16a34a"/>
+  <text x="265" y="506" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">1</text>
+  <text x="265" y="530" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="bold">A - Passa 1°</text>
+
+  <!-- Car B - from RIGHT (going left) - BLUE = passes 2nd -->
+  <g transform="translate(460, 265) rotate(90)">
+    <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#93c5fd" opacity="0.7"/>
+    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+  </g>
+  <!-- Arrow left -->
+  <line x1="425" y1="265" x2="400" y2="265" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="405,258 392,265 405,272" fill="#2563eb"/>
+  <!-- Label -->
+  <circle cx="510" cy="265" r="18" fill="#2563eb"/>
+  <text x="510" y="271" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">2</text>
+  <text x="510" y="245" text-anchor="middle" fill="#2563eb" font-size="12" font-weight="bold">B - Passa 2°</text>
+
+  <!-- Car C - from TOP (going down) - ORANGE = passes 3rd -->
+  <g transform="translate(335, 160) rotate(180)">
+    <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#fde68a" opacity="0.7"/>
+    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+  </g>
+  <!-- Arrow down -->
+  <line x1="335" y1="195" x2="335" y2="220" stroke="#f59e0b" stroke-width="3"/>
+  <polygon points="328,215 335,228 342,215" fill="#f59e0b"/>
+  <!-- Label -->
+  <circle cx="335" cy="100" r="18" fill="#f59e0b"/>
+  <text x="335" y="106" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">3</text>
+  <text x="335" y="82" text-anchor="middle" fill="#b45309" font-size="12" font-weight="bold">C - Passa 3°</text>
+
+  <!-- Car D - from LEFT (going right) - RED = passes 4th -->
+  <g transform="translate(140, 335) rotate(-90)">
+    <rect x="-14" y="-24" width="28" height="48" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="-10" y="-18" width="20" height="12" rx="2" fill="#fca5a5" opacity="0.7"/>
+    <rect x="-16" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="-16" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="-16" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+    <rect x="11" y="6" width="5" height="10" rx="1.5" fill="#333"/>
+  </g>
+  <!-- Arrow right -->
+  <line x1="175" y1="335" x2="200" y2="335" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="195,328 208,335 195,342" fill="#dc2626"/>
+  <!-- Label -->
+  <circle cx="90" cy="335" r="18" fill="#dc2626"/>
+  <text x="90" y="341" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">4</text>
+  <text x="90" y="362" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">D - Passa 4°</text>
+
+  <!-- Rule explanation -->
+  <rect x="100" y="545" width="400" height="40" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="300" y="565" text-anchor="middle" fill="#333" font-size="13">Dai precedenza a chi viene da DESTRA</text>
+  <text x="300" y="580" text-anchor="middle" fill="#888" font-size="11">A non ha nessuno a destra → passa primo</text>
+</svg>

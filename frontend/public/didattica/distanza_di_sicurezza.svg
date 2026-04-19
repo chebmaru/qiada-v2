@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f0f4f0"/>
+
+  <!-- Road -->
+  <rect x="0" y="120" width="800" height="160" fill="#555" rx="4"/>
+
+  <!-- Center dashed line -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="3" stroke-dasharray="30,20"/>
+
+  <!-- Road edges -->
+  <line x1="0" y1="122" x2="800" y2="122" stroke="#fff" stroke-width="3"/>
+  <line x1="0" y1="278" x2="800" y2="278" stroke="#fff" stroke-width="3"/>
+
+  <!-- Direction arrow -->
+  <g transform="translate(400, 155)">
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="#fff" stroke-width="2" opacity="0.6"/>
+    <polygon points="60,-6 72,0 60,6" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- Car 1 (front) - blue - rotated to face RIGHT -->
+  <g transform="translate(550, 240)">
+    <rect x="-30" y="-18" width="60" height="36" rx="8" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+    <!-- Windshield front -->
+    <rect x="14" y="-14" width="12" height="28" rx="3" fill="#93c5fd" opacity="0.7"/>
+    <!-- Rear window -->
+    <rect x="-24" y="-14" width="10" height="28" rx="3" fill="#93c5fd" opacity="0.5"/>
+    <!-- Wheels -->
+    <rect x="-22" y="-22" width="14" height="6" rx="2" fill="#333"/>
+    <rect x="-22" y="16" width="14" height="6" rx="2" fill="#333"/>
+    <rect x="8" y="-22" width="14" height="6" rx="2" fill="#333"/>
+    <rect x="8" y="16" width="14" height="6" rx="2" fill="#333"/>
+  </g>
+
+  <!-- Car 2 (behind) - red - rotated to face RIGHT -->
+  <g transform="translate(250, 240)">
+    <rect x="-30" y="-18" width="60" height="36" rx="8" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+    <!-- Windshield front -->
+    <rect x="14" y="-14" width="12" height="28" rx="3" fill="#fca5a5" opacity="0.7"/>
+    <!-- Rear window -->
+    <rect x="-24" y="-14" width="10" height="28" rx="3" fill="#fca5a5" opacity="0.5"/>
+    <!-- Wheels -->
+    <rect x="-22" y="-22" width="14" height="6" rx="2" fill="#333"/>
+    <rect x="-22" y="16" width="14" height="6" rx="2" fill="#333"/>
+    <rect x="8" y="-22" width="14" height="6" rx="2" fill="#333"/>
+    <rect x="8" y="16" width="14" height="6" rx="2" fill="#333"/>
+  </g>
+
+  <!-- Distance bracket -->
+  <line x1="285" y1="295" x2="285" y2="330" stroke="#e65100" stroke-width="2"/>
+  <line x1="515" y1="295" x2="515" y2="330" stroke="#e65100" stroke-width="2"/>
+  <line x1="285" y1="320" x2="515" y2="320" stroke="#e65100" stroke-width="2.5"/>
+  <polygon points="290,316 285,320 290,324" fill="#e65100"/>
+  <polygon points="510,316 515,320 510,324" fill="#e65100"/>
+
+  <!-- Distance label -->
+  <rect x="345" y="305" width="110" height="30" rx="6" fill="#e65100"/>
+  <text x="400" y="325" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">DISTANZA</text>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#1a1a1a" font-size="22" font-weight="bold">DISTANZA DI SICUREZZA</text>
+  <text x="400" y="62" text-anchor="middle" fill="#555" font-size="14">Regola dei 2 secondi</text>
+
+  <!-- Speed/Distance table -->
+  <g transform="translate(100, 350)">
+    <rect x="0" y="0" width="140" height="36" rx="6" fill="#2563eb"/>
+    <text x="70" y="23" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">50 km/h = 25 m</text>
+  </g>
+  <g transform="translate(260, 350)">
+    <rect x="0" y="0" width="140" height="36" rx="6" fill="#f59e0b"/>
+    <text x="70" y="23" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">90 km/h = 50 m</text>
+  </g>
+  <g transform="translate(420, 350)">
+    <rect x="0" y="0" width="160" height="36" rx="6" fill="#dc2626"/>
+    <text x="80" y="23" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">130 km/h = 100 m</text>
+  </g>
+
+  <!-- Warning icon -->
+  <g transform="translate(680, 355)">
+    <polygon points="0,-16 18,16 -18,16" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
+    <text x="0" y="12" text-anchor="middle" fill="#000" font-size="18" font-weight="bold">!</text>
+  </g>
+  <text x="720" y="370" text-anchor="middle" fill="#555" font-size="11">+ pioggia</text>
+  <text x="720" y="385" text-anchor="middle" fill="#555" font-size="11">= raddoppia</text>
+</svg>
