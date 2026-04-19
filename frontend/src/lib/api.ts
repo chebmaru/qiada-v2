@@ -189,6 +189,54 @@ export function getChapterProgress(token: string) {
   });
 }
 
+// Tricks
+export interface TopicTricks {
+  topicKey: string;
+  truePatternsIT: string;
+  truePatternsAR: string;
+  falsePatternsIT: string;
+  falsePatternsAR: string;
+  memoryRuleIT?: string;
+  memoryRuleAR?: string;
+  commonMistakeIT?: string;
+  commonMistakeAR?: string;
+}
+
+export function getTricks(topicKey: string) {
+  return fetchApi<TopicTricks>(`/tricks/${topicKey}`);
+}
+
+export interface KeywordHint {
+  word: string;
+  count: number;
+  examples: string[];
+}
+
+export function getKeywordHints() {
+  return fetchApi<{
+    onlyTrue: KeywordHint[];
+    onlyFalse: KeywordHint[];
+    mostlyTrue: KeywordHint[];
+    mostlyFalse: KeywordHint[];
+  }>('/keywords');
+}
+
+// Confusing pairs
+export interface ConfusingPair {
+  similarity: number;
+  topicKey: string;
+  trueQuestion: { code: string; textIT: string; textAR: string };
+  falseQuestion: { code: string; textIT: string; textAR: string };
+}
+
+export function getConfusingPairs(opts?: { topicKey?: string; limit?: number; offset?: number }) {
+  const params = new URLSearchParams();
+  if (opts?.topicKey) params.set('topicKey', opts.topicKey);
+  if (opts?.limit) params.set('limit', String(opts.limit));
+  if (opts?.offset) params.set('offset', String(opts.offset));
+  return fetchApi<{ data: ConfusingPair[]; total: number }>(`/confusing-pairs?${params}`);
+}
+
 export function getQuestions(opts: { chapterId?: number; topicKey?: string; limit?: number; offset?: number }) {
   const params = new URLSearchParams();
   if (opts.chapterId) params.set('chapterId', String(opts.chapterId));

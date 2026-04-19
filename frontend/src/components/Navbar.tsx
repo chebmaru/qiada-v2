@@ -29,6 +29,8 @@ export default function Navbar() {
     { href: "/quiz" as const, label: t("common.quiz") },
     { href: "/topics" as const, label: t("common.topics") },
     { href: "/glossary" as const, label: t("common.glossary") },
+    { href: "/tricks" as const, label: t("common.tricks") },
+    { href: "/confusing" as const, label: t("common.confusing") },
   ];
 
   return (
