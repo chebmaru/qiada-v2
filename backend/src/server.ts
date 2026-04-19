@@ -1,6 +1,8 @@
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import jwt from '@fastify/jwt';
+import helmet from '@fastify/helmet';
+import rateLimit from '@fastify/rate-limit';
 import { env } from './env.js';
 import { createDb } from './db/connection.js';
 import { healthRoutes } from './routes/health.js';
@@ -26,6 +28,8 @@ app.decorate('db', db);
 // Plugins
 await app.register(cors, { origin: env.FRONTEND_URL });
 await app.register(jwt, { secret: env.JWT_SECRET });
+await app.register(helmet, { contentSecurityPolicy: false }); // CSP handled by nginx
+await app.register(rateLimit, { max: 100, timeWindow: '1 minute' });
 
 // Routes
 await app.register(healthRoutes, { prefix: '/api' });

@@ -27,6 +27,9 @@ services:
       NODE_ENV: production
       PORT: 3001
       FRONTEND_URL: ${FRONTEND_URL:-https://qiada.duckdns.org}
+      VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT: ${VAPID_SUBJECT:-mailto:admin@qiada.app}
     depends_on:
       db:
         condition: service_healthy

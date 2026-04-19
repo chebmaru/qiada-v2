@@ -1,6 +1,8 @@
 import type { FastifyPluginAsync } from 'fastify';
 import { sql } from 'drizzle-orm';
 
+const startedAt = new Date();
+
 export const healthRoutes: FastifyPluginAsync = async (app) => {
   app.get('/health', async () => {
     let dbOk = false;
@@ -9,10 +11,15 @@ export const healthRoutes: FastifyPluginAsync = async (app) => {
       dbOk = true;
     } catch { /* db down */ }
 
+    const now = new Date();
+    const uptimeMs = now.getTime() - startedAt.getTime();
+
     return {
-      status: 'ok',
-      timestamp: new Date().toISOString(),
+      status: dbOk ? 'ok' : 'degraded',
+      timestamp: now.toISOString(),
+      uptime: Math.floor(uptimeMs / 1000),
       db: dbOk,
+      version: '2.0.0',
     };
   });
 };

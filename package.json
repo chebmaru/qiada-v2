@@ -17,6 +17,8 @@
     "pg": "^8.20.0"
   },
   "dependencies": {
+    "@fastify/helmet": "^13.0.2",
+    "@fastify/rate-limit": "^10.3.0",
     "web-push": "^3.6.7"
   }
 }
