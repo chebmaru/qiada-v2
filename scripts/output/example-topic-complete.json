@@ -1,0 +1,168 @@
+{
+  "topic": {
+    "topicKey": "dare_precedenza",
+    "titleIT": "Dare Precedenza",
+    "titleAR": "أعطِ الأولوية",
+    "contentIT": "Il segnale prescrive di dare la precedenza ai veicoli circolanti sulla strada che si incrocia o su cui ci si immette, sia da destra che da sinistra. Viene posto su strada secondaria, urbana o extraurbana, che non ha diritto di precedenza, come sulle rampe di raccordo per l'immissione in autostrada. È installato a circa 25 metri prima dell'incrocio. Su strade extraurbane è preceduto dal segnale di preavviso di dare precedenza, non dal preavviso di fermarsi e dare precedenza. Il segnale ha valore nelle ore in cui il semaforo funziona a luce gialla lampeggiante, ovvero quando è spento o guasto. È necessario usare la massima prudenza per evitare incidenti, moderare la velocità e, all'occorrenza, fermarsi. Il segnale non viene posto lungo l'autostrada, ma sulla corsia d'ingresso, ovvero sulla c",
+    "contentAR": "تشير الإشارة إلى وجوب إعطاء الأولوية للمركبات الموجودة على الطريق الذي يتم تقاطعه أو الذي يتم الدخول إليه، سواء من اليمين أو من اليسار. توضع على طريق ثانوي، حضري أو خارج المدن، ليس له حق الأولوية، مثل المنحدرات الجانبية للدخول إلى الطريق السريع. تُركب على بعد حوالي 25 مترًا قبل التقاطع. على الطرق خارج المدن، تسبقها إشارة التحذير المسبق لإعطاء الأولوية، وليس إشارة التحذير المسبق للتوقف وإعطاء الأولوية. تكون الإشارة سارية المفعول في الساعات التي تعمل فيها الإشارة الضوئية بالضوء الأصفر الوامض، أي عندما تكون مطفأة أو معطلة. من الضروري توخي أقصى درجات الحذر لتجنب الحوادث، وتخفيف السرعة، والتوقف عند الحاجة. لا توضع الإشارة على طول الطريق السريع، بل على حارة الدخول، أي حارة التسارع.",
+    "imageUrl": "/lessons/080d36e9-88ef-4a5d-9379-81c7c74e8261.png",
+    "chapterId": 3,
+    "questionCount": 75
+  },
+  "questions": [
+    {
+      "code": "B18827",
+      "textIT": "Il conducente, in vicinanza di un posteggio riservato ai taxi, deve dare la precedenza ai taxi che s'immettono sulla strada",
+      "textAR": "يجب على السائق، بالقرب من موقف مخصص لسيارات الأجرة، إعطاء الأولوية لسيارات الأجرة التي تنضم إلى الطريق.",
+      "explanationIT": "Falso. I taxi non godono di alcuna precedenza particolare quando si immettono sulla strada da un posteggio riservato. Devono rispettare le normali regole di precedenza, dando la precedenza ai veicoli già in transito sulla carreggiata, come stabilito dall'Art. 145 del Codice della Strada.",
+      "explanationAR": "خطأ. لا تتمتع سيارات الأجرة بأي أولوية خاصة عندما تنضم إلى الطريق من موقف مخصص. عليها احترام قواعد الأولوية العادية، وإعطاء الأولوية للمركبات التي تسير بالفعل على مسار المركبات، كما تنص عليه المادة 145 من قانون المرور الإيطالي.",
+      "isTrue": false,
+      "imageUrl": null
+    },
+    {
+      "code": "B18828",
+      "textIT": "Il conducente, in vicinanza di un posteggio riservato ai taxi, deve dare la precedenza ai taxi in partenza, qualora s'immettano dal lato sinistro della carreggiata",
+      "textAR": "يجب على السائق، بالقرب من موقف مخصص لسيارات الأجرة، أن يعطي الأولوية لسيارات الأجرة عند انطلاقها، إذا دخلت الطريق من الجانب الأيسر من مسار المركبات.",
+      "explanationIT": "Falso. I taxi non godono di alcuna precedenza speciale quando si immettono nella carreggiata da un posteggio riservato. La precedenza spetta sempre ai veicoli già circolanti sulla strada, come stabilito dall'Art. 145 del Codice della Strada.",
+      "explanationAR": "خطأ. لا تتمتع سيارات الأجرة بأي أولوية خاصة عند دخولها مسار المركبات من موقف مخصص لها. الأولوية تعود دائمًا للمركبات التي تسير بالفعل على الطريق، كما ينص على ذلك المادة 145 من قانون المرور الإيطالي.",
+      "isTrue": false,
+      "imageUrl": null
+    },
+    {
+      "code": "B20467",
+      "textIT": "Il segnale raffigurato obbliga a dare precedenza ai veicoli provenienti sia da destra che da sinistra",
+      "textAR": "الإشارة الموضحة تلزم بإعطاء الأولوية للمركبات القادمة من اليمين ومن اليسار.",
+      "explanationIT": "Vero. Il segnale raffigurato è il segnale di 'dare precedenza' (triangolo rovesciato con vertice in basso, bordo rosso e centro bianco). Secondo l'Art. 145 CdS, questo segnale obbliga a dare la precedenza ai veicoli provenienti sia da destra che da sinistra sulla strada che si incrocia, fermandosi se necessario.",
+      "explanationAR": "صحيح. الإشارة الموضحة في الصورة هي إشارة 'إعطاء الأولوية' (مثلث مقلوب رأسه لأسفل، بإطار أحمر ومركز أبيض). طبقاً للمادة 145 من قانون المرور، تلزم هذه الإشارة بإعطاء الأولوية للمركبات القادمة من اليمين ومن اليسار على الطريق المتقاطعة، مع التوقف إذا لزم الأمر.",
+      "isTrue": true,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20468",
+      "textIT": "Il segnale raffigurato comporta di dare la precedenza ai veicoli che circolano sulla strada che si incrocia",
+      "textAR": "الإشارة الموضحة تستلزم إعطاء الأولوية للمركبات التي تسير على الطريق المتقاطعة.",
+      "explanationIT": "Vero. Il segnale raffigurato (triangolo rovesciato 'dare precedenza') impone al conducente di dare la precedenza ai veicoli che circolano sulla strada prioritaria che si incrocia, come stabilito dall'Art. 145 CdS. È un obbligo fondamentale per la sicurezza negli incroci.",
+      "explanationAR": "صحيح. الإشارة الموضحة في الصورة (مثلث مقلوب 'إعطاء الأولوية') تلزم السائق بإعطاء الأولوية للمركبات التي تسير على الطريق ذات الأولوية المتقاطعة، كما ينص على ذلك المادة 145 من قانون المرور. إنه إلزام أساسي للسلامة عند التقاطعات.",
+      "isTrue": true,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20469",
+      "textIT": "Il segnale raffigurato viene posto su strada secondaria che non ha il diritto di precedenza",
+      "textAR": "توضع الإشارة الموضحة على طريق ثانوي ليس له حق الأولوية.",
+      "explanationIT": "Vero. Il segnale di 'dare precedenza' (triangolo rovesciato) viene installato sulle strade secondarie, in prossimità dell'incrocio con una strada prioritaria. La sua presenza indica che la strada su cui ci si trova non gode del diritto di precedenza. Art. 145 CdS.",
+      "explanationAR": "صحيح. توضع إشارة 'إعطاء الأولوية' (المثلث المقلوب) على الطرق الثانوية، بالقرب من تقاطعها مع طريق ذي أولوية. وجودها يدل على أن الطريق الذي تسير عليه لا يتمتع بحق الأولوية. المادة 145 من قانون المرور.",
+      "isTrue": true,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20470",
+      "textIT": "Il segnale raffigurato si trova sulle corsie di accelerazione per l'immissione in autostrada",
+      "textAR": "توجد الإشارة الموضحة على مسارات التسارع للاندماج في الطريق السريع.",
+      "explanationIT": "Vero. Il segnale di 'dare precedenza' (triangolo rovesciato) è comunemente posizionato all'inizio delle corsie di accelerazione (o di immissione) in autostrada o in strade extraurbane principali. Obbliga i veicoli in immissione a dare la precedenza a quelli già circolanti sulla carreggiata principale, come previsto dall'Art. 145 CdS.",
+      "explanationAR": "صحيح. توضع إشارة 'إعطاء الأولوية' (المثلث المقلوب) بشكل شائع عند بداية مسارات التسارع (أو الاندماج) للدخول إلى الطريق السريع أو الطرق الرئيسية خارج المدن. تلزم المركبات المندمجة بإعطاء الأولوية لتلك التي تسير بالفعل على المسار الرئيسي، كما تنص المادة 145 من قانون المرور.",
+      "isTrue": true,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20472",
+      "textIT": "Il segnale raffigurato preannuncia di moderare particolarmente la velocità e all'occorrenza fermarsi",
+      "textAR": "الإشارة الموضحة تُعلِم مسبقاً بضرورة تخفيض السرعة بشكل ملحوظ والتوقف عند الاقتضاء.",
+      "explanationIT": "Vero. Il segnale di 'dare precedenza' (triangolo rovesciato) preannuncia l'obbligo di moderare sensibilmente la velocità in avvicinamento all'incrocio e di fermarsi completamente se necessario, per consentire il passaggio sicuro dei veicoli aventi diritto alla precedenza. Art. 145 CdS.",
+      "explanationAR": "صحيح. إشارة 'إعطاء الأولوية' (المثلث المقلوب) تُعلِم مسبقاً بإلزام تخفيض السرعة بشكل ملحوظ عند الاقتراب من التقاطع والتوقف تماماً إذا لزم الأمر، للسماح بمرور آمن للمركبات التي لها حق الأولوية. المادة 145 من قانون المرور.",
+      "isTrue": true,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20473",
+      "textIT": "In presenza del segnale raffigurato non occorre fermarsi all'incrocio se, rallentando, si ha modo di vedere che non vi sono veicoli in arrivo, sia da destra che da sinistra",
+      "textAR": "في وجود الإشارة الموضحة، لا يلزم التوقف عند التقاطع إذا كان التباطؤ يتيح رؤية أنه لا توجد مركبات قادمة، لا من اليمين ولا من اليسار.",
+      "explanationIT": "Vero. In presenza del segnale di 'dare precedenza', l'obbligo primario è di dare la precedenza, non necessariamente di fermarsi. Se, rallentando per tempo, il conducente ha una visuale chiara e accerta che non sopraggiungono veicoli da destra o da sinistra sulla strada prioritaria, può procedere senza fermarsi, purché lo faccia in sicurezza. Art. 145 CdS.",
+      "explanationAR": "صحيح. في وجود إشارة 'إعطاء الأولوية'، فإن الإلزام الأساسي هو إعطاء الأولوية، وليس التوقف بالضرورة. إذا كان السائق، عن طريق التباطؤ في الوقت المناسب، لديه رؤية واضحة ويتأكد من عدم وجود مركبات قادمة من اليمين أو اليسار على الطريق ذات الأولوية، يمكنه المتابعة دون توقف، بشرط أن يفعل ذلك بأمان. المادة 145 من قانون المرور.",
+      "isTrue": true,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20475",
+      "textIT": "Il segnale raffigurato è impiegato su strade che godono del diritto di precedenza",
+      "textAR": "الإشارة الموضحة تُستخدم على الطرق التي تتمتع بحق الأولوية.",
+      "explanationIT": "Falso. Il segnale raffigurato, un triangolo rovesciato con bordo rosso e centro bianco, è il segnale di \"DARE PRECEDENZA\". Questo segnale non indica che la strada su cui ci si trova gode del diritto di precedenza, ma impone al conducente di dare la precedenza ai veicoli provenienti dalle strade laterali (sia da destra che da sinistra). Pertanto, si trova su strade che devono cedere il passo, non su quelle che hanno la precedenza.",
+      "explanationAR": "خطأ. الإشارة الموضحة في الصورة، وهي مثلث مقلوب ذو إطار أحمر ووسط أبيض، هي إشارة \"أعط الأولوية\". هذه الإشارة لا تعني أن الطريق الذي تسير عليه يتمتع بحق الأولوية، بل تفرض على السائق إعطاء الأولوية للمركبات القادمة من الطرق الجانبية (من اليمين واليسار). لذلك، توضع على الطرق التي يجب أن تتنازل عن حق المرور، وليس على الطرق التي لها الأولوية.",
+      "isTrue": false,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    },
+    {
+      "code": "B20476",
+      "textIT": "Il segnale raffigurato è posto, di norma, 150 metri prima dell'incrocio",
+      "textAR": "الإشارة الموضحة توضع، كقاعدة عامة، على بعد 150 متراً قبل التقاطع.",
+      "explanationIT": "Falso. Il segnale di \"DARE PRECEDENZA\" raffigurato (triangolo rovesciato) viene posto immediatamente prima del punto in cui si deve cedere il passo, solitamente in prossimità della linea di arresto o dell'incrocio stesso. La distanza di 150 metri è tipica per i segnali di preavviso di dare precedenza (il segnale triangolare con la croce di Sant'Andrea), non per il segnale di prescrizione vero e proprio.",
+      "explanationAR": "خطأ. إشارة \"أعط الأولوية\" الموضحة في الصورة (المثلث المقلوب) توضع مباشرة قبل النقطة التي يجب فيها التنازل عن حق المرور، عادة بالقرب من خط التوقف أو التقاطع نفسه. مسافة 150 متراً هي مسافة نموذجية لإشارات الإنذار المسبق بإعطاء الأولوية (الإشارة المثلثية ذات صليب سانت أندرو)، وليس لإشارة الإلزام الفعلية.",
+      "isTrue": false,
+      "imageUrl": "/signs/dare_precedenza_qb_40.png"
+    }
+  ],
+  "tricks": {
+    "titleIT": "Trucchi V/F — Dare Precedenza",
+    "titleAR": "حيل صح/خطأ — أعطِ الأولوية",
+    "rules": [
+      {
+        "ruleIT": "Se la domanda dice 'il segnale OBBLIGA a fermarsi' → FALSO (il triangolo NON obbliga a fermarsi, quello è lo STOP)",
+        "ruleAR": "إذا قالت الجملة \"الإشارة تُلزم بالتوقف\" ← خطأ (المثلث الأحمر لا يُلزم بالتوقف، هذا هو إشارة قف)",
+        "keywords": [
+          "fermarsi",
+          "arrestarsi",
+          "obbliga"
+        ]
+      },
+      {
+        "ruleIT": "Se la domanda dice 'rallentare e se necessario fermarsi' → VERO (il segnale impone di rallentare)",
+        "ruleAR": "إذا قالت الجملة \"تخفيف السرعة والتوقف إذا لزم الأمر\" ← صح",
+        "keywords": [
+          "rallentare",
+          "se necessario"
+        ]
+      },
+      {
+        "ruleIT": "Se la domanda dice 'vale solo nelle strade urbane/extraurbane' → FALSO (il segnale vale ovunque)",
+        "ruleAR": "إذا قالت الجملة \"تسري فقط في الطرق الحضرية\" ← خطأ (الإشارة تسري في كل مكان)",
+        "keywords": [
+          "solo",
+          "urbane",
+          "extraurbane"
+        ]
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "termIT": "Dare la precedenza",
+      "termAR": "إعطاء الأولوية",
+      "definitionIT": "Cedere il passo agli altri veicoli che hanno la precedenza",
+      "definitionAR": "السماح للمركبات ذات الأولوية بالمرور أولاً"
+    },
+    {
+      "termIT": "Diritto di precedenza",
+      "termAR": "حق الأولوية",
+      "definitionIT": "Segnale che indica che la strada su cui ci si trova ha la precedenza agli incroci",
+      "definitionAR": "إشارة مرورية تشير إلى أن الطريق الذي تسير عليه المركبة تتمتع بالأولوية عند التقاطعات."
+    },
+    {
+      "termIT": "Incrocio",
+      "termAR": "تقاطع الطرق",
+      "definitionIT": "Punto di incontro di due o più strade",
+      "definitionAR": "نقطة التقاء طريقين أو أكثر"
+    },
+    {
+      "termIT": "Intersezione a livelli sfalsati",
+      "termAR": "تقاطع متعدد المستويات",
+      "definitionIT": "Incrocio con cavalcavia o sottopassaggio, dove i flussi di traffico non si incrociano",
+      "definitionAR": "تقاطع يتضمن جسرًا علويًا أو نفقًا سفليًا، حيث لا تتقاطع تدفقات حركة المرور."
+    },
+    {
+      "termIT": "Precedenza",
+      "termAR": "الأولوية",
+      "definitionIT": "Diritto di passare prima degli altri veicoli",
+      "definitionAR": "حق المرور قبل المركبات الأخرى"
+    }
+  ]
+}
