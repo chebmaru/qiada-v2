@@ -1,0 +1,1192 @@
+[
+  {
+    "topicKey": "pannelli_posteriori_trasporto_cose",
+    "titleIT": "Pannelli Posteriori Trasporto Cose",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 1,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "divieto_di_sosta",
+    "titleIT": "Divieto Di Sosta",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 142,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "attraversamento_ciclabile",
+    "titleIT": "Attraversamento Ciclabile",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 51,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "strettoia_asimmetrica_a_sinistra",
+    "titleIT": "Strettoia Asimmetrica A Sinistra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 11,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "salita_ripida",
+    "titleIT": "Salita Ripida",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 17,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "animali_domestici_vaganti",
+    "titleIT": "Animali Domestici Vaganti",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "caduta_massi_da_destra",
+    "titleIT": "Caduta Massi Da Destra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "semaforo_verticale",
+    "titleIT": "Semaforo Verticale",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 7,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "preavviso_deviazione_autocarri",
+    "titleIT": "Preavviso Deviazione Autocarri",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 5,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "dosso_artificiale",
+    "titleIT": "Dosso Artificiale",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "passaggio_a_livello_con_barriere",
+    "titleIT": "Passaggio A Livello Con Barriere",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "dare_precedenza_nei_sensi_unici_alternati",
+    "titleIT": "Dare Precedenza Nei Sensi Unici Alternati",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 5,
+    "questionCount": 42,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "altri_pericoli",
+    "titleIT": "Altri Pericoli",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 108,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "rotatoria",
+    "titleIT": "Rotatoria",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "discesa_pericolosa",
+    "titleIT": "Discesa Pericolosa",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 20,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "terapie_farmaci_sedativi",
+    "titleIT": "Terapie Farmaci Sedativi",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 22,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "mancato_senso_del_pericolo_durante",
+    "titleIT": "Mancato Senso Del Pericolo Durante",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 22,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "incidente_chi_civilmente_obbligato_risarcire",
+    "titleIT": "Incidente Chi Civilmente Obbligato Risarcire",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 23,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "divieto_transito",
+    "titleIT": "Divieto Transito",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "transito_macchine_agricole",
+    "titleIT": "Transito Macchine Agricole",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "divieto_sosta",
+    "titleIT": "Divieto Sosta",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "segnale_parcheggio",
+    "titleIT": "Segnale Parcheggio",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "divieto_sosta_temporaneo",
+    "titleIT": "Divieto Sosta Temporaneo",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "preavviso_direzione_sinistra",
+    "titleIT": "Preavviso Direzione Sinistra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "preavviso_direzione_destra",
+    "titleIT": "Preavviso Direzione Destra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "percorso_biciclette",
+    "titleIT": "Percorso Biciclette",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "pista_ciclabile_marciapiede",
+    "titleIT": "Pista Ciclabile Marciapiede",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "isole_traffico",
+    "titleIT": "Isole Traffico",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "strisce_guida",
+    "titleIT": "Strisce Guida",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "corsie_preselezione",
+    "titleIT": "Corsie Preselezione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "corsie_preselezione_strada_doppio_senso",
+    "titleIT": "Corsie Preselezione Strada Doppio Senso",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "senso_unico",
+    "titleIT": "Senso Unico",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "incrocio_limitazione_traffico_autocarri",
+    "titleIT": "Incrocio Limitazione Traffico Autocarri",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "incrocio_extraurbano",
+    "titleIT": "Incrocio Extraurbano",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "fine_centro_abitato",
+    "titleIT": "Fine Centro Abitato",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "barriera_normale",
+    "titleIT": "Barriera Normale",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 9,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "inizio_prescrizione",
+    "titleIT": "Inizio Prescrizione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "continuazione_prescrizione",
+    "titleIT": "Continuazione Prescrizione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "termine_prescrizione",
+    "titleIT": "Termine Prescrizione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "autocarri_rallentamento",
+    "titleIT": "Autocarri Rallentamento",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "condizioni_sicurezza",
+    "titleIT": "Condizioni Sicurezza",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 12,
+    "questionCount": 28,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "manovra_retromarcia",
+    "titleIT": "Manovra Retromarcia",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "durante_marcia",
+    "titleIT": "Durante Marcia",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "obbligo_precedenza",
+    "titleIT": "Obbligo Precedenza",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "incroci_circolazione_rotatoria",
+    "titleIT": "Incroci Circolazione Rotatoria",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "utilizzo_specchi_retrovisori",
+    "titleIT": "Utilizzo Specchi Retrovisori",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_642",
+    "titleIT": "Figura 642",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_615",
+    "titleIT": "Figura 615",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_618",
+    "titleIT": "Figura 618",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_662",
+    "titleIT": "Figura 662",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_659",
+    "titleIT": "Figura 659",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_646",
+    "titleIT": "Figura 646",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_637",
+    "titleIT": "Figura 637",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 7,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_643",
+    "titleIT": "Figura 643",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_667",
+    "titleIT": "Figura 667",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_668",
+    "titleIT": "Figura 668",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_610",
+    "titleIT": "Figura 610",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_669",
+    "titleIT": "Figura 669",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 7,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_665",
+    "titleIT": "Figura 665",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_647",
+    "titleIT": "Figura 647",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 11,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_655",
+    "titleIT": "Figura 655",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 8,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_654",
+    "titleIT": "Figura 654",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 7,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_613",
+    "titleIT": "Figura 613",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 9,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_648",
+    "titleIT": "Figura 648",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_650",
+    "titleIT": "Figura 650",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_652",
+    "titleIT": "Figura 652",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 10,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_617",
+    "titleIT": "Figura 617",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 9,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_639",
+    "titleIT": "Figura 639",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_651",
+    "titleIT": "Figura 651",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_614",
+    "titleIT": "Figura 614",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_664",
+    "titleIT": "Figura 664",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_631",
+    "titleIT": "Figura 631",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_633",
+    "titleIT": "Figura 633",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_604",
+    "titleIT": "Figura 604",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_636",
+    "titleIT": "Figura 636",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_616",
+    "titleIT": "Figura 616",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_657",
+    "titleIT": "Figura 657",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_644",
+    "titleIT": "Figura 644",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_634",
+    "titleIT": "Figura 634",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "figura_661",
+    "titleIT": "Figura 661",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "ingombro_carreggiata_caduta_carico",
+    "titleIT": "Ingombro Carreggiata Caduta Carico",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 17,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "Patente_categoria_a1",
+    "titleIT": "Patente Categoria A1",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 20,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "Patente_categoria_A",
+    "titleIT": "Patente Categoria A",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 20,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "Validita_delle_patenti_guida",
+    "titleIT": "Validita Delle Patenti Guida",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 20,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  },
+  {
+    "topicKey": "strade_coperte_neve",
+    "titleIT": "Strade Coperte Neve",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 21,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ]
+  }
+]

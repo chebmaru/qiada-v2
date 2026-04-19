@@ -1,0 +1,2041 @@
+[
+  {
+    "topicKey": "pannelli_posteriori_trasporto_cose",
+    "titleIT": "Pannelli Posteriori Trasporto Cose",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 1,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": []
+  },
+  {
+    "topicKey": "divieto_di_sosta",
+    "titleIT": "Divieto Di Sosta",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 142,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il conducente di un veicolo diverso dai taxi non può sostare nei posteggi riservati ai taxi",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il conducente di un veicolo diverso dai taxi può sostare nei posteggi riservati ai taxi dalle ore 20.00 alle ore 8.00",
+        "isTrue": false
+      },
+      {
+        "textIT": "Quando si parcheggia un veicolo è vietato ostruire eventuali scivoli del marciapiede per non impedire il passaggio di pedoni che spingono una carrozzina per bambini",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "attraversamento_ciclabile",
+    "titleIT": "Attraversamento Ciclabile",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 51,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato preannuncia un attraversamento ciclabile",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia un attraversamento per ciclisti, contraddistinto dagli appositi segni sulla carreggiata",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia l'approssimarsi di un luogo dal quale possono provenire ciclisti",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "strettoia_asimmetrica_a_sinistra",
+    "titleIT": "Strettoia Asimmetrica A Sinistra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 11,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato preannuncia una strettoia sul lato sinistro della carreggiata",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia un restringimento pericoloso sulla sinistra della carreggiata",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia una strettoia con probabile difficoltà di incrocio con i veicoli provenienti dal senso opposto",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "salita_ripida",
+    "titleIT": "Salita Ripida",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 17,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato preannuncia una salita da percorrere con marcia adeguatamente bassa",
+        "isTrue": false
+      },
+      {
+        "textIT": "Il segnale raffigurato specifica la pendenza di una salita",
+        "isTrue": false
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia una salita pericolosa",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "animali_domestici_vaganti",
+    "titleIT": "Animali Domestici Vaganti",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": []
+  },
+  {
+    "topicKey": "caduta_massi_da_destra",
+    "titleIT": "Caduta Massi Da Destra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": []
+  },
+  {
+    "topicKey": "semaforo_verticale",
+    "titleIT": "Semaforo Verticale",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 7,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nei semafori sistemati in verticale la luce rossa si trova in alto, in quelli posti in orizzontale si trova a sinistra",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "preavviso_deviazione_autocarri",
+    "titleIT": "Preavviso Deviazione Autocarri",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 5,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": []
+  },
+  {
+    "topicKey": "dosso_artificiale",
+    "titleIT": "Dosso Artificiale",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Quando si incontrano le strisce di figura dipinte sulla pavimentazione occorre moderare la velocità",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il dispositivo in figura è un dosso artificiale",
+        "isTrue": true
+      },
+      {
+        "textIT": "L'elemento in figura è un rallentatore di velocità installato sulla strada",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "passaggio_a_livello_con_barriere",
+    "titleIT": "Passaggio A Livello Con Barriere",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 0,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": []
+  },
+  {
+    "topicKey": "dare_precedenza_nei_sensi_unici_alternati",
+    "titleIT": "Dare Precedenza Nei Sensi Unici Alternati",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 5,
+    "questionCount": 42,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato impone, nelle strettoie, di dare precedenza ai veicoli provenienti dal senso opposto",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia, in presenza di lavori, di dare precedenza ai veicoli provenienti dal senso opposto",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia che bisogna dare la precedenza ai veicoli provenienti di fronte",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "altri_pericoli",
+    "titleIT": "Altri Pericoli",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 108,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato preannuncia un pericolo diverso da quelli per cui sono previsti specifici segnali",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia che bisogna usare prudenza perché è vicino un pericolo",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato può essere usato senza pannelli integrativi per indicare un pericolo generico in caso di emergenza",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "rotatoria",
+    "titleIT": "Rotatoria",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Quando un incrocio è regolato con rotatoria, i veicoli circolanti all'interno dell'anello possono sorpassare sia a destra che a sinistra",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "discesa_pericolosa",
+    "titleIT": "Discesa Pericolosa",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 2,
+    "questionCount": 20,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato è posto prima di una discesa pericolosa",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia una discesa particolarmente pericolosa",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato preannuncia un tratto di strada sul quale aumenta lo spazio di frenatura del veicolo",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "terapie_farmaci_sedativi",
+    "titleIT": "Terapie Farmaci Sedativi",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 22,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "L'idoneità alla guida può essere compromessa se si fa uso di alcuni farmaci sedativi",
+        "isTrue": true
+      },
+      {
+        "textIT": "L'idoneità alla guida può essere compromessa se si fa uso di farmaci antidepressivi",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nei farmaci sedativi sono presenti alcune sostanze che possono compromettere la facoltà di guida",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "mancato_senso_del_pericolo_durante",
+    "titleIT": "Mancato Senso Del Pericolo Durante",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 22,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Un'alimentazione pesante ed eccessiva è sconsigliata per chi deve guidare",
+        "isTrue": true
+      },
+      {
+        "textIT": "L'alimentazione con cibi di difficile digestione può provocare una diminuzione dell'attenzione e un aumento dei tempi di reazione",
+        "isTrue": true
+      },
+      {
+        "textIT": "E' sconsigliabile guidare quando si ha uno stato emotivo alterato",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "incidente_chi_civilmente_obbligato_risarcire",
+    "titleIT": "Incidente Chi Civilmente Obbligato Risarcire",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 23,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale si libera dall'obbligo se risarcisce il danneggiato",
+        "isTrue": true
+      },
+      {
+        "textIT": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può accordarsi con il danneggiato circa il valore del risarcimento",
+        "isTrue": true
+      },
+      {
+        "textIT": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può far riparare il proprio autoveicolo",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "divieto_transito",
+    "titleIT": "Divieto Transito",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato è un DIVIETO DI TRANSITO",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "transito_macchine_agricole",
+    "titleIT": "Transito Macchine Agricole",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "In presenza del segnale raffigurato è consentito il transito ai quadricicli a motore",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "divieto_sosta",
+    "titleIT": "Divieto Sosta",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato non vieta la fermata",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "segnale_parcheggio",
+    "titleIT": "Segnale Parcheggio",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato indica un parcheggio autorizzato",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "divieto_sosta_temporaneo",
+    "titleIT": "Divieto Sosta Temporaneo",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 3,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato è un segnale di DIVIETO DI SOSTA TEMPORANEO",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "preavviso_direzione_sinistra",
+    "titleIT": "Preavviso Direzione Sinistra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato precede un segnale di DIREZIONE OBBLIGATORIA A SINISTRA",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "preavviso_direzione_destra",
+    "titleIT": "Preavviso Direzione Destra",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato precede il segnale di DIREZIONE OBBLIGATORIA A DESTRA",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "percorso_biciclette",
+    "titleIT": "Percorso Biciclette",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato è posto in corrispondenza di una corsia riservata alle biciclette",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "pista_ciclabile_marciapiede",
+    "titleIT": "Pista Ciclabile Marciapiede",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 4,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato non consente la circolazione dei veicoli a motore",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "isole_traffico",
+    "titleIT": "Isole Traffico",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "In presenza dell'isola di traffico rappresentata in figura il veicolo A deve andare diritto",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "strisce_guida",
+    "titleIT": "Strisce Guida",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "In presenza delle strisce di guida in figura il veicolo A deve andare diritto",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "corsie_preselezione",
+    "titleIT": "Corsie Preselezione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Le corsie A, B e C rappresentate in figura non consentono al conducente di proseguire diritto",
+        "isTrue": true
+      },
+      {
+        "textIT": "La corsia A, rappresentata in figura, consente al conducente di svoltare solo a sinistra",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "corsie_preselezione_strada_doppio_senso",
+    "titleIT": "Corsie Preselezione Strada Doppio Senso",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 6,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "La corsia A rappresentata in figura consente al conducente solo di svoltare a sinistra",
+        "isTrue": true
+      },
+      {
+        "textIT": "In presenza della segnaletica in figura, la corsia A è l'unica che consente di svoltare a sinistra",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "senso_unico",
+    "titleIT": "Senso Unico",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale A di figura indica che è obbligatorio svoltare a sinistra",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "incrocio_limitazione_traffico_autocarri",
+    "titleIT": "Incrocio Limitazione Traffico Autocarri",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato vieta agli autocarri di massa a pieno carico superiore a 3,5 tonnellate di proseguire diritto per Avezzano",
+        "isTrue": true
+      },
+      {
+        "textIT": "Il segnale raffigurato vieta anche agli autobus di raggiungere Avezzano",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "incrocio_extraurbano",
+    "titleIT": "Incrocio Extraurbano",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato indica che non è possibile raggiungere S. Giovanni",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "fine_centro_abitato",
+    "titleIT": "Fine Centro Abitato",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 8,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il segnale raffigurato indica che per S. Cesareo mancano 7 chilometri",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "barriera_normale",
+    "titleIT": "Barriera Normale",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 9,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Le barriere segnalano un percorso ciclabile",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "inizio_prescrizione",
+    "titleIT": "Inizio Prescrizione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il pannello raffigurato (A) indica la fine di una strada a senso unico",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "continuazione_prescrizione",
+    "titleIT": "Continuazione Prescrizione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il pannello integrativo raffigurato (A) indica un senso unico alternato",
+        "isTrue": false
+      },
+      {
+        "textIT": "Il pannello integrativo raffigurato (A) indica una strada a doppio senso di circolazione",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "termine_prescrizione",
+    "titleIT": "Termine Prescrizione",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il pannello integrativo raffigurato (A) indica una strada in discesa",
+        "isTrue": false
+      },
+      {
+        "textIT": "Il pannello integrativo raffigurato (A) indica una strada chiusa al traffico",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "autocarri_rallentamento",
+    "titleIT": "Autocarri Rallentamento",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 10,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "In presenza del segnale raffigurato il conducente deve moderare la velocità per la possibile presenza di autocarri in lento movimento",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "condizioni_sicurezza",
+    "titleIT": "Condizioni Sicurezza",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 12,
+    "questionCount": 28,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "conducente deve valutare la distanza di sicurezza anche sulla base della velocità del veicolo di cui è alla guida",
+        "isTrue": true
+      },
+      {
+        "textIT": "conducente deve commisurare la distanza di sicurezza anche in base alla propria prontezza di riflessi",
+        "isTrue": true
+      },
+      {
+        "textIT": "valore della distanza di sicurezza deve essere stabilito anche in base alle condizioni del traffico",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "manovra_retromarcia",
+    "titleIT": "Manovra Retromarcia",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Il veicolo S, muovendosi in retromarcia per immettersi nella circolazione, deve azionare gli indicatori di direzione",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "durante_marcia",
+    "titleIT": "Durante Marcia",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Durante la marcia per file parallele, percorrendo la corsia di sinistra, bisogna mantenere in funzione l'indicatore di direzione sinistro",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "obbligo_precedenza",
+    "titleIT": "Obbligo Precedenza",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "E' obbligatorio dare la precedenza a destra e a sinistra in presenza del segnale ROTATORIA",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "incroci_circolazione_rotatoria",
+    "titleIT": "Incroci Circolazione Rotatoria",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Giungendo ad un incrocio in cui la circolazione è regolata con rotatoria, bisogna dare la precedenza ai veicoli provenienti da sinistra, solo se vi è il segnale DARE PRECEDENZA",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "utilizzo_specchi_retrovisori",
+    "titleIT": "Utilizzo Specchi Retrovisori",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 13,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "specchi retrovisori esterni degli autoveicoli possono essere sostituiti con altri di tipo differente, purché di superficie maggiore",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_642",
+    "titleIT": "Figura 642",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo O deve attendere il transito del tram e che il veicolo A si porti al centro",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo M deve attendere il transito del veicolo O",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo O deve attendere che transitino tutti gli altri veicoli",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_615",
+    "titleIT": "Figura 615",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve passare dopo il veicolo R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa prima del veicolo C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C deve passare dopo i veicoli R e A",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_618",
+    "titleIT": "Figura 618",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo L attraversa l'incrocio per primo",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_662",
+    "titleIT": "Figura 662",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura, il veicolo E passa dopo il veicolo A e il veicolo B passa dopo il veicolo E",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo A non deve dare la precedenza ad alcun veicolo",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo E passa prima di quello B, ma dopo il veicolo A",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_659",
+    "titleIT": "Figura 659",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura, il veicolo A passa dopo il veicolo R e il veicolo C passa dopo il veicolo A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa prima del veicolo C e dopo il veicolo R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nell'ordine: R, A, C",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_646",
+    "titleIT": "Figura 646",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: D, C, A, H.",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo A ha la destra occupata",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo A attraversa l'incrocio prima del veicolo C",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_637",
+    "titleIT": "Figura 637",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 7,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'attraversare l'incrocio in figura il veicolo L passa per primo",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'attraversare l'incrocio in figura il veicolo A ha la precedenza sul veicolo D",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il conducente del veicolo A deve dare la precedenza al veicolo L",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_643",
+    "titleIT": "Figura 643",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo B passa prima del veicolo L",
+        "isTrue": true
+      },
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo L deve dare la precedenza al veicolo B",
+        "isTrue": true
+      },
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo L deve passare per ultimo",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_667",
+    "titleIT": "Figura 667",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: C, A, P",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo A passa dopo il veicolo C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: P, C, A",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_668",
+    "titleIT": "Figura 668",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine: S, N, C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo N transita dopo il veicolo S e prima del veicolo C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine: C, N, S",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_610",
+    "titleIT": "Figura 610",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine: T, L ed A, infine C",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_669",
+    "titleIT": "Figura 669",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 7,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: C, A, L, R, E",
+        "isTrue": true
+      },
+      {
+        "textIT": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita subito dopo il veicolo C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita prima del veicolo L",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_665",
+    "titleIT": "Figura 665",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, E, V, H, C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo H passa dopo i veicoli A, E, V",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo A passa per primo",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_647",
+    "titleIT": "Figura 647",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 11,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli L e H passano contemporaneamente per primi",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: L e H, B, O",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza, nell'incrocio rappresentato in figura, il veicolo B transita dopo i veicoli L e H",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_655",
+    "titleIT": "Figura 655",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 8,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo S transita prima del veicolo R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo S transita prima di tutti gli altri veicoli",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: S, A, E, R",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_654",
+    "titleIT": "Figura 654",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 7,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo A deve attendere il transito dei veicoli C ed R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nella situazione rappresentata in figura i veicoli transitano nell'ordine: C, R, A, H",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo H deve attendere il transito dei veicoli C, R, A",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_613",
+    "titleIT": "Figura 613",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 9,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve attendere il transito del veicolo O",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O deve attendere il transito del veicolo T",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: T, O, A",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_648",
+    "titleIT": "Figura 648",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nella situazione rappresentata in figura il veicolo G transita per primo",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_650",
+    "titleIT": "Figura 650",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo E deve attendere il transito del veicolo L",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: L, E, N, R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il conducente del veicolo E deve dare la precedenza al veicolo L",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_652",
+    "titleIT": "Figura 652",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 10,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio in figura il veicolo F deve attendere il transito del veicolo A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio in figura il veicolo L deve attendere il transito dei veicoli A ed F",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio in figura il veicolo A deve attendere il transito del veicolo H",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_617",
+    "titleIT": "Figura 617",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 9,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo N deve dare la precedenza al veicolo A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo N può concludere la manovra di svolta a sinistra dopo il transito dei veicoli R e A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo N, dopo essersi portato al centro dell'incrocio, deve attendere il transito dei veicoli R e A",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_639",
+    "titleIT": "Figura 639",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo A deve dare la precedenza al tram e al veicolo B",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo A ha la precedenza rispetto al veicolo C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T e B, A, C",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_651",
+    "titleIT": "Figura 651",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il conducente del veicolo D non ha l'obbligo di dare la precedenza al veicolo A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il conducente del veicolo A deve dare la precedenza ai veicoli E e S",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il conducente del veicolo A ha la destra libera",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_614",
+    "titleIT": "Figura 614",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo A deve attendere il transito del veicolo R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura il veicolo T deve attendere il transito dei veicoli R ed A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: R, A, T",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_664",
+    "titleIT": "Figura 664",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'intersezione di figura il veicolo B deve dare la precedenza al veicolo S",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S, B, L, D",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S, B, D e L contemporaneamente",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_631",
+    "titleIT": "Figura 631",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'intersezione di figura il veicolo D transita prima del veicolo F",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di transito dei veicoli è: R, D, F",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di transito dei veicoli è: F, R, D",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_633",
+    "titleIT": "Figura 633",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di transito dei veicoli è: N, A, R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di transito dei veicoli è: A, N, R",
+        "isTrue": false
+      },
+      {
+        "textIT": "Nell'intersezione di figura l'ordine di precedenza dei veicoli è: N, R, A",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_604",
+    "titleIT": "Figura 604",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 3,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: R, D, A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: D, A, R",
+        "isTrue": false
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli A e R passano contemporaneamente",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_636",
+    "titleIT": "Figura 636",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 6,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita subito dopo il veicolo T",
+        "isTrue": true
+      },
+      {
+        "textIT": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: T, A, S",
+        "isTrue": true
+      },
+      {
+        "textIT": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita per primo",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_616",
+    "titleIT": "Figura 616",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: B, T, S",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo S transita per ultimo",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: S, B, T",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_657",
+    "titleIT": "Figura 657",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A transita dopo il veicolo R",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C deve dare la precedenza al veicolo A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: R, A, C",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_644",
+    "titleIT": "Figura 644",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo B deve dare la precedenza al veicolo L",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_634",
+    "titleIT": "Figura 634",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 5,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo A passa per primo",
+        "isTrue": true
+      },
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo C deve dare la precedenza al veicolo A",
+        "isTrue": true
+      },
+      {
+        "textIT": "Giungendo all'incrocio rappresentato in figura il veicolo L passa per ultimo",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "figura_661",
+    "titleIT": "Figura 661",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 14,
+    "questionCount": 4,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo L deve attendere il transito dei veicoli E e C",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: E, C, L",
+        "isTrue": true
+      },
+      {
+        "textIT": "Nell'incrocio rappresentato in figura il veicolo C deve attendere il transito del veicolo L",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "ingombro_carreggiata_caduta_carico",
+    "titleIT": "Ingombro Carreggiata Caduta Carico",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 17,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Nel caso di ingombro della carreggiata per caduta accidentale del carico il conducente deve presegnalare l'ostacolo mediante il segnale di STOP",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "Patente_categoria_a1",
+    "titleIT": "Patente Categoria A1",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 20,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Con la patente di categoria A1 si possono condurre i motocicli (con o senza carrozzetta) di cilindrata fino a 125 cm3, potenza non superiore a 11 kW e rapporto potenza/peso non superiore a 0,1 kW/kg",
+        "isTrue": true
+      },
+      {
+        "textIT": "Con la patente di categoria A1 si possono condurre le macchine operatrici non eccezionali",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "topicKey": "Patente_categoria_A",
+    "titleIT": "Patente Categoria A",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 20,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Con la patente di categoria A si possono condurre tutti i tricicli a motore, ma solo se il conducente ha almeno 21 anni",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "Validita_delle_patenti_guida",
+    "titleIT": "Validita Delle Patenti Guida",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 20,
+    "questionCount": 2,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "La patente di guida di categoria A, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+        "isTrue": true
+      },
+      {
+        "textIT": "La patente di guida di categoria B SPECIALE (BS), salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di cinque anni se rilasciata o confermata a chi non ha superato i 70 anni di età",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "topicKey": "strade_coperte_neve",
+    "titleIT": "Strade Coperte Neve",
+    "titleAR": "",
+    "contentIT": "",
+    "contentAR": "",
+    "chapterId": 21,
+    "questionCount": 1,
+    "needs": [
+      "titleAR",
+      "contentIT",
+      "contentAR"
+    ],
+    "sampleQuestions": [
+      {
+        "textIT": "Su strade coperte di neve occorre montare pneumatici invernali su tutte le ruote oppure catene sulle ruote motrici",
+        "isTrue": true
+      }
+    ]
+  }
+]

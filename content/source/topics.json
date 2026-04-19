@@ -4006,9 +4006,9 @@
   {
     "topicKey": "pannelli_posteriori_trasporto_cose",
     "titleIT": "Pannelli Posteriori Trasporto Cose",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "لوحات خلفية لنقل البضائع",
+    "contentIT": "I pannelli posteriori per il trasporto cose sono segnali rettangolari che si applicano sul retro dei veicoli. Servono a indicare che il veicolo trasporta merci pericolose o di grandi dimensioni. Devono essere sempre ben visibili e puliti per garantire la sicurezza.",
+    "contentAR": "اللوحات الخلفية لنقل البضائع هي إشارات مستطيلة الشكل تُثبّت على الجزء الخلفي من المركبات. وظيفتها الإشارة إلى أن المركبة تنقل بضائع خطيرة أو ذات أبعاد كبيرة. يجب أن تكون دائمًا واضحة للرؤية ونظيفة لضمان السلامة.",
     "imageUrl": null,
     "chapterId": 1,
     "lessonId": null,
@@ -4019,9 +4019,9 @@
   {
     "topicKey": "divieto_di_sosta",
     "titleIT": "Divieto Di Sosta",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "حظر التوقف",
+    "contentIT": "Il divieto di sosta indica dove non è possibile fermare il veicolo, se non per le operazioni di carico e scarico di breve durata. È importante rispettarlo per non intralciare il traffico, i pedoni o i veicoli di soccorso. La sosta è diversa dalla fermata, che è una breve sospensione della marcia.",
+    "contentAR": "يشير حظر التوقف إلى الأماكن التي لا يمكن فيها إيقاف المركبة، إلا لأغراض التحميل والتفريغ لفترة قصيرة. من المهم احترامه لعدم عرقلة حركة المرور أو المشاة أو مركبات الإسعاف. التوقف يختلف عن الوقوف المؤقت، وهو توقف قصير للحركة.",
     "imageUrl": null,
     "chapterId": 3,
     "lessonId": null,
@@ -4032,9 +4032,9 @@
   {
     "topicKey": "attraversamento_ciclabile",
     "titleIT": "Attraversamento Ciclabile",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "معبر الدراجات",
+    "contentIT": "L'attraversamento ciclabile è una parte della strada riservata al passaggio dei ciclisti. È segnalato da strisce bianche sulla carreggiata e spesso da un apposito segnale. I conducenti devono dare la precedenza ai ciclisti che attraversano e moderare la velocità in prossimità di questi attraversamenti.",
+    "contentAR": "معبر الدراجات هو جزء من الطريق مخصص لعبور راكبي الدراجات. يُشار إليه بخطوط بيضاء على سطح الطريق وغالبًا بإشارة خاصة. على السائقين إعطاء الأولوية لراكبي الدراجات الذين يعبرون وتخفيف السرعة بالقرب من هذه المعابر.",
     "imageUrl": null,
     "chapterId": 4,
     "lessonId": null,
@@ -4045,9 +4045,9 @@
   {
     "topicKey": "strettoia_asimmetrica_a_sinistra",
     "titleIT": "Strettoia Asimmetrica A Sinistra",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "ممر ضيق غير متماثل على اليسار",
+    "contentIT": "La strettoia asimmetrica a sinistra è un restringimento della carreggiata sul lato sinistro. Il segnale triangolare rosso avvisa di questo pericolo. In questo punto, la corsia di sinistra diventa più stretta, quindi bisogna fare attenzione e dare la precedenza ai veicoli che arrivano dalla direzione opposta, se necessario.",
+    "contentAR": "الممر الضيق غير المتماثل على اليسار هو تضييق في سطح الطريق على الجانب الأيسر. الإشارة المثلثية الحمراء تنبه بهذا الخطر. في هذه النقطة، يصبح مسار اليسار أضيق، لذا يجب الانتباه وإعطاء الأولوية للمركبات القادمة من الاتجاه المعاكس إذا لزم الأمر.",
     "imageUrl": null,
     "chapterId": 2,
     "lessonId": null,
@@ -4058,9 +4058,9 @@
   {
     "topicKey": "salita_ripida",
     "titleIT": "Salita Ripida",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "منحدر صعود حاد",
+    "contentIT": "Il segnale di salita ripida avvisa di un tratto di strada in forte salita. È un segnale di pericolo triangolare. In salita, bisogna usare marce basse per avere più potenza e controllare meglio il veicolo. I veicoli lenti o pesanti devono tenersi il più possibile a destra.",
+    "contentAR": "تنبه إشارة المنحدر الصعود الحاد بوجود جزء من الطريق ذي صعود شديد. إنها إشارة خطر مثلثية. أثناء الصعود، يجب استخدام النقلات المنخفضة للحصول على قوة أكبر والتحكم في المركبة بشكل أفضل. على المركبات البطيئة أو الثقيلة الالتزام بأقصى اليمين قدر الإمكان.",
     "imageUrl": null,
     "chapterId": 2,
     "lessonId": null,
@@ -4071,9 +4071,9 @@
   {
     "topicKey": "animali_domestici_vaganti",
     "titleIT": "Animali Domestici Vaganti",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "حيوانات أليفة طليقة",
+    "contentIT": "Il segnale di animali domestici vaganti avvisa della possibile presenza di animali, come cani o gatti, sulla strada. È un segnale di pericolo triangolare. In queste zone, bisogna moderare la velocità e essere pronti a fermarsi, perché gli animali potrebbero attraversare improvvisamente senza preavviso.",
+    "contentAR": "تنبه إشارة الحيوانات الأليفة الطليقة باحتمال وجود حيوانات، مثل الكلاب أو القطط، على الطريق. إنها إشارة خطر مثلثية. في هذه المناطق، يجب تخفيف السرعة والاستعداد للتوقف، لأن الحيوانات قد تعبر فجأة دون سابق إنذار.",
     "imageUrl": null,
     "chapterId": 2,
     "lessonId": null,
@@ -4084,9 +4084,9 @@
   {
     "topicKey": "caduta_massi_da_destra",
     "titleIT": "Caduta Massi Da Destra",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "سقوط صخور من اليمين",
+    "contentIT": "Il segnale di caduta massi da destra avvisa del pericolo di pietre o massi che potrebbero cadere sulla strada dal lato destro. È un segnale di pericolo triangolare. In questo tratto, bisogna procedere con prudenza, moderare la velocità e prestare attenzione alla possibile presenza di detriti sulla carreggiata.",
+    "contentAR": "تنبه إشارة سقوط الصخور من اليمين بخطر سقوط أحجار أو صخور على الطريق من الجانب الأيمن. إنها إشارة خطر مثلثية. في هذا الجزء، يجب المضي بحذر، وتخفيف السرعة، والانتباه لاحتمال وجود حطام على سطح الطريق.",
     "imageUrl": null,
     "chapterId": 2,
     "lessonId": null,
@@ -4097,9 +4097,9 @@
   {
     "topicKey": "semaforo_verticale",
     "titleIT": "Semaforo Verticale",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "إشارة ضوئية عمودية",
+    "contentIT": "Il semaforo verticale ha le luci disposte dall'alto verso il basso. La luce rossa è sempre in alto, quella gialla al centro e quella verde in basso. Questa disposizione standard aiuta i conducenti a riconoscere i colori anche in caso di malfunzionamento o scarsa visibilità.",
+    "contentAR": "الإشارة الضوئية العمودية تكون أضواءها مرتبة من الأعلى إلى الأسفل. الضوء الأحمر دائمًا في الأعلى، والأصفر في المنتصف، والأخضر في الأسفل. هذا الترتيب القياسي يساعد السائقين على تمييز الألوان حتى في حالة عطل أو ضعف الرؤية.",
     "imageUrl": null,
     "chapterId": 7,
     "lessonId": null,
@@ -4110,9 +4110,9 @@
   {
     "topicKey": "preavviso_deviazione_autocarri",
     "titleIT": "Preavviso Deviazione Autocarri",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "إشعار مسبق بانحراف الشاحنات",
+    "contentIT": "Il preavviso di deviazione per autocarri è un segnale che indica ai conducenti di mezzi pesanti un percorso obbligatorio alternativo. Spesso è usato per deviare il traffico pesante da centri urbani o strade non adatte. Gli autocarri devono seguire le indicazioni del segnale.",
+    "contentAR": "إشعار الانحراف المسبق للشاحنات هو إشارة تُظهر لسائقي المركبات الثقيلة مسارًا بديلًا إلزاميًا. غالبًا ما يُستخدم لتحويل حركة المرور الثقيلة عن المراكز الحضرية أو الطرق غير المناسبة. على الشاحنات اتباع توجيهات الإشارة.",
     "imageUrl": null,
     "chapterId": 5,
     "lessonId": null,
@@ -4123,9 +4123,9 @@
   {
     "topicKey": "dosso_artificiale",
     "titleIT": "Dosso Artificiale",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مطب اصطناعي",
+    "contentIT": "Il dosso artificiale è un rialzo sulla carreggiata creato per obbligare i veicoli a rallentare. Si trova spesso in zone residenziali, vicino a scuole o ospedali. All'avvicinarsi di un dosso, è necessario ridurre decisamente la velocità per evitare danni al veicolo e garantire la sicurezza.",
+    "contentAR": "المطب الاصطناعي هو ارتفاع على سطح الطريق مُنشَء لإجبار المركبات على التباطؤ. يوجد غالبًا في المناطق السكنية، بالقرب من المدارس أو المستشفيات. عند الاقتراب من مطب، من الضروري تخفيف السرعة بشكل حاسم لتجنب أضرار المركبة وضمان السلامة.",
     "imageUrl": null,
     "chapterId": 6,
     "lessonId": null,
@@ -4136,9 +4136,9 @@
   {
     "topicKey": "passaggio_a_livello_con_barriere",
     "titleIT": "Passaggio A Livello Con Barriere",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مُستوى مُعَبَّر مع حواجز",
+    "contentIT": "Il passaggio a livello con barriere è un attraversamento tra strada e ferrovia protetto da barriere mobili. Quando le barriere sono chiuse o si stanno chiudendo, è vietato e pericoloso attraversare i binari. Bisogna sempre fermarsi prima delle barriere se sono abbassate o in movimento.",
+    "contentAR": "المُستوى المُعَبَّر مع حواجز هو تقاطع بين الطريق والسكك الحديدية محمي بحواجز متحركة. عندما تكون الحواجز مغلقة أو في حالة إغلاق، يُحظر ويعتبر خطيراً عبور القضبان. يجب التوقف دائماً قبل الحواجز إذا كانت مُنخفضة أو في حالة حركة.",
     "imageUrl": null,
     "chapterId": 6,
     "lessonId": null,
@@ -4149,9 +4149,9 @@
   {
     "topicKey": "dare_precedenza_nei_sensi_unici_alternati",
     "titleIT": "Dare Precedenza Nei Sensi Unici Alternati",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "إعطاء الأولوية في المُرور ذي الاتجاه الواحد المُتناوب",
+    "contentIT": "Nei sensi unici alternati, la strada è stretta e può passare solo una fila di veicoli per volta. Il segnale triangolare con una freccia nera e una rossa indica chi deve dare la precedenza. Il veicolo che vede la freccia rossa deve fermarsi e dare la precedenza ai veicoli che arrivano dalla direzione opposta.",
+    "contentAR": "في المُرور ذي الاتجاه الواحد المُتناوب، يكون الطريق ضيقاً ويمكن أن تمر منه فقط صف واحد من المركبات في كل مرة. تشير الإشارة المثلثة ذات السهم الأسود والسهم الأحمر إلى من يجب أن يُعطي الأولوية. على المركبة التي ترى السهم الأحمر أن تتوقف وتعطي الأولوية للمركبات القادمة من الاتجاه المعاكس.",
     "imageUrl": null,
     "chapterId": 5,
     "lessonId": null,
@@ -4162,9 +4162,9 @@
   {
     "topicKey": "altri_pericoli",
     "titleIT": "Altri Pericoli",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مخاطر أخرى",
+    "contentIT": "Il segnale triangolare con punto esclamativo indica un pericolo generico non specificato da altri segnali. Avvisa il conducente di usare prudenza perché potrebbe esserci un ostacolo, una curva pericolosa o una situazione imprevista. Spesso è accompagnato da un pannello integrativo che spiega meglio il tipo di pericolo.",
+    "contentAR": "تشير الإشارة المثلثة ذات علامة التعجب إلى خطر عام غير محدد بواسطة إشارات أخرى. تُنبه السائق لاستخدام الحذر لأنه قد يكون هناك عائق، منعطف خطير أو حالة غير متوقعة. غالباً ما تكون مصحوبة بلوحة إضافية تشرح نوع الخطر بشكل أفضل.",
     "imageUrl": null,
     "chapterId": 8,
     "lessonId": null,
@@ -4175,9 +4175,9 @@
   {
     "topicKey": "rotatoria",
     "titleIT": "Rotatoria",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الدوار (المرور الدائري)",
+    "contentIT": "La rotatoria è un incrocio circolare dove i veicoli girano in senso antiorario intorno a un'isola centrale. I veicoli che sono già all'interno della rotatoria hanno la precedenza su quelli che vogliono entrare. All'interno della rotatoria, il sorpasso è vietato perché le corsie sono corte e la manovra è pericolosa.",
+    "contentAR": "الدوار (المرور الدائري) هو تقاطع دائري تدور فيه المركبات عكس اتجاه عقارب الساعة حول جزيرة مركزية. للمركبات الموجودة بالفعل داخل الدوار الأولوية على تلك التي تريد الدخول. داخل الدوار، يُحظر التجاوز لأن المسارات قصيرة والمناورة خطيرة.",
     "imageUrl": null,
     "chapterId": 13,
     "lessonId": null,
@@ -4188,9 +4188,9 @@
   {
     "topicKey": "discesa_pericolosa",
     "titleIT": "Discesa Pericolosa",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "منحدر خطير",
+    "contentIT": "Il segnale triangolare con la freccia verso il basso indica l'inizio di una discesa pericolosa. In discesa, l'autoveicolo tende ad accelerare e lo spazio di frenatura aumenta. È necessario ridurre la velocità, usare una marcia bassa e mantenere una distanza di sicurezza maggiore dal veicolo che precede.",
+    "contentAR": "تشير الإشارة المثلثة ذات السهم المتجه لأسفل إلى بداية منحدر خطير. في المنحدر، تميل المركبة إلى التسارع ويزداد مسافة التوقف. من الضروري تخفيض السرعة، استخدام ناقل حركة منخفض والحفاظ على مسافة أمان أكبر من المركبة التي تسبقك.",
     "imageUrl": null,
     "chapterId": 2,
     "lessonId": null,
@@ -4201,9 +4201,9 @@
   {
     "topicKey": "terapie_farmaci_sedativi",
     "titleIT": "Terapie Farmaci Sedativi",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "علاجات/أدوية مُهدئة",
+    "contentIT": "Alcuni farmaci, come sedativi e antidepressivi, possono ridurre la prontezza di riflessi e l'attenzione alla guida. Prima di guidare, è importante leggere il foglietto illustrativo del farmaco per verificare se influisce sulla capacità di guida. Se il farmaco provoca sonnolenza, è meglio non mettersi alla guida.",
+    "contentAR": "بعض الأدوية، مثل المُهدئات ومضادات الاكتئاب، يمكن أن تقلل من سرعة ردود الفعل والانتباه أثناء القيادة. قبل القيادة، من المهم قراءة النشرة الدوائية للتحقق مما إذا كان الدواء يؤثر على القدرة على القيادة. إذا كان الدواء يسبب النعاس، فمن الأفضل عدم القيادة.",
     "imageUrl": null,
     "chapterId": 22,
     "lessonId": null,
@@ -4214,9 +4214,9 @@
   {
     "topicKey": "mancato_senso_del_pericolo_durante",
     "titleIT": "Mancato Senso Del Pericolo Durante",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "فقدان الإحساس بالخطر أثناء القيادة",
+    "contentIT": "Guidare dopo un pasto pesante o in uno stato emotivo alterato (es. rabbia, tristezza) può ridurre la concentrazione e il senso del pericolo. Una cattiva digestione rallenta i riflessi. Per guidare in sicurezza, bisogna essere riposati, tranquilli e aver fatto pasti leggeri.",
+    "contentAR": "القيادة بعد وجبة دسمة أو في حالة نفسية مضطربة (مثل الغضب، الحزن) يمكن أن تقلل من التركيز والإحساس بالخطر. سوء الهضم يُبطئ ردود الفعل. للقيادة بأمان، يجب أن تكون مرتاحاً، هادئاً وأن تكون قد تناولت وجبات خفيفة.",
     "imageUrl": null,
     "chapterId": 22,
     "lessonId": null,
@@ -4227,9 +4227,9 @@
   {
     "topicKey": "incidente_chi_civilmente_obbligato_risarcire",
     "titleIT": "Incidente Chi Civilmente Obbligato Risarcire",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الحادث - من هو مُلزم مدنياً بالتعويض",
+    "contentIT": "In caso di incidente stradale, chi ha causato il danno è civilmente obbligato a risarcire il danneggiato. L'obbligo si estingue quando il risarcimento è pagato, spesso tramite accordo diretto o assicurazione. Il risarcimento può essere in denaro o con la riparazione del veicolo danneggiato.",
+    "contentAR": "في حالة حادث مروري، من تسبب في الضرر يكون مُلزماً مدنياً بتعويض المتضرر. ينتهي الالتزام عندما يتم دفع التعويض، غالباً عن طريق اتفاق مباشر أو شركة تأمين. يمكن أن يكون التعويض نقداً أو بإصلاح المركبة المتضررة.",
     "imageUrl": null,
     "chapterId": 23,
     "lessonId": null,
@@ -4242,9 +4242,9 @@
     "topicKey": "divieto_transito",
     "chapterId": 3,
     "titleIT": "Divieto Transito",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "حظر المرور",
+    "contentIT": "Il segnale rotondo con sfondo bianco e bordo rosso indica il divieto di transito per tutti i veicoli. È posto all'inizio di una strada o di una zona pedonale. Le uniche eccezioni possono essere indicate da pannelli integrativi, ad esempio per i veicoli di servizio.",
+    "contentAR": "تشير الإشارة الدائرية ذات الخلفية البيضاء وإطار أحمر إلى حظر المرور لجميع المركبات. يتم وضعها في بداية طريق أو منطقة مشاة. الاستثناءات الوحيدة يمكن أن تُشار إليها بلوحات إضافية، على سبيل المثال لمركبات الخدمة.",
     "questionCount": 1
   },
   {
@@ -4252,9 +4252,9 @@
     "topicKey": "transito_macchine_agricole",
     "chapterId": 3,
     "titleIT": "Transito Macchine Agricole",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مرور الآلات الزراعية",
+    "contentIT": "Alcuni segnali di divieto, come quello per i mezzi agricoli, vietano il transito solo a categorie specifiche di veicoli. I quadricicli a motore (come le microcar) non sono considerati macchine agricole, quindi possono transitare. Bisogna sempre controllare il simbolo sul segnale per capire a chi si applica il divieto.",
+    "contentAR": "بعض إشارات الحظر، مثل تلك الخاصة بالآلات الزراعية، تمنع المرور فقط لفئات محددة من المركبات. المركبات الرباعية ذات المحرك (مثل السيارات الصغيرة) لا تُعتبر آلات زراعية، وبالتالي يمكنها المرور. يجب دائماً التحقق من الرمز الموجود على الإشارة لفهم من ينطبق عليه الحظر.",
     "questionCount": 1
   },
   {
@@ -4262,9 +4262,9 @@
     "topicKey": "divieto_sosta",
     "chapterId": 3,
     "titleIT": "Divieto Sosta",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "حظر التوقف",
+    "contentIT": "Il segnale di divieto di sosta è un cerchio blu con una linea rossa diagonale. Vieta di lasciare il veicolo in sosta, ma permette la fermata per pochi minuti. Ricorda: fermata breve è permessa, sosta lunga no.",
+    "contentAR": "علامة حظر التوقف هي دائرة زرقاء مع خط قطري أحمر. تمنع ترك المركبة متوقفة، لكنها تسمح بالتوقف لبضع دقائق. تذكر: التوقف القصير مسموح، أما التوقف الطويل فممنوع.",
     "questionCount": 1
   },
   {
@@ -4272,9 +4272,9 @@
     "topicKey": "segnale_parcheggio",
     "chapterId": 3,
     "titleIT": "Segnale Parcheggio",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "علامة موقف السيارات",
+    "contentIT": "Il segnale di parcheggio è un quadrato blu con una 'P' bianca. Indica un'area dove puoi parcheggiare la tua auto. Attenzione: controlla sempre i pannelli integrativi per gli orari e le condizioni.",
+    "contentAR": "علامة موقف السيارات هي مربع أزرق بحرف 'P' أبيض. تشير إلى منطقة يمكنك فيها إيقاف سيارتك. انتبه: تحقق دائمًا من اللوحات الإضافية للاطلاع على الأوقات والشروط.",
     "questionCount": 1
   },
   {
@@ -4282,9 +4282,9 @@
     "topicKey": "divieto_sosta_temporaneo",
     "chapterId": 3,
     "titleIT": "Divieto Sosta Temporaneo",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "حظر التوقف المؤقت",
+    "contentIT": "Questo segnale ha una linea rossa diagonale su sfondo blu con un pannello che indica gli orari. Vieta la sosta solo in certi giorni e orari. Leggi bene il pannello integrativo per sapere quando non puoi sostare.",
+    "contentAR": "هذه العلامة لها خط قطري أحمر على خلفية زرقاء مع لوحة تشير إلى الأوقات. تمنع التوقف فقط في أيام وساعات معينة. اقرأ اللوحة الإضافية جيدًا لمعرفة متى لا يمكنك التوقف.",
     "questionCount": 1
   },
   {
@@ -4292,9 +4292,9 @@
     "topicKey": "preavviso_direzione_sinistra",
     "chapterId": 4,
     "titleIT": "Preavviso Direzione Sinistra",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "إشعار مسبق بالاتجاه يسارًا",
+    "contentIT": "Questo segnale rettangolare blu con una freccia curva a sinistra ti avvisa in anticipo. Ti informa che più avanti troverai un obbligo di svoltare a sinistra. Preparati a cambiare corsia in tempo.",
+    "contentAR": "هذه العلامة المستطيلة الزرقاء ذات السهم المنحني لليسار تنبهك مسبقًا. تُعلمك بأنه ستجد أمامك إلزامًا بالانعطاف يسارًا. استعد لتغيير المسار في الوقت المناسب.",
     "questionCount": 1
   },
   {
@@ -4302,9 +4302,9 @@
     "topicKey": "preavviso_direzione_destra",
     "chapterId": 4,
     "titleIT": "Preavviso Direzione Destra",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "إشعار مسبق بالاتجاه يمينًا",
+    "contentIT": "È un segnale rettangolare blu con una freccia curva a destra. Ti avvisa che presto dovrai obbligatoriamente svoltare a destra. Controlla gli specchietti e metti la freccia per segnalare la tua intenzione.",
+    "contentAR": "إنها علامة مستطيلة زرقاء ذات سهم منحني لليمين. تنبهك إلى أنك ستحتاج قريبًا إلى الانعطاف يمينًا إلزاميًا. تحقق من المرايا وشغل إشارة الانعطاف للإشارة إلى نيتك.",
     "questionCount": 1
   },
   {
@@ -4312,9 +4312,9 @@
     "topicKey": "percorso_biciclette",
     "chapterId": 4,
     "titleIT": "Percorso Biciclette",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مسار الدراجات الهوائية",
+    "contentIT": "Questo segnale tondo blu con una bicicletta bianca indica una corsia riservata alle biciclette. Le auto non possono circolare in questa corsia. I ciclisti hanno la precedenza in questo spazio.",
+    "contentAR": "هذه العلامة الدائرية الزرقاء ذات الدراجة البيضاء تشير إلى مسار مخصص للدراجات الهوائية. لا يمكن للسيارات السير في هذا المسار. راكبو الدراجات لهم الأولوية في هذا المسار.",
     "questionCount": 1
   },
   {
@@ -4322,9 +4322,9 @@
     "topicKey": "pista_ciclabile_marciapiede",
     "chapterId": 4,
     "titleIT": "Pista Ciclabile Marciapiede",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مسار دراجات على الرصيف",
+    "contentIT": "Questo segnale indica una pista ciclabile che si trova sul marciapiede. È riservata solo alle biciclette, i veicoli a motore non possono entrare. I pedoni devono fare attenzione quando attraversano questa pista.",
+    "contentAR": "تشير هذه العلامة إلى مسار للدراجات يقع على الرصيف. إنه مخصص للدراجات الهوائية فقط، ولا يمكن للمركبات ذات المحرك الدخول. يجب على المشاة توخي الحذر عند عبور هذا المسار.",
     "questionCount": 1
   },
   {
@@ -4332,9 +4332,9 @@
     "topicKey": "isole_traffico",
     "chapterId": 6,
     "titleIT": "Isole Traffico",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "جزر المرور",
+    "contentIT": "Le isole di traffico sono aree rialzate o dipinte sulla strada. Servono a dividere i flussi di traffico o a proteggere i pedoni. Non si può circolare o sostare sopra di esse, le devi aggirare.",
+    "contentAR": "جزر المرور هي مناطق مرتفعة أو مرسومة على الطريق. تُستخدم لتقسيم تدفقات المرور أو لحماية المشاة. لا يمكن السير أو التوقف فوقها، يجب أن تتجاوزها.",
     "questionCount": 1
   },
   {
@@ -4342,9 +4342,9 @@
     "topicKey": "strisce_guida",
     "chapterId": 6,
     "titleIT": "Strisce Guida",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "خطوط التوجيه",
+    "contentIT": "Le strisce di guida sono linee bianche discontinue sulla carreggiata. Indicano come devi posizionarti per svoltare o proseguire. Devi seguirle, non puoi attraversarle o cambiar corsia in modo pericoloso.",
+    "contentAR": "خطوط التوجيه هي خطوط بيضاء متقطعة على سطح الطريق. تشير إلى كيفية وضع نفسك للانعطاف أو المتابعة. يجب أن تتبعها، ولا يمكنك عبورها أو تغيير المسار بطريقة خطيرة.",
     "questionCount": 1
   },
   {
@@ -4352,9 +4352,9 @@
     "topicKey": "corsie_preselezione",
     "chapterId": 6,
     "titleIT": "Corsie Preselezione",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مسارات الاختيار المسبق",
+    "contentIT": "Le corsie di preselezione sono indicate da frecce dipinte sull'asfalto prima di un incrocio. Ogni corsia ti obbliga a una direzione specifica (destra, sinistra, dritto). Scegli la corsia giusta in anticipo in base a dove vuoi andare.",
+    "contentAR": "يتم الإشارة إلى مسارات الاختيار المسبق بواسطة أسهم مرسومة على الأسفلت قبل تقاطع. يلزمك كل مسار باتجاه محدد (يمين، يسار، مستقيم). اختر المسار الصحيح مسبقًا بناءً على المكان الذي تريد الذهاب إليه.",
     "questionCount": 2
   },
   {
@@ -4362,9 +4362,9 @@
     "topicKey": "corsie_preselezione_strada_doppio_senso",
     "chapterId": 6,
     "titleIT": "Corsie Preselezione Strada Doppio Senso",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "ممرات الاختيار المسبق في طريق ذي اتجاهين",
+    "contentIT": "Su una strada a doppio senso, le corsie di preselezione sono indicate da frecce dipinte sull'asfalto. Queste frecce ti dicono in anticipo quali manovre puoi fare da ogni corsia, ad esempio svoltare a sinistra, andare diritto o svoltare a destra. Devi scegliere la corsia corretta prima di arrivare all'incrocio.",
+    "contentAR": "على الطريق ذي الاتجاهين، يتم الإشارة إلى ممرات الاختيار المسبق بواسطة أسهم مرسومة على الأسفلت. تخبرك هذه الأسهم مسبقًا بالمناورات التي يمكنك القيام بها من كل ممر، مثل الانعطاف يسارًا، أو السير مباشرة، أو الانعطاف يمينًا. يجب عليك اختيار الممر الصحيح قبل الوصول إلى التقاطع.",
     "questionCount": 2
   },
   {
@@ -4372,9 +4372,9 @@
     "topicKey": "senso_unico",
     "chapterId": 8,
     "titleIT": "Senso Unico",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "اتجاه واحد",
+    "contentIT": "Il segnale di senso unico indica che la strada può essere percorsa solo in una direzione. È un segnale rettangolare blu con una freccia bianca. Quando lo vedi, sai che non incontrerai veicoli che vengono dalla direzione opposta su quella strada.",
+    "contentAR": "تشير إشارة اتجاه واحد إلى أنه يمكن السير في الطريق باتجاه واحد فقط. إنها إشارة مستطيلة زرقاء بها سهم أبيض. عندما تراها، تعلم أنك لن تواجه مركبات قادمة من الاتجاه المعاكس على ذلك الطريق.",
     "questionCount": 1
   },
   {
@@ -4382,9 +4382,9 @@
     "topicKey": "incrocio_limitazione_traffico_autocarri",
     "chapterId": 8,
     "titleIT": "Incrocio Limitazione Traffico Autocarri",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "تقاطع مع تقييد لحركة الشاحنات",
+    "contentIT": "Questo segnale si trova agli incroci e indica un divieto di transito per gli autocarri pesanti (di solito oltre 3,5 tonnellate) verso una specifica direzione. Gli autobus e altri veicoli possono invece passare. Controlla sempre il simbolo e la scritta sul segnale per capire il limite di peso.",
+    "contentAR": "توجد هذه الإشارة عند التقاطعات وتشير إلى حظر مرور الشاحنات الثقيلة (عادة أكثر من 3.5 طن) باتجاه محدد. بينما يمكن للحافلات والمركبات الأخرى المرور. تحقق دائمًا من الرمز والكتابة على الإشارة لفهم حد الوزن.",
     "questionCount": 2
   },
   {
@@ -4392,9 +4392,9 @@
     "topicKey": "incrocio_extraurbano",
     "chapterId": 8,
     "titleIT": "Incrocio Extraurbano",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "تقاطع خارج المناطق المأهولة",
+    "contentIT": "Il segnale di incrocio extraurbano avverte che stai per incontrare un incrocio fuori dal centro abitato. Ti mostra le direzioni che puoi prendere e le località che puoi raggiungere. Non è un divieto, ma un'indicazione per aiutarti a scegliere la strada giusta.",
+    "contentAR": "تحذرك إشارة التقاطع خارج المناطق المأهولة من أنك على وشك مواجهة تقاطع خارج المركز المأهول. تُظهر لك الاتجاهات التي يمكنك اتخاذها والمناطق التي يمكنك الوصول إليها. إنها ليست حظرًا، بل إرشاد لمساعدتك في اختيار الطريق الصحيح.",
     "questionCount": 1
   },
   {
@@ -4402,9 +4402,9 @@
     "topicKey": "fine_centro_abitato",
     "chapterId": 8,
     "titleIT": "Fine Centro Abitato",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "نهاية المنطقة المأهولة",
+    "contentIT": "Il segnale di fine centro abitato indica che stai uscendo da una zona con limiti di velocità urbani (di solito 50 km/h). Da questo punto in poi, si applicano i limiti di velocità delle strade extraurbane. A volte il segnale mostra anche la distanza dalla prossima località.",
+    "contentAR": "تشير إشارة نهاية المنطقة المأهولة إلى أنك تغادر منطقة ذات حدود سرعة حضرية (عادة 50 كم/ساعة). من هذه النقطة فصاعدًا، تُطبق حدود سرعة الطرق خارج المناطق المأهولة. أحيانًا تظهر الإشارة أيضًا المسافة إلى المنطقة التالية.",
     "questionCount": 1
   },
   {
@@ -4412,9 +4412,9 @@
     "topicKey": "barriera_normale",
     "chapterId": 9,
     "titleIT": "Barriera Normale",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "حاجز عادي",
+    "contentIT": "Le barriere normali sono segnali verticali a strisce rosse e bianche. Si usano per delimitare il bordo della strada, specialmente in curve pericolose o in punti dove c'è un dislivello. Non indicano un percorso ciclabile, ma servono per aumentare la visibilità del bordo stradale.",
+    "contentAR": "الحواجز العادية هي إشارات عمودية ذات خطوط حمراء وبيضاء. تُستخدم لتحديد حافة الطريق، خاصة في المنعطفات الخطرة أو النقاط التي يوجد فيها اختلاف في المستوى. لا تشير إلى مسار للدراجات، بل تهدف إلى زيادة وضوح حافة الطريق.",
     "questionCount": 1
   },
   {
@@ -4422,9 +4422,9 @@
     "topicKey": "inizio_prescrizione",
     "chapterId": 10,
     "titleIT": "Inizio Prescrizione",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "بداية التقييد",
+    "contentIT": "Il pannello 'Inizio prescrizione' (rettangolare bianco con scritta nera) indica il punto dove inizia un divieto o un'obbligo specifico. Ad esempio, può indicare l'inizio di un divieto di sosta, di una zona a traffico limitato o di un limite di velocità. Non indica la fine di un senso unico.",
+    "contentAR": "يشير لوح 'بداية التقييد' (مستطيل أبيض بكتابة سوداء) إلى النقطة التي يبدأ فيها حظر أو التزام محدد. على سبيل المثال، يمكن أن يشير إلى بداية حظر وقوف، أو منطقة مرور محدود، أو حد للسرعة. لا يشير إلى نهاية اتجاه واحد.",
     "questionCount": 1
   },
   {
@@ -4432,9 +4432,9 @@
     "topicKey": "continuazione_prescrizione",
     "chapterId": 10,
     "titleIT": "Continuazione Prescrizione",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "استمرار التقييد",
+    "contentIT": "Il pannello 'Continuazione prescrizione' conferma che un divieto o un'obbligo è ancora in vigore. È utile su strade lunghe per ricordare al conducente che la regola precedente continua. Non indica un senso unico alternato o una strada a doppio senso.",
+    "contentAR": "يؤكد لوح 'استمرار التقييد' أن حظرًا أو التزامًا لا يزال ساري المفعول. إنه مفيد على الطرق الطويلة لتذكير السائق بأن القاعدة السابقة مستمرة. لا يشير إلى اتجاه واحد متناوب أو طريق ذي اتجاهين.",
     "questionCount": 2
   },
   {
@@ -4442,9 +4442,9 @@
     "topicKey": "termine_prescrizione",
     "chapterId": 10,
     "titleIT": "Termine Prescrizione",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "نهاية التقييد",
+    "contentIT": "Il pannello 'Termine prescrizione' indica il punto preciso dove finisce un divieto o un'obbligo. Ad esempio, segnala la fine di un limite di velocità o di un divieto di sorpasso. Non indica una strada in discesa o una strada chiusa al traffico.",
+    "contentAR": "يشير لوح 'نهاية التقييد' إلى النقطة الدقيقة التي ينتهي فيها حظر أو التزام. على سبيل المثال، يشير إلى نهاية حد للسرعة أو حظر تجاوز. لا يشير إلى طريق منحدر أو طريق مغلق أمام المرور.",
     "questionCount": 2
   },
   {
@@ -4452,9 +4452,9 @@
     "topicKey": "autocarri_rallentamento",
     "chapterId": 10,
     "titleIT": "Autocarri Rallentamento",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "شاحنات تبطئ الحركة",
+    "contentIT": "Questo segnale triangolare con un autocarro nero avverte della possibile presenza di autocarri lenti sulla strada, ad esempio in salita. Il conducente deve moderare la velocità e prepararsi a eventuali rallentamenti o sorpassi in sicurezza. È un segnale di pericolo.",
+    "contentAR": "تحذر هذه الإشارة المثلثة ذات الشاحنة السوداء من احتمال وجود شاحنات بطيئة على الطريق، على سبيل المثال في منحدر صاعد. يجب على السائق تخفيف السرعة والاستعداد لأي تباطؤ أو تجاوزات بأمان. إنها إشارة خطر.",
     "questionCount": 1
   },
   {
@@ -4462,9 +4462,9 @@
     "topicKey": "condizioni_sicurezza",
     "chapterId": 12,
     "titleIT": "Condizioni Sicurezza",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "شروط السلامة",
+    "contentIT": "La distanza di sicurezza è lo spazio che devi mantenere dal veicolo che ti precede. Questa distanza dipende dalla tua velocità, dai tuoi riflessi e dalle condizioni del traffico. Una distanza maggiore ti dà più tempo per reagire e frenare in caso di pericolo.",
+    "contentAR": "مسافة الأمان هي المسافة التي يجب أن تحافظ عليها بين سيارتك والسيارة التي أمامك. تعتمد هذه المسافة على سرعتك، وردود أفعالك، وحالة المرور. مسافة أكبر تمنحك المزيد من الوقت للرد والفرملة في حالة الخطر.",
     "questionCount": 28
   },
   {
@@ -4472,9 +4472,9 @@
     "topicKey": "manovra_retromarcia",
     "chapterId": 13,
     "titleIT": "Manovra Retromarcia",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "مناورة السير للخلف",
+    "contentIT": "Quando fai retromarcia per immetterti nella strada, devi usare sempre gli indicatori di direzione (le frecce). Questo segnala la tua manovra agli altri utenti della strada. La retromarcia è una manovra pericolosa, quindi fai molta attenzione.",
+    "contentAR": "عند السير للخلف للاندماج في الطريق، يجب عليك دائمًا استخدام مؤشرات الاتجاه (الإشارات). هذا يشير إلى مناورتك لمستخدمي الطريق الآخرين. السير للخلف مناورة خطيرة، لذا كن حذرًا جدًا.",
     "questionCount": 1
   },
   {
@@ -4482,9 +4482,9 @@
     "topicKey": "durante_marcia",
     "chapterId": 13,
     "titleIT": "Durante Marcia",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "أثناء السير",
+    "contentIT": "Durante la marcia per file parallele, non devi tenere sempre accesa la freccia sinistra se percorri la corsia di sinistra. Usa gli indicatori di direzione solo per segnalare un cambio di corsia o una svolta. Guidare con la freccia sempre accesa può confondere gli altri conducenti.",
+    "contentAR": "أثناء السير في مسارات متوازية، لا يجب أن تبقي الإشارة اليسرى مضاءة دائمًا إذا كنت تسير في المسار الأيسر. استخدم مؤشرات الاتجاه فقط للإشارة إلى تغيير المسار أو الانعطاف. القيادة مع إشارة مضاءة دائمًا قد تربك السائقين الآخرين.",
     "questionCount": 1
   },
   {
@@ -4492,9 +4492,9 @@
     "topicKey": "obbligo_precedenza",
     "chapterId": 13,
     "titleIT": "Obbligo Precedenza",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "التزام إعطاء الأولوية",
+    "contentIT": "In una rotatoria, l'obbligo di dare la precedenza non è sempre a destra e a sinistra. Di solito, chi è già nella rotatoria ha la precedenza. Devi rispettare sempre il segnale specifico posto all'ingresso della rotatoria.",
+    "contentAR": "في الدوار، ليس الالتزام بإعطاء الأولوية دائمًا لليمين واليسار. عادةً، من هو بالفعل داخل الدوار له الأولوية. يجب عليك دائمًا احترام الإشارة المحددة الموضوعة عند مدخل الدوار.",
     "questionCount": 1
   },
   {
@@ -4502,9 +4502,9 @@
     "topicKey": "incroci_circolazione_rotatoria",
     "chapterId": 13,
     "titleIT": "Incroci Circolazione Rotatoria",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "تقاطعات حركة الدوار",
+    "contentIT": "Quando arrivi a una rotatoria, la regola generale è dare la precedenza ai veicoli già all'interno. Tuttavia, devi dare la precedenza ai veicoli da sinistra solo se c'è il segnale triangolare rosso 'DARE PRECEDENZA'. Osserva sempre attentamente la segnaletica.",
+    "contentAR": "عند وصولك إلى دوار، القاعدة العامة هي إعطاء الأولوية للمركبات الموجودة بالفعل بالداخل. ومع ذلك، يجب أن تعطي الأولوية للمركبات القادمة من اليسار فقط إذا كانت هناك إشارة المثلث الأحمر 'أعط الأولوية'. راقب إشارات المرور دائمًا بعناية.",
     "questionCount": 1
   },
   {
@@ -4512,9 +4512,9 @@
     "topicKey": "utilizzo_specchi_retrovisori",
     "chapterId": 13,
     "titleIT": "Utilizzo Specchi Retrovisori",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "استخدام المرايا الجانبية",
+    "contentIT": "Gli specchi retrovisori esterni della tua auto non possono essere sostituiti con modelli diversi, anche se più grandi. Devono essere omologati e conformi alle specifiche del veicolo. Specchi non originali potrebbero non garantire una visuale corretta e sono vietati.",
+    "contentAR": "مرايا الرؤية الخلفية الخارجية لسيارتك لا يمكن استبدالها بنماذج مختلفة، حتى لو كانت أكبر. يجب أن تكون معتمدة ومطابقة لمواصفات السيارة. المرايا غير الأصلية قد لا تضمن رؤية صحيحة وهي ممنوعة.",
     "questionCount": 1
   },
   {
@@ -4522,9 +4522,9 @@
     "topicKey": "figura_642",
     "chapterId": 14,
     "titleIT": "Figura 642",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 642",
+    "contentIT": "La figura 642 mostra un incrocio con un tram. Il veicolo O deve attendere che il tram passi e che il veicolo A si posizioni al centro dell'incrocio. Il veicolo M, invece, deve dare la precedenza al veicolo O. Ricorda: il tram ha spesso la precedenza.",
+    "contentAR": "يُظهر الشكل 642 تقاطعًا مع ترام. يجب على المركبة O انتظار مرور الترام وتوجه المركبة A إلى مركز التقاطع. أما المركبة M، فيجب أن تعطي الأولوية للمركبة O. تذكر: الترام له الأولوية في كثير من الأحيان.",
     "questionCount": 5
   },
   {
@@ -4532,9 +4532,9 @@
     "topicKey": "figura_615",
     "chapterId": 14,
     "titleIT": "Figura 615",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 615",
+    "contentIT": "Nella figura 615, l'incrocio ha una strada principale. Il veicolo A deve passare dopo il veicolo R, ma prima del veicolo C. Il veicolo C deve passare dopo sia R che A. La regola è: chi è sulla strada principale ha la precedenza su chi viene dalla secondaria.",
+    "contentAR": "في الشكل 615، للتقاطع طريق رئيسي. يجب أن تمر المركبة A بعد المركبة R، ولكن قبل المركبة C. يجب أن تمر المركبة C بعد كل من R و A. القاعدة هي: من هو على الطريق الرئيسي له الأولوية على من يأتي من الطريق الثانوي.",
     "questionCount": 6
   },
   {
@@ -4542,9 +4542,9 @@
     "topicKey": "figura_618",
     "chapterId": 14,
     "titleIT": "Figura 618",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 618",
+    "contentIT": "La figura 618 rappresenta un incrocio senza segnali di precedenza. In questo caso, si applica la regola generale 'dare la precedenza da destra'. Quindi, il veicolo L, che non ha veicoli alla sua destra, attraversa l'incrocio per primo.",
+    "contentAR": "يمثل الشكل 618 تقاطعًا بدون إشارات أولوية. في هذه الحالة، تنطبق القاعدة العامة 'أعط الأولوية لليمين'. لذلك، فإن المركبة L، التي لا توجد مركبات على يمينها، تعبر التقاطع أولاً.",
     "questionCount": 1
   },
   {
@@ -4552,9 +4552,9 @@
     "topicKey": "figura_662",
     "chapterId": 14,
     "titleIT": "Figura 662",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 662",
+    "contentIT": "Nell'incrocio della figura 662, il veicolo A ha la precedenza perché proviene da destra rispetto a E. Il veicolo E passa dopo A, ma prima di B. Il veicolo B passa per ultimo. L'ordine di passaggio è quindi: prima A, poi E, infine B.",
+    "contentAR": "في تقاطع الشكل 662، للمركبة A الأولوية لأنها قادمة من اليمين بالنسبة لـ E. تمر المركبة E بعد A، ولكن قبل B. تمر المركبة B أخيرًا. ترتيب المرور هو therefore: أولاً A، ثم E، وأخيراً B.",
     "questionCount": 6
   },
   {
@@ -4562,9 +4562,9 @@
     "topicKey": "figura_659",
     "chapterId": 14,
     "titleIT": "Figura 659",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 659",
+    "contentIT": "Questa figura mostra un incrocio. La regola generale è: 'dare la precedenza a destra'. Il veicolo R ha la destra libera, quindi passa per primo. Poi passa il veicolo A, e infine il veicolo C, che ha un veicolo alla sua destra (A).",
+    "contentAR": "يُظهر هذا الشكل تقاطع طرق. القاعدة العامة هي: \"إعطاء الأولوية لليمين\". المركبة R ليس على يمينها أي مركبة، لذا تعبر أولاً. ثم تعبر المركبة A، وأخيراً المركبة C، حيث توجد مركبة على يمينها (A).",
     "questionCount": 5
   },
   {
@@ -4572,9 +4572,9 @@
     "topicKey": "figura_646",
     "chapterId": 14,
     "titleIT": "Figura 646",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 646",
+    "contentIT": "In questo incrocio, il veicolo D passa per primo perché ha la destra libera. Il veicolo C passa secondo. Il veicolo A passa terzo, dopo C, perché ha la destra occupata da D. Infine passa il veicolo H.",
+    "contentAR": "في هذا التقاطع، تعبر المركبة D أولاً لأن يمينها خالٍ. تعبر المركبة C ثانياً. تعبر المركبة A ثالثاً، بعد C، لأن يمينها مشغول بالمركبة D. أخيراً تعبر المركبة H.",
     "questionCount": 5
   },
   {
@@ -4582,9 +4582,9 @@
     "topicKey": "figura_637",
     "chapterId": 14,
     "titleIT": "Figura 637",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 637",
+    "contentIT": "Qui il veicolo L è su una strada principale e ha la precedenza assoluta, quindi passa per primo. Il veicolo A è su una strada secondaria e deve dare la precedenza a L. Dopo il passaggio di L, A e D si incrociano applicando la regola 'dare la precedenza a destra'.",
+    "contentAR": "هنا، المركبة L على طريق رئيسي ولها أولوية مطلقة، لذا تعبر أولاً. المركبة A على طريق ثانوي ويجب أن تعطي الأولوية لـ L. بعد مرور L، تتعامل المركبتان A و D مع بعضهما بتطبيق قاعدة \"إعطاء الأولوية لليمين\".",
     "questionCount": 7
   },
   {
@@ -4592,9 +4592,9 @@
     "topicKey": "figura_643",
     "chapterId": 14,
     "titleIT": "Figura 643",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 643",
+    "contentIT": "Il veicolo B è su una strada con diritto di precedenza (indicata dal segnale). Il veicolo L è su una strada senza precedenza (segnalata dal cartello 'dare precedenza'). Quindi B passa sempre prima di L. L deve dare la precedenza a tutti i veicoli sulla strada principale.",
+    "contentAR": "المركبة B على طريق لها حق الأولوية (كما يُشير العلامة). المركبة L على طريق بدون أولوية (كما يُشير علامة \"أعطِ الأولوية\"). لذا، تعبر B دائماً قبل L. يجب على L إعطاء الأولوية لجميع المركبات على الطريق الرئيسي.",
     "questionCount": 3
   },
   {
@@ -4602,9 +4602,9 @@
     "topicKey": "figura_667",
     "chapterId": 14,
     "titleIT": "Figura 667",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 667",
+    "contentIT": "Il veicolo C è su una strada principale e ha la precedenza, quindi passa per primo. Poi passa il veicolo A, che ha la destra libera dopo il passaggio di C. Infine passa il veicolo P, che ha un veicolo alla sua destra (A).",
+    "contentAR": "المركبة C على طريق رئيسي ولها الأولوية، لذا تعبر أولاً. ثم تعبر المركبة A، التي أصبح يمينها خالياً بعد مرور C. أخيراً تعبر المركبة P، التي توجد مركبة على يمينها (A).",
     "questionCount": 3
   },
   {
@@ -4612,9 +4612,9 @@
     "topicKey": "figura_668",
     "chapterId": 14,
     "titleIT": "Figura 668",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 668",
+    "contentIT": "Il veicolo S ha la destra libera, quindi passa per primo. Poi passa il veicolo N, che ora ha la destra libera (S è già passato). Infine passa il veicolo C, che ha un veicolo alla sua destra (N). L'ordine è quindi S, N, C.",
+    "contentAR": "المركبة S يمينها خالٍ، لذا تعبر أولاً. ثم تعبر المركبة N، التي أصبح يمينها خالياً (لأن S عبرت بالفعل). أخيراً تعبر المركبة C، التي توجد مركبة على يمينها (N). الترتيب هو إذن: S، ثم N، ثم C.",
     "questionCount": 4
   },
   {
@@ -4622,9 +4622,9 @@
     "topicKey": "figura_610",
     "chapterId": 14,
     "titleIT": "Figura 610",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 610",
+    "contentIT": "In questo incrocio, il veicolo T ha la destra libera e passa per primo. I veicoli L e A arrivano da strade opposte e possono passare contemporaneamente dopo T, perché non si intralciano. Infine passa il veicolo C, che ha veicoli alla sua destra.",
+    "contentAR": "في هذا التقاطع، المركبة T يمينها خالٍ وتعبر أولاً. المركبتان L و A قادمتان من اتجاهين متقابلين ويمكنهما العبور في نفس الوقت بعد T، لأنهما لا تعيقان بعضهما. أخيراً تعبر المركبة C، التي توجد مركبات على يمينها.",
     "questionCount": 1
   },
   {
@@ -4632,9 +4632,9 @@
     "topicKey": "figura_669",
     "chapterId": 14,
     "titleIT": "Figura 669",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 669",
+    "contentIT": "Il veicolo C ha la destra libera e passa per primo. Poi passa A, che ora ha la destra libera. Successivamente passano L, R ed E in ordine, applicando sempre la regola della precedenza a destra. Ogni veicolo aspetta che quelli alla sua destra siano passati.",
+    "contentAR": "المركبة C يمينها خالٍ وتعبر أولاً. ثم تعبر A، التي أصبح يمينها خالياً. بعد ذلك تعبر L، ثم R، ثم E بالترتيب، مع تطبيق قاعدة الأولوية لليمين دائماً. كل مركبة تنتظر حتى تعبر المركبات التي على يمينها.",
     "questionCount": 7
   },
   {
@@ -4642,9 +4642,9 @@
     "topicKey": "figura_665",
     "chapterId": 14,
     "titleIT": "Figura 665",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 665",
+    "contentIT": "Il veicolo A ha la destra libera, quindi passa per primo. Poi passa E, che ora ha la destra libera. Successivamente passano V, H e C in questo ordine preciso. Ogni veicolo deve dare la precedenza ai veicoli che arrivano da destra.",
+    "contentAR": "المركبة A يمينها خالٍ، لذا تعبر أولاً. ثم تعبر E، التي أصبح يمينها خالياً. بعد ذلك تعبر V، ثم H، ثم C بهذا الترتيب الدقيق. يجب على كل مركبة إعطاء الأولوية للمركبات القادمة من اليمين.",
     "questionCount": 6
   },
   {
@@ -4652,9 +4652,9 @@
     "topicKey": "figura_647",
     "chapterId": 14,
     "titleIT": "Figura 647",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 647",
+    "contentIT": "In questo incrocio, i veicoli L e H arrivano da strade opposte e hanno la destra libera. Possono passare contemporaneamente per primi, perché le loro traiettorie non si incrociano. Poi passa il veicolo B, e infine il veicolo O.",
+    "contentAR": "في هذا التقاطع، المركبتان L و H قادمتان من اتجاهين متقابلين ويمينهما خالٍ. يمكنهما العبور في نفس الوقت أولاً، لأن مساريهما لا يتقاطعان. ثم تعبر المركبة B، وأخيراً المركبة O.",
     "questionCount": 11
   },
   {
@@ -4662,9 +4662,9 @@
     "topicKey": "figura_655",
     "chapterId": 14,
     "titleIT": "Figura 655",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 655",
+    "contentIT": "Questa figura mostra un incrocio. Per capire l'ordine di precedenza, ricorda la regola generale: 'dare la precedenza a destra'. Osserva la posizione di ogni veicolo e chi ha un veicolo alla sua destra. Il veicolo S ha la destra libera, quindi passa per primo.",
+    "contentAR": "يُظهر هذا الشكل تقاطع طرق. لفهم ترتيب الأولوية، تذكر القاعدة العامة: 'أعط الأولوية لليمين'. لاحظ موقع كل مركبة ومن لديه مركبة على يمينه. المركبة S لديها اليمين خالٍ، لذلك تعبر أولاً.",
     "questionCount": 8
   },
   {
@@ -4672,9 +4672,9 @@
     "topicKey": "figura_654",
     "chapterId": 14,
     "titleIT": "Figura 654",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 654",
+    "contentIT": "In questa figura vediamo un incrocio con più veicoli. Il veicolo C ha la destra libera e passa per primo. Poi passa R, perché dopo il passaggio di C, ha la destra libera. Il veicolo A deve attendere perché ha veicoli alla sua destra.",
+    "contentAR": "في هذا الشكل نرى تقاطع طرق به عدة مركبات. المركبة C لديها اليمين خالٍ وتعبر أولاً. ثم تعبر R، لأنه بعد مرور C، أصبح يمينها خالياً. يجب على المركبة A الانتظار لأن لديها مركبات على يمينها.",
     "questionCount": 7
   },
   {
@@ -4682,9 +4682,9 @@
     "topicKey": "figura_613",
     "chapterId": 14,
     "titleIT": "Figura 613",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 613",
+    "contentIT": "Qui abbiamo un incrocio a tre vie. Il veicolo T ha la destra libera, quindi ha la precedenza. Il veicolo O deve dare la precedenza a T perché arriva da destra. Il veicolo A deve attendere sia T che O.",
+    "contentAR": "هنا لدينا تقاطع طرق بثلاث مسارات. المركبة T لديها اليمين خالٍ، وبالتالي لها الأولوية. يجب على المركبة O إعطاء الأولوية لـ T لأنها تأتي من اليمين. يجب على المركبة A الانتظار لكل من T و O.",
     "questionCount": 9
   },
   {
@@ -4692,9 +4692,9 @@
     "topicKey": "figura_648",
     "chapterId": 14,
     "titleIT": "Figura 648",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 648",
+    "contentIT": "In questa situazione, il veicolo G non passa per primo. Controlla sempre chi ha la destra libera. Un altro veicolo ha la precedenza rispetto a G perché si trova alla sua destra.",
+    "contentAR": "في هذا الموقف، المركبة G لا تعبر أولاً. تحقق دائماً من الذي لديه اليمين خالياً. هناك مركبة أخرى لها الأولوية على G لأنها تقع على يمينها.",
     "questionCount": 1
   },
   {
@@ -4702,9 +4702,9 @@
     "topicKey": "figura_650",
     "chapterId": 14,
     "titleIT": "Figura 650",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 650",
+    "contentIT": "Nell'incrocio della figura 650, il veicolo L ha la precedenza perché ha la destra libera. Il veicolo E deve dare la precedenza a L. L'ordine di transito è determinato dalla regola 'dare la precedenza a destra'.",
+    "contentAR": "في تقاطع الشكل 650، المركبة L لها الأولوية لأن يمينها خالٍ. يجب على المركبة E إعطاء الأولوية لـ L. يتم تحديد ترتيب العبور من خلال قاعدة 'أعط الأولوية لليمين'.",
     "questionCount": 6
   },
   {
@@ -4712,9 +4712,9 @@
     "topicKey": "figura_652",
     "chapterId": 14,
     "titleIT": "Figura 652",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 652",
+    "contentIT": "Questo incrocio ha diversi veicoli. Il veicolo A ha la precedenza su F perché F arriva da sinistra di A. Il veicolo L deve attendere sia A che F. Ricorda: controlla sempre la posizione relativa dei veicoli.",
+    "contentAR": "هذا التقاطع به عدة مركبات. المركبة A لها الأولوية على F لأن F تأتي من يسار A. يجب على المركبة L الانتظار لكل من A و F. تذكر: تحقق دائماً من الموقع النسبي للمركبات.",
     "questionCount": 10
   },
   {
@@ -4722,9 +4722,9 @@
     "topicKey": "figura_617",
     "chapterId": 14,
     "titleIT": "Figura 617",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 617",
+    "contentIT": "Il veicolo N vuole svoltare a sinistra. Deve dare la precedenza ai veicoli che arrivano di fronte, come R e A, perché hanno la destra libera rispetto a N. Dopo il loro passaggio, N può completare la manovra.",
+    "contentAR": "المركبة N تريد الانعطاف يساراً. يجب عليها إعطاء الأولوية للمركبات القادمة من الأمام، مثل R و A، لأن يمينها خالٍ بالنسبة لـ N. بعد مرورها، يمكن لـ N إكمال المناورة.",
     "questionCount": 9
   },
   {
@@ -4732,9 +4732,9 @@
     "topicKey": "figura_639",
     "chapterId": 14,
     "titleIT": "Figura 639",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 639",
+    "contentIT": "In questo incrocio c'è un tram (T). Ricorda: il tram ha sempre la precedenza, tranne quando ci sono segnali specifici. Il veicolo A deve dare la precedenza al tram T e al veicolo B, ma ha la precedenza su C.",
+    "contentAR": "في هذا التقاطع هناك ترام (T). تذكر: الترام له الأولوية دائماً، إلا عند وجود إشارات محددة. يجب على المركبة A إعطاء الأولوية للترام T والمركبة B، ولكن لها الأولوية على C.",
     "questionCount": 6
   },
   {
@@ -4742,9 +4742,9 @@
     "topicKey": "figura_651",
     "chapterId": 14,
     "titleIT": "Figura 651",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 651",
+    "contentIT": "Qui il veicolo D non deve dare la precedenza ad A perché A è alla sua sinistra. Il veicolo A, invece, deve dare la precedenza a E e S che sono alla sua destra. 'Avere la destra libera' significa non avere veicoli alla propria destra.",
+    "contentAR": "هنا المركبة D لا يجب أن تعطي الأولوية لـ A لأن A على يسارها. أما المركبة A، فيجب أن تعطي الأولوية لـ E و S اللتين على يمينها. 'امتلاك اليمين خالياً' يعني عدم وجود مركبات على اليمين.",
     "questionCount": 6
   },
   {
@@ -4752,9 +4752,9 @@
     "topicKey": "figura_614",
     "chapterId": 14,
     "titleIT": "Figura 614",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 614",
+    "contentIT": "Nell'incrocio della figura 614, il veicolo R ha la destra libera e passa per primo. Poi passa A, perché dopo R ha la destra libera. Infine passa T, che deve attendere sia R che A.",
+    "contentAR": "في تقاطع الشكل 614، المركبة R لديها اليمين خالٍ وتعبر أولاً. ثم تعبر A، لأنه بعد R أصبح يمينها خالياً. أخيراً تعبر T، التي يجب أن تنتظر كل من R و A.",
     "questionCount": 5
   },
   {
@@ -4762,9 +4762,9 @@
     "topicKey": "figura_664",
     "chapterId": 14,
     "titleIT": "Figura 664",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 664",
+    "contentIT": "Questa figura mostra un incrocio con quattro veicoli. Per capire chi passa prima, ricorda la regola generale: chi viene da destra ha la precedenza, a meno che non ci siano segnali diversi. Guarda la posizione di ogni veicolo e applica questa regola per determinare l'ordine corretto.",
+    "contentAR": "يُظهر هذا الشكل تقاطعًا به أربعة مركبات. لفهم من يعبر أولاً، تذكر القاعدة العامة: المركبة القادمة من اليمين لها الأولوية، ما لم تكن هناك إشارات مرور أخرى. انظر إلى موقع كل مركبة وطبق هذه القاعدة لتحديد الترتيب الصحيح للعبور.",
     "questionCount": 4
   },
   {
@@ -4772,9 +4772,9 @@
     "topicKey": "figura_631",
     "chapterId": 14,
     "titleIT": "Figura 631",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 631",
+    "contentIT": "Nella figura 631, vediamo un incrocio con tre veicoli. Per stabilire l'ordine di precedenza, bisogna sempre controllare da dove arriva ogni veicolo. Il veicolo che arriva da destra degli altri ha la precedenza, a meno che non ci siano stop o dare precedenza.",
+    "contentAR": "في الشكل 631، نرى تقاطعًا بثلاث مركبات. لتحديد ترتيب الأولوية، يجب دائمًا التحقق من اتجاه قدوم كل مركبة. المركبة القادمة من يمين المركبات الأخرى لها الأولوية، ما لم تكن هناك إشارة توقف (STOP) أو إشارة إعطاء الأولوية.",
     "questionCount": 3
   },
   {
@@ -4782,9 +4782,9 @@
     "topicKey": "figura_633",
     "chapterId": 14,
     "titleIT": "Figura 633",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 633",
+    "contentIT": "La figura 633 rappresenta un incrocio a tre vie. Per risolvere le domande su questa figura, identifica prima la posizione di ogni veicolo (N, A, R). Poi, applica la regola della precedenza a destra per trovare l'ordine corretto in cui possono passare.",
+    "contentAR": "يمثل الشكل 633 تقاطعًا بثلاث مسارات. لحل الأسئلة المتعلقة بهذا الشكل، حدد أولاً موقع كل مركبة (N, A, R). ثم طبق قاعدة الأولوية لليمين للعثور على الترتيب الصحيح الذي يمكنهم العبور به.",
     "questionCount": 3
   },
   {
@@ -4792,9 +4792,9 @@
     "topicKey": "figura_604",
     "chapterId": 14,
     "titleIT": "Figura 604",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 604",
+    "contentIT": "Questa figura mostra un incrocio con i veicoli R, D e A. Per determinare chi passa per primo, guarda le loro direzioni. Ricorda: in assenza di segnali, il veicolo che arriva da destra ha la precedenza. Controlla le posizioni relative per applicare la regola.",
+    "contentAR": "يُظهر هذا الشكل تقاطعًا به المركبات R و D و A. لتحديد من يعبر أولاً، انظر إلى اتجاهاتهم. تذكر: في حالة عدم وجود إشارات مرور، فإن المركبة القادمة من اليمين لها الأولوية. تحقق من المواقع النسبية للمركبات لتطبيق القاعدة.",
     "questionCount": 3
   },
   {
@@ -4802,9 +4802,9 @@
     "topicKey": "figura_636",
     "chapterId": 14,
     "titleIT": "Figura 636",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 636",
+    "contentIT": "Nell'incrocio della figura 636, ci sono i veicoli T, A e S. Per capire l'ordine di transito, bisogna immaginare di essere al posto di ogni guidatore. Chi ha un veicolo alla sua destra? Quella è la situazione da valutare per dare la precedenza.",
+    "contentAR": "في تقاطع الشكل 636، توجد المركبات T و A و S. لفهم ترتيب العبور، يجب أن تتخيل نفسك مكان كل سائق. من لديه مركبة على يمينه؟ هذا هو الوضع الذي يجب تقييمه لمنح الأولوية.",
     "questionCount": 6
   },
   {
@@ -4812,9 +4812,9 @@
     "topicKey": "figura_616",
     "chapterId": 14,
     "titleIT": "Figura 616",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 616",
+    "contentIT": "La figura 616 presenta un incrocio con i veicoli B, T e S. Le domande ti chiedono di ordinare il loro passaggio. Pensa sempre: 'Devo dare la precedenza a chi viene da destra?'. Applica questo concetto a ogni veicolo per trovare la sequenza giusta.",
+    "contentAR": "يقدم الشكل 616 تقاطعًا به المركبات B و T و S. تطلب منك الأسئلة ترتيب عبورهم. فكر دائمًا: 'هل يجب أن أعطي الأولوية للقادم من اليمين؟'. طبق هذا المفهوم على كل مركبة للعثور على التسلسل الصحيح.",
     "questionCount": 4
   },
   {
@@ -4822,9 +4822,9 @@
     "topicKey": "figura_657",
     "chapterId": 14,
     "titleIT": "Figura 657",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 657",
+    "contentIT": "Questa figura (657) mostra un incrocio più complesso con i veicoli A, R e C. Per rispondere alle domande, analizza la scena un veicolo alla volta. Chiediti: 'Questo veicolo ha qualcuno alla sua destra che deve passare prima?'. La risposta ti darà l'ordine.",
+    "contentAR": "يُظهر هذا الشكل (657) تقاطعًا أكثر تعقيدًا به المركبات A و R و C. للإجابة على الأسئلة، حلل المشهد مركبة تلو الأخرى. اسأل نفسك: 'هل يوجد على يمين هذه المركبة من يجب أن يعبر أولاً؟'. الإجابة ستعطيك الترتيب.",
     "questionCount": 5
   },
   {
@@ -4832,9 +4832,9 @@
     "topicKey": "figura_644",
     "chapterId": 14,
     "titleIT": "Figura 644",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 644",
+    "contentIT": "La figura 644 rappresenta una situazione specifica con i veicoli B e L. Anche se c'è solo una domanda di esempio, il principio è sempre lo stesso: valuta chi viene da destra. In questo caso, controlla se B ha L alla sua destra o meno per decidere sulla precedenza.",
+    "contentAR": "يمثل الشكل 644 حالة محددة مع المركبتين B و L. على الرغم من وجود سؤال مثال واحد فقط، فإن المبدأ هو نفسه دائمًا: قم بتقييم من يأتي من اليمين. في هذه الحالة، تحقق مما إذا كانت المركبة L على يمين المركبة B أم لا لتقرر بشأن الأولوية.",
     "questionCount": 1
   },
   {
@@ -4842,9 +4842,9 @@
     "topicKey": "figura_634",
     "chapterId": 14,
     "titleIT": "Figura 634",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 634",
+    "contentIT": "Nell'incrocio della figura 634, ci sono i veicoli A, C e L. Per determinare l'ordine di passaggio, inizia dal veicolo che non ha nessuno alla sua destra. Quello passerà per primo. Poi, procedi con gli altri applicando la stessa regola della precedenza a destra.",
+    "contentAR": "في تقاطع الشكل 634، توجد المركبات A و C و L. لتحديد ترتيب العبور، ابدأ بالمركبة التي لا يوجد أحد على يمينها. تلك ستعبر أولاً. ثم تابع مع المركبات الأخرى بتطبيق نفس قاعدة الأولوية لليمين.",
     "questionCount": 5
   },
   {
@@ -4852,9 +4852,9 @@
     "topicKey": "figura_661",
     "chapterId": 14,
     "titleIT": "Figura 661",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الشكل 661",
+    "contentIT": "La figura 661 mostra un incrocio con i veicoli E, C e L. Le domande si concentrano su chi deve attendere chi. Per risolverle, traccia mentalmente le traiettorie. Il veicolo che ha un altro veicolo alla sua destra nella direzione di marcia deve di solito dare la precedenza.",
+    "contentAR": "يُظهر الشكل 661 تقاطعًا به المركبات E و C و L. تركز الأسئلة على من يجب أن ينتظر من. لحلها، تتبع مسارات المركبات ذهنيًا. المركبة التي يوجد على يمينها مركبة أخرى في اتجاه سيرها يجب عادةً أن تعطي الأولوية.",
     "questionCount": 4
   },
   {
@@ -4862,9 +4862,9 @@
     "topicKey": "ingombro_carreggiata_caduta_carico",
     "chapterId": 17,
     "titleIT": "Ingombro Carreggiata Caduta Carico",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "عوائق الطريق بسبب سقوط الحمولة",
+    "contentIT": "Se del carico cade accidentalmente dalla tua auto e occupa la strada, devi segnalare il pericolo agli altri veicoli. Non usi il segnale di STOP, ma il triangolo di pericolo o le luci di emergenza. Il tuo obiettivo è avvisare gli altri guidatori in tempo, per evitare incidenti.",
+    "contentAR": "إذا سقطت حمولة من سيارتك عن طريق الخطأ وعطلت حركة المرور على الطريق، يجب عليك تحذير السائقين الآخرين من الخطر. لا تستخدم إشارة STOP، بل يجب استخدام المثلث التحذيري أو أضواء الطوارئ. هدفك هو تنبيه السائقين الآخرين في الوقت المناسب لتجنب الحوادث.",
     "questionCount": 1
   },
   {
@@ -4872,9 +4872,9 @@
     "topicKey": "Patente_categoria_a1",
     "chapterId": 20,
     "titleIT": "Patente Categoria A1",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "رخصة القيادة فئة A1",
+    "contentIT": "La patente A1 ti permette di guidare motocicli leggeri. Questi motocicli devono avere una cilindrata massima di 125 cm3, una potenza non superiore a 11 kW e un rapporto potenza/peso non superiore a 0,1 kW/kg. Con la patente A1 non puoi guidare macchine operatrici.",
+    "contentAR": "تسمح لك رخصة القيادة من الفئة A1 بقيادة الدراجات النارية الخفيفة. يجب أن تكون سعة هذه الدراجات النارية حتى 125 سم مكعب كحد أقصى، وقوة لا تزيد عن 11 كيلوواط، ونسبة قوة إلى وزن لا تزيد عن 0.1 كيلوواط/كجم. لا يمكنك بموجب رخصة A1 قيادة الآلات التشغيلية.",
     "questionCount": 2
   },
   {
@@ -4882,9 +4882,9 @@
     "topicKey": "Patente_categoria_A",
     "chapterId": 20,
     "titleIT": "Patente Categoria A",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "رخصة القيادة فئة A",
+    "contentIT": "La patente di categoria A è per guidare motocicli pesanti senza limiti di potenza. Con questa patente puoi anche guidare tutti i tricicli a motore, ma solo se hai almeno 21 anni di età. È la patente più completa per le moto.",
+    "contentAR": "رخصة القيادة من الفئة A هي لقيادة الدراجات النارية الثقيلة بدون قيود على القوة. بموجب هذه الرخصة يمكنك أيضًا قيادة جميع المركبات ثلاثية العجلات ذات المحرك، ولكن فقط إذا كان عمرك 21 عامًا على الأقل. إنها الرخصة الأكثر شمولاً للدراجات النارية.",
     "questionCount": 1
   },
   {
@@ -4892,9 +4892,9 @@
     "topicKey": "Validita_delle_patenti_guida",
     "chapterId": 20,
     "titleIT": "Validita Delle Patenti Guida",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "صلاحية رخص القيادة",
+    "contentIT": "La validità della patente di guida dipende dalla categoria e dall'età del conducente. Ad esempio, la patente di categoria A ha validità di 10 anni se rilasciata a chi ha meno di 50 anni. La patente speciale di categoria B (BS) ha validità di 5 anni se rilasciata a chi ha meno di 70 anni.",
+    "contentAR": "تعتمد صلاحية رخصة القيادة على الفئة وعمر السائق. على سبيل المثال، رخصة الفئة A صالحة لمدة 10 سنوات إذا تم إصدارها لمن يقل عمره عن 50 عامًا. رخصة الفئة B الخاصة (BS) صالحة لمدة 5 سنوات إذا تم إصدارها لمن يقل عمره عن 70 عامًا.",
     "questionCount": 2
   },
   {
@@ -4902,9 +4902,9 @@
     "topicKey": "strade_coperte_neve",
     "chapterId": 21,
     "titleIT": "Strade Coperte Neve",
-    "titleAR": "",
-    "contentIT": "",
-    "contentAR": "",
+    "titleAR": "الطرق المغطاة بالثلوج",
+    "contentIT": "Quando guidi su strade coperte di neve, la legge ti obbliga a usare pneumatici invernali su tutte le ruote oppure catene da neve sulle ruote motrici. Questo aumenta l'aderenza e la sicurezza, evitando slittamenti pericolosi. È un obbligo importante per la sicurezza di tutti.",
+    "contentAR": "عند القيادة على طرق مغطاة بالثلوج، يلزمك القانون باستخدام إطارات شتوية على جميع العجلات أو سلاسل ثلجية على العجلات الدافعة. هذا يزيد من التماسك والأمان، ويتجنب الانزلاق الخطير. إنه شرط مهم لسلامة الجميع.",
     "questionCount": 1
   }
 ]
