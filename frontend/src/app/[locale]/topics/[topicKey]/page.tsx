@@ -4,6 +4,7 @@ import { useState, useEffect, use } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getTopics, getQuestions, type Topic, type Question } from "@/lib/api";
+import TTSButton from "@/components/TTSButton";
 
 export default function TopicDetailPage({ params }: { params: Promise<{ topicKey: string }> }) {
   const { topicKey } = use(params);
@@ -15,6 +16,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [showAnswers, setShowAnswers] = useState<Set<number>>(new Set());
+  const [signUrl, setSignUrl] = useState<string | null>(null);
 
   useEffect(() => {
     Promise.all([
@@ -23,6 +25,10 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
         setTopic(found || null);
       }),
       getQuestions({ topicKey, limit: 100 }).then((data) => setQuestions(data.data)),
+      fetch("/didattica/topic-signs.json")
+        .then((r) => r.json())
+        .then((map: Record<string, string>) => setSignUrl(map[topicKey] || null))
+        .catch(() => {}),
     ]).finally(() => setLoading(false));
   }, [topicKey]);
 
@@ -61,6 +67,21 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
         {isAr ? topic.titleAr : topic.titleIt}
       </h1>
 
+      {/* Topic sign */}
+      {signUrl && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={signUrl} alt="" className="h-24 mx-auto mb-4" />
+      )}
+
+      {/* Didactic illustration */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={`/didattica/${topicKey}.svg`}
+        alt=""
+        className="w-full rounded-lg mb-4 hidden"
+        onLoad={(e) => (e.currentTarget.className = "w-full rounded-lg mb-4")}
+      />
+
       {/* Didactic content */}
       {(isAr ? topic.contentAr : topic.contentIt) && (
         <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mb-6">
@@ -92,7 +113,10 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
             {q.imageUrl && (
               <img src={q.imageUrl} alt="" className="max-h-32 rounded mb-2" />
             )}
-            <p className="font-medium" dir="ltr">{q.textIt}</p>
+            <div className="flex items-start gap-1" dir="ltr">
+              <TTSButton text={q.textIt} lang="it" />
+              <p className="font-medium">{q.textIt}</p>
+            </div>
             <p className="text-gray-600 dark:text-gray-400 mt-1" dir="rtl">{q.textAr}</p>
 
             <button

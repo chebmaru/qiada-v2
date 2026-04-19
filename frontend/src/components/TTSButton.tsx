@@ -9,9 +9,9 @@ interface TTSButtonProps {
 }
 
 export default function TTSButton({ text, lang, className = "" }: TTSButtonProps) {
-  const { speak, stop, isSpeaking, isSupported } = useTTS();
+  const { speak, stop, isSpeaking, supported } = useTTS();
 
-  if (!isSupported) return null;
+  if (!supported) return null;
 
   return (
     <button

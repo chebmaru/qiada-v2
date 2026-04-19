@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
 import { useSearchParams } from "next/navigation";
 import { startExam, startPractice, submitQuiz, type QuizQuestion, type QuizResult } from "@/lib/api";
+import TTSButton from "@/components/TTSButton";
 
 type Phase = "loading" | "active" | "submitting" | "result";
 
@@ -211,9 +212,10 @@ export default function ExamPage() {
               </div>
             )}
 
-            <p className="text-lg font-medium mb-2" dir="ltr">
-              {q.textIt}
-            </p>
+            <div className="flex items-start gap-2 mb-2" dir="ltr">
+              <TTSButton text={q.textIt} lang="it" />
+              <p className="text-lg font-medium">{q.textIt}</p>
+            </div>
             <p className="text-lg font-medium mb-6 text-gray-600 dark:text-gray-400" dir="rtl">
               {q.textAr}
             </p>

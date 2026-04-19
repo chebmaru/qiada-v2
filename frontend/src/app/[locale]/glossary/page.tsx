@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { getGlossary, type GlossaryTerm } from "@/lib/api";
+import TTSButton from "@/components/TTSButton";
 
 export default function GlossaryPage() {
   const t = useTranslations();
@@ -63,9 +64,12 @@ export default function GlossaryPage() {
             className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-4"
           >
             <div className="flex justify-between items-start mb-2">
-              <h3 className="font-bold text-blue-700 dark:text-blue-400">
-                {isAr ? term.termAr : term.termIt}
-              </h3>
+              <div className="flex items-center gap-1">
+                <TTSButton text={term.termIt} lang="it" />
+                <h3 className="font-bold text-blue-700 dark:text-blue-400">
+                  {isAr ? term.termAr : term.termIt}
+                </h3>
+              </div>
               <span className="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded">
                 {term.category}
               </span>
@@ -73,9 +77,12 @@ export default function GlossaryPage() {
             <p className="text-sm text-gray-500 mb-1">
               {isAr ? term.termIt : term.termAr}
             </p>
-            <p className="text-sm mt-2">
-              {isAr ? term.definitionAr : term.definitionIt}
-            </p>
+            <div className="flex items-start gap-1 mt-2">
+              <TTSButton text={term.definitionIt} lang="it" />
+              <p className="text-sm">
+                {isAr ? term.definitionAr : term.definitionIt}
+              </p>
+            </div>
             {(isAr ? term.definitionIt : term.definitionAr) && (
               <p className="text-sm text-gray-500 mt-1">
                 {isAr ? term.definitionIt : term.definitionAr}

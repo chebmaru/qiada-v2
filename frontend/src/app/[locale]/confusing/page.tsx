@@ -45,10 +45,7 @@ export default function ConfusingPage() {
                   {isAr ? pair.trueQuestion.textAR : pair.trueQuestion.textIT}
                 </p>
                 <div className="mt-2 flex items-center gap-1">
-                  <TTSButton
-                    text={isAr ? pair.trueQuestion.textAR : pair.trueQuestion.textIT}
-                    lang={isAr ? "ar" : "it"}
-                  />
+                  <TTSButton text={pair.trueQuestion.textIT} lang="it" />
                   <span className="text-xs text-gray-400">{pair.trueQuestion.code}</span>
                 </div>
               </div>
@@ -62,10 +59,7 @@ export default function ConfusingPage() {
                   {isAr ? pair.falseQuestion.textAR : pair.falseQuestion.textIT}
                 </p>
                 <div className="mt-2 flex items-center gap-1">
-                  <TTSButton
-                    text={isAr ? pair.falseQuestion.textAR : pair.falseQuestion.textIT}
-                    lang={isAr ? "ar" : "it"}
-                  />
+                  <TTSButton text={pair.falseQuestion.textIT} lang="it" />
                   <span className="text-xs text-gray-400">{pair.falseQuestion.code}</span>
                 </div>
               </div>
