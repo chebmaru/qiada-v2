@@ -17,8 +17,8 @@ function loadJson<T>(file: string): T {
 }
 
 interface ChapterJson {
-  id?: number; number: number; nameIT: string; nameAR?: string;
-  coverImageUrl?: string; ministryWeight?: number;
+  id: number; number?: number; nameIT: string; nameAR?: string;
+  coverImageUrl?: string; ministryWeight?: number; questionCount?: number;
 }
 interface LessonJson {
   lessonId: string; chapterId: number; titleIT: string; titleAR?: string;
@@ -84,7 +84,7 @@ async function seed() {
   // 1. Chapters
   console.log('Seeding chapters...');
   const chapterRows = chaptersData.map(c => ({
-    number: c.number,
+    number: c.number || c.id,
     nameIt: c.nameIT,
     nameAr: c.nameAR || '',
     coverImageUrl: c.coverImageUrl || null,
