@@ -6,937 +6,937 @@
   "unchanged": 173,
   "changes": [
     {
-      "key": "/signs/qb_100.png",
+      "key": "/signs/direzioni_consentite_diritto_e_sinistra_qb_100.png",
       "oldDesc": "Cerchio blu di obbligo con due frecce bianche: una diritta verso l'alto e una cu",
       "newDesc": "Cerchio blu di obbligo con due frecce bianche: una diritta verso l'alto e una cu"
     },
     {
-      "key": "/signs/qb_101.png",
+      "key": "/signs/passaggio_obbligatorio_a_sinistra_qb_101.png",
       "oldDesc": "Cerchio blu di obbligo con freccia bianca diagonale verso il basso-sinistra, ind",
       "newDesc": "Cerchio blu di obbligo con freccia bianca diagonale verso il basso-sinistra, ind"
     },
     {
-      "key": "/signs/qb_102.png",
+      "key": "/signs/passaggio_obbligatorio_a_destra_qb_102.png",
       "oldDesc": "Cerchio blu di obbligo con freccia bianca diagonale verso il basso-destra, indic",
       "newDesc": "Cerchio blu di obbligo con freccia bianca diagonale verso il basso-destra, indic"
     },
     {
-      "key": "/signs/qb_103.png",
+      "key": "/signs/passaggi_consentiti_qb_103.png",
       "oldDesc": "Cerchio blu di obbligo con due frecce bianche divergenti verso il basso (una a s",
       "newDesc": "Cerchio blu di obbligo con due frecce bianche divergenti verso il basso (una a s"
     },
     {
-      "key": "/signs/qb_118.png",
+      "key": "/signs/direzione_obbligatoria_a_destra_e_qb_118.png",
       "oldDesc": "Cerchio rosso con sfondo bianco, barra orizzontale nera e scritta \"DOGANA / DOUA",
       "newDesc": "Segnale di precedenza. Cerchio rosso con sfondo bianco, barra orizzontale nera e"
     },
     {
-      "key": "/signs/qb_119.png",
+      "key": "/signs/direzione_obbligatoria_a_destra_e_qb_119.png",
       "oldDesc": "Cerchio rosso con sfondo bianco, barra orizzontale nera e scritta \"ALT / POLIZIA",
       "newDesc": "Segnale di precedenza. Cerchio rosso con sfondo bianco, barra orizzontale nera e"
     },
     {
-      "key": "/signs/qb_120.png",
+      "key": "/signs/direzione_obbligatoria_a_destra_e_qb_120.png",
       "oldDesc": "Cerchio rosso con sfondo bianco, barra orizzontale nera e scritta \"ALT / STAZION",
       "newDesc": "Segnale di precedenza. Cerchio rosso con sfondo bianco, barra orizzontale nera e"
     },
     {
-      "key": "/signs/qb_136.png",
+      "key": "/signs/altri_pericoli_qb_136.png",
       "oldDesc": "Pannello quadrato bianco con automobili in coda su due corsie (traffico congesti",
       "newDesc": "Pannello quadrato bianco con automobili in coda su due corsie (traffico congesti"
     },
     {
-      "key": "/signs/qb_143.png",
+      "key": "/signs/delineatore_di_curva_stretta_o_di_tornante_e_qb_143.png",
       "oldDesc": "Due pannelli rettangolari bianchi: A) scritta \"tornante\" e B) scritta \"3 tornant",
       "newDesc": "Due pannelli rettangolari bianchi: A) scritta \"tornante\" e B) scritta \"3 tornant"
     },
     {
-      "key": "/signs/qb_150.png",
+      "key": "/signs/preavviso_deviazione_autocarri_qb_150.png",
       "oldDesc": "Cartello rettangolare bianco con cerchio blu di obbligo (freccia curva a destra)",
       "newDesc": "Cartello rettangolare bianco con cerchio blu di obbligo (freccia curva a destra)"
     },
     {
-      "key": "/signs/qb_171.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_171.png",
       "oldDesc": "Cartello blu di indicazione autostradale con due corsie separate da linea tratte",
       "newDesc": "Cartello blu di indicazione autostradale con due corsie separate da linea tratte"
     },
     {
-      "key": "/signs/qb_174.png",
+      "key": "/signs/preavviso_di_diramazione_urbana_e_qb_174.png",
       "oldDesc": "Cartello rettangolare bianco con bordo nero, scritta \"MILANO\" e due frecce (drit",
       "newDesc": "Cartello rettangolare bianco con bordo nero, scritta \"MILANO\" e due frecce (drit"
     },
     {
-      "key": "/signs/qb_187.png",
+      "key": "/signs/zona_a_traffico_limitato_qb_187.png",
       "oldDesc": "Cartello composito \"zona traffico limitato\" con cerchio rosso di divieto (barra ",
       "newDesc": "Cartello composito \"zona traffico limitato\" con cerchio rosso di divieto (barra "
     },
     {
-      "key": "/signs/qb_224.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_224.png",
       "oldDesc": "Quadrato blu con simbolo a T: barra orizzontale rossa in alto e barra verticale ",
       "newDesc": "Segnale di indicazione. Quadrato blu con simbolo a T: barra orizzontale rossa in"
     },
     {
-      "key": "/signs/qb_225.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_225.png",
       "oldDesc": "Quadrato blu con schema stradale a H: barra verticale bianca a sinistra (strada ",
       "newDesc": "Segnale di indicazione. Quadrato blu con schema stradale a H: barra verticale bi"
     },
     {
-      "key": "/signs/qb_230.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_230.png",
       "oldDesc": "Quadrato verde con sagoma nera di galleria/tunnel (arco nero con luce bianca in ",
       "newDesc": "Quadrato verde con sagoma nera di galleria/tunnel (arco bianco con luce bianca i"
     },
     {
-      "key": "/signs/qb_231.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_231.png",
       "oldDesc": "Quadrato verde con arco bianco su sfondo verde (forma di cavalcavia/sovrappasso)",
       "newDesc": "Quadrato verde con arco bianco su sfondo verde (forma di cavalcavia/sovrappasso)"
     },
     {
-      "key": "/signs/qb_240.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_240.png",
       "oldDesc": "Pannello blu verticale con schema bianco di piazzola di sosta/emergenza: corsia ",
       "newDesc": "Pannello blu verticale con schema bianco di piazzola di sosta/emergenza: corsia "
     },
     {
-      "key": "/signs/qb_242.png",
+      "key": "/signs/segnale_di_itinerario_extraurbano_qb_242.png",
       "oldDesc": "Quadrato blu con due frecce bianche verso l'alto (due corsie) e cerchio rosso di",
       "newDesc": "Quadrato blu con due frecce bianche verso l'alto (due corsie) e cerchio rosso di"
     },
     {
-      "key": "/signs/qb_243.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_243.png",
       "oldDesc": "Pannello verde rettangolare con tre frecce bianche verso l'alto (tre corsie) e c",
       "newDesc": "Pannello verde rettangolare con tre frecce bianche verso l'alto (tre corsie) e c"
     },
     {
-      "key": "/signs/qb_247.png",
+      "key": "/signs/uso_corsie_disponibili_qb_247.png",
       "oldDesc": "Quadrato blu con due frecce bianche verso l'alto, la seconda curva verso destra ",
       "newDesc": "Quadrato blu con due frecce bianche verso l'alto, la seconda curva verso destra "
     },
     {
-      "key": "/signs/qb_248.png",
+      "key": "/signs/uso_corsie_disponibili_qb_248.png",
       "oldDesc": "Pannello verde rettangolare con due frecce bianche dritte verso l'alto e una fre",
       "newDesc": "Pannello verde rettangolare con due frecce bianche dritte verso l'alto e una fre"
     },
     {
-      "key": "/signs/qb_250.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_250.png",
       "oldDesc": "Cartello bianco rettangolare con freccia nera curva verso destra in alto e due s",
       "newDesc": "Cartello bianco rettangolare con freccia nera curva verso destra in alto e due s"
     },
     {
-      "key": "/signs/qb_252.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_252.png",
       "oldDesc": "Cartello blu rettangolare con riquadro bianco contenente sagoma nera di chiave i",
       "newDesc": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco contenente"
     },
     {
-      "key": "/signs/qb_253.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_253.png",
       "oldDesc": "Cartello blu rettangolare con riquadro bianco in alto contenente sagoma nera di ",
       "newDesc": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco in alto co"
     },
     {
-      "key": "/signs/qb_254.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_254.png",
       "oldDesc": "Cartello blu rettangolare con riquadro bianco in alto contenente sagoma nera di ",
       "newDesc": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco in alto co"
     },
     {
-      "key": "/signs/qb_256.png",
+      "key": "/signs/la_fermata_qb_256.png",
       "oldDesc": "Cartello blu rettangolare con riquadro bianco in alto contenente sagoma nera di ",
       "newDesc": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco in alto co"
     },
     {
-      "key": "/signs/qb_260.png",
+      "key": "/signs/segnale_di_preselezione_extraurbano_e_qb_260.png",
       "oldDesc": "Cartello marrone rettangolare con simbolo nero di tenda da campeggio sopra e car",
       "newDesc": "Segnale di indicazione. Cartello marrone rettangolare con simbolo nero di tenda "
     },
     {
-      "key": "/signs/qb_265.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_265.png",
       "oldDesc": "Cartello bianco rettangolare con riquadro blu \"P\" in alto a sinistra, croce nera",
       "newDesc": "Cartello bianco rettangolare con riquadro blu \"P\" in alto a sinistra, croce nera"
     },
     {
-      "key": "/signs/qb_272.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_272.png",
       "oldDesc": "Cartello rettangolare arancione con scritta \"TAXI\" nera in grande al centro — in",
       "newDesc": "Segnale di indicazione. Cartello rettangolare arancione con scritta \"TAXI\" nera "
     },
     {
-      "key": "/signs/qb_273.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_273.png",
       "oldDesc": "Cartello blu rettangolare con riquadro bianco contenente sagoma nera di camper/a",
       "newDesc": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco contenente"
     },
     {
-      "key": "/signs/qb_275.png",
+      "key": "/signs/lavori_qb_275.png",
       "oldDesc": "Triangolo rosso con sfondo giallo e figura stilizzata nera di operaio che scava ",
       "newDesc": "Segnale temporaneo di pericolo. Rettangolo giallo con figura stilizzata nera di "
     },
     {
-      "key": "/signs/qb_278.png",
+      "key": "/signs/barriere_normali_qb_278.png",
       "oldDesc": "Cono stradale conico a strisce alternate rosse e bianche con base nera — delinea",
       "newDesc": "Catalettone conico a strisce alternate rosse e bianche con base nera — delineato"
     },
     {
-      "key": "/signs/qb_279.png",
+      "key": "/signs/pannello_applicato_sui_veicoli_operatrici_e_qb_279.png",
       "oldDesc": "Pannello quadrato con strisce a V rosse e bianche (chevron) e cerchio blu di obb",
       "newDesc": "Pannello quadrato con strisce a V rosse e bianche (chevron) e cerchio blu di obb"
     },
     {
-      "key": "/signs/qb_283.png",
+      "key": "/signs/preavviso_deviazione_autocarri_qb_283.png",
       "oldDesc": "Cartello giallo di preavviso con schema stradale: freccia nera dritta verso \"LUC",
       "newDesc": "Cartello giallo di preavviso con schema stradale: freccia nera dritta verso \"LUC"
     },
     {
-      "key": "/signs/qb_285.png",
+      "key": "/signs/segnale_di_corsia_chiusa_chiusura_corsia_di_qb_285.png",
       "oldDesc": "Pannello giallo verticale con due frecce nere: una dritta verso l'alto e una dia",
       "newDesc": "Pannello giallo verticale con due frecce nere: una dritta verso l'alto e una dia"
     },
     {
-      "key": "/signs/qb_288.png",
+      "key": "/signs/uso_corsie_disponibili_qb_288.png",
       "oldDesc": "Pannello giallo verticale con due frecce nere verso l'alto (due corsie), due sag",
       "newDesc": "Pannello giallo verticale con due frecce nere verso l'alto (due corsie), due sag"
     },
     {
-      "key": "/signs/qb_289.png",
+      "key": "/signs/delineatori_modulari_di_curva_e_qb_289.png",
       "oldDesc": "Due delineatori stradali verticali (paletti) grigio/nero con catarifrangenti gia",
       "newDesc": "Due delineatori stradali verticali (paletti) grigio/nero con catarifrangenti gia"
     },
     {
-      "key": "/signs/qb_290.png",
+      "key": "/signs/delineatori_normali_di_margine_per_strade_a_doppio_senso_qb_290.png",
       "oldDesc": "Due delineatori stradali verticali (paletti) grigio/nero: a sinistra con rettang",
       "newDesc": "Due delineatori stradali verticali (paletti) grigio/nero: a sinistra con rettang"
     },
     {
-      "key": "/signs/qb_291.png",
+      "key": "/signs/intersezione_qb_291.png",
       "oldDesc": "Paletto delineatore giallo rettangolare verticale su base nera a gradino — delin",
       "newDesc": "Paletto delineatore giallo rettangolare verticale su base nera a gradino — delin"
     },
     {
-      "key": "/signs/qb_292.png",
+      "key": "/signs/delineatore_per_strade_di_montagna_e_qb_292.png",
       "oldDesc": "Paletto delineatore verticale nero e giallo a strisce alternate — palina di conf",
       "newDesc": "Paletto delineatore verticale nero e giallo a strisce alternate — palina di conf"
     },
     {
-      "key": "/signs/qb_293.png",
+      "key": "/signs/delineatore_di_curva_stretta_o_di_tornante_e_qb_293.png",
       "oldDesc": "Barriera direzionale orizzontale su due pali con chevron (frecce a V) bianche e ",
       "newDesc": "Barriera direzionale orizzontale su due pali con chevron (frecce a V) bianche e "
     },
     {
-      "key": "/signs/qb_294.png",
+      "key": "/signs/delineatore_per_strade_di_montagna_e_qb_294.png",
       "oldDesc": "Barriera direzionale orizzontale su due pali con chevron (frecce a V) bianche e ",
       "newDesc": "Barriera direzionale orizzontale su due pali con chevron (frecce a V) bianche e "
     },
     {
-      "key": "/signs/qb_295.png",
+      "key": "/signs/delineatore_di_curva_stretta_o_di_tornante_e_qb_295.png",
       "oldDesc": "Pannello quadrato singolo su palo con chevron (freccia a V) bianca e nera che pu",
       "newDesc": "Pannello quadrato singolo su palo con chevron (freccia a V) bianca e nera che pu"
     },
     {
-      "key": "/signs/qb_297.png",
+      "key": "/signs/preavviso_di_semaforo_temporaneo_qb_297.png",
       "oldDesc": "Triangolo rosso con sfondo giallo e tre cerchi verticali (rosso pieno in alto, g",
       "newDesc": "Segnale temporaneo di pericolo. Rettangolo giallo con tre cerchi verticali (ross"
     },
     {
-      "key": "/signs/qb_299.png",
+      "key": "/signs/delineatore_speciale_di_ostacolo_e_qb_299.png",
       "oldDesc": "Delineatore di ostacolo su base conica grigia: cerchio blu di obbligo con frecci",
       "newDesc": "Delineatore di ostacolo su base conica grigia: cerchio blu di obbligo con frecci"
     },
     {
-      "key": "/signs/qb_301.png",
+      "key": "/signs/distanza_di_sicurezza_e_qb_301.png",
       "oldDesc": "Tre cerchi rossi di limite massimo di velocità disposti a triangolo: \"60\" in alt",
       "newDesc": "Tre cerchi rossi di limite massimo di velocità disposti a triangolo: \"60\" in alt"
     },
     {
-      "key": "/signs/qb_302.png",
+      "key": "/signs/pannelli_posteriori_trasporto_cose_qb_302.png",
       "oldDesc": "Pannello quadrato con strisce diagonali alternate rosse e bianche con catarifran",
       "newDesc": "Pannello quadrato con strisce diagonali alternate rosse e bianche con catarifran"
     },
     {
-      "key": "/signs/qb_303.png",
+      "key": "/signs/ammessa_la_marcia_per_file_qb_303.png",
       "oldDesc": "Pannello rettangolare arancione diviso in due righe con numeri neri: \"33\" in alt",
       "newDesc": "Pannello di pericolo (ADR) rettangolare arancione diviso in due righe con numeri"
     },
     {
-      "key": "/signs/qb_304.png",
+      "key": "/signs/pannelli_posteriori_trasporto_cose_qb_304.png",
       "oldDesc": "Pannello rettangolare con strisce diagonali alternate gialle e rosse — pannello ",
       "newDesc": "Pannello rettangolare con strisce diagonali alternate gialle e rosse — pannello "
     },
     {
-      "key": "/signs/qb_305.png",
+      "key": "/signs/pannelli_posteriori_trasporto_cose_qb_305.png",
       "oldDesc": "Pannello rettangolare giallo con bordo rosso — pannello posteriore per autoveico",
       "newDesc": "Pannello rettangolare giallo con bordo rosso — pannello posteriore per autoveico"
     },
     {
-      "key": "/signs/qb_383.png",
+      "key": "/signs/segnali_del_vigile_qb_383.png",
       "oldDesc": "Agente del traffico (vigile urbano) visto frontalmente con braccia distese orizz",
       "newDesc": "Agente del traffico (vigile urbano) visto frontalmente con braccia distese orizz"
     },
     {
-      "key": "/signs/qb_384.png",
+      "key": "/signs/segnali_del_vigile_qb_384.png",
       "oldDesc": "Agente del traffico (vigile urbano) visto di tre quarti con braccio destro alzat",
       "newDesc": "Agente del traffico (vigile urbano) visto di tre quarti con braccio destro alzat"
     },
     {
-      "key": "/signs/qb_385.png",
+      "key": "/signs/segnali_del_vigile_qb_385.png",
       "oldDesc": "Agente del traffico (vigile urbano) visto frontalmente con braccio destro alzato",
       "newDesc": "Agente del traffico (vigile urbano) visto frontalmente con braccio destro alzato"
     },
     {
-      "key": "/signs/qb_386.png",
+      "key": "/signs/segnali_del_vigile_qb_386.png",
       "oldDesc": "Agente del traffico (vigile urbano) visto di tre quarti con braccia distese late",
       "newDesc": "Agente del traffico (vigile urbano) visto di tre quarti con braccia distese late"
     },
     {
-      "key": "/signs/qb_445.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_445.png",
       "oldDesc": "Vista dall'alto di area parcheggio con due automobili bianche parcheggiate in st",
       "newDesc": "Vista dall'alto di area parcheggio con due automobili bianche parcheggiate in st"
     },
     {
-      "key": "/signs/qb_45.png",
+      "key": "/signs/dare_precedenza_qb_45.png",
       "oldDesc": "Cerchio rosso con freccia nera verso il basso (senso di marcia) e freccia rossa ",
       "newDesc": "Segnale di precedenza. Cerchio rosso con freccia nera verso il basso (senso di m"
     },
     {
-      "key": "/signs/qb_501.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_501.png",
       "oldDesc": "Vista dall'alto di strada grigia a due corsie separate da linea bianca continua ",
       "newDesc": "Vista dall'alto di strada grigia a due corsie separate da linea bianca continua "
     },
     {
-      "key": "/signs/qb_505.png",
+      "key": "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_505.png",
       "oldDesc": "Vista dall'alto di intersezione a T con strada principale orizzontale (due corsi",
       "newDesc": "Vista dall'alto di intersezione a T con strada principale orizzontale (due corsi"
     },
     {
-      "key": "/signs/qb_509.png",
+      "key": "/signs/la_doppia_striscia_continua_qb_509.png",
       "oldDesc": "Vista dall'alto di strada grigia a due corsie separate da doppia linea bianca co",
       "newDesc": "Vista dall'alto di strada grigia a due corsie separate da doppia linea bianca co"
     },
     {
-      "key": "/signs/qb_511.png",
+      "key": "/signs/su_una_qb_511.png",
       "oldDesc": "Vista dall'alto di strada a due corsie per senso con piste ciclabili laterali de",
       "newDesc": "Vista dall'alto di strada a due corsie per senso con piste ciclabili laterali de"
     },
     {
-      "key": "/signs/qb_512.png",
+      "key": "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_512.png",
       "oldDesc": "Vista dall'alto di curva stradale con frecce nere che indicano i due sensi di ma",
       "newDesc": "Vista dall'alto di curva stradale con frecce nere che indicano i due sensi di ma"
     },
     {
-      "key": "/signs/qb_513.png",
+      "key": "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_513.png",
       "oldDesc": "Vista dall'alto di strada a due corsie con piazzola di sosta (allargamento trape",
       "newDesc": "Vista dall'alto di strada a due corsie con piazzola di sosta di emergenza (allar"
     },
     {
-      "key": "/signs/qb_515.png",
+      "key": "/signs/la_striscia_bianca_continua_qb_515.png",
       "oldDesc": "Vista dall'alto di intersezione a T vista dal braccio inferiore con scritta \"STO",
       "newDesc": "Vista dall'alto di intersezione a T vista dal braccio inferiore con scritta \"STO"
     },
     {
-      "key": "/signs/qb_517.png",
+      "key": "/signs/attraversamento_pedonale_qb_517.png",
       "oldDesc": "Vista dall'alto di attraversamento pedonale con strisce bianche orizzontali (zeb",
       "newDesc": "Vista dall'alto di attraversamento pedonale con strisce bianche orizzontali (zeb"
     },
     {
-      "key": "/signs/qb_52.png",
+      "key": "/signs/diritto_di_precedenza_qb_52.png",
       "oldDesc": "Quadrato bianco con bordo nero ruotato a 45 gradi (rombo) con rombo giallo pieno",
       "newDesc": "Segnale di precedenza. Quadrato bianco con bordo nero ruotato a 45 gradi (rombo)"
     },
     {
-      "key": "/signs/qb_528.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_528.png",
       "oldDesc": "Numero \"50\" bianco dipinto sulla carreggiata grigia — segnaletica orizzontale di",
       "newDesc": "Numero \"50\" bianco dipinto sulla carreggiata grigia — segnaletica orizzontale ch"
     },
     {
-      "key": "/signs/qb_531.png",
+      "key": "/signs/passaggio_a_livello_qb_531.png",
       "oldDesc": "Vista dall'alto di strada verticale a due corsie con passaggio a livello: linea ",
       "newDesc": "Vista dall'alto di strada verticale a due corsie in prossimità di un passaggio a"
     },
     {
-      "key": "/signs/qb_534.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_534.png",
       "oldDesc": "Vista dall'alto di attraversamento pedonale con strisce bianche orizzontali (zeb",
       "newDesc": "Vista dall'alto di attraversamento pedonale con strisce bianche orizzontali (zeb"
     },
     {
-      "key": "/signs/qb_535.png",
+      "key": "/signs/dosso_artificiale_qb_535.png",
       "oldDesc": "Segnaletica a strisce oblique gialle e nere alternate a forma di chevron/freccia",
       "newDesc": "Segnaletica orizzontale a strisce oblique gialle e nere alternate a forma di che"
     },
     {
-      "key": "/signs/qb_536.png",
+      "key": "/signs/debbono_essere_tenuti_il_piu_possibile_vicino_al_margine_qb_536.png",
       "oldDesc": "Vista dall'alto di strada a corsia unica con linea di mezzeria mista: tratti tra",
       "newDesc": "Vista dall'alto di strada a corsia unica con linea di mezzeria mista: tratti tra"
     },
     {
-      "key": "/signs/qb_537.png",
+      "key": "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_537.png",
       "oldDesc": "Vista dall'alto di intersezione a T con corsia di decelerazione sulla sinistra c",
       "newDesc": "Vista dall'alto di intersezione a T con corsia di decelerazione sulla sinistra c"
     },
     {
-      "key": "/signs/qb_543.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_543.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con strisce pedonali zebrate, corsi",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con strisce pedonali zebrate, corsi"
     },
     {
-      "key": "/signs/qb_545.png",
+      "key": "/signs/attraversamento_pedonale_qb_545.png",
       "oldDesc": "Vista dall'alto di intersezione con attraversamento pedonale zebrato, linee gial",
       "newDesc": "Vista dall'alto di intersezione con attraversamento pedonale zebrato, linee gial"
     },
     {
-      "key": "/signs/qb_546.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_546.png",
       "oldDesc": "Vista dall'alto di strada a due corsie con linea gialla a zig-zag sul lato destr",
       "newDesc": "Vista dall'alto di strada a due corsie con linea gialla a zig-zag sul lato destr"
     },
     {
-      "key": "/signs/qb_547.png",
+      "key": "/signs/accensione_delle_luci_e_qb_547.png",
       "oldDesc": "Vista dall'alto di incrocio a T con corsie di preselezione: due corsie a sinistr",
       "newDesc": "Vista dall'alto di incrocio a T con corsie di preselezione: due corsie a sinistr"
     },
     {
-      "key": "/signs/qb_550.png",
+      "key": "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_550.png",
       "oldDesc": "Vista dall'alto di strada a quattro corsie (due per senso) separate da linea con",
       "newDesc": "Vista dall'alto di strada a quattro corsie (due per senso) separate da linea con"
     },
     {
-      "key": "/signs/qb_552.png",
+      "key": "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_552.png",
       "oldDesc": "Vista dall'alto di strada a sei corsie (tre per senso di marcia) separate da dop",
       "newDesc": "Vista dall'alto di strada a sei corsie (tre per senso di marcia) separate da dop"
     },
     {
-      "key": "/signs/qb_554.png",
+      "key": "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_554.png",
       "oldDesc": "Vista dall'alto di strada a tre corsie (A, B, C) nello stesso senso di marcia, s",
       "newDesc": "Vista dall'alto di strada a tre corsie (A, B, C) nello stesso senso di marcia, s"
     },
     {
-      "key": "/signs/qb_558.png",
+      "key": "/signs/strada_a_tre_carreggiate_e_otto_corsie_e_qb_558.png",
       "oldDesc": "Vista dall'alto di strada a quattro corsie (due per senso, A e B) separate da sp",
       "newDesc": "Vista dall'alto di strada a quattro corsie (due per senso, A e B) separate da sp"
     },
     {
-      "key": "/signs/qb_559.png",
+      "key": "/signs/strada_a_tre_carreggiate_e_otto_corsie_e_qb_559.png",
       "oldDesc": "Vista dall'alto di strada a sei corsie (tre per senso di marcia) separate da spa",
       "newDesc": "Vista dall'alto di strada a sei corsie (tre per senso di marcia) separate da spa"
     },
     {
-      "key": "/signs/qb_562.png",
+      "key": "/signs/strada_a_tre_carreggiate_e_otto_corsie_e_qb_562.png",
       "oldDesc": "Vista dall'alto di quattro carreggiate separate da tre spartitraffico verdi (aiu",
       "newDesc": "Vista dall'alto di quattro carreggiate separate da tre spartitraffico verdi (aiu"
     },
     {
-      "key": "/signs/qb_563.png",
+      "key": "/signs/la_striscia_bianca_continua_qb_563.png",
       "oldDesc": "Vista dall'alto di incrocio a T con marciapiede (area bianca) in alto e in basso",
       "newDesc": "Vista dall'alto di incrocio a T con marciapiede (area bianca) in alto e in basso"
     },
     {
-      "key": "/signs/qb_564.png",
+      "key": "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_564.png",
       "oldDesc": "Vista dall'alto di tre corsie (A, B, C) in avvicinamento a un incrocio con frecc",
       "newDesc": "Vista dall'alto di tre corsie (A, B, C) in avvicinamento a un incrocio con frecc"
     },
     {
-      "key": "/signs/qb_565.png",
+      "key": "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_565.png",
       "oldDesc": "Vista dall'alto di tre corsie (A, B, C) in avvicinamento a un incrocio con frecc",
       "newDesc": "Vista dall'alto di tre corsie (A, B, C) in avvicinamento a un incrocio con frecc"
     },
     {
-      "key": "/signs/qb_566.png",
+      "key": "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_566.png",
       "oldDesc": "Vista dall'alto di strada a due corsie con automobile nera sulla corsia di destr",
       "newDesc": "Vista dall'alto di strada a due corsie con automobile nera sulla corsia di destr"
     },
     {
-      "key": "/signs/qb_567.png",
+      "key": "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_567.png",
       "oldDesc": "Vista dall'alto di strada a due corsie con automobile nera sulla corsia di destr",
       "newDesc": "Vista dall'alto di strada a due corsie con automobile nera sulla corsia di destr"
     },
     {
-      "key": "/signs/qb_568.png",
+      "key": "/signs/la_striscia_bianca_continua_qb_568.png",
       "oldDesc": "Vista dall'alto di incrocio a croce con automobile bianca/nera sulla corsia sini",
       "newDesc": "Vista dall'alto di incrocio a croce con automobile bianca/nera sulla corsia sini"
     },
     {
-      "key": "/signs/qb_57.png",
+      "key": "/signs/distanza_di_sicurezza_e_qb_57.png",
       "oldDesc": "Cerchio rosso con due veicoli affiancati in sagoma nera e scritta \"70 m\" in alto",
       "newDesc": "Cerchio rosso con due veicoli affiancati in sagoma nera e scritta \"70 m\" in alto"
     },
     {
-      "key": "/signs/qb_570.png",
+      "key": "/signs/in_prossimita_o_in_corrispondenza_degli_incroci_e_qb_570.png",
       "oldDesc": "Vista dall'alto di incrocio a T: automobile blu sulla corsia sinistra in avvicin",
       "newDesc": "Vista dall'alto di incrocio a T: automobile blu sulla corsia sinistra in avvicin"
     },
     {
-      "key": "/signs/qb_572.png",
+      "key": "/signs/la_svolta_a_destra_si_qb_572.png",
       "oldDesc": "Vista dall'alto di incrocio a T: automobile nera sulla corsia destra in avvicina",
       "newDesc": "Vista dall'alto di incrocio a T: automobile nera sulla corsia destra in avvicina"
     },
     {
-      "key": "/signs/qb_574.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_574.png",
       "oldDesc": "Vista dall'alto di incrocio a croce con automobile blu sulla corsia sinistra che",
       "newDesc": "Vista dall'alto di incrocio a croce con automobile blu sulla corsia sinistra che"
     },
     {
-      "key": "/signs/qb_595.png",
+      "key": "/signs/isola_di_traffico_qb_595.png",
       "oldDesc": "Vista dall'alto di incrocio a Y con tre veicoli: A (arancione) proveniente dall'",
       "newDesc": "Vista dall'alto di incrocio a Y con tre veicoli: A (arancione) proveniente dall'"
     },
     {
-      "key": "/signs/qb_596.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_596.png",
       "oldDesc": "Vista dall'alto di incrocio a Y con tre veicoli: A (arancione) proveniente dall'",
       "newDesc": "Vista dall'alto di incrocio a Y con tre veicoli: A (arancione) proveniente dall'"
     },
     {
-      "key": "/signs/qb_599.png",
+      "key": "/signs/intersezione_incrocio_a_raso_qb_599.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con due veicoli: A (nero, a sinistr",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con due veicoli: A (nero, a sinistr"
     },
     {
-      "key": "/signs/qb_601.png",
+      "key": "/signs/svolta_a_sinistra_qb_601.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con due veicoli: N (nero, a sinistr",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con due veicoli: N (nero, a sinistr"
     },
     {
-      "key": "/signs/qb_602.png",
+      "key": "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_602.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con due veicoli: S (rosso, in basso",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con due veicoli: S (rosso, in basso"
     },
     {
-      "key": "/signs/qb_606.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_606.png",
       "oldDesc": "Vista dall'alto di incrocio a Y (tre bracci) con tre veicoli: E (arancione, a si",
       "newDesc": "Vista dall'alto di incrocio a Y (tre bracci) con tre veicoli: E (arancione, a si"
     },
     {
-      "key": "/signs/qb_607.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_607.png",
       "oldDesc": "Vista dall'alto di incrocio a T con tre utenti: T (tram verde con scritta TRAM, ",
       "newDesc": "Vista dall'alto di incrocio a T con tre utenti: T (tram verde con scritta TRAM, "
     },
     {
-      "key": "/signs/qb_608.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_608.png",
       "oldDesc": "Vista dall'alto di incrocio a T con tre utenti: C (auto arancione, a sinistra), ",
       "newDesc": "Vista dall'alto di incrocio a T con tre utenti: C (auto arancione, a sinistra), "
     },
     {
-      "key": "/signs/qb_613.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_613.png",
       "oldDesc": "Vista dall'alto di incrocio a T con tram e due veicoli: O (nero, in alto), A (ca",
       "newDesc": "Vista dall'alto di incrocio a T con tram e due veicoli: O (nero, in alto), A (ca"
     },
     {
-      "key": "/signs/qb_614.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_614.png",
       "oldDesc": "Vista dall'alto di incrocio irregolare a tre bracci con tre veicoli: A (arancion",
       "newDesc": "Vista dall'alto di incrocio irregolare a tre bracci con tre veicoli: A (arancion"
     },
     {
-      "key": "/signs/qb_615.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_615.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: R (rosso, in alto)",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: R (rosso, in alto)"
     },
     {
-      "key": "/signs/qb_616.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_616.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: T (arancione, in a",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: T (arancione, in a"
     },
     {
-      "key": "/signs/qb_617.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_617.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: N (nero, in alto),",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: N (nero, in alto),"
     },
     {
-      "key": "/signs/qb_618.png",
+      "key": "/signs/ordine_di_qb_618.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: C (arancione, in a",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: C (arancione, in a"
     },
     {
-      "key": "/signs/qb_620.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_620.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con spartitraffico verde e tre veic",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con spartitraffico verde e tre veic"
     },
     {
-      "key": "/signs/qb_631.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_631.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: D (autocarro rosso",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: D (autocarro rosso"
     },
     {
-      "key": "/signs/qb_632.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_632.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (nero, in al",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (nero, in al"
     },
     {
-      "key": "/signs/qb_637.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_637.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: D (blu, a sini",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: D (blu, a sini"
     },
     {
-      "key": "/signs/qb_638.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_638.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (nero, in al",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (nero, in al"
     },
     {
-      "key": "/signs/qb_639.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_639.png",
       "oldDesc": "Vista dall'alto di incrocio a T con tram e tre veicoli: A (nero, in alto), C (ca",
       "newDesc": "Vista dall'alto di incrocio a T con tram e tre veicoli: A (nero, in alto), C (ca"
     },
     {
-      "key": "/signs/qb_640.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_640.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: R (verde, a de",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: R (verde, a de"
     },
     {
-      "key": "/signs/qb_642.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_642.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro utenti: O (auto nera, i",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro utenti: O (auto nera, i"
     },
     {
-      "key": "/signs/qb_643.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_643.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: H (rosso, in a",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: H (rosso, in a"
     },
     {
-      "key": "/signs/qb_644.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_644.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (verde, in a",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (verde, in a"
     },
     {
-      "key": "/signs/qb_646.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_646.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: C (camion ross",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: C (camion ross"
     },
     {
-      "key": "/signs/qb_647.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_647.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza (tri",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza (tri"
     },
     {
-      "key": "/signs/qb_648.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_648.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tram e segnali di dare preceden",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tram e segnali di dare preceden"
     },
     {
-      "key": "/signs/qb_650.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_650.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: N (autocarro r",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: N (autocarro r"
     },
     {
-      "key": "/signs/qb_651.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_651.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con spartitraffico verde e quattro ",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con spartitraffico verde e quattro "
     },
     {
-      "key": "/signs/qb_652.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_652.png",
       "oldDesc": "Vista dall'alto di incrocio irregolare a tre bracci con tre veicoli: A (camion r",
       "newDesc": "Vista dall'alto di incrocio irregolare a tre bracci con tre veicoli: A (camion r"
     },
     {
-      "key": "/signs/qb_654.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_654.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza: R (",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza: R ("
     },
     {
-      "key": "/signs/qb_655.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_655.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza: A (",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza: A ("
     },
     {
-      "key": "/signs/qb_659.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_659.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: R (arancione, a de",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: R (arancione, a de"
     },
     {
-      "key": "/signs/qb_660.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_660.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: H (rosso, in alto)",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: H (rosso, in alto)"
     },
     {
-      "key": "/signs/qb_662.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_662.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: E (rosso, in alto)",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: E (rosso, in alto)"
     },
     {
-      "key": "/signs/qb_663.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_663.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: R (rosso, in a",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: R (rosso, in a"
     },
     {
-      "key": "/signs/qb_665.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_665.png",
       "oldDesc": "Vista dall'alto di incrocio a quattro bracci con cinque veicoli: E (rosso, in al",
       "newDesc": "Vista dall'alto di incrocio a quattro bracci con cinque veicoli: E (rosso, in al"
     },
     {
-      "key": "/signs/qb_667.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_667.png",
       "oldDesc": "Vista dall'alto di incrocio irregolare (più di quattro bracci) con tre veicoli: ",
       "newDesc": "Vista dall'alto di incrocio irregolare (più di quattro bracci) con tre veicoli: "
     },
     {
-      "key": "/signs/qb_668.png",
+      "key": "/signs/incrociamo_un_veicolo_con_fari_abbaglianti_accesi_qb_668.png",
       "oldDesc": "Vista dall'alto di incrocio irregolare con tre veicoli: C (nero, in alto), N (ro",
       "newDesc": "Vista dall'alto di incrocio irregolare con tre veicoli: C (nero, in alto), N (ro"
     },
     {
-      "key": "/signs/qb_669.png",
+      "key": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_669.png",
       "oldDesc": "Vista dall'alto di incrocio irregolare con cinque veicoli: L (nero, in alto a si",
       "newDesc": "Vista dall'alto di incrocio irregolare con cinque veicoli: L (nero, in alto a si"
     },
     {
-      "key": "/signs/qb_670.png",
+      "key": "/signs/asse_il_centro_della_carreggiata_qb_670.png",
       "oldDesc": "Striscia orizzontale di margine con segmenti alternati bianchi, neri e gialli — ",
       "newDesc": "Striscia orizzontale di margine con segmenti alternati bianchi, neri e gialli — "
     },
     {
-      "key": "/signs/qb_676.png",
+      "key": "/signs/ammessa_la_marcia_per_file_qb_676.png",
       "oldDesc": "Vista dall'alto di tre automobili parcheggiate in stalli paralleli obliqui lungo",
       "newDesc": "Vista dall'alto di tre automobili parcheggiate in stalli paralleli obliqui lungo"
     },
     {
-      "key": "/signs/qb_695.png",
+      "key": "/signs/simbolo_proiettori_abbaglianti_e_qb_695.png",
       "oldDesc": "Simbolo stilizzato nero di faro/proiettore con fascio di luce a forma di cono e ",
       "newDesc": "Simbolo stilizzato nero di faro/proiettore con fascio di luce a forma di cono e "
     },
     {
-      "key": "/signs/qb_696.png",
+      "key": "/signs/simbolo_proiettori_anabbaglianti_e_qb_696.png",
       "oldDesc": "Simbolo stilizzato nero di faro/proiettore con fascio di luce a forma di cono e ",
       "newDesc": "Simbolo stilizzato nero di faro/proiettore con fascio di luce a forma di cono e "
     },
     {
-      "key": "/signs/qb_697.png",
+      "key": "/signs/simbolo_degli_indicatori_di_direzione_qb_697.png",
       "oldDesc": "Due frecce stilizzate nere opposte (una verso sinistra e una verso destra) — sim",
       "newDesc": "Due frecce stilizzate nere opposte (una verso sinistra e una verso destra) — sim"
     },
     {
-      "key": "/signs/qb_698.png",
+      "key": "/signs/simbolo_del_segnale_di_emergenza_qb_698.png",
       "oldDesc": "Due triangoli concentrici neri con vertice in alto (triangolo grande esterno e t",
       "newDesc": "Due triangoli concentrici neri con vertice in alto (triangolo grande esterno e t"
     },
     {
-      "key": "/signs/qb_704.png",
+      "key": "/signs/simbolo_della_riserva_carburante_qb_704.png",
       "oldDesc": "Simbolo stilizzato nero di termometro immerso in onde d'acqua — spia della tempe",
       "newDesc": "Simbolo stilizzato nero di termometro immerso in onde d'acqua — spia della tempe"
     },
     {
-      "key": "/signs/qb_705.png",
+      "key": "/signs/simbolo_della_batteria_qb_705.png",
       "oldDesc": "Simbolo stilizzato nero di batteria con polo negativo (-) a sinistra e polo posi",
       "newDesc": "Simbolo stilizzato nero di batteria con polo negativo (-) a sinistra e polo posi"
     },
     {
-      "key": "/signs/qb_706.png",
+      "key": "/signs/simbolo_della_riserva_carburante_qb_706.png",
       "oldDesc": "Simbolo stilizzato nero di oliera/ampolla d'olio con goccia che cade dal beccucc",
       "newDesc": "Simbolo stilizzato nero di oliera/ampolla d'olio con goccia che cade dal beccucc"
     },
     {
-      "key": "/signs/qb_707.png",
+      "key": "/signs/cinture_di_sicurezza_qb_707.png",
       "oldDesc": "Simbolo stilizzato nero di persona seduta con cintura di sicurezza allacciata di",
       "newDesc": "Simbolo stilizzato nero di persona seduta con cintura di sicurezza allacciata di"
     },
     {
-      "key": "/signs/qb_721.png",
+      "key": "/signs/simbolo_del_segnale_di_emergenza_qb_721.png",
       "oldDesc": "Simbolo stilizzato nero di cerchio con punto esclamativo al centro e due parente",
       "newDesc": "Simbolo stilizzato nero di cerchio con punto esclamativo al centro e due parente"
     },
     {
-      "key": "/signs/qb_901.png",
+      "key": "/signs/distanza_qb_901.png",
       "oldDesc": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvall",
       "newDesc": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvall"
     },
     {
-      "key": "/signs/qb_903.png",
+      "key": "/signs/segnale_di_corsia_qb_903.png",
       "oldDesc": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvall",
       "newDesc": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvall"
     },
     {
-      "key": "/signs/qb_904.png",
+      "key": "/signs/segnale_di_corsia_qb_904.png",
       "oldDesc": "Triangolo rosso di pericolo con profilo di cunetta nera (depressione/avvallament",
       "newDesc": "Triangolo rosso di pericolo con profilo di cunetta nera (depressione/avvallament"
     },
     {
-      "key": "/signs/qb_907.png",
+      "key": "/signs/segnale_di_corsia_qb_907.png",
       "oldDesc": "Triangolo rosso di pericolo con doppia curva a S nera (prima a destra poi a sini",
       "newDesc": "Triangolo rosso di pericolo con doppia curva a S nera (prima a destra poi a sini"
     },
     {
-      "key": "/signs/qb_914.png",
+      "key": "/signs/continuazione_qb_914.png",
       "oldDesc": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolev",
       "newDesc": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolev"
     },
     {
-      "key": "/signs/qb_915.png",
+      "key": "/signs/segnale_di_corsia_qb_915.png",
       "oldDesc": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolev",
       "newDesc": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolev"
     },
     {
-      "key": "/signs/qb_916.png",
+      "key": "/signs/segnale_di_corsia_qb_916.png",
       "oldDesc": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolev",
       "newDesc": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolev"
     },
     {
-      "key": "/signs/qb_919.png",
+      "key": "/signs/segnale_di_corsia_qb_919.png",
       "oldDesc": "Triangolo rosso di pericolo con punto esclamativo nero (altri pericoli) con pann",
       "newDesc": "Triangolo rosso di pericolo con punto esclamativo nero (altri pericoli) con pann"
     },
     {
-      "key": "/signs/qb_924.png",
+      "key": "/signs/segnale_di_corsia_qb_924.png",
       "oldDesc": "Cerchio rosso di divieto di transito (centro bianco senza simboli) con pannello ",
       "newDesc": "Cerchio rosso di divieto di transito (centro bianco senza simboli) con pannello "
     },
     {
-      "key": "/signs/qb_925.png",
+      "key": "/signs/fasce_orarie_dei_giorni_festivi_qb_925.png",
       "oldDesc": "Cerchio rosso di divieto di transito (centro bianco senza simboli) con pannello ",
       "newDesc": "Cerchio rosso di divieto di transito (centro bianco senza simboli) con pannello "
     },
     {
-      "key": "/signs/qb_926.png",
+      "key": "/signs/segnale_di_corsia_qb_926.png",
       "oldDesc": "Cerchio rosso di divieto di transito (centro bianco) con pannello integrativo bi",
       "newDesc": "Cerchio rosso di divieto di transito (centro bianco) con pannello integrativo bi"
     },
     {
-      "key": "/signs/qb_927.png",
+      "key": "/signs/distanza_di_sicurezza_e_qb_927.png",
       "oldDesc": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrat",
       "newDesc": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrat"
     },
     {
-      "key": "/signs/qb_928.png",
+      "key": "/signs/fasce_orarie_dei_giorni_lavorativi_qb_928.png",
       "oldDesc": "Cerchio rosso di divieto di transito (centro bianco) con pannello integrativo bi",
       "newDesc": "Cerchio rosso di divieto di transito (centro bianco) con pannello integrativo bi"
     },
     {
-      "key": "/signs/qb_929.png",
+      "key": "/signs/distanza_di_sicurezza_e_qb_929.png",
       "oldDesc": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrat",
       "newDesc": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrat"
     },
     {
-      "key": "/signs/qb_930.png",
+      "key": "/signs/continuazione_qb_930.png",
       "oldDesc": "Cerchio rosso di divieto di sorpasso (auto rossa a sinistra che sorpassa auto ne",
       "newDesc": "Cerchio rosso di divieto di sorpasso (auto rossa a sinistra che sorpassa auto ne"
     },
     {
-      "key": "/signs/qb_933.png",
+      "key": "/signs/continuazione_qb_933.png",
       "oldDesc": "Cerchio rosso di limite massimo di velocità \"80\" con pannello integrativo bianco",
       "newDesc": "Cerchio rosso di limite massimo di velocità \"80\" con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_934.png",
+      "key": "/signs/segnale_di_corsia_qb_934.png",
       "oldDesc": "Cerchio rosso con tromba/clacson nera barrata da striscia rossa diagonale (divie",
       "newDesc": "Cerchio rosso con tromba/clacson nera barrata da striscia rossa diagonale (divie"
     },
     {
-      "key": "/signs/qb_935.png",
+      "key": "/signs/segnale_di_corsia_qb_935.png",
       "oldDesc": "Cerchio rosso di divieto di transito ai motocicli (sagoma nera di motociclista) ",
       "newDesc": "Cerchio rosso di divieto di transito ai motocicli (sagoma nera di motociclista) "
     },
     {
-      "key": "/signs/qb_936.png",
+      "key": "/signs/fasce_orarie_dei_giorni_festivi_qb_936.png",
       "oldDesc": "Cerchio rosso di divieto di transito ai motocicli (sagoma nera di motociclista) ",
       "newDesc": "Cerchio rosso di divieto di transito ai motocicli (sagoma nera di motociclista) "
     },
     {
-      "key": "/signs/qb_937.png",
+      "key": "/signs/fasce_orarie_dei_giorni_lavorativi_qb_937.png",
       "oldDesc": "Cerchio rosso di divieto di transito ai veicoli merci (sagoma nera di autocarro)",
       "newDesc": "Cerchio rosso di divieto di transito ai veicoli merci (sagoma nera di autocarro)"
     },
     {
-      "key": "/signs/qb_938.png",
+      "key": "/signs/fasce_orarie_dei_giorni_festivi_qb_938.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_939.png",
+      "key": "/signs/divieto_di_sosta_qb_939.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_940.png",
+      "key": "/signs/divieto_di_segnalazioni_acustiche_qb_940.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_941.png",
+      "key": "/signs/segnale_di_corsia_qb_941.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_942.png",
+      "key": "/signs/segnale_di_corsia_qb_942.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_944.png",
+      "key": "/signs/segnale_di_corsia_qb_944.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_945.png",
+      "key": "/signs/fasce_orarie_dei_giorni_lavorativi_qb_945.png",
       "oldDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost",
       "newDesc": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sost"
     },
     {
-      "key": "/signs/qb_951.png",
+      "key": "/signs/segnale_di_corsia_qb_951.png",
       "oldDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan",
       "newDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan"
     },
     {
-      "key": "/signs/qb_952.png",
+      "key": "/signs/segnale_di_corsia_qb_952.png",
       "oldDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan",
       "newDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan"
     },
     {
-      "key": "/signs/qb_953.png",
+      "key": "/signs/inizio_qb_953.png",
       "oldDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan",
       "newDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan"
     },
     {
-      "key": "/signs/qb_954.png",
+      "key": "/signs/segnale_di_corsia_qb_954.png",
       "oldDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan",
       "newDesc": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pan"
     },
     {
-      "key": "/signs/qb_956.png",
+      "key": "/signs/segnale_di_corsia_qb_956.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_957.png",
+      "key": "/signs/segnale_di_corsia_qb_957.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_958.png",
+      "key": "/signs/inizio_qb_958.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_959.png",
+      "key": "/signs/segnale_di_corsia_qb_959.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_960.png",
+      "key": "/signs/fasce_orarie_dei_giorni_festivi_qb_960.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_961.png",
+      "key": "/signs/fasce_orarie_dei_giorni_lavorativi_qb_961.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_962.png",
+      "key": "/signs/distanza_di_sicurezza_e_qb_962.png",
       "oldDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco",
       "newDesc": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco"
     },
     {
-      "key": "/signs/qb_963.png",
+      "key": "/signs/inizio_qb_963.png",
       "oldDesc": "Cerchio blu di obbligo con figura stilizzata bianca di pedone (percorso pedonale",
       "newDesc": "Cerchio blu di obbligo con figura stilizzata bianca di pedone (percorso pedonale"
     },
     {
-      "key": "/signs/qb_964.png",
+      "key": "/signs/fasce_orarie_dei_giorni_festivi_qb_964.png",
       "oldDesc": "Cerchio blu di obbligo con figura stilizzata bianca di pedone (percorso pedonale",
       "newDesc": "Cerchio blu di obbligo con figura stilizzata bianca di pedone (percorso pedonale"
     },
     {
-      "key": "/signs/qb_965.png",
+      "key": "/signs/fasce_orarie_dei_giorni_festivi_qb_965.png",
       "oldDesc": "Cerchio blu di obbligo con bicicletta bianca (pista ciclabile obbligatoria) con ",
       "newDesc": "Cerchio blu di obbligo con bicicletta bianca (pista ciclabile obbligatoria) con "
     },
     {
-      "key": "/signs/qb_967.png",
+      "key": "/signs/distanza_di_sicurezza_e_qb_967.png",
       "oldDesc": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrat",
       "newDesc": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrat"
     },
     {
-      "key": "/signs/qb_968.png",
+      "key": "/signs/segnale_di_corsia_qb_968.png",
       "oldDesc": "Triangolo rosso di pericolo con salita ripida nera (profilo inclinato con scritt",
       "newDesc": "Triangolo rosso di pericolo con salita ripida nera (profilo inclinato con scritt"
     },
     {
-      "key": "/signs/qb_970.png",
+      "key": "/signs/segnale_di_corsia_qb_970.png",
       "oldDesc": "Triangolo rosso con sfondo giallo e operaio che scava (lavori in corso temporane",
       "newDesc": "Segnale temporaneo di pericolo. Rettangolo giallo con operaio che scava (lavori "
     }

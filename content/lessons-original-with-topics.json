@@ -439,7 +439,7 @@
         "titleAR": "حظر المرور",
         "contentIT": "Il segnale indica il divieto di entrare nella strada in cui è posto in entrambi i sensi, da ambedue i lati. Dall'altro lato della strada si trova un altro segnale uguale. Vieta il transito a tutti i veicoli, comprese biciclette, motocicli, macchine agricole e quadricicli. Possono entrare solamente i pedoni. Senza pannello integrativo, il segnale vale 24 ore su 24.",
         "contentAR": "تشير الإشارة إلى حظر دخول الطريق الذي وُضعت فيه في كلا الاتجاهين، من كلا الجانبين. على الجانب الآخر من الطريق توجد إشارة مماثلة. تمنع مرور جميع المركبات، بما في ذلك الدراجات الهوائية والدراجات النارية والآلات الزراعية والمركبات الرباعية. يمكن للمشاة فقط الدخول. بدون لوحة إضافية، تكون الإشارة سارية المفعول على مدار 24 ساعة.",
-        "imageUrl": "/signs/qb_54.png"
+        "imageUrl": "/signs/divieto_di_transito_qb_54.png"
       },
       {
         "topicKey": "divieto_di_transito_per_autotreni_ed_autoarticolati",
@@ -471,7 +471,7 @@
         "titleAR": "نهاية حظر التجاوز",
         "contentIT": "Il segnale indica la fine del divieto di sorpasso precedentemente imposto. Non indica la fine del divieto di sorpasso tra le sole autovetture. Segnala il punto in cui termina il divieto di sorpasso. Non consente il sorpasso se occorre oltrepassare una striscia continua. Può essere posto sia nei centri abitati che fuori e non impone un particolare limite di velocità. È sbagliato dire che il segnale indica la fine del divieto di transito o di sosta, perché indica invece la fine del divieto di sorpasso.",
         "contentAR": "تشير الإشارة إلى نهاية حظر التجاوز المفروض سابقًا. لا تشير إلى نهاية حظر التجاوز بين سيارات الركاب فقط. توضح النقطة التي ينتهي عندها حظر التجاوز. لا تسمح بالتجاوز إذا كان يجب تجاوز خط متصل. يمكن وضعها داخل المراكز المأهولة أو خارجها، ولا تفرض حدًا معينًا للسرعة. من الخطأ القول إن الإشارة تشير إلى نهاية حظر المرور أو الوقوف، لأنها تشير بدلاً من ذلك إلى نهاية حظر التجاوز.",
-        "imageUrl": "/signs/qb_82.png"
+        "imageUrl": "/signs/fine_del_divieto_di_sorpasso_e_qb_82.png"
       },
       {
         "topicKey": "divieto_di_sorpasso_per_gli_autocarri_che",
@@ -479,7 +479,7 @@
         "titleAR": "حظر التجاوز للشاحنات التي تزيد عن 3.5 طن",
         "contentIT": "Il segnale vieta ai soli veicoli merci, come autocarri, autotreni e autoarticolati, che superano la massa a pieno carico di 3,5 tonnellate, di sorpassare qualsiasi veicolo. Consente invece il sorpasso a tutti gli altri veicoli, compresi autobus e autocaravan, anche se superano 3,5 tonnellate, perché trasportano persone. Un autocarro di massa pari a 3,5 tonnellate può sorpassare qualsiasi veicolo, poiché il divieto riguarda chi supera tale massa. Un'autovettura o un autocaravan possono sorpassare, sulla sinistra, qualsiasi veicolo merce che supera 3,5 tonnellate.",
         "contentAR": "تمنع الإشارة فقط مركبات البضائع، مثل الشاحنات والقاطرات والمركبات المفصلية، التي تتجاوز كتلتها القصوى المسموحة 3.5 طن، من تجاوز أي مركبة. بينما تسمح بالتجاوز لجميع المركبات الأخرى، بما في ذلك الحافلات وسيارات الكارافان، حتى لو تجاوزت 3.5 طن، لأنها تنقل أشخاصًا. يمكن للشاحنة التي كتلتها 3.5 طن تجاوز أي مركبة، لأن الحظر يطبق على من يتجاوز هذه الكتلة. يمكن لسيارة ركاب أو كارافان تجاوز، من اليسار، أي مركبة بضائع تتجاوز 3.5 طن.",
-        "imageUrl": "/signs/qb_60.png"
+        "imageUrl": "/signs/divieto_di_sorpasso_per_gli_autocarri_che_qb_60.png"
       },
       {
         "topicKey": "fine_del_divieto_di_sorpasso_per_gli_autocarri_che",
@@ -495,7 +495,7 @@
         "titleAR": "مسافة الأمان 70 مترًا",
         "contentIT": "Il segnale prescrive ai veicoli di circolare mantenendo tra loro una distanza di almeno 70 metri. Vieta pertanto di seguire il veicolo che precede a una distanza inferiore a quella indicata, poiché obbliga a rispettare il distanziamento minimo. Consente a un veicolo di marciare a distanza di 80 metri da quello che lo precede, ma vieta di circolare a meno di 70 metri. Vale anche per i motocicli. È sbagliato dire che il segnale obbliga un veicolo a distanziare quello che lo segue di almeno 70 metri, poiché il distanziamento si riferisce al veicolo che precede.",
         "contentAR": "تفرض الإشارة على المركبات السير مع الحفاظ على مسافة لا تقل عن 70 مترًا بينها. تمنع بالتالي اتباع المركبة التي أمامك بمسافة أقل من تلك المحددة، لأنها تلزم باحترام الحد الأدنى للمسافة. تسمح لمركبة بالسير على مسافة 80 مترًا من المركبة التي أمامها، ولكنها تمنع السير بمسافة أقل من 70 مترًا. تسري أيضًا على الدراجات النارية. من الخطأ القول إن الإشارة تلزم المركبة بإبعاد المركبة التي خلفها بمسافة لا تقل عن 70 مترًا، لأن المسافة تتعلق بالمركبة التي أمامها.",
-        "imageUrl": "/signs/qb_57.png"
+        "imageUrl": "/signs/distanza_di_sicurezza_e_qb_57.png"
       },
       {
         "topicKey": "limite_massimo_di_velocita",
@@ -503,7 +503,7 @@
         "titleAR": "الحد الأقصى للسرعة 80 كم/ساعة",
         "contentIT": "Il segnale indica la velocità massima consentita, che non si deve superare, per tutti i veicoli, compresi i motocicli. Ha validità immediatamente dopo il segnale. Prescrive di marciare a velocità inferiore o uguale al valore indicato, ma non significa che in ogni circostanza, anche con scarsa visibilità, si possa procedere a 80 km/h. Si può trovare su strade extraurbane e in autostrada, ad esempio quando ci sono lavori in corso. È sbagliato dire che il segnale indica la velocità consigliata o quella minima, poiché indica la velocità massima da non superare.",
         "contentAR": "تشير الإشارة إلى السرعة القصوى المسموح بها، التي لا يجب تجاوزها، لجميع المركبات، بما في ذلك الدراجات النارية. تسري مباشرة بعد الإشارة. تفرض السير بسرعة أقل من أو تساوي القيمة المحددة، ولكن هذا لا يعني أنه في كل الظروف، حتى مع ضعف الرؤية، يمكن السير بسرعة 80 كم/ساعة. يمكن العثور عليها على الطرق خارج المدن وعلى الطرق السريعة، مثلاً عند وجود أعمال طريق. من الخطأ القول إن الإشارة تشير إلى السرعة الموصى بها أو الحد الأدنى للسرعة، لأنها تشير إلى السرعة القصوى التي لا يجب تجاوزها.",
-        "imageUrl": "/signs/qb_58.png"
+        "imageUrl": "/signs/limite_massimo_di_velocita_qb_58.png"
       },
       {
         "topicKey": "kmh_e",
@@ -511,7 +511,7 @@
         "titleAR": "نهاية الحد الأقصى للسرعة",
         "contentIT": "Il segnale indica la fine del limite massimo di velocità, non la fine del limite minimo di velocità. Dopo il segnale si può circolare a velocità inferiore o superiore a quella indicata, senza però oltrepassare il limite generale vigente per quel tipo di strada. Ad esempio, se posto in autostrada, non si può superare la velocità di 130 km/h.",
         "contentAR": "تشير الإشارة إلى نهاية الحد الأقصى للسرعة، وليس نهاية الحد الأدنى للسرعة. بعد الإشارة، يمكن السير بسرعة أقل أو أعلى من القيمة المحددة، ولكن دون تجاوز الحد العام الساري لهذا النوع من الطرق. على سبيل المثال، إذا وُضعت على الطريق السريع، لا يمكن تجاوز سرعة 130 كم/ساعة.",
-        "imageUrl": "/signs/qb_81.png"
+        "imageUrl": "/signs/limite_massimo_di_velocita_qb_81.png"
       },
       {
         "topicKey": "divieto_di_segnalazioni_acustiche",
@@ -535,7 +535,7 @@
         "titleAR": "حظر مرور العربات اليدوية",
         "contentIT": "Il segnale vieta il transito ai veicoli a braccia, quindi non consente ai carretti a mano di percorrere quella strada. Consente il transito ai pedoni e a tutti gli altri veicoli, compresi i veicoli a trazione animale, le biciclette e i ciclomotori. È sbagliato dire che il segnale vieta il transito a un veicolo guasto che provvisoriamente viene spinto a braccia, oppure ai carrelli-appendice trainati da autovetture.",
         "contentAR": "تمنع الإشارة مرور العربات اليدوية، لذلك لا تسمح للعربات التي تدفع باليد بالسير في ذلك الطريق. تسمح بمرور المشاة وجميع المركبات الأخرى، بما في ذلك المركبات التي تجرها الحيوانات والدراجات الهوائية والدراجات البخارية. من الخطأ القول إن الإشارة تمنع مرور مركبة معطلة يتم دفعها مؤقتًا باليد، أو المقطورات الصغيرة التي تجرها السيارات.",
-        "imageUrl": "/signs/qb_65.png"
+        "imageUrl": "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_65.png"
       },
       {
         "topicKey": "divieto_di_transito_ai_veicoli_a_trazione_animale",
@@ -551,7 +551,7 @@
         "titleAR": "حظر مرور الدراجات الهوائية",
         "contentIT": "Il segnale vieta il transito per 24 ore su 24 alle biciclette, chiamate anche velocipedi, quindi non consente ai ciclisti di percorrere quella strada. Consente il transito ai pedoni e a tutti gli altri veicoli, compresi quadricicli, ciclomotori e motocicli.",
         "contentAR": "تمنع الإشارة مرور الدراجات الهوائية على مدار 24 ساعة، لذلك لا تسمح لراكبي الدراجات بالسير في ذلك الطريق. تسمح بمرور المشاة وجميع المركبات الأخرى، بما في ذلك المركبات الرباعية والدراجات البخارية والدراجات النارية.",
-        "imageUrl": "/signs/qb_66.png"
+        "imageUrl": "/signs/divieto_di_transito_qb_66.png"
       },
       {
         "topicKey": "divieto_di_transito_ai_motocicli",
@@ -745,7 +745,7 @@
         "titleAR": "تحذير مسبق لتقاطع حضري بدوار",
         "contentIT": "Il segnale è un preavviso di incrocio urbano regolato con circolazione rotatoria. Contiene lo schema della rotatoria e riporta i nomi delle località raggiungibili. Bisogna svoltare subito a destra, cioè alla prima traversa, per raggiungere Forlì; a destra alla seconda traversa per raggiungere la tangenziale; a destra alla terza traversa per il centro della città. È sbagliato dire che il segnale è di preselezione urbana o che indica una rotatoria senza uscita.",
         "contentAR": "تشير الإشارة إلى تحذير مسبق لتقاطع حضري منظم بحركة دائرية. تحتوي على مخطط الدوار وأسماء المواقع التي يمكن الوصول إليها. يجب الانعطاف يمينًا فورًا، أي عند المخرج الأول، للوصول إلى فورلي؛ ويمينًا عند المخرج الثاني للوصول إلى الطريق الدائري؛ ويمينًا عند المخرج الثالث للوصول إلى وسط المدينة. من الخطأ القول إن الإشارة هي اختيار مسبق حضري، أو أنها تشير إلى دوار بدون مخرج.",
-        "imageUrl": "/signs/qb_168.png"
+        "imageUrl": "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_168.png"
       },
       {
         "topicKey": "intersezione_e",
@@ -907,7 +907,7 @@
         "titleAR": "مخروط مروري",
         "contentIT": "Il cono viene posto in presenza di lavori di breve durata, quando si verifica un incidente, per delimitare incanalamenti, deviazioni o separazione provvisoria dei sensi di marcia, ad esempio quando vengono rifatte le strisce a terra. È sbagliato dire che si trova solo su strade extraurbane, in curva o che indica ostacoli permanenti sulla carreggiata.",
         "contentAR": "يوضع المخروط في حالة وجود أعمال قصيرة المدى، أو عند وقوع حادث، لتحديد مسارات التنظيم أو الانحرافات أو الفصل المؤقت لاتجاهات السير، مثلاً عند إعادة رسم الخطوط على الأرض. من الخطأ القول إنه يوجد فقط على الطرق خارج المدن، أو في المنعطفات، أو أنه يشير إلى عوائق دائمة على الطريق.",
-        "imageUrl": "/signs/qb_278.png"
+        "imageUrl": "/signs/barriere_normali_qb_278.png"
       },
       {
         "topicKey": "delineatori_normali_di_margine_per_strade_a_doppio_senso",
@@ -939,7 +939,7 @@
         "titleAR": "علامة تحديد للطرق الجبلية",
         "contentIT": "È un segnale complementare posto ai margini della carreggiata su strade di montagna soggette a innevamento. È impiegato per rendere individuabile il tracciato stradale in condizioni di alto innevamento. È sbagliato dire che si trova al centro della carreggiata, negli incroci a forma di T, o che viene usato per delimitare le corsie. Serve invece nelle strade di montagna a evidenziare i margini o bordi della carreggiata.",
         "contentAR": "هي إشارة تكميلية توضع على حواف مسار المركبات على الطرق الجبلية المعرضة للثلوج. تُستخدم لجعل مسار الطريق قابلًا للتحديد في ظروف الثلوج الكثيفة. من الخطأ القول إنها توضع في وسط مسار المركبات، أو عند تقاطعات T، أو أنها تُستخدم لتحديد الحارات. تستخدم بدلاً من ذلك على الطرق الجبلية لإبراز حواف مسار المركبات.",
-        "imageUrl": "/signs/qb_278.png"
+        "imageUrl": "/signs/barriere_normali_qb_278.png"
       },
       {
         "topicKey": "delineatore_di_curva_stretta_o_di_tornante_e",
@@ -1108,7 +1108,7 @@
         "titleAR": "إشارة ضوئية مركبة عادية",
         "contentIT": "La lanterna semaforica, comunemente chiamata semaforo, è posta in corrispondenza di un incrocio e regola il transito di tutti i veicoli. Con luce verde accesa consente l'attraversamento dell'incrocio. Con luce gialla fissa, che indica che si sta per accendere la luce rossa, consente l'attraversamento dell'incrocio solo se lo si è già impegnato. Con luce rossa accesa impone l'arresto del veicolo. Con luce gialla lampeggiante, che indica che il semaforo è spento o guasto, si può impegnare l'incrocio con prudenza, dando la precedenza ai veicoli provenienti da destra. È sbagliato dire che il semaforo normale regola la corrente veicolare di corsia, poiché vale invece per tutte le direzioni, o che regola l'ingresso nei caselli autostradali, o che vale solo per veicoli di trasporto pubblico o per velocipedi.",
         "contentAR": "إشارة المرور الضوئية، والتي تسمى عادةً إشارة مرور، توضع عند التقاطع وتنظم حركة جميع المركبات. عندما يكون الضوء الأخضر مضاءً، يسمح بعبور التقاطع. عندما يكون الضوء الأصفر ثابتاً، مما يعني أن الضوء الأحمر على وشك الإضاءة، يسمح بعبور التقاطع فقط إذا كان السائق قد دخل فيه بالفعل. عندما يكون الضوء الأحمر مضاءً، يفرض توقف المركبة. عندما يكون الضوء الأصفر وامضاً، مما يعني أن الإشارة الضوئية مطفأة أو معطلة، يمكن عبور التقاطع بحذر، مع إعطاء الأولوية للمركبات القادمة من اليمين. من الخطأ القول إن الإشارة الضوئية العادية تنظم تدفق المركبات في الحارة، لأنها تنطبق على جميع الاتجاهات، أو أنها تنظم الدخول إلى محطات الرسوم على الطرق السريعة، أو أنها تنطبق فقط على مركبات النقل العام أو الدراجات الهوائية.",
-        "imageUrl": "/signs/qb_154.png"
+        "imageUrl": "/signs/la_luce_rossa_del_semaforo_e_qb_154.png"
       },
       {
         "topicKey": "la_luce_rossa_del_semaforo_e",
@@ -1124,7 +1124,7 @@
         "titleAR": "عندما تكون الإشارة الضوئية خضراء في اتجاهنا",
         "contentIT": "Quando il semaforo è verde, possiamo impegnare e attraversare l'incrocio usando prudenza. Possiamo proseguire diritto, svoltare a destra, lasciando passare prima i pedoni che attraversano la strada, oppure svoltare a sinistra, dando la precedenza ai pedoni e ai veicoli provenienti di fronte. È sbagliato dire che abbiamo in ogni caso precedenza sui pedoni, che possiamo solamente proseguire diritto, che possiamo svoltare solo se la semicarreggiata è divisa in corsie o quando compare il giallo, o che dobbiamo girare subito a sinistra appena scatta il verde, senza dare la precedenza ai pedoni e ai veicoli provenienti dal senso opposto.",
         "contentAR": "عندما تكون الإشارة الضوئية خضراء، يمكننا الدخول إلى التقاطع وعبوره بحذر. يمكننا السير مباشرة، أو الانعطاف يمينًا مع إعطاء الأولوية للمشاة الذين يعبرون الطريق، أو الانعطاف يسارًا مع إعطاء الأولوية للمشاة والمركبات القادمة من الأمام. من الخطأ القول إن لنا الأولوية على المشاة في جميع الأحوال، أو أنه يمكننا السير مباشرة فقط، أو أنه يمكننا الانعطاف فقط إذا كان نصف الطريق مقسمًا إلى حارات أو عند ظهور الضوء الأصفر، أو أنه يجب علينا الانعطاف يسارًا فور ظهور الضوء الأخضر دون إعطاء الأولوية للمشاة والمركبات القادمة من الاتجاه المعاكس.",
-        "imageUrl": "/signs/qb_383.png"
+        "imageUrl": "/signs/segnali_del_vigile_qb_383.png"
       },
       {
         "topicKey": "la_luce_gialla_fissa_del_semaforo_e",
@@ -1148,7 +1148,7 @@
         "titleAR": "إشارات ضوئية صفراء وامضة",
         "contentIT": "Il tipo A, che si trova quando il semaforo è spento o guasto, prescrive di usare prudenza, diminuire la velocità e dare precedenza ai veicoli di destra. I tipi B e C sono affiancati a un semaforo veicolare normale per ricordare ai veicoli che vogliono svoltare di dover prima dare la precedenza rispettivamente ai pedoni, per il tipo B, o ai ciclisti, per il tipo C. È sbagliato dire che sono dispositivi a luce fissa, poiché le luci sono gialle lampeggianti, o che indicano una pista pedonale per il tipo B e una pista ciclabile per il tipo C.",
         "contentAR": "النوع أ، الذي يوجد عندما تكون الإشارة الضوئية مطفأة أو معطلة، يفرض توخي الحذر وتخفيف السرعة وإعطاء الأولوية للمركبات القادمة من اليمين. النوعان ب و ج يوضعان بجانب إشارة ضوئية عادية لتذكير المركبات التي تريد الانعطاف بأنه يجب عليها أولاً إعطاء الأولوية للمشاة في النوع ب، أو لراكبي الدراجات في النوع ج. من الخطأ القول إنها أجهزة ذات ضوء ثابت، لأن الأضواء صفراء وامضة، أو أنها تشير إلى ممر للمشاة في النوع ب ومسار للدراجات في النوع ج.",
-        "imageUrl": "/signs/qb_35.png"
+        "imageUrl": "/signs/cunetta_qb_35.png"
       },
       {
         "topicKey": "incontrando_il_semaforo_a_tre_luci_e_consentito_il",
@@ -1156,7 +1156,7 @@
         "titleAR": "عند مواجهة إشارة ضوئية ثلاثية الأضواء، يُسمح بالمرور",
         "contentIT": "Il passaggio è consentito quando il semaforo è guasto, usando però la massima prudenza e moderando la velocità. È consentito anche quando è acceso il giallo lampeggiante come segnalazione di pericolo, ad esempio nelle ore in cui il semaforo è spento. È consentito quando è acceso il segnale a luce verde, oppure quando si accende il giallo fisso, che indica che sta per accendersi la luce rossa, e non ci si può fermare in condizioni di sicurezza prima dell'incrocio. È sbagliato dire che è consentito il passaggio poco prima che si accenda il verde, oppure quando è accesa la luce rossa ma non vengono veicoli dalla direzione consentita, quando si accende il segnale a luce rossa per tutte le direzioni, o quando si impegna ugualmente l'incrocio usando la massima prudenza.",
         "contentAR": "يُسمح بالمرور عندما تكون الإشارة الضوئية معطلة، مع استخدام أقصى درجات الحذر وتخفيف السرعة. يُسمح أيضًا عندما يكون الضوء الأصفر الوامض مضاءً كإشارة خطر، مثلاً في الساعات التي تكون فيها الإشارة الضوئية مطفأة. يُسمح عندما يكون الضوء الأخضر مضاءً، أو عندما يضيء الضوء الأصفر الثابت مما يشير إلى أن الضوء الأحمر على وشك الإضاءة، ولم يكن من الممكن التوقف بأمان قبل التقاطع. من الخطأ القول إن المرور مسموح به قبل إضاءة الضوء الأخضر بقليل، أو عندما يكون الضوء الأحمر مضاءً ولكن لا توجد مركبات قادمة من الاتجاه المسموح، أو عندما يضيء الضوء الأحمر في جميع الاتجاهات، أو عندما يدخل السائق إلى التقاطع مع استخدام أقصى درجات الحذر.",
-        "imageUrl": "/signs/qb_154.png"
+        "imageUrl": "/signs/la_luce_rossa_del_semaforo_e_qb_154.png"
       },
       {
         "topicKey": "semafori_veicolari_di_corsia",
@@ -1196,7 +1196,7 @@
         "titleAR": "الإشارات اليدوية لشرطي المرور",
         "contentIT": "I segnali manuali degli agenti del traffico (polizia stradale, municipale, ecc.) in servizio prevalgono sempre sulla segnaletica luminosa, verticale e orizzontale (Art. 39 CdS). Il braccio alzato verticalmente impone l'obbligo di fermarsi a tutti i veicoli che si avvicinano. Il braccio teso orizzontalmente impone l'obbligo di fermata ai veicoli che provengono dalla direzione indicata dal braccio (dietro l'agente), mentre consente il passaggio ai veicoli provenienti di fronte e dai lati. Disobbedire a un segnale manuale di un agente accertatore costituisce una grave infrazione. L'agente deve essere riconoscibile e in posizione ben visibile.",
         "contentAR": "للإشارات اليدوية التي يصدرها ضباط المرور (الشرطة المرورية، البلدية، إلخ) أثناء الخدمة الأسبقية دائمًا على الإشارات الضوئية والرأسية والأفقية (المادة 39 من قانون المرور). الذراع المرفوع عموديًا يفرض إلزام التوقف لجميع المركبات المقتربة. الذراع الممدود أفقيًا يفرض إلزام التوقف للمركبات القادمة من الاتجاه الذي يشير إليه الذراع (خلف الضابط)، بينما يسمح بمرور المركبات القادمة من الأمام والجوانب. عصيان إشارة يدوية صادرة عن ضابط مرور يعتبر مخالفة جسيمة. يجب أن يكون الضابط واضح المعالم وفي موقع مرئي جيدًا.",
-        "imageUrl": "/signs/qb_383.png"
+        "imageUrl": "/signs/segnali_del_vigile_qb_383.png"
       }
     ]
   },
@@ -1225,7 +1225,7 @@
         "titleAR": "الخط الأبيض المتصل",
         "contentIT": "La striscia bianca continua divide la carreggiata in due semicarreggiate e non può essere oltrepassata. È vietato marciarvi a cavallo e fare l'inversione di marcia, ma consente la manovra di sorpasso senza superarla. Sulle strade a doppio senso delimita il senso di marcia. È posta particolarmente nei dossi e può trovarsi in prossimità di attraversamenti pedonali o ciclabili. È sbagliato dire che la striscia continua divide la strada in due carreggiate, poiché per dividere una strada in due carreggiate occorre lo spartitraffico, o che su strade a senso unico è posta nelle strettoie e nei rettilinei.",
         "contentAR": "الخط الأبيض المتصل يقسم مسار المركبات إلى نصفين ولا يمكن تجاوزه. يُمنع السير عليه وعكس اتجاه السير، ولكنه يسمح بمناورة التجاوز دون تجاوز الخط. على الطرق ذات الاتجاهين يحدد اتجاه السير. يوضع بشكل خاص عند المطبات ويمكن أن يوجد بالقرب من ممرات المشاة أو الدراجات. من الخطأ القول إن الخط المتصل يقسم الطريق إلى مسارين رئيسيين، لأن تقسيم الطريق إلى مسارين رئيسيين يتطلب حاجزًا فاصلًا مركزيًا، أو أنه على الطرق ذات الاتجاه الواحد يوضع عند الممرات الضيقة والمسارات المستقيمة.",
-        "imageUrl": "/signs/qb_515.png"
+        "imageUrl": "/signs/la_striscia_bianca_continua_qb_515.png"
       },
       {
         "topicKey": "la_striscia_bianca",
@@ -1233,7 +1233,7 @@
         "titleAR": "الخط الأبيض المتقطع (المتقطع)",
         "contentIT": "La striscia bianca discontinua divide la carreggiata in due semicarreggiate e in due corsie. Può essere oltrepassata se vengono rispettate tutte le altre norme di circolazione, ma è vietato marciarvi a cavallo. Nelle strade a doppio senso delimita il senso di marcia e costituisce la striscia di mezzeria. Consente il sorpasso occupando momentaneamente l'opposta corsia anche con tutto il veicolo. Consente l'inversione di marcia in condizioni di sicurezza. Nelle strade a senso unico divide la carreggiata in due corsie: una corsia di marcia normale e una corsia di sorpasso. Il sorpasso è consentito, anche superando la striscia, anche in curva e sui dossi. È invece vietata l'inversione di marcia. È sbagliato dire che delimita il margine della strada principale.",
         "contentAR": "الخط الأبيض المتقطع يقسم مسار المركبات إلى نصفين وحارتين. يمكن تجاوزه إذا تم احترام جميع قواعد المرور الأخرى، ولكن يُمنع السير عليه. على الطرق ذات الاتجاهين يحدد اتجاه السير ويشكل خط الوسط. يسمح بالتجاوز عن طريق شغل الحارة المقابلة مؤقتًا حتى مع المركبة بأكملها. يسمح بعكس اتجاه السير في ظروف آمنة. على الطرق ذات الاتجاه الواحد يقسم مسار المركبات إلى حارتين: حارة سير عادية وحارة تجاوز. التجاوز مسموح، حتى بتجاوز الخط، حتى في المنعطفات والمطبات. أما عكس اتجاه السير فهو ممنوع. من الخطأ القول إنه يحدد حافة الطريق الرئيسي.",
-        "imageUrl": "/signs/qb_502.png"
+        "imageUrl": "/signs/asse_il_centro_della_carreggiata_qb_502.png"
       },
       {
         "topicKey": "in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua",
@@ -1241,7 +1241,7 @@
         "titleAR": "في طريق باتجاهين، الخط الأبيض المتقطع",
         "contentIT": "La striscia divide la carreggiata in due corsie e delimita il senso di marcia, separando i due sensi. La corsia di destra è riservata alla marcia normale, quella di sinistra è riservata ai veicoli che provengono dal senso opposto, ma può essere temporaneamente usata per la manovra di sorpasso quando è libera per un tratto sufficiente. Nel predisporsi a svoltare a sinistra bisogna spostarsi lungo l'asse, rimanendo però nella semicarreggiata di destra. Si può invertire il senso di marcia, superando l'asse della carreggiata, e si può effettuare il sorpasso anche superando la striscia con tutto il veicolo. Non si può marciare a cavallo della striscia e sorpassare in qualunque condizione di traffico.",
         "contentAR": "الخط يقسم مسار المركبات إلى حارتين ويحدد اتجاه السير، ويفصل بين الاتجاهين. الحارة اليمنى مخصصة للسير العادي، والحارة اليسرى مخصصة للمركبات القادمة من الاتجاه المعاكس، ولكن يمكن استخدامها مؤقتًا لمناورة التجاوز عندما تكون خالية لمسافة كافية. عند الاستعداد للانعطاف يسارًا، يجب التحرك على طول المحور مع البقاء في النصف الأيمن من الطريق. يمكن عكس اتجاه السير بتجاوز محور الطريق، ويمكن إجراء التجاوز أيضًا بتجاوز الخط بالمركبة بأكملها. لا يمكن السير على الخط ولا التجاوز في أي ظروف مرورية.",
-        "imageUrl": "/signs/qb_502.png"
+        "imageUrl": "/signs/asse_il_centro_della_carreggiata_qb_502.png"
       },
       {
         "topicKey": "in_una_strada_a_senso_unico_con_la_striscia_bianca_discontinua",
@@ -1249,7 +1249,7 @@
         "titleAR": "في طريق باتجاه واحد مع خط أبيض متقطع",
         "contentIT": "La carreggiata è suddivisa in due corsie. La striscia bianca discontinua delimita le corsie. Normalmente la corsia di destra è destinata alla marcia normale e quella di sinistra per il sorpasso. Si può sorpassare anche superando la striscia in prossimità di dossi e in curva, poiché in una strada a senso unico non provengono veicoli di fronte. Per svoltare a sinistra occorre spostarsi nella corsia di sinistra. È vietato marciare a cavallo della striscia ed effettuare l'inversione di marcia, poiché la strada a senso unico può essere percorsa solo in un senso. È sbagliato dire che la striscia separa i due sensi di marcia, essendo a senso unico il senso di marcia è uno solo, o che in sua presenza si può sempre circolare per file parallele, poiché è necessario che la strada abbia alta densità di traffico.",
         "contentAR": "ينقسم مسار المركبات إلى حارتين. الخط الأبيض المتقطع يفصل بين الحارات. عادةً ما تكون الحارة اليمنى للقيادة العادية والحارة اليسرى للتجاوز. يمكن التجاوز حتى بتجاوز الخط عند المطبات والمنعطفات، لأنه في طريق باتجاه واحد لا تأتي مركبات من الأمام. للانعطاف يسارًا، يجب الانتقال إلى الحارة اليسرى. يُمنع السير على الخط وعكس اتجاه السير، لأن الطريق باتجاه واحد لا يمكن سلوكه إلا في اتجاه واحد. من الخطأ القول إن الخط يفصل بين اتجاهي السير، حيث أن اتجاه السير واحد فقط، أو أنه يمكن دائمًا السير في صفوف متوازية، لأن ذلك يتطلب طريقًا عالي الكثافة المرورية.",
-        "imageUrl": "/signs/qb_502.png"
+        "imageUrl": "/signs/asse_il_centro_della_carreggiata_qb_502.png"
       },
       {
         "topicKey": "striscia_longitudinale_continua_e_discontinua",
@@ -1400,7 +1400,7 @@
         "titleAR": "السير في صفوف متوازية",
         "contentIT": "La marcia per file parallele è ammessa nelle carreggiate con almeno due corsie per senso di marcia o con almeno due corsie a senso unico, in presenza di alta densità di traffico. È consentita anche quando lo dispone il vigile, oppure avvicinandosi ad un incrocio regolato da semaforo o da vigile; in questo caso, all'accensione della luce verde, la circolazione per file parallele deve continuare anche all'interno dell'area dell'incrocio. Non è invece consentita quando le condizioni di visibilità lo consentono, sempre nei centri urbani, lungo il tronco stradale che conduce ad un incrocio non regolato, su strada a doppio senso con due corsie complessive, o solo su carreggiate a tre corsie per senso di marcia se non ad alta densità di traffico.",
         "contentAR": "يُسمح بالسير في صفوف متوازية على مسارات المركبات التي تحتوي على حارتين على الأقل في كل اتجاه، أو على الأقل حارتين في اتجاه واحد، وذلك في حالة كثافة مرورية عالية. يُسمح بذلك أيضًا عندما يأمر بذلك شرطي المرور، أو عند الاقتراب من تقاطع منظم بإشارة ضوئية أو من قبل شرطي؛ في هذه الحالة، عند إضاءة الضوء الأخضر، يجب أن يستمر السير في صفوف متوازية حتى داخل منطقة التقاطع. لا يُسمح بذلك عندما تسمح ظروف الرؤية بذلك، أو دائمًا في المراكز الحضرية، أو على طول الجزء المؤدي إلى تقاطع غير منظم، أو على طريق ثنائي الاتجاه بحارتين فقط، أو فقط على مسارات ذات ثلاث حارات في كل اتجاه إذا لم تكن ذات كثافة مرورية عالية.",
-        "imageUrl": "/signs/qb_302.png"
+        "imageUrl": "/signs/pannelli_posteriori_trasporto_cose_qb_302.png"
       },
       {
         "topicKey": "debbono_essere_tenuti_il_piu_possibile_vicino_al_margine",
@@ -1422,7 +1422,7 @@
         "titleAR": "تنفيذ الانعطاف إلى اليمين",
         "contentIT": "La svolta a destra si effettua regolando la velocità all'approssimarsi dell'incrocio, assicurandosi di non creare pericolo o intralcio agli altri utenti della strada. Bisogna presegnalare per tempo la manovra, tenersi il più vicino possibile al margine destro della carreggiata e preincanalarsi nelle corsie che consentono la manovra. Si deve lasciare alla propria sinistra il centro dell'incrocio e dare la precedenza ai pedoni che attraversano la strada in cui ci si immette. Non è corretto, invece, tenersi sulla corsia di sinistra, portarsi in prossimità del centro dell'incrocio, preincolonnarsi in qualsiasi corsia se è ammessa la marcia per file parallele, o girare attorno alla colonnina luminosa eventualmente posta al centro dell'incrocio.",
         "contentAR": "يتم تنفيذ الانعطاف إلى اليمين من خلال تعديل السرعة عند الاقتراب من التقاطع، والتأكد من عدم التسبب في خطر أو إعاقة لمستخدمي الطريق الآخرين. يجب الإشارة إلى المناورة مسبقًا، والبقاء قريبًا قدر الإمكان من الحافة اليمنى لمسار المركبات، والدخول في الحارات المخصصة لهذه المناورة. يجب ترك مركز التقاطع على الجهة اليسرى، وإعطاء الأولوية للمشاة الذين يعبرون الطريق الذي سيتم الدخول إليه. من الخطأ البقاء في الحارة اليسرى، أو الاقتراب من مركز التقاطع، أو الاصطفاف في أي حارة إذا كان السير في صفوف متوازية مسموحًا به، أو الالتفاف حول العمود الضوئي الموضوع في مركز التقاطع.",
-        "imageUrl": "/signs/qb_572.png"
+        "imageUrl": "/signs/la_svolta_a_destra_si_qb_572.png"
       },
       {
         "topicKey": "svolta_a_sinistra",
@@ -1430,7 +1430,7 @@
         "titleAR": "تنفيذ الانعطاف إلى اليسار",
         "contentIT": "Per effettuare la svolta a sinistra, dopo aver controllato dallo specchio retrovisore che nessun veicolo che segue abbia iniziato il sorpasso, si aziona l'indicatore di direzione. Su strada a doppio senso ci si sposta verso l'asse della carreggiata, mentre su strada a senso unico ci si avvicina il più possibile al margine sinistro. Successivamente ci si sposta in prossimità del centro dell'incrocio, per evitare di imboccare contromano la nuova strada, e si svolta dando la precedenza ai veicoli che provengono da destra, di fronte e ai pedoni. Se è presente il segnale di rotatoria, si occupa l'area di destra lasciando a sinistra il centro dell'incrocio; in caso contrario, si occupa l'area di sinistra lasciando a destra il centro dell'incrocio.",
         "contentAR": "لتنفيذ الانعطاف إلى اليسار، بعد التحقق من المرآة الخلفية من عدم بدء أي مركبة خلفية في عملية التجاوز، يتم تشغيل مؤشر الاتجاه. في طريق ثنائي الاتجاه، يجب التحرك نحو محور مسار المركبات، بينما في طريق أحادي الاتجاه، يجب الاقتراب قدر الإمكان من الحافة اليسرى. بعد ذلك، يجب التحرك بالقرب من مركز التقاطع لتجنب الدخول عكس الاتجاه في الطريق الجديد، ثم الانعطاف مع إعطاء الأولوية للمركبات القادمة من اليمين، ومن الأمام، وكذلك للمشاة. إذا كانت هناك إشارة 'دوار'، يتم شغل المنطقة اليمنى تاركًا مركز التقاطع على اليسار؛ وإلا، يتم شغل المنطقة اليسرى تاركًا مركز التقاطع على اليمين.",
-        "imageUrl": "/signs/qb_599.png"
+        "imageUrl": "/signs/intersezione_incrocio_a_raso_qb_599.png"
       },
       {
         "topicKey": "in_prossimita_o_in_corrispondenza_degli_incroci_e",
@@ -1473,7 +1473,7 @@
         "titleAR": "وجوب إعطاء الأولوية لليمين ولليسار",
         "contentIT": "È obbligatorio dare la precedenza sia a destra che a sinistra in presenza del segnale di 'Stop' e del segnale di 'Dare Precedenza'. Bisogna dare la precedenza anche ai veicoli circolanti su rotaie come tram e treni, ai veicoli in emergenza come ambulanze e polizia, negli sbocchi su strada da luoghi non soggetti a pubblico passaggio come garage o stradelle private, quando si effettua la retromarcia, l'inversione del senso di marcia e quando, da fermi, ci si immette nel flusso della circolazione. Non è invece obbligatorio dare la precedenza a destra e sinistra quando un incrocio è presegnalato dal segnale di intersezione con diritto di precedenza o dal segnale di intersezione con precedenza a destra, in caso di scarsa visibilità, quando si svolta a sinistra, dove si dà precedenza solo ai veicoli di destra e di fronte, o negli incroci con semaforo a luce gialla, dove si dà precedenza solo a destra.",
         "contentAR": "يجب إعطاء الأولوية لكل من اليمين واليسار عند وجود إشارة 'قف' وإشارة 'أفسح الطريق'. يجب إعطاء الأولوية أيضًا للمركبات التي تسير على القضبان مثل الترام والقطارات، ومركبات الطوارئ مثل سيارات الإسعاف والشرطة، وعند الخروج إلى الطريق من أماكن لا تخضع للمرور العام مثل المرائب أو الطرق الخاصة، وعند القيام بالرجوع للخلف أو عكس اتجاه السير، وعند الاندماج في تدفق المرور من حالة التوقف. لا يجب إعطاء الأولوية لليمين واليسار عندما يتم التنبيه المسبق لتقاطع بإشارة تقاطع مع حق الأولوية أو بإشارة تقاطع مع أولوية لليمين، أو في حالة ضعف الرؤية، أو عند الانعطاف يسارًا حيث تعطى الأولوية فقط للمركبات القادمة من اليمين ومن الأمام، أو في التقاطعات ذات الإشارة الضوئية الصفراء حيث تعطى الأولوية لليمين فقط.",
-        "imageUrl": "/signs/qb_647.png"
+        "imageUrl": "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_647.png"
       },
       {
         "topicKey": "ordine_di",
@@ -1897,7 +1897,7 @@
         "titleAR": "السلوك عند مواجهة مركبة بأضواء عالية مضاءة",
         "contentIT": "Se, di notte, incrociamo un veicolo con i fari abbaglianti accesi, occorre rallentare adeguatamente tenendo conto della ridotta visibilità, ed eventualmente fermarsi. Bisogna distogliere lo sguardo dal fascio luminoso, evitare brusche manovre e cambi di corsia, e procedere con prudenza usando le luci anabbaglianti.",
         "contentAR": "إذا صادفنا ليلاً مركبة بأضواء عالية مضاءة، يجب تخفيف السرعة بشكل مناسب مع مراعاة ضعف الرؤية، والتوقف إذا لزم الأمر. يجب صرف النظر عن شعاع الضوء، وتجنب المناورات المفاجئة وتغيير المسار، والاستمرار بحذر باستخدام الأضواء المنخفضة.",
-        "imageUrl": "/signs/qb_668.png"
+        "imageUrl": "/signs/incrociamo_un_veicolo_con_fari_abbaglianti_accesi_qb_668.png"
       },
       {
         "topicKey": "proiettore_abbagliante_e",
@@ -2009,7 +2009,7 @@
         "titleAR": "رمز الاحتياطي للوقود",
         "contentIT": "Il simbolo contraddistingue una spia luminosa di riserva carburante, di colore giallo. Quando accesa, indica che il veicolo sta utilizzando la riserva di carburante e che la benzina sta per finire. Identifica un dispositivo che fornisce informazioni sulla situazione del carburante e integra l'indicatore di livello del carburante. Il simbolo non identifica il bocchettone di caricamento del carburante.",
         "contentAR": "يميز الرمز ضوء المؤشر الخاص باحتياطي الوقود، وهو باللون الأصفر. عند إضاءته، يشير إلى أن المركبة تعمل على الوقود الاحتياطي وأن الوقود على وشك النفاد. يحدد الرمز جهازًا يقدم معلومات عن حالة الوقود، ويكمل مؤشر مستوى الوقود. لا يحدد الرمز فتحة تعبئة الوقود.",
-        "imageUrl": "/signs/qb_704.png"
+        "imageUrl": "/signs/simbolo_della_riserva_carburante_qb_704.png"
       },
       {
         "topicKey": "acqua_e",
@@ -2032,7 +2032,7 @@
         "titleAR": "مؤشر ضغط الزيت",
         "contentIT": "Il simbolo è posto su una spia di colore rosso che dà indicazioni sulla pressione del lubrificante nel motore. Con spia spenta e motore acceso, indica che la pressione dell'olio è regolare. Con spia accesa, indica una pressione insufficiente dell'olio del motore; se la spia rimane accesa durante la marcia, è necessario fermarsi subito per evitare gravi danni. La spia non indica il livello, il consumo o la temperatura dell'olio, ma solo la pressione. Non è corretto dire che quando la spia è accesa bisogna cambiare l'olio, oppure che è di colore giallo ambra.",
         "contentAR": "الرمز موجود على ضوء مؤشر أحمر يعطي معلومات عن ضغط زيت التشحيم في المحرك. عندما يكون المؤشر مطفأ والمحرك يعمل، فهذا يشير إلى أن ضغط الزيت منتظم. عندما يكون المؤشر مضاءً، فهذا يشير إلى انخفاض ضغط زيت المحرك؛ وإذا بقي المؤشر مضاءً أثناء القيادة، يجب التوقف فورًا لتجنب أضرار جسيمة. لا يشير هذا المؤشر إلى مستوى الزيت أو استهلاكه أو درجة حرارته، بل إلى الضغط فقط. ليس من الصحيح القول إنه عندما يضيء المؤشر يجب تغيير الزيت، أو أنه باللون الأصفر الكهرماني.",
-        "imageUrl": "/signs/qb_706.png"
+        "imageUrl": "/signs/simbolo_della_riserva_carburante_qb_706.png"
       },
       {
         "topicKey": "simbolo_del_lunotto_termico",
@@ -2185,7 +2185,7 @@
         "titleAR": "العلامة التحذيرية المسبقة لموقع عمل متحرك",
         "contentIT": "Questo segnale può essere applicato dietro ai mezzi di lavoro, come pale meccaniche ed escavatori, a copertura di un cantiere stradale o per preavvisare un cantiere mobile. Indica che a 500 metri ci sono operai al lavoro sulla strada e che la carreggiata si restringe di una corsia. Può essere dotato di luci gialle lampeggianti. Non è corretto dire che indica la deviazione di un itinerario, poiché indica invece un restringimento della carreggiata, né che il cantiere è lungo 500 metri.",
         "contentAR": "يمكن وضع هذه الإشارة خلف آلات العمل مثل الجرافات والحفارات، لتغطية موقع عمل على الطريق أو للتحذير المسبق من موقع عمل متحرك. تشير إلى وجود عمال يعملون على الطريق على بعد 500 متر، وإلى أن مسار المركبات يضيق بحارة واحدة. قد تكون مزودة بأضواء صفراء وامضة. ليس من الصحيح القول إنها تشير إلى انحراف مسار، بل تشير إلى تضييق مسار المركبات، ولا تعني أن موقع العمل طوله 500 متر.",
-        "imageUrl": "/signs/qb_280.png"
+        "imageUrl": "/signs/presegnale_di_cantiere_mobile_qb_280.png"
       },
       {
         "topicKey": "il_traino_di_un_veicolo_in",

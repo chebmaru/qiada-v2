@@ -1,0 +1,3124 @@
+[
+  {
+    "text": "È consentito aumentare le prestazioni del proprio veicolo modificandone le impostazioni elettroniche della centralina che controlla l’iniezione di carburante",
+    "answer": false,
+    "img": "",
+    "chapter": "incidenti-stradali-comportamenti",
+    "topic": "obblighi-dopo-incidente-stradale"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo S transita dopo il veicolo T, ma prima del veicolo A",
+    "answer": false,
+    "img": "/img_sign/636.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-636"
+  },
+  {
+    "text": "E’ vietato il sorpasso se alla sinistra del veicolo si trova una linea bianca discontinua affiancata da una continua",
+    "answer": false,
+    "img": "",
+    "chapter": "sorpasso",
+    "topic": "sorpasso-prossimita-dosso"
+  },
+  {
+    "text": "In un rimorchio dotato di freno a inerzia l’effetto della frenata avviene quando il rimorchio si avvicina alla motrice",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Dotazione-rimorchio"
+  },
+  {
+    "text": "Nell'intersezione di figura il veicolo B deve dare la precedenza al veicolo S",
+    "answer": true,
+    "img": "/img_sign/664.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-664"
+  },
+  {
+    "text": "L’errata impostazione dell’orientamento dei proiettori può ridurre la visibilità del conducente o abbagliare gli altri utenti",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "luci-anabbaglianti"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere almeno pari a quello della distanza di visibilità",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base alla cilindrata del veicolo",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura, il veicolo E passa dopo il veicolo A e il veicolo B passa dopo il veicolo E",
+    "answer": true,
+    "img": "/img_sign/662.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-662"
+  },
+  {
+    "text": "Nell'attraversare l'incrocio in figura il veicolo A ha la precedenza sul veicolo D",
+    "answer": true,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "strade extraurbane, il valore della distanza di sicurezza è sempre pari a 70 metri",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo A passa per primo",
+    "answer": true,
+    "img": "/img_sign/634.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-634"
+  },
+  {
+    "text": "L’illuminazione interna dello specchio retrovisore si accende con l’accensione delle luci di posizione del veicolo",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "utilizzo-specchi-retrovisori"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: F, R, D",
+    "answer": false,
+    "img": "/img_sign/631.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-631"
+  },
+  {
+    "text": "I delineatori raffigurati vengono posti a distanza di almeno 100 metri l’uno dall’altro",
+    "answer": false,
+    "img": "/img_sign/290.png",
+    "chapter": "segnali-complementari-cantiere",
+    "topic": "delineatori-margine"
+  },
+  {
+    "text": "L’airbag deve essere gonfiato periodicamente per verificarne l’efficienza",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "valore della distanza di sicurezza da mantenere da una macchina spanditrice di sale in azione è di 15 metri",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "La corsia di accelerazione serve per rientrare sulla carreggiata dell’autostrada dopo che si è usciti da un’area di servizio",
+    "answer": true,
+    "img": "",
+    "chapter": "definizioni-generali-doveri-strada",
+    "topic": "corsia-accelerazione"
+  },
+  {
+    "text": "conducente deve valutare la distanza di sicurezza con riferimento anche alla velocità del veicolo che lo precede",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "L’airbag è utile soltanto nei percorsi extraurbani",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Si devono usare gli indicatori di direzione per segnalare l’intenzione di entrare sulla carreggiata autostradale, provenendo da una corsia di accelerazione",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "utilizzo-degli-indicatori-direzione"
+  },
+  {
+    "text": "In presenza del segnale raffigurato il conducente deve moderare la velocità per la possibile presenza di autocarri in lento movimento",
+    "answer": true,
+    "img": "/img_sign/968.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "autocarri-rallentamento"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario quando si effettuano manovre di retromarcia",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Nell'attraversare l'incrocio in figura il veicolo A passa per ultimo",
+    "answer": false,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N transita dopo il veicolo S e prima del veicolo C",
+    "answer": true,
+    "img": "/img_sign/668.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-668"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura i veicoli transitano nell'ordine: C, R, A, H",
+    "answer": true,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo H deve attendere il transito dei veicoli C, R, A",
+    "answer": true,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "La revisione della patente di guida può essere disposta qualora sorgano dubbi che il conducente sia ancora in possesso dell’idoneità tecnica alla guida",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: A, N, R",
+    "answer": false,
+    "img": "/img_sign/633.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-633"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: H, A, C, D",
+    "answer": false,
+    "img": "/img_sign/646.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-646"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli A e R passano contemporaneamente",
+    "answer": false,
+    "img": "/img_sign/604.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-604"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario per segnalare che si vuole effettuare un cambio di corsia",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Gli stivali ad uso motociclistico proteggono i piedi da abrasioni sull’asfalto in caso di caduta",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "stivali-uso-motociclistico"
+  },
+  {
+    "text": "L’airbag entra in funzione in caso di incidente stradale con urto violento",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "L’airbag si gonfia in pochi millisecondi",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo L deve attendere il transito dei veicoli E e C",
+    "answer": true,
+    "img": "/img_sign/661.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-661"
+  },
+  {
+    "text": "E’ bene che il casco sia dotato di visiera",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "utilizzo-casco"
+  },
+  {
+    "text": "Nell’incrocio rappresentato in figura, tutti i veicoli devono usare prudenza nell’attraversarlo",
+    "answer": true,
+    "img": "/img_sign/642.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-642"
+  },
+  {
+    "text": "conducente deve commisurare la distanza di sicurezza anche in base alla propria prontezza di riflessi",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo H deve attendere il transito del veicolo F",
+    "answer": false,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "Quando si circola a bordo di un motociclo, è opportuno indossare gli specifici guanti anche d’estate",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "guanti-uso-motociclistico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo E deve attendere il transito del veicolo L",
+    "answer": true,
+    "img": "/img_sign/650.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-650"
+  },
+  {
+    "text": "La sospensione della patente può essere disposta nei confronti di chi abbia falsificato o contraffatto i documenti relativi all’assicurazione del veicolo",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "sospensione-patente-guida"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è vietato, di norma, durante la marcia nei centri abitati",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, E, V, H, C",
+    "answer": true,
+    "img": "/img_sign/665.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-665"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base alle condizioni del traffico",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo A attraversa l'incrocio prima del veicolo C",
+    "answer": false,
+    "img": "/img_sign/646.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-646"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante) per segnalare al veicolo che precede, sia di giorno che di notte, l’intenzione di sorpassare",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Trainando un rimorchio occorre verificare che il carico gravante sul gancio non alteri l’assetto del veicolo e l’inclinazione del fascio luminoso dei fari",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Guida-veicoli-rimorchio"
+  },
+  {
+    "text": "E’ di norma vietato condurre sulle strade pubbliche un autoveicolo non immatricolato",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "veicoli-strade-pubbliche"
+  },
+  {
+    "text": "La revisione della patente di guida può essere disposta quando il titolare circola su un veicolo che non è di sua proprietà e non ha un’autorizzazione scritta del proprietario",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T, B, C, A",
+    "answer": false,
+    "img": "/img_sign/639.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-639"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura i veicoli transitano nell'ordine: C, R, H, A",
+    "answer": false,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo R passa dopo il transito del veicolo A",
+    "answer": false,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo H transita dopo il veicolo O",
+    "answer": false,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: E, L, C",
+    "answer": false,
+    "img": "/img_sign/661.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-661"
+  },
+  {
+    "text": "L'attenzione alla guida diminuisce quando si è affaticati",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: N, A, R",
+    "answer": true,
+    "img": "/img_sign/633.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-633"
+  },
+  {
+    "text": "Chi guida un’autovettura munito di autorizzazione ad esercitarsi alla guida (foglio rosa), non è obbligato ad utilizzare la cintura di sicurezza",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "situazioni-particolari-sicurezza"
+  },
+  {
+    "text": "Se un’autovettura è munita di airbag, è possibile trasportare bambini sul sedile anteriore assicurati ad idoneo seggiolino solo se il veicolo è dotato di comando per disattivare l’airbag stesso",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "sistemi-trasporto-bambini"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve attendere che siano transitati i veicoli S ed E",
+    "answer": false,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Ogni patente di guida ha un’attribuzione iniziale di 30 punti",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "violazioni-decurtazione-punti-patente"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: T, O, A",
+    "answer": true,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Il simbolo raffigurato è posto su una spia che, se accesa, segnala l’eccessiva temperatura dell’olio di lubrificazione del cambio di velocità",
+    "answer": false,
+    "img": "/img_sign/704.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-temperatura-liquido-raffreddamento"
+  },
+  {
+    "text": "Con la patente di categoria A1 si possono condurre le macchine operatrici non eccezionali",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Patente-categoria-a1"
+  },
+  {
+    "text": "E’ consentito il trasporto di bambini senza che siano assicurati a sistemi di ritenuta, purché sui sedili anteriori e a portata di braccio del conducente",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "sistemi-trasporto-bambini"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base all’efficienza dei freni",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "L’uso del casco è necessario per ridurre gli effetti di eventuali urti alla testa",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "utilizzo-casco"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo A deve attendere che siano transitati i veicoli L e C",
+    "answer": false,
+    "img": "/img_sign/634.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-634"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base all’andamento planoaltimetrico della strada",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "La presenza di uno dei due pannelli integrativi in figura indica l’incrocio con una strada dalla quale si immettono autocarri provenienti da una discarica",
+    "answer": false,
+    "img": "/img_sign/143.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "presenza-tornanti"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A passa contemporaneamente al veicolo D",
+    "answer": false,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), soltanto sulle strade extraurbane",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Il simbolo raffigurato individua il luogo ove è riposto l’estintore di bordo",
+    "answer": false,
+    "img": "/img_sign/721.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-impianto-frenante"
+  },
+  {
+    "text": "Le cinture di sicurezza hanno lo scopo di evitare che il conducente o i passeggeri siano proiettati all’esterno della autovettura in caso di urto violento",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "Scopo-utilizzo-cinture-sicurezza"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo A deve dare la precedenza al veicolo B",
+    "answer": false,
+    "img": "/img_sign/662.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-662"
+  },
+  {
+    "text": "In presenza del segnale raffigurato è consentito il transito ai quadricicli a motore",
+    "answer": true,
+    "img": "/img_sign/71.png",
+    "chapter": "segnali-divieto",
+    "topic": "transito-macchine-agricole"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo A deve attendere il transito dei veicoli C ed R",
+    "answer": true,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo E passa prima dell'autocarro N, dopo il transito del veicolo L",
+    "answer": true,
+    "img": "/img_sign/650.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-650"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo S transita per ultimo",
+    "answer": true,
+    "img": "/img_sign/616.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-616"
+  },
+  {
+    "text": "L’airbag non va usato insieme alle cinture di sicurezza",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N può concludere la manovra di svolta a sinistra dopo il transito dei veicoli R e A",
+    "answer": true,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario nella marcia per file parallele, anche se non si effettuano cambiamenti di corsia",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "L’airbag può essere talvolta disattivabile",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: R, C, A",
+    "answer": false,
+    "img": "/img_sign/657.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-657"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo B passa prima del veicolo L",
+    "answer": true,
+    "img": "/img_sign/643.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-643"
+  },
+  {
+    "text": "Il pannello integrativo raffigurato (A) indica una strada in discesa",
+    "answer": false,
+    "img": "/img_sign/130.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "termine-prescrizione"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita per primo",
+    "answer": false,
+    "img": "/img_sign/636.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-636"
+  },
+  {
+    "text": "Il segnale raffigurato è posto all’inizio di un’area vietata alle biciclette",
+    "answer": false,
+    "img": "/img_sign/111.png",
+    "chapter": "segnali-obbligo",
+    "topic": "fine-percorso-biciclette"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo G transita per primo",
+    "answer": false,
+    "img": "/img_sign/648.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-648"
+  },
+  {
+    "text": "Gli ammortizzatori servono, tra l’altro, a garantire la tenuta di strada del veicolo",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "ammortizzatori-sovraccarico"
+  },
+  {
+    "text": "Il segnale raffigurato indica che per S. Cesareo mancano 7 chilometri",
+    "answer": true,
+    "img": "/img_sign/183.png",
+    "chapter": "segnali-indicazione",
+    "topic": "fine-centro-abitato"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo R passa prima del veicolo A",
+    "answer": true,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "La patente di categoria B consente di guidare un’autovettura che traina un rimorchio, con massa del complesso veicolare pari a 4.500 chilogrammi",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Patente-categoria-B"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), esclusivamente nei casi di pericolo immediato",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo A transita per ultimo",
+    "answer": false,
+    "img": "/img_sign/639.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-639"
+  },
+  {
+    "text": "Per guidare un’autovettura che traina un rimorchio di massa massima autorizzata di 2.000 chilogrammi e massa massima autorizzata del complesso veicolare pari a 4.500 chilogrammi, è necessario aver conseguito la patente di categoria BE",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Patente-categoria-BE"
+  },
+  {
+    "text": "Il conducente può tarare, con apposito comando, la velocità minima d’urto al di sopra della quale far attivare l’airbag",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Su un motociclo, per lo spegnimento del motore nelle situazioni ordinarie, è preferibile utilizzare la chiave di accensione anziché l’interruttore di emergenza",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "interruttore-emergenza"
+  },
+  {
+    "text": "I nostri sensi non riescono a cogliere tutti gli stimoli presenti nell'ambiente",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Una frenatura poco efficiente o squilibrata può essere causata dall’eccessivo gioco del pedale della frizione",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: C, A, L, R, E",
+    "answer": true,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "Il segnale raffigurato è posto all’inizio di una strada extraurbana principale",
+    "answer": true,
+    "img": "/img_sign/194.png",
+    "chapter": "segnali-indicazione",
+    "topic": "inizio-strada-extraurbana"
+  },
+  {
+    "text": "Su strade coperte di neve occorre montare pneumatici invernali su tutte le ruote oppure catene sulle ruote motrici",
+    "answer": true,
+    "img": "",
+    "chapter": "incidenti-stradali-comportamenti",
+    "topic": "strade-coperte-neve"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), anche all’interno dei centri urbani, ma unicamente di giorno",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Utilizzare il cellulare alla guida è pericoloso perché riduce l'attenzione alla strada",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo A passa dopo il veicolo C",
+    "answer": true,
+    "img": "/img_sign/667.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-667"
+  },
+  {
+    "text": "Sui motocicli raffreddati ad aria, il livello del liquido di raffreddamento può essere controllato da un’apposita finestrella posta tra le alettature del motore",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "Livello-olio-liquidi"
+  },
+  {
+    "text": "In caso di principio d’incendio del veicolo, in mancanza di estintore, si può gettare sabbia o terra alla base delle fiamme",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "rischio-incendio-veicolo"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo L transita prima del veicolo R",
+    "answer": true,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "La sostituzione del tubo di scarico può essere fatta anche personalmente, senza rivolgersi ad un’officina autorizzata",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere almeno pari a quello della distanza di frenatura",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se spenta durante la marcia, indica che la pressione dell’olio di lubrificazione del motore è regolare",
+    "answer": true,
+    "img": "/img_sign/706.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-pressione-olio"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A passa per ultimo",
+    "answer": false,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo M deve attendere il transito del veicolo O",
+    "answer": true,
+    "img": "/img_sign/642.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-642"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B transita prima del veicolo O e dopo i veicoli L e H",
+    "answer": true,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica una temperatura troppo bassa dell’olio di lubrificazione del motore",
+    "answer": false,
+    "img": "/img_sign/706.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-pressione-olio"
+  },
+  {
+    "text": "I guanti ad uso motociclistico hanno come principale scopo quello di proteggere dal freddo, pertanto è inutile usarli l’estate",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "guanti-uso-motociclistico"
+  },
+  {
+    "text": "Nelle autostrade con carreggiate a tre o più corsie, ai conducenti di complessi di veicoli di lunghezza totale superiore a 7 metri, è vietato impegnare altre corsie all’infuori delle due più vicine al bordo destro della carreggiata",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Conduzione-veicoli-rimorchio"
+  },
+  {
+    "text": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resistenza al taglio e all’abrasione da impatto",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "giacche-indumenti-motociclistico"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A passa dopo i veicoli E e S, ma prima del veicolo D",
+    "answer": false,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "Il simbolo raffigurato è posto sulla spia che individua l’indicatore della temperatura dell’olio che circola nel motore",
+    "answer": false,
+    "img": "/img_sign/704.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-temperatura-liquido-raffreddamento"
+  },
+  {
+    "text": "Il segnale raffigurato preannuncia un incrocio in cui il conducente ha l’obbligo di fermarsi e dare precedenza ai veicoli provenienti da destra",
+    "answer": false,
+    "img": "/img_sign/48.png",
+    "chapter": "segnali-precedenza",
+    "topic": "intersezione-T-destra"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo O deve attendere che transitino tutti gli altri veicoli",
+    "answer": false,
+    "img": "/img_sign/642.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-642"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: R, D, F",
+    "answer": true,
+    "img": "/img_sign/631.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-631"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A deve dare la precedenza ai veicoli E e S",
+    "answer": true,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: E, C, A, L, R",
+    "answer": false,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "Le barriere segnalano un percorso ciclabile",
+    "answer": false,
+    "img": "/img_sign/276.png",
+    "chapter": "segnali-complementari-cantiere",
+    "topic": "barriera-normale"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base alla potenza del motore",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Se durante una manovra di inserimento nella circolazione si utilizza lo specchio retrovisore è bene non controllare anche con uno sguardo diretto per non distrarre l’attenzione dalla guida",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "Posizione-degli-specchi-retrovisori"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che l’alternatore non sta ricaricando la batteria",
+    "answer": true,
+    "img": "/img_sign/705.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-della-batteria"
+  },
+  {
+    "text": "Una frenatura poco efficiente o squilibrata può essere causata dall’utilizzo di veicoli con alimentazione a metano su strade di montagna",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "E’ possibile alloggiare nei caravan (roulotte) durante la circolazione, purché tutti i passeggeri allaccino le cinture di sicurezza",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Comportamenti-guida-caravan"
+  },
+  {
+    "text": "L’impianto di scarico dei veicoli elettrici necessita di manutenzione più frequente rispetto a quello dei veicoli con motore a scoppio",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Non è necessario mettere a punto i freni squilibrati, se il conducente è in grado di correggere l’anomalo comportamento del veicolo agendo sullo sterzo",
+    "answer": false,
+    "img": "",
+    "chapter": "incidenti-stradali-comportamenti",
+    "topic": "obblighi-dopo-incidente-stradale"
+  },
+  {
+    "text": "L’uso del casco durante la marcia diventa facoltativo quando la temperatura dell’aria è superiore ai trenta gradi",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "utilizzo-casco"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo A passa per primo",
+    "answer": true,
+    "img": "/img_sign/665.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-665"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O impegna l'incrocio per primo e si ferma al centro di esso",
+    "answer": false,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo C deve dare la precedenza al veicolo A",
+    "answer": true,
+    "img": "/img_sign/634.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-634"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: R, T, A",
+    "answer": false,
+    "img": "/img_sign/614.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-614"
+  },
+  {
+    "text": "E’ consentito il trasporto di bambini senza che siano assicurati a sistemi di ritenuta, purché su percorsi urbani",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "sistemi-trasporto-bambini"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo C deve attendere il transito del veicolo L",
+    "answer": false,
+    "img": "/img_sign/661.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-661"
+  },
+  {
+    "text": "La manomissione dell’impianto di scarico non comporta alcuna sanzione, purché si circoli solo nei centri urbani",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: R, A, T",
+    "answer": true,
+    "img": "/img_sign/614.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-614"
+  },
+  {
+    "text": "E’ consentito il trasporto di bambini senza che siano assicurati a sistemi di ritenuta, purché sui sedili anteriori in braccio a persona maggiorenne",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "sistemi-trasporto-bambini"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che l’olio di lubrificazione del cambio di velocità è troppo denso",
+    "answer": false,
+    "img": "/img_sign/706.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-pressione-olio"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo B deve dare la precedenza al veicolo L",
+    "answer": false,
+    "img": "/img_sign/644.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-644"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R deve passare dopo il veicolo A",
+    "answer": false,
+    "img": "/img_sign/615.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-615"
+  },
+  {
+    "text": "Il conducente che non supera l’esame di revisione della patente, subisce la revoca della patente stessa",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: D, A, R",
+    "answer": false,
+    "img": "/img_sign/604.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-604"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo O deve attendere il transito del tram e che il veicolo A si porti al centro",
+    "answer": true,
+    "img": "/img_sign/642.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-642"
+  },
+  {
+    "text": "La rottura del servosterzo si manifesta con un’eccessiva facilità di manovra dello sterzo",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "Sterzo-servosterzo"
+  },
+  {
+    "text": "I guanti da motociclisti proteggono il palmo della mano in caso di caduta con strisciamento sull’asfalto",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "guanti-uso-motociclistico"
+  },
+  {
+    "text": "Le parti dell’impianto frenante maggiormente sollecitate dalle alte temperature sono le guarnizioni di attrito",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenata-freno-stazionamento"
+  },
+  {
+    "text": "L’obbligo dell’uso del casco non riguarda i maggiorenni con più di tre anni di esperienza di guida",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "utilizzo-casco"
+  },
+  {
+    "text": "conducente deve valutare la distanza di sicurezza anche sulla base della velocità del veicolo di cui è alla guida",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Secondo le norme di precedenza, nell'incrocio rappresentato in figura, il veicolo B transita dopo i veicoli L e H",
+    "answer": true,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve passare per ultimo",
+    "answer": false,
+    "img": "/img_sign/615.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-615"
+  },
+  {
+    "text": "Il mancato utilizzo o l’uso improprio delle luci durante la guida, comporta una perdita di punti sulla patente",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "perdita-punti-patente"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo T deve attendere il transito del veicolo A",
+    "answer": false,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa per primo",
+    "answer": false,
+    "img": "/img_sign/615.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-615"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo L attraversa l'incrocio per primo",
+    "answer": true,
+    "img": "/img_sign/618.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-618"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo T deve attendere il transito dei veicoli R ed A",
+    "answer": true,
+    "img": "/img_sign/614.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-614"
+  },
+  {
+    "text": "Il pannello integrativo raffigurato (A) indica una strada chiusa al traffico",
+    "answer": false,
+    "img": "/img_sign/130.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "termine-prescrizione"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è sempre ammesso quando si trasportano feriti o ammalati gravi",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Gli specchietti esterni montati sulla motrice possono sporgere fino a 50 centimetri dalla sagoma del veicolo di maggiore ingombro, qualora siano posizionati ad un’altezza da terra non superiore a 1 metro",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Conduzione-veicoli-rimorchio"
+  },
+  {
+    "text": "Nel caso di ingombro della carreggiata per caduta accidentale del carico il conducente deve presegnalare l'ostacolo mediante il segnale di STOP",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "ingombro-carreggiata-caduta-carico"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario quando ci si arresta ad un semaforo rosso",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Una frenatura poco efficiente o squilibrata può essere causata dalla presenza d’aria o vapore nel circuito frenante idraulico",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O deve attendere il transito del veicolo A",
+    "answer": false,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Non è obbligatorio l’uso delle cinture di sicurezza sui veicoli muniti di air-bag",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "Scopo-utilizzo-cinture-sicurezza"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo L deve attendere il transito del veicolo R",
+    "answer": false,
+    "img": "/img_sign/650.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-650"
+  },
+  {
+    "text": "Quando si circola nelle zone a velocità controllata inferiore a 30 km/h, non è obbligatorio l’uso del casco",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "utilizzo-casco"
+  },
+  {
+    "text": "valore della distanza di sicurezza da mantenere da una macchina sgombraneve in azione è di 20 metri",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "L’airbag è un cuscino gonfiabile di nylon o altro materiale sintetico",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo A non deve dare la precedenza ad alcun veicolo",
+    "answer": true,
+    "img": "/img_sign/662.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-662"
+  },
+  {
+    "text": "Il segnale raffigurato è un segnale di DIVIETO DI SOSTA TEMPORANEO",
+    "answer": true,
+    "img": "/img_sign/148.png",
+    "chapter": "segnali-divieto",
+    "topic": "divieto-sosta-temporaneo"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), sia di giorno che di notte, per dare avvertimenti utili al fine di evitare incidenti",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è necessario nelle gallerie urbane a senso unico",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita subito dopo il veicolo T",
+    "answer": true,
+    "img": "/img_sign/636.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-636"
+  },
+  {
+    "text": "Gli stivali ad uso motociclistico sono privi di nastri liberi o stringhe per evitarne l’aggancio alle pedivelle dei motocicli",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "stivali-uso-motociclistico"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è necessario, di giorno, se si circola su un’autostrada viaggiando controsole",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo S transita prima di tutti gli altri veicoli",
+    "answer": true,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Il codice armonizzato 96, apposto sulla patente di categoria B, indica che il titolare può condurre un’autovettura che traina un rimorchio solo in Italia",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Codice-armonizzato-96"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura i veicoli debbono transitare nell'ordine: H,A, F, L",
+    "answer": true,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo B deve dare la precedenza al veicolo A",
+    "answer": false,
+    "img": "/img_sign/639.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-639"
+  },
+  {
+    "text": "Il consumo di carburante aumenta con l’aumentare del peso del veicolo",
+    "answer": true,
+    "img": "",
+    "chapter": "consumi-ambiente-inquinamento",
+    "topic": "consumi-carburante"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura i veicoli devono transitare nell'ordine: A, F, L, H",
+    "answer": false,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli A e T transitano contemporaneamente",
+    "answer": false,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "L’impianto di scarico ha lo scopo di ridurre la rumorosità del veicolo",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa prima del veicolo C e dopo il veicolo R",
+    "answer": true,
+    "img": "/img_sign/659.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-659"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa prima del veicolo R e dopo il veicolo C",
+    "answer": false,
+    "img": "/img_sign/659.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-659"
+  },
+  {
+    "text": "I movimenti del liquido che si verificano all’interno di un serbatoio vincolato ad un rimorchio durante i cambiamenti di direzione, in frenata e in accelerazione, sono le maggiori cause di instabilità dei complessi di veicoli",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Guida-veicoli-rimorchio"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che bisogna cambiare l’olio di lubrificazione del motore",
+    "answer": false,
+    "img": "/img_sign/706.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-pressione-olio"
+  },
+  {
+    "text": "L’airbag non può essere montato su vetture con meno di 4 porte",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "L’airbag si gonfia premendo un pulsante posto sul cruscotto",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: T, A, O",
+    "answer": false,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo A ha la destra occupata",
+    "answer": true,
+    "img": "/img_sign/646.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-646"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario per almeno 500 metri dopo aver effettuato un sorpasso",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario per segnalare l’intenzione di effettuare una manovra di sorpasso",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Il simbolo raffigurato è posto sulla spia luminosa che indica la temperatura dell’olio di lubrificazione del motore",
+    "answer": false,
+    "img": "/img_sign/704.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-temperatura-liquido-raffreddamento"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è di norma consentito in città, in caso di nebbia fitta",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Il cambio delle pastiglie dei freni è un’operazione di manutenzione ordinaria che può essere svolta da qualunque conducente",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Utilizzare il cellulare alla guida, anche se con impianto viva-voce, può ridurre l'attenzione alla strada",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve transitare per ultimo",
+    "answer": false,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Lasciare in sosta l’auto davanti a un passo carrabile comporta una perdita di punti sulla patente",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "perdita-punti-patente"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo C deve attendere il transito dei veicoli R, A, H",
+    "answer": false,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), purché l’illuminazione esterna manchi o sia insufficiente",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo L passa per ultimo",
+    "answer": true,
+    "img": "/img_sign/634.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-634"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C deve passare dopo i veicoli R e A",
+    "answer": true,
+    "img": "/img_sign/615.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-615"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo R ha la precedenza rispetto al veicolo A",
+    "answer": true,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "Il simbolo raffigurato è collocato sulla spia che indica l’eccessiva temperatura del liquido di raffreddamento del motore",
+    "answer": true,
+    "img": "/img_sign/704.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-temperatura-liquido-raffreddamento"
+  },
+  {
+    "text": "Fuori dei centri abitati è obbligatorio, anche di giorno, presegnalare un carico accidentalmente caduto sulla carreggiata mediante il segnale triangolare mobile di pericolo, quando l’ingombro non può essere visto nettamente a 100 metri di distanza",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "segnale-mobile-triangolare"
+  },
+  {
+    "text": "Giungendo ad un incrocio in cui la circolazione è regolata con rotatoria, bisogna dare la precedenza ai veicoli provenienti da sinistra, solo se vi è il segnale DARE PRECEDENZA",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "incroci-circolazione-rotatoria"
+  },
+  {
+    "text": "Una frenatura poco efficiente può essere causata dall’eccessivo riscaldamento delle guarnizioni frenanti",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A ha la destra libera",
+    "answer": false,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante va sostituito con quello dei proiettori a luce anabbagliante quando si incrociano altri veicoli",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: T, A, S",
+    "answer": true,
+    "img": "/img_sign/636.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-636"
+  },
+  {
+    "text": "Il simbolo raffigurato è posto sulla spia che integra l’indicatore della temperatura del liquido di raffreddamento che circola nel motore",
+    "answer": true,
+    "img": "/img_sign/704.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-temperatura-liquido-raffreddamento"
+  },
+  {
+    "text": "La revisione della patente di guida può essere disposta quando il titolare circola su un’auto storica senza la prescritta documentazione",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base al tipo di veicolo di cui si è alla guida",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo L deve dare la precedenza al veicolo B",
+    "answer": true,
+    "img": "/img_sign/643.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-643"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: L, E, N, R",
+    "answer": true,
+    "img": "/img_sign/650.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-650"
+  },
+  {
+    "text": "L’uso delle luci di posizione è obbligatorio di notte durante la sosta fuori della carreggiata",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "luci-anabbaglianti"
+  },
+  {
+    "text": "Per diminuire l’inquinamento dell’aria provocato dai veicoli con motore a scoppio, bisogna sostituire la marmitta catalitica quando la stessa è deteriorata o esausta",
+    "answer": true,
+    "img": "",
+    "chapter": "consumi-ambiente-inquinamento",
+    "topic": "inquinamento-aria"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica insufficiente pressione dell’olio di lubrificazione del motore",
+    "answer": true,
+    "img": "/img_sign/706.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-pressione-olio"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base all’entità del carico",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario quando si inizia una manovra di sorpasso, ma non quando la si termina rientrando nella corsia di marcia normale",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo A deve dare la precedenza al tram e al veicolo B",
+    "answer": true,
+    "img": "/img_sign/639.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-639"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che bisogna invertire l’allacciamento dei cavi ai morsetti della batteria",
+    "answer": false,
+    "img": "/img_sign/705.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-della-batteria"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O transita prima del veicolo A",
+    "answer": true,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Il veicolo S, muovendosi in retromarcia per immettersi nella circolazione, deve azionare gli indicatori di direzione",
+    "answer": true,
+    "img": "/img_sign/676.png",
+    "chapter": "norme-di-circolazione",
+    "topic": "manovra-retromarcia"
+  },
+  {
+    "text": "Un veicolo con sospensioni inefficienti può avere come conseguenza l’anomalo orientamento dei proiettori anabbaglianti",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "cause-sospensioni-inefficienti"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: D, C, A, H.",
+    "answer": true,
+    "img": "/img_sign/646.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-646"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base al tipo di alimentazione del motore",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: R, L, E, N",
+    "answer": false,
+    "img": "/img_sign/650.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-650"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O transita prima del veicolo H, ma dopo il veicolo B",
+    "answer": false,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "La corsia A rappresentata in figura consente al conducente solo di svoltare a sinistra",
+    "answer": true,
+    "img": "/img_sign/565.png",
+    "chapter": "segnaletica-orizzontale-ostacoli",
+    "topic": "corsie-preselezione-strada-doppio-senso"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli A, V e C passano contemporaneamente",
+    "answer": false,
+    "img": "/img_sign/665.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-665"
+  },
+  {
+    "text": "Il segnale raffigurato è posto in corrispondenza di una corsia riservata alle biciclette",
+    "answer": true,
+    "img": "/img_sign/110.png",
+    "chapter": "segnali-obbligo",
+    "topic": "percorso-biciclette"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: L e H, B, O",
+    "answer": true,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Il carico verticale massimo che può gravare sul gancio della motrice è indicato in un’ apposita targhetta applicata sul gancio di traino",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Carichi-organi-traino"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R deve attendere il transito dei veicoli C e A",
+    "answer": false,
+    "img": "/img_sign/657.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-657"
+  },
+  {
+    "text": "Il segnale raffigurato indica l’orario di apertura di una zona a traffico limitato",
+    "answer": false,
+    "img": "/img_sign/964.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "fascia-oraria"
+  },
+  {
+    "text": "Gli specchi retrovisori, nel loro complesso, consentono al conducente di vedere l’intera area di strada dietro e intorno al veicolo",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "utilizzo-specchi-retrovisori"
+  },
+  {
+    "text": "Il segnale A di figura indica che è obbligatorio svoltare a sinistra",
+    "answer": false,
+    "img": "/img_sign/152.png",
+    "chapter": "segnali-indicazione",
+    "topic": "senso-unico"
+  },
+  {
+    "text": "La precisione della sterzata è influenzata dall’eccessiva temperatura del liquido di raffreddamento",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "Sterzo-servosterzo"
+  },
+  {
+    "text": "Non è obbligatorio utilizzare le cinture di sicurezza su una autovettura quando si effettuano tragitti di lunghezza inferiore a un chilometro all’interno dei centri abitati",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "Scopo-utilizzo-cinture-sicurezza"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante) per segnalare al veicolo che precede, anche all’interno dei centri abitati, l’intenzione di sorpassare",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita subito dopo il veicolo C",
+    "answer": true,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "Negli impianti di frenatura, l’energia cinetica dell’autoveicolo viene trasformata in calore grazie all’attrito",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenata-freno-stazionamento"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo A ha la precedenza rispetto al veicolo C",
+    "answer": true,
+    "img": "/img_sign/639.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-639"
+  },
+  {
+    "text": "valore della distanza di sicurezza da mantenere da una macchina sgombraneve in azione è di 10 metri",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "E’ consentito il sorpasso a destra nelle intersezioni regolate da semaforo, se il veicolo da sorpassare ha indicato di voler svoltare a sinistra ed ha iniziato la manovra",
+    "answer": true,
+    "img": "",
+    "chapter": "sorpasso",
+    "topic": "spazio-necessario-sorpasso"
+  },
+  {
+    "text": "E’ consentito il trasporto di bambini senza che siano assicurati a sistemi di ritenuta, purché si circoli alla velocità massima di 40 km/h",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "sistemi-trasporto-bambini"
+  },
+  {
+    "text": "distanza di sicurezza non deve essere rispettata a velocità di marcia inferiori ai 50 km/h",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo A deve attendere il transito del veicolo H",
+    "answer": true,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve dare la precedenza al veicolo S",
+    "answer": true,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Impostare il navigatore satellitare mentre si guida riduce l'attenzione alla strada",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo A deve attendere il transito del veicolo H",
+    "answer": false,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli L e H passano contemporaneamente per primi",
+    "answer": true,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Una frenatura poco efficiente o squilibrata può essere causata dalla presenza di freni a disco sull’asse posteriore",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Il sovraccarico del veicolo può comportare un’usura precoce degli ammortizzatori",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "ammortizzatori-sovraccarico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo F deve attendere il transito del veicolo A",
+    "answer": true,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A transita dopo il veicolo R",
+    "answer": true,
+    "img": "/img_sign/657.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-657"
+  },
+  {
+    "text": "L’arrotolatore delle cinture di sicurezza può essere disattivato o modificato dal conducente, se crea fastidio al passeggero",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "Scopo-utilizzo-cinture-sicurezza"
+  },
+  {
+    "text": "La patente di guida di categoria B SPECIALE (BS), salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di cinque anni se rilasciata o confermata a chi non ha superato i 70 anni di età",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Validita-delle-patenti-guida"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: R, D, A",
+    "answer": true,
+    "img": "/img_sign/604.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-604"
+  },
+  {
+    "text": "L'udito non è un senso importante quando si guida",
+    "answer": false,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Non è obbligatorio l’uso delle cinture di sicurezza su una autovettura da parte di persone anziane (età superiore ai 70 anni)",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "Scopo-utilizzo-cinture-sicurezza"
+  },
+  {
+    "text": "Il segnale raffigurato vieta anche agli autobus di raggiungere Avezzano",
+    "answer": false,
+    "img": "/img_sign/169.png",
+    "chapter": "segnali-indicazione",
+    "topic": "incrocio-limitazione-traffico-autocarri"
+  },
+  {
+    "text": "L’uso del casco è obbligatorio su qualunque quadriciclo a motore",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "utilizzo-casco"
+  },
+  {
+    "text": "strada extraurbana a una corsia per senso di marcia, la distanza fra veicoli adibiti al trasporto di merci di massa complessiva superiore a 3,5 tonnellate, cui sia stato imposto il divieto di sorpasso, deve essere di almeno 100 metri",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Quando si è alla guida, la capacità di attenzione può essere influenzata anche dall'ascolto di musica a volume molto alto",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: E, C, L",
+    "answer": true,
+    "img": "/img_sign/661.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-661"
+  },
+  {
+    "text": "distanza fra autotreni, in presenza di segnali di divieto di sorpasso fra di loro, deve essere pari ad almeno 10 metri",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Il corretto funzionamento del motore è garantito dal fatto che la spia rossa dell’olio di lubrificazione rimane costantemente accesa",
+    "answer": false,
+    "img": "",
+    "chapter": "incidenti-stradali-comportamenti",
+    "topic": "obblighi-dopo-incidente-stradale"
+  },
+  {
+    "text": "Il simbolo raffigurato individua una parte dell’impianto elettrico dove si trova alta tensione",
+    "answer": false,
+    "img": "/img_sign/721.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-impianto-frenante"
+  },
+  {
+    "text": "La corsia A, rappresentata in figura, consente al conducente di svoltare solo a sinistra",
+    "answer": true,
+    "img": "/img_sign/564.png",
+    "chapter": "segnaletica-orizzontale-ostacoli",
+    "topic": "corsie-preselezione"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base all’ampiezza della carreggiata",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "In presenza della segnaletica in figura, la corsia A è l'unica che consente di svoltare a sinistra",
+    "answer": false,
+    "img": "/img_sign/565.png",
+    "chapter": "segnaletica-orizzontale-ostacoli",
+    "topic": "corsie-preselezione-strada-doppio-senso"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A deve dare la precedenza al veicolo L",
+    "answer": true,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, H, C, E, V",
+    "answer": false,
+    "img": "/img_sign/665.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-665"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo L deve passare per ultimo",
+    "answer": true,
+    "img": "/img_sign/643.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-643"
+  },
+  {
+    "text": "L’omesso uso di lenti durante la guida, se prescritte, comporta una perdita di punti sulla patente",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "perdita-punti-patente"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo L deve dare la precedenza al veicolo B",
+    "answer": true,
+    "img": "/img_sign/644.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-644"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N deve dare la precedenza al veicolo A",
+    "answer": true,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione non è necessario se si deve parcheggiare il veicolo spostandosi verso il margine destro della carreggiata",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "In presenza delle strisce di guida in figura il veicolo A deve andare diritto",
+    "answer": false,
+    "img": "/img_sign/596.png",
+    "chapter": "segnaletica-orizzontale-ostacoli",
+    "topic": "strisce-guida"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T, A, R",
+    "answer": false,
+    "img": "/img_sign/614.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-614"
+  },
+  {
+    "text": "E' obbligatorio dare la precedenza a destra e a sinistra in presenza del segnale ROTATORIA",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "obbligo-precedenza"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: C, A, P",
+    "answer": true,
+    "img": "/img_sign/667.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-667"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli A e S transitano contemporaneamente dopo il passaggio del veicolo T",
+    "answer": false,
+    "img": "/img_sign/636.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-636"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A deve dare la precedenza solo al veicolo che prosegue diritto e non a quelli che svoltano",
+    "answer": false,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo H deve attendere il transito del veicolo L",
+    "answer": false,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base alla condizione dei pneumatici",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "In un veicolo a motore, gli ammortizzatori scarichi, abbassando l’altezza da terra del telaio, migliorano la tenuta di strada del veicolo, specie in curva",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "ammortizzatori-veicoli-motore"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve attendere il transito del veicolo O",
+    "answer": true,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A deve dare la precedenza a tutti i veicoli",
+    "answer": false,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "il simbolo raffigurato, se collocato su una spia di colore rosso, permette di capire se la batteria viene correttamente ricaricata o meno dall’alternatore",
+    "answer": true,
+    "img": "/img_sign/705.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-della-batteria"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo D non ha l'obbligo di dare la precedenza al veicolo A",
+    "answer": true,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo A deve dare la precedenza al tram, ma non al veicolo M",
+    "answer": false,
+    "img": "/img_sign/642.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-642"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N transita dopo il veicolo C e dopo del veicolo S",
+    "answer": false,
+    "img": "/img_sign/668.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-668"
+  },
+  {
+    "text": "I nostri sensi riescono a cogliere tutti gli stimoli presenti nell'ambiente",
+    "answer": false,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O transita per ultimo",
+    "answer": true,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo R deve attendere il transito dei veicoli H ed A",
+    "answer": false,
+    "img": "/img_sign/654.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-654"
+  },
+  {
+    "text": "Il pannello integrativo raffigurato (A) indica una strada a doppio senso di circolazione",
+    "answer": false,
+    "img": "/img_sign/129.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "continuazione-prescrizione"
+  },
+  {
+    "text": "La revisione della patente di guida può essere disposta con l’obbligo di sottoporsi a visita medica e/o ad esame di idoneità tecnica",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "L’impianto di scarico ha lo scopo di convogliare i gas di scarico verso l’esterno dopo averne abbassato la pressione",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Il pannello integrativo raffigurato (A) indica un senso unico alternato",
+    "answer": false,
+    "img": "/img_sign/129.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "continuazione-prescrizione"
+  },
+  {
+    "text": "Ogni patente di guida ha un’attribuzione iniziale di 20 punti",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "violazioni-decurtazione-punti-patente"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo A deve attendere il transito del veicolo F",
+    "answer": false,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "La corsia di accelerazione serve per abbandonare la carreggiata dell’autostrada ed entrare in un’area di sosta",
+    "answer": false,
+    "img": "",
+    "chapter": "definizioni-generali-doveri-strada",
+    "topic": "corsia-accelerazione"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione destri è necessario quando ci si arresta per cause di interruzione della circolazione",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "La precisione della sterzata è influenzata dalla scarsa pressione dell’olio di lubrificazione",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "Sterzo-servosterzo"
+  },
+  {
+    "text": "Il segnale raffigurato vieta agli autocarri di massa a pieno carico superiore a 3,5 tonnellate di proseguire diritto per Avezzano",
+    "answer": true,
+    "img": "/img_sign/169.png",
+    "chapter": "segnali-indicazione",
+    "topic": "incrocio-limitazione-traffico-autocarri"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli A e B passano contemporaneamente dopo il veicolo E",
+    "answer": false,
+    "img": "/img_sign/662.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-662"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo R deve dare la precedenza al veicolo A",
+    "answer": false,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A passa per ultimo",
+    "answer": true,
+    "img": "/img_sign/651.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-651"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo L deve attendere il transito dei veicoli A ed F",
+    "answer": true,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), anche all’interno dei centri abitati, per dare avvertimenti utili al fine di evitare incidenti",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, comporta di provvedere rapidamente a una manutenzione o riparazione dell’impianto frenante",
+    "answer": true,
+    "img": "/img_sign/721.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-impianto-frenante"
+  },
+  {
+    "text": "Il simbolo raffigurato, contrassegna la spia di funzionamento difettoso di una parte dell’impianto frenante",
+    "answer": true,
+    "img": "/img_sign/721.png",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "spia-impianto-frenante"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli C e R transitano contemporaneamente dopo il passaggio del veicolo A",
+    "answer": false,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: S, A, E, R",
+    "answer": true,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo S transita prima del veicolo R",
+    "answer": true,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Con freni squilibrati si manifesta, in genere, un’usura irregolare e non omogenea dei battistrada",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S, B, D e L contemporaneamente",
+    "answer": false,
+    "img": "/img_sign/664.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-664"
+  },
+  {
+    "text": "Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondità procedendo con quelli anabbaglianti, solo quando il veicolo che li precede a breve distanza è un’autovettura",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-proiettori-fuori-centri-abitati"
+  },
+  {
+    "text": "Durante la marcia per file parallele, percorrendo la corsia di sinistra, bisogna mantenere in funzione l'indicatore di direzione sinistro",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "durante-marcia"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve passare dopo il veicolo R",
+    "answer": true,
+    "img": "/img_sign/615.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-615"
+  },
+  {
+    "text": "Il segnale raffigurato indica un parcheggio autorizzato",
+    "answer": true,
+    "img": "/img_sign/86.png",
+    "chapter": "segnali-divieto",
+    "topic": "segnale-parcheggio"
+  },
+  {
+    "text": "L’airbag si gonfia automaticamente grazie al comando di un sensore",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine: C, N, S",
+    "answer": false,
+    "img": "/img_sign/668.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-668"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario ogni qualvolta si deve fare una manovra di svolta",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Circolare con un’autovettura dotata di otto posti compreso il conducente con patente di categoria C comporta una perdita di punti sulla patente",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "perdita-punti-patente"
+  },
+  {
+    "text": "Il conducente che non supera l’esame di revisione della patente, può ripeterlo altre due volte entro un anno, continuando a guidare con uno speciale permesso rilasciato dalla Motorizzazione Civile",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "L’airbag può essere pericoloso se si attiva mentre non si indossa la cintura di sicurezza",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Il segnale raffigurato è un DIVIETO DI TRANSITO",
+    "answer": false,
+    "img": "/img_sign/55.png",
+    "chapter": "segnali-divieto",
+    "topic": "senso-vietato"
+  },
+  {
+    "text": "Il segnale raffigurato precede un segnale di DIREZIONE OBBLIGATORIA A SINISTRA",
+    "answer": true,
+    "img": "/img_sign/97.png",
+    "chapter": "segnali-obbligo",
+    "topic": "preavviso-direzione-sinistra"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita prima del veicolo L",
+    "answer": true,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo H passa dopo i veicoli A, E, V",
+    "answer": true,
+    "img": "/img_sign/665.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-665"
+  },
+  {
+    "text": "Per guidare un’autovettura che traina un rimorchio non leggero (oltre 750 chilogrammi), con massa massima autorizzata del complesso superiore a 3.500 chilogrammi ma non superiore a 4.250 chilogrammi, è sufficiente aver conseguito la patente di categoria B con codice armonizzato 96",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Codice-armonizzato-96"
+  },
+  {
+    "text": "Il segnale raffigurato indica che non è possibile raggiungere S. Giovanni",
+    "answer": false,
+    "img": "/img_sign/170.png",
+    "chapter": "segnali-indicazione",
+    "topic": "incrocio-extraurbano"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S e D contemporaneamente, B, L",
+    "answer": false,
+    "img": "/img_sign/664.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-664"
+  },
+  {
+    "text": "L’uso degli indicatori di direzione è necessario per segnalare l’intenzione di parcheggiare sul margine sinistro di una strada a senso unico",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "necessita-utilizzo-indicatori-direzione"
+  },
+  {
+    "text": "Le calzature omologate per l’uso motociclistico sono progettate per non scalzarsi in caso di caduta",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "stivali-uso-motociclistico"
+  },
+  {
+    "text": "La sosta è vietata se si impedisce l’accesso ad altro veicolo già regolarmente in sosta",
+    "answer": true,
+    "img": "",
+    "chapter": "fermata-sosta-arresto",
+    "topic": "zone-sosta-fermata-autobus"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo T deve attendere il transito del veicolo O",
+    "answer": false,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), solo quando si trasportano feriti o ammalati gravi",
+    "answer": false,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-intermittente-proiettori-profondita"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: C, A, H, D",
+    "answer": false,
+    "img": "/img_sign/646.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-646"
+  },
+  {
+    "text": "La sospensione della patente è disposta quando non si è pagato nei termini il bollo dell’auto",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "sospensione-patente-guida"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine: S, N, C",
+    "answer": true,
+    "img": "/img_sign/668.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-668"
+  },
+  {
+    "text": "Circolare con un’autovettura su autostrada o su strada extraurbana principale avendo conseguito la patente di categoria B da meno di sei mesi comporta una perdita di punti sulla patente",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "perdita-punti-patente"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo A ha la precedenza rispetto al veicolo D",
+    "answer": true,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O transita prima del veicolo H, ma dopo il veicolo L",
+    "answer": false,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N, dopo essersi portato al centro dell'incrocio, deve attendere il transito dei veicoli R e A",
+    "answer": true,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "Se un veicolo è dotato di air-bag, non vi è l’obbligo di indossare le cinture di sicurezza durante la marcia",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "veicoli-airbag"
+  },
+  {
+    "text": "Qualora in una strada a forte pendenza il passaggio tra veicoli risulti difficoltoso, se uno dei due conducenti si trova in vicinanza di una piazzola di scambio, spetta a lui accostare e lasciar passare l’altro conducente",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "arresto-veicolo"
+  },
+  {
+    "text": "Nella situazione rappresentata in figura il veicolo O deve dare la precedenza al tram ed al veicolo M",
+    "answer": false,
+    "img": "/img_sign/642.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-642"
+  },
+  {
+    "text": "E' pericoloso, durante la guida, distogliere lo sguardo dalla strada, anche per pochi millisecondi",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, E, C, V, H",
+    "answer": false,
+    "img": "/img_sign/665.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-665"
+  },
+  {
+    "text": "La revisione della patente di guida può essere disposta dall’Ufficio Motorizzazione civile o dal Prefetto",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "revisione-patente-guida"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: E, R, S, A",
+    "answer": false,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: B, T, S",
+    "answer": true,
+    "img": "/img_sign/616.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-616"
+  },
+  {
+    "text": "L’impianto di scarico ha lo scopo di ridurre l’inquinamento atmosferico causato dai gas di scarico del veicolo",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Il rispetto delle norme permette di limitare l'intralcio alla circolazione",
+    "answer": true,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo L transita dopo il veicolo A",
+    "answer": true,
+    "img": "/img_sign/669.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-669"
+  },
+  {
+    "text": "Il segnale raffigurato non consente la circolazione dei veicoli a motore",
+    "answer": true,
+    "img": "/img_sign/113.png",
+    "chapter": "segnali-obbligo",
+    "topic": "pedoni-ciclisti"
+  },
+  {
+    "text": "valore della distanza di sicurezza da mantenere da una macchina spanditrice di sale in azione è di 20 metri",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Il segnale raffigurato è un DIVIETO DI TRANSITO",
+    "answer": true,
+    "img": "/img_sign/54.png",
+    "chapter": "segnali-divieto",
+    "topic": "divieto-transito"
+  },
+  {
+    "text": "Le corsie A, B e C rappresentate in figura non consentono al conducente di proseguire diritto",
+    "answer": true,
+    "img": "/img_sign/564.png",
+    "chapter": "segnaletica-orizzontale-ostacoli",
+    "topic": "corsie-preselezione"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: P, C, A",
+    "answer": false,
+    "img": "/img_sign/667.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-667"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine: T, L ed A, infine C",
+    "answer": true,
+    "img": "/img_sign/610.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-610"
+  },
+  {
+    "text": "Il segnale raffigurato non vieta la fermata",
+    "answer": true,
+    "img": "/img_sign/84.png",
+    "chapter": "segnali-divieto",
+    "topic": "divieto-sosta"
+  },
+  {
+    "text": "Il pannello raffigurato (A) indica la fine di una strada a senso unico",
+    "answer": false,
+    "img": "/img_sign/128.png",
+    "chapter": "pannelli-integrativi",
+    "topic": "inizio-prescrizione"
+  },
+  {
+    "text": "Il conducente che si accorga che il suo veicolo ha forti perdite di olio o carburante, deve immediatamente avvisare l’ente proprietario della strada o gli organi di polizia",
+    "answer": true,
+    "img": "",
+    "chapter": "definizioni-generali-doveri-strada",
+    "topic": "inquinamento-strade"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è necessario, fuori dei centri abitati, quando l’illuminazione pubblica manca e non si incrociano altri veicoli",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "Attraversare un passaggio a livello senza rispettare tutte le norme previste, può mettere in pericolo l’incolumità di molte persone che viaggino su un treno in transito",
+    "answer": true,
+    "img": "",
+    "chapter": "limiti-di-velocita",
+    "topic": "Comportamenti-passaggio-livello"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: R, A, C",
+    "answer": true,
+    "img": "/img_sign/657.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-657"
+  },
+  {
+    "text": "Sintonizzare manualmente l'autoradio non comporta perdita di attenzione alla strada, perché è un compito che si è abituati a svolgere",
+    "answer": false,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Il passo carrabile è una zona per l’accesso dei veicoli alle proprietà laterali alla strada",
+    "answer": true,
+    "img": "",
+    "chapter": "definizioni-generali-doveri-strada",
+    "topic": "passo-carrabile"
+  },
+  {
+    "text": "L’uso dei proiettori a luce abbagliante è necessario, fuori dei centri abitati, quando l’illuminazione pubblica è insufficiente e non si incrociano altri veicoli",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "uso-abbaglianti"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base allo stato di efficienza del veicolo",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Le sospensioni del veicolo devono essere sostituite all’incirca ogni trentamila chilometri",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "cause-sospensioni-inefficienti"
+  },
+  {
+    "text": "La corsia di decelerazione serve per uscire dalla carreggiata dell’autostrada ed entrare nell’area di servizio",
+    "answer": true,
+    "img": "",
+    "chapter": "definizioni-generali-doveri-strada",
+    "topic": "corsia-decelerazione"
+  },
+  {
+    "text": "Nell'intersezione di figura il veicolo D transita prima del veicolo F",
+    "answer": true,
+    "img": "/img_sign/631.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-631"
+  },
+  {
+    "text": "Giungendo all'incrocio rappresentato in figura il veicolo L passa per primo",
+    "answer": false,
+    "img": "/img_sign/634.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-634"
+  },
+  {
+    "text": "Una frenatura poco efficiente o squilibrata può essere causata dall’insufficiente lubrificazione dei tamburi o dei dischi",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "frenatura-poco-efficiente"
+  },
+  {
+    "text": "Il segnale raffigurato non consente la circolazione dei veicoli a motore",
+    "answer": true,
+    "img": "/img_sign/112.png",
+    "chapter": "segnali-obbligo",
+    "topic": "pista-ciclabile-marciapiede"
+  },
+  {
+    "text": "Il punteggio sulla patente diminuisce esclusivamente quando si commette un’infrazione al codice della strada che comporta la sospensione o il ritiro della patente",
+    "answer": false,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "violazioni-decurtazione-punti-patente"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N passa dopo il transito del veicolo R ma prima che transiti il veicolo A",
+    "answer": false,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "Con la patente di categoria A si possono condurre tutti i tricicli a motore, ma solo se il conducente ha almeno 21 anni",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Patente-categoria-A"
+  },
+  {
+    "text": "Il segnale raffigurato precede il segnale di DIREZIONE OBBLIGATORIA A DESTRA",
+    "answer": true,
+    "img": "/img_sign/96.png",
+    "chapter": "segnali-obbligo",
+    "topic": "preavviso-direzione-destra"
+  },
+  {
+    "text": "In presenza dell'isola di traffico rappresentata in figura il veicolo A deve andare diritto",
+    "answer": true,
+    "img": "/img_sign/595.png",
+    "chapter": "segnaletica-orizzontale-ostacoli",
+    "topic": "isole-traffico"
+  },
+  {
+    "text": "L’airbag serve a limitare i danni agli occupanti del veicolo per urti contro superfici interne del veicolo in caso di urto violento a seguito di incidente",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base alle condizioni atmosferiche",
+    "answer": true,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "L’impianto di scarico ha lo scopo di convogliare i gas di scarico verso l’esterno dopo averne abbassato la tossicità",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di precedenza dei veicoli è: N, R, A",
+    "answer": false,
+    "img": "/img_sign/633.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-633"
+  },
+  {
+    "text": "Bere un liquore ad alta gradazione alcolica permette di migliorare l'attenzione dopo circa 10 minuti dall'ingestione",
+    "answer": false,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli A e B passano contemporaneamente prima del veicolo E",
+    "answer": false,
+    "img": "/img_sign/662.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-662"
+  },
+  {
+    "text": "La patente di guida di categoria A, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Validita-delle-patenti-guida"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C deve dare la precedenza al veicolo A",
+    "answer": true,
+    "img": "/img_sign/657.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-657"
+  },
+  {
+    "text": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: A, T, S",
+    "answer": false,
+    "img": "/img_sign/636.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-636"
+  },
+  {
+    "text": "E’ possibile modificare l’impianto di scarico, purché si autocertifichi che ciò non comporta aumenti del consumo di carburante",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "L’airbag si gonfia in pochi secondi",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "caratteristiche-airbag"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O deve attendere il transito del veicolo T",
+    "answer": true,
+    "img": "/img_sign/613.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-613"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il conducente del veicolo E deve dare la precedenza al veicolo L",
+    "answer": true,
+    "img": "/img_sign/650.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-650"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nell'ordine: R, A, C",
+    "answer": true,
+    "img": "/img_sign/659.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-659"
+  },
+  {
+    "text": "conducente deve stabilire il valore della distanza di sicurezza anche in base alla larghezza del veicolo di cui è alla guida",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Nei veicoli a motore a due ruote, l'interruttore d'emergenza è collegato con l’antifurto del veicolo",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "interruttore-emergenza"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: B, L, O, H",
+    "answer": false,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli B e S transitano contemporaneamente",
+    "answer": false,
+    "img": "/img_sign/616.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-616"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo N ha la precedenza rispetto al veicolo A",
+    "answer": false,
+    "img": "/img_sign/617.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-617"
+  },
+  {
+    "text": "Le giacche ad uso motociclistico garantiscono un’adeguata protezione all’abrasione in caso di scivolamento sull’asfalto",
+    "answer": true,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "giacche-indumenti-motociclistico"
+  },
+  {
+    "text": "Con la patente di categoria A1 si possono condurre i motocicli (con o senza carrozzetta) di cilindrata fino a 125 cm3, potenza non superiore a 11 kW e rapporto potenza/peso non superiore a 0,1 kW/kg",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Patente-categoria-a1"
+  },
+  {
+    "text": "specchi retrovisori esterni degli autoveicoli possono essere sostituiti con altri di tipo differente, purché di superficie maggiore",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "utilizzo-specchi-retrovisori"
+  },
+  {
+    "text": "Nell'attraversare l'incrocio in figura il veicolo L passa per primo",
+    "answer": true,
+    "img": "/img_sign/637.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-637"
+  },
+  {
+    "text": "Un veicolo con sospensioni inefficienti aumenta l’affaticamento alla guida del conducente",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "cause-sospensioni-inefficienti"
+  },
+  {
+    "text": "Un conducente deve sempre sottostimare le situazioni di pericolo per non farsi travolgere dall'ansia durante la guida",
+    "answer": false,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "In un veicolo a motore, gli ammortizzatori scarichi provocano l’usura non uniforme del battistrada dei pneumatici",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "ammortizzatori-veicoli-motore"
+  },
+  {
+    "text": "L'attenzione alla guida è importante solo quando si compiono manovre pericolose quali, ad esempio, un sorpasso",
+    "answer": false,
+    "img": "",
+    "chapter": "responsabilita-civile-penale-e-assicurazione",
+    "topic": "psicologia-traffico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve transitare dopo il veicolo E",
+    "answer": false,
+    "img": "/img_sign/655.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-655"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura, il veicolo A passa dopo il veicolo R e il veicolo C passa dopo il veicolo A",
+    "answer": true,
+    "img": "/img_sign/659.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-659"
+  },
+  {
+    "text": "Alla guida di un veicolo con rimorchio, durante una frenata in marcia rettilinea, il carico trasportato tenderà a spostarsi all’indietro",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Dotazione-rimorchio"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo L deve transitare per ultimo",
+    "answer": true,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S, B, L, D",
+    "answer": true,
+    "img": "/img_sign/664.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-664"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura il veicolo A deve attendere il transito del veicolo R",
+    "answer": true,
+    "img": "/img_sign/614.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-614"
+  },
+  {
+    "text": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T e B, A, C",
+    "answer": true,
+    "img": "/img_sign/639.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-639"
+  },
+  {
+    "text": "L’impianto di scarico deve essere integralmente sostituito a ogni cambio di lubrificante",
+    "answer": false,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo O deve dare la precedenza a tutti gli altri veicoli",
+    "answer": true,
+    "img": "/img_sign/647.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-647"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nell'ordine: R, C, A",
+    "answer": false,
+    "img": "/img_sign/659.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-659"
+  },
+  {
+    "text": "Lo specchio retrovisore centrale di un autoveicolo deve essere regolato in modo da garantire la visione dell’intero lunotto posteriore",
+    "answer": true,
+    "img": "",
+    "chapter": "norme-di-circolazione",
+    "topic": "utilizzo-specchi-retrovisori"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura il veicolo E passa prima di quello B, ma dopo il veicolo A",
+    "answer": true,
+    "img": "/img_sign/662.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-662"
+  },
+  {
+    "text": "L’uso delle cinture di sicurezza consente il trasporto di bambini sui sedili anteriori in braccio a un adulto, senza pericoli",
+    "answer": false,
+    "img": "",
+    "chapter": "cinture-casco-sicurezza",
+    "topic": "Scopo-utilizzo-cinture-sicurezza"
+  },
+  {
+    "text": "Prima di iniziare a guidare un’autovettura, bisogna controllare che i passeggeri abbiano regolarmente allacciato le cinture di sicurezza",
+    "answer": true,
+    "img": "",
+    "chapter": "fermata-sosta-arresto",
+    "topic": "prima-iniziare-guidare"
+  },
+  {
+    "text": "conducente ha l’obbligo di controllare che il veicolo che lo segue rispetti la distanza di sicurezza",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "Si devono usare gli indicatori di direzione per segnalare l’intenzione di spostarsi nella corsia di decelerazione di uno svincolo autostradale",
+    "answer": true,
+    "img": "",
+    "chapter": "luci-dispositivi-acustici",
+    "topic": "utilizzo-degli-indicatori-direzione"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa prima del veicolo C",
+    "answer": true,
+    "img": "/img_sign/615.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-615"
+  },
+  {
+    "text": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine: S, B, T",
+    "answer": false,
+    "img": "/img_sign/616.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-616"
+  },
+  {
+    "text": "Nell’affrontare una curva a velocità moderata il rimorchio compie sempre lo stesso percorso fatto dalla motrice",
+    "answer": false,
+    "img": "",
+    "chapter": "norme-varie-autostrade-pannelli",
+    "topic": "Guida-veicoli-rimorchio"
+  },
+  {
+    "text": "L’impianto di scarico ha lo scopo di convogliare i gas di scarico verso l’esterno dopo averne abbassato la temperatura",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "impianto-scarico"
+  },
+  {
+    "text": "valore della distanza di sicurezza deve essere stabilito anche in base alla marcia innestata",
+    "answer": false,
+    "img": "",
+    "chapter": "distanza-di-sicurezza",
+    "topic": "condizioni-sicurezza"
+  },
+  {
+    "text": "In alcuni motori di motocicli, il livello dell'olio motore può essere controllato da un’apposita finestrella posta sulla coppa motore",
+    "answer": true,
+    "img": "",
+    "chapter": "elementi-veicolo-manutenzione-comportamenti",
+    "topic": "Livello-olio-liquidi"
+  },
+  {
+    "text": "Secondo le norme di precedenza nell'incrocio in figura il veicolo F deve transitare per primo",
+    "answer": false,
+    "img": "/img_sign/652.png",
+    "chapter": "precedenza-incroci",
+    "topic": "figura-652"
+  },
+  {
+    "text": "La patente di guida è confermata a seguito di esito favorevole dell’apposito accertamento sanitario eseguito da medico autorizzato",
+    "answer": true,
+    "img": "",
+    "chapter": "patente-punti-documenti",
+    "topic": "Validita-delle-patenti-guida"
+  }
+]

@@ -8617,121 +8617,121 @@
     "totalSigns": 397,
     "topSigns": [
       {
-        "imageUrl": "/signs/qb_1.png",
+        "imageUrl": "/signs/strada_deformata_qb_1.png",
         "totalQuestions": 80,
         "trueCount": 43,
         "falseCount": 37
       },
       {
-        "imageUrl": "/signs/qb_154.png",
+        "imageUrl": "/signs/la_luce_rossa_del_semaforo_e_qb_154.png",
         "totalQuestions": 53,
         "trueCount": 26,
         "falseCount": 27
       },
       {
-        "imageUrl": "/signs/qb_502.png",
+        "imageUrl": "/signs/asse_il_centro_della_carreggiata_qb_502.png",
         "totalQuestions": 42,
         "trueCount": 21,
         "falseCount": 21
       },
       {
-        "imageUrl": "/signs/qb_2.png",
+        "imageUrl": "/signs/dosso_qb_2.png",
         "totalQuestions": 40,
         "trueCount": 28,
         "falseCount": 12
       },
       {
-        "imageUrl": "/signs/qb_56.png",
+        "imageUrl": "/signs/fine_del_divieto_di_sorpasso_e_qb_56.png",
         "totalQuestions": 34,
         "trueCount": 18,
         "falseCount": 16
       },
       {
-        "imageUrl": "/signs/qb_58.png",
+        "imageUrl": "/signs/limite_massimo_di_velocita_qb_58.png",
         "totalQuestions": 34,
         "trueCount": 11,
         "falseCount": 23
       },
       {
-        "imageUrl": "/signs/qb_84.png",
+        "imageUrl": "/signs/divieto_di_transito_qb_84.png",
         "totalQuestions": 33,
         "trueCount": 13,
         "falseCount": 20
       },
       {
-        "imageUrl": "/signs/qb_5.png",
+        "imageUrl": "/signs/curva_a_sinistra_qb_5.png",
         "totalQuestions": 32,
         "trueCount": 18,
         "falseCount": 14
       },
       {
-        "imageUrl": "/signs/qb_45.png",
+        "imageUrl": "/signs/dare_precedenza_qb_45.png",
         "totalQuestions": 31,
         "trueCount": 17,
         "falseCount": 14
       },
       {
-        "imageUrl": "/signs/qb_14.png",
+        "imageUrl": "/signs/strettoia_simmetrica_qb_14.png",
         "totalQuestions": 29,
         "trueCount": 15,
         "falseCount": 14
       },
       {
-        "imageUrl": "/signs/qb_4.png",
+        "imageUrl": "/signs/curva_a_destra_qb_4.png",
         "totalQuestions": 28,
         "trueCount": 14,
         "falseCount": 14
       },
       {
-        "imageUrl": "/signs/qb_15.png",
+        "imageUrl": "/signs/passaggio_a_livello_senza_barriere_qb_15.png",
         "totalQuestions": 28,
         "trueCount": 11,
         "falseCount": 17
       },
       {
-        "imageUrl": "/signs/qb_8.png",
+        "imageUrl": "/signs/passaggio_a_livello_senza_barriere_qb_8.png",
         "totalQuestions": 27,
         "trueCount": 13,
         "falseCount": 14
       },
       {
-        "imageUrl": "/signs/qb_93.png",
+        "imageUrl": "/signs/direzione_obbligatoria_diritto_e_qb_93.png",
         "totalQuestions": 26,
         "trueCount": 14,
         "falseCount": 12
       },
       {
-        "imageUrl": "/signs/qb_37.png",
+        "imageUrl": "/signs/in_caso_di_forte_vento_laterale_e_qb_37.png",
         "totalQuestions": 26,
         "trueCount": 13,
         "falseCount": 13
       },
       {
-        "imageUrl": "/signs/qb_23.png",
+        "imageUrl": "/signs/direzione_obbligatoria_a_destra_e_qb_23.png",
         "totalQuestions": 26,
         "trueCount": 5,
         "falseCount": 21
       },
       {
-        "imageUrl": "/signs/qb_6.png",
+        "imageUrl": "/signs/la_prima_a_destra_qb_6.png",
         "totalQuestions": 25,
         "trueCount": 13,
         "falseCount": 12
       },
       {
-        "imageUrl": "/signs/qb_162.png",
+        "imageUrl": "/signs/passaggio_a_livello_senza_barriere_qb_162.png",
         "totalQuestions": 25,
         "trueCount": 13,
         "falseCount": 12
       },
       {
-        "imageUrl": "/signs/qb_40.png",
+        "imageUrl": "/signs/dare_precedenza_qb_40.png",
         "totalQuestions": 25,
         "trueCount": 11,
         "falseCount": 14
       },
       {
-        "imageUrl": "/signs/qb_97.png",
+        "imageUrl": "/signs/preavviso_di_direzione_obbligatoria_a_sinistra_e_qb_97.png",
         "totalQuestions": 25,
         "trueCount": 13,
         "falseCount": 12

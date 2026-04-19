@@ -1,5 +1,5 @@
 {
-  "/signs/qb_3.png": {
+  "/signs/cunetta_qb_3.png": {
     "description": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvallamenti irregolari), indica strada deformata o dissestata",
     "imageHints": [
       "foto segnale qb_3 — segnale triangolare di pericolo strada deformata"
@@ -12,7 +12,7 @@
     ],
     "externalCodes": []
   },
-  "/signs/qb_6.png": {
+  "/signs/la_prima_a_destra_qb_6.png": {
     "description": "Triangolo rosso di pericolo con doppia curva a S (prima a destra poi a sinistra), indica doppia curva pericolosa con la prima a destra",
     "imageHints": [
       "foto segnale qb_6 — segnale triangolare di pericolo doppia curva dx-sx"
@@ -26,7 +26,7 @@
     ],
     "externalCodes": []
   },
-  "/signs/qb_37.png": {
+  "/signs/in_caso_di_forte_vento_laterale_e_qb_37.png": {
     "description": "Triangolo rosso di pericolo con manica a vento (calza a vento) inclinata su palo, indica pericolo di forte vento laterale",
     "imageHints": [
       "foto segnale qb_37",
@@ -47,7 +47,7 @@
       "B19455"
     ]
   },
-  "/signs/qb_38.png": {
+  "/signs/bosco_infiammabile_qb_38.png": {
     "description": "Triangolo rosso di pericolo con albero in fiamme e fiammifero acceso alla base, indica pericolo di incendio boschivo",
     "imageHints": [
       "foto segnale qb_38",
@@ -80,7 +80,7 @@
       "B19780"
     ]
   },
-  "/signs/qb_29.png": {
+  "/signs/rotatoria_e_qb_29.png": {
     "description": "Triangolo rosso di pericolo con tre frecce circolari nere in senso antiorario, indica intersezione con circolazione rotatoria",
     "imageHints": [
       "foto segnale qb_29"
@@ -104,7 +104,7 @@
       "B19473"
     ]
   },
-  "/signs/qb_39.png": {
+  "/signs/cunetta_qb_39.png": {
     "description": "Triangolo rosso di pericolo con punto esclamativo nero al centro, indica altri pericoli (pericolo generico)",
     "imageHints": [
       "foto segnale qb_39"
@@ -123,7 +123,7 @@
       "B19482"
     ]
   },
-  "/signs/qb_32.png": {
+  "/signs/caduta_massi_qb_32.png": {
     "description": "Triangolo rosso di pericolo con parete rocciosa nera e massi che cadono da sinistra verso destra, indica pericolo di caduta massi da sinistra",
     "imageHints": [
       "foto segnale qb_32"
@@ -138,7 +138,7 @@
       "B19480"
     ]
   },
-  "/signs/qb_23.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_23.png": {
     "description": "Triangolo rosso di pericolo con automobile che sbanda sul bordo destro della strada con sassolini/ghiaia, indica banchina pericolosa",
     "imageHints": [
       "foto segnale qb_23"
@@ -188,7 +188,7 @@
       "B20586"
     ]
   },
-  "/signs/qb_1.png": {
+  "/signs/strada_deformata_qb_1.png": {
     "description": "Triangolo rosso di pericolo con profilo di strada con cunetta (depressione/avvallamento), indica presenza di cunetta sulla carreggiata",
     "imageHints": [
       "foto segnale qb_1"
@@ -237,7 +237,7 @@
       "B20670"
     ]
   },
-  "/signs/qb_35.png": {
+  "/signs/cunetta_qb_35.png": {
     "description": "Triangolo rosso di pericolo con tre cerchi disposti orizzontalmente (rosso, giallo, verde), indica semaforo orizzontale avanti",
     "imageHints": [
       "foto segnale qb_35"
@@ -266,7 +266,7 @@
       "B20436"
     ]
   },
-  "/signs/qb_34.png": {
+  "/signs/preavviso_di_semaforo_temporaneo_qb_34.png": {
     "description": "Triangolo rosso di pericolo con tre cerchi disposti verticalmente (rosso in alto, giallo al centro, verde in basso), indica semaforo verticale avanti",
     "imageHints": [
       "foto segnale qb_34"
@@ -286,7 +286,7 @@
       "B19507"
     ]
   },
-  "/signs/qb_16.png": {
+  "/signs/attraversamento_ciclabile_qb_16.png": {
     "description": "Triangolo rosso di pericolo con figura stilizzata nera di ciclista su bicicletta, indica attraversamento ciclabile o pericolo ciclisti",
     "imageHints": [
       "foto segnale qb_16"
@@ -304,7 +304,7 @@
       "B21669"
     ]
   },
-  "/signs/qb_54.png": {
+  "/signs/divieto_di_transito_qb_54.png": {
     "description": "Cerchio rosso con centro bianco senza alcun simbolo, indica divieto di transito a tutti i veicoli in entrambe le direzioni",
     "imageHints": [
       "foto segnale qb_54"
@@ -341,7 +341,7 @@
       "B21497"
     ]
   },
-  "/signs/qb_55.png": {
+  "/signs/senso_vietato_qb_55.png": {
     "description": "Cerchio rosso con barra orizzontale bianca al centro, indica senso vietato (divieto di accesso)",
     "imageHints": [
       "foto segnale qb_55"
@@ -375,7 +375,7 @@
       "B21655"
     ]
   },
-  "/signs/qb_56.png": {
+  "/signs/fine_del_divieto_di_sorpasso_e_qb_56.png": {
     "description": "Cerchio rosso con due automobili affiancate (una rossa a sinistra che sorpassa una nera a destra), indica divieto di sorpasso",
     "imageHints": [
       "foto segnale qb_56"
@@ -426,7 +426,7 @@
       "B20551"
     ]
   },
-  "/signs/qb_7.png": {
+  "/signs/la_prima_a_sinistra_qb_7.png": {
     "description": "Triangolo rosso di pericolo con doppia curva a S (prima a sinistra poi a destra), indica doppia curva pericolosa con la prima a sinistra",
     "imageHints": [
       "foto segnale qb_7"
@@ -441,7 +441,7 @@
       "B19575"
     ]
   },
-  "/signs/qb_57.png": {
+  "/signs/distanza_di_sicurezza_e_qb_57.png": {
     "description": "Cerchio rosso con due veicoli affiancati in sagoma nera e scritta \"70 m\" in alto, indica obbligo di mantenere la distanza minima di sicurezza di almeno 70 metri.",
     "imageHints": [
       "foto segnale qb_57"
@@ -477,7 +477,7 @@
       "B21617"
     ]
   },
-  "/signs/qb_58.png": {
+  "/signs/limite_massimo_di_velocita_qb_58.png": {
     "description": "Cerchio rosso con numero \"80\" nero al centro su sfondo bianco, indica limite massimo di velocità 80 km/h",
     "imageHints": [
       "foto segnale qb_58"
@@ -531,7 +531,7 @@
       "B20567"
     ]
   },
-  "/signs/qb_25.png": {
+  "/signs/bambini_qb_25.png": {
     "description": "Triangolo rosso di pericolo con due bambini stilizzati neri che corrono (uno con cartella scolastica), indica pericolo bambini o zona scuola",
     "imageHints": [
       "foto segnale qb_25"
@@ -549,7 +549,7 @@
       "B21595"
     ]
   },
-  "/signs/qb_59.png": {
+  "/signs/divieto_di_segnalazioni_acustiche_qb_59.png": {
     "description": "Cerchio rosso con tromba/clacson nera barrata da striscia rossa diagonale, indica divieto di segnalazioni acustiche (uso del clacson vietato)",
     "imageHints": [
       "foto segnale qb_59"
@@ -573,7 +573,7 @@
       "B19627"
     ]
   },
-  "/signs/qb_60.png": {
+  "/signs/divieto_di_sorpasso_per_gli_autocarri_che_qb_60.png": {
     "description": "Cerchio rosso con camion rosso a sinistra che sorpassa automobile nera a destra, indica divieto di sorpasso per veicoli con massa superiore a 3,5 tonnellate",
     "imageHints": [
       "foto segnale qb_60"
@@ -603,7 +603,7 @@
       "B19643"
     ]
   },
-  "/signs/qb_61.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_trazione_animale_qb_61.png": {
     "description": "Cerchio rosso con sagoma nera di cavallo con conducente e carro a due ruote, indica divieto di transito ai veicoli a trazione animale",
     "imageHints": [
       "foto segnale qb_61"
@@ -637,7 +637,7 @@
       "B20423"
     ]
   },
-  "/signs/qb_15.png": {
+  "/signs/passaggio_a_livello_senza_barriere_qb_15.png": {
     "description": "Triangolo rosso di pericolo con figura stilizzata nera di pedone su strisce pedonali, indica attraversamento pedonale",
     "imageHints": [
       "foto segnale qb_15"
@@ -655,7 +655,7 @@
       "B20352"
     ]
   },
-  "/signs/qb_62.png": {
+  "/signs/divieto_di_transito_ai_pedoni_qb_62.png": {
     "description": "Cerchio rosso con figura stilizzata nera di pedone che cammina, indica divieto di transito ai pedoni",
     "imageHints": [
       "foto segnale qb_62"
@@ -685,7 +685,7 @@
       "B19688"
     ]
   },
-  "/signs/qb_63.png": {
+  "/signs/divieto_di_transito_qb_63.png": {
     "description": "Cerchio rosso con sagoma nera di bicicletta, indica divieto di transito alle biciclette",
     "imageHints": [
       "foto segnale qb_63"
@@ -714,7 +714,7 @@
       "B21636"
     ]
   },
-  "/signs/qb_64.png": {
+  "/signs/divieto_di_transito_ai_motocicli_qb_64.png": {
     "description": "Cerchio rosso con sagoma nera di motociclista su motocicletta, indica divieto di transito ai motocicli",
     "imageHints": [
       "foto segnale qb_64"
@@ -740,7 +740,7 @@
       "B20398"
     ]
   },
-  "/signs/qb_65.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_65.png": {
     "description": "Cerchio rosso con sagoma nera di persona che spinge un carretto a mano, indica divieto di transito ai veicoli a braccia",
     "imageHints": [
       "foto segnale qb_65"
@@ -762,7 +762,7 @@
       "B19702"
     ]
   },
-  "/signs/qb_66.png": {
+  "/signs/divieto_di_transito_qb_66.png": {
     "description": "Cerchio rosso con sagoma nera di automobile vista frontalmente, indica divieto di transito a tutti gli autoveicoli",
     "imageHints": [
       "foto segnale qb_66"
@@ -791,7 +791,7 @@
       "B19737"
     ]
   },
-  "/signs/qb_67.png": {
+  "/signs/divieto_di_transito_qb_67.png": {
     "description": "Cerchio rosso con sagoma nera di autobus visto di lato, indica divieto di transito agli autobus",
     "imageHints": [
       "foto segnale qb_67"
@@ -823,7 +823,7 @@
       "B21763"
     ]
   },
-  "/signs/qb_68.png": {
+  "/signs/divieto_di_sorpasso_per_gli_autocarri_che_qb_68.png": {
     "description": "Cerchio rosso con sagoma nera di autocarro (camion) visto di lato, indica divieto di transito ai veicoli merci",
     "imageHints": [
       "foto segnale qb_68"
@@ -847,7 +847,7 @@
       "B19742"
     ]
   },
-  "/signs/qb_69.png": {
+  "/signs/divieto_di_sorpasso_per_gli_autocarri_che_qb_69.png": {
     "description": "Cerchio rosso con sagoma nera di autocarro con scritta \"6,5t\" sul cassone, indica divieto di transito ai veicoli merci con massa superiore a 6,5 tonnellate",
     "imageHints": [
       "foto segnale qb_69"
@@ -868,7 +868,7 @@
       "B19745"
     ]
   },
-  "/signs/qb_70.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_70.png": {
     "description": "Cerchio rosso con sagoma nera di autocarro con rimorchio (autotreno), indica divieto di transito ai veicoli con rimorchio",
     "imageHints": [
       "foto segnale qb_70"
@@ -892,7 +892,7 @@
       "B19755"
     ]
   },
-  "/signs/qb_71.png": {
+  "/signs/divieto_di_transito_qb_71.png": {
     "description": "Cerchio rosso con sagoma nera di trattore agricolo con conducente, indica divieto di transito alle macchine agricole",
     "imageHints": [
       "foto segnale qb_71"
@@ -917,7 +917,7 @@
       "B19769"
     ]
   },
-  "/signs/qb_72.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_72.png": {
     "description": "Cerchio rosso con sagoma nera di rimorchio visto da dietro con pannello arancione per merci pericolose, indica divieto di transito ai veicoli che trasportano merci pericolose",
     "imageHints": [
       "foto segnale qb_72"
@@ -937,7 +937,7 @@
       "B19776"
     ]
   },
-  "/signs/qb_73.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_73.png": {
     "description": "Cerchio rosso con sagoma nera di automobile vista frontalmente e fiamme arancioni/gialle sopra il tetto, indica divieto di transito ai veicoli che trasportano esplosivi o prodotti facilmente infiammabili",
     "imageHints": [
       "foto segnale qb_73"
@@ -957,7 +957,7 @@
       "B19784"
     ]
   },
-  "/signs/qb_74.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_74.png": {
     "description": "Cerchio rosso con sagoma nera di autocisterna con botte arancione e onde blu sotto, indica divieto di transito ai veicoli che trasportano prodotti suscettibili di contaminare le acque",
     "imageHints": [
       "foto segnale qb_74"
@@ -980,7 +980,7 @@
       "B19793"
     ]
   },
-  "/signs/qb_75.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_75.png": {
     "description": "Cerchio rosso con scritta \"2,30 m\" e due frecce orizzontali nere che puntano verso il centro, indica divieto di transito ai veicoli con larghezza superiore a 2,30 metri",
     "imageHints": [
       "foto segnale qb_75"
@@ -1006,7 +1006,7 @@
       "B19805"
     ]
   },
-  "/signs/qb_76.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_76.png": {
     "description": "Cerchio rosso con scritta \"3,50 m\" e due triangoli neri (uno in alto e uno in basso) che indicano altezza, indica divieto di transito ai veicoli con altezza superiore a 3,50 metri",
     "imageHints": [
       "foto segnale qb_76"
@@ -1031,7 +1031,7 @@
       "B19816"
     ]
   },
-  "/signs/qb_77.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_77.png": {
     "description": "Cerchio rosso con sagoma nera di autocarro e scritta \"10 m\" con frecce orizzontali sotto, indica divieto di transito ai veicoli con lunghezza superiore a 10 metri",
     "imageHints": [
       "foto segnale qb_77"
@@ -1058,7 +1058,7 @@
       "B19829"
     ]
   },
-  "/signs/qb_78.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_78.png": {
     "description": "Cerchio rosso con scritta \"7,00 t\" nera al centro, indica divieto di transito ai veicoli con massa a pieno carico superiore a 7 tonnellate",
     "imageHints": [
       "foto segnale qb_78"
@@ -1081,7 +1081,7 @@
       "B19839"
     ]
   },
-  "/signs/qb_79.png": {
+  "/signs/divieto_di_transito_per_autotreni_ed_autoarticolati_qb_79.png": {
     "description": "Cerchio rosso con scritta \"2,5 t\" nera, freccia verso il basso e sagoma nera di asse con ruote, indica divieto di transito ai veicoli con massa per asse superiore a 2,5 tonnellate",
     "imageHints": [
       "foto segnale qb_79"
@@ -1104,7 +1104,7 @@
       "B19849"
     ]
   },
-  "/signs/qb_80.png": {
+  "/signs/fine_del_divieto_di_sorpasso_e_qb_80.png": {
     "description": "Cerchio bianco con bordo nero sottile e striscia nera diagonale da sinistra in alto a destra in basso, indica fine di tutti i divieti precedentemente imposti",
     "imageHints": [
       "foto segnale qb_80"
@@ -1132,7 +1132,7 @@
       "B19890"
     ]
   },
-  "/signs/qb_81.png": {
+  "/signs/limite_massimo_di_velocita_qb_81.png": {
     "description": "Cerchio bianco con bordo nero sottile, numero \"50\" grigio e striscia nera diagonale, indica fine del limite massimo di velocità di 50 km/h",
     "imageHints": [
       "foto segnale qb_81"
@@ -1165,7 +1165,7 @@
       "B20323"
     ]
   },
-  "/signs/qb_82.png": {
+  "/signs/fine_del_divieto_di_sorpasso_e_qb_82.png": {
     "description": "Cerchio bianco con bordo nero sottile, due automobili grigie affiancate e striscia nera diagonale, indica fine del divieto di sorpasso",
     "imageHints": [
       "foto segnale qb_82"
@@ -1197,7 +1197,7 @@
       "B22103"
     ]
   },
-  "/signs/qb_83.png": {
+  "/signs/fine_del_divieto_di_sorpasso_per_gli_autocarri_che_qb_83.png": {
     "description": "Cerchio bianco con bordo nero sottile, sagoma grigia di camion a sinistra e automobile a destra con striscia nera diagonale, indica fine del divieto di sorpasso per veicoli con massa superiore a 3,5 tonnellate",
     "imageHints": [
       "foto segnale qb_83"
@@ -1218,7 +1218,7 @@
       "B19895"
     ]
   },
-  "/signs/qb_84.png": {
+  "/signs/divieto_di_transito_qb_84.png": {
     "description": "Cerchio rosso con disco blu al centro barrato da una striscia rossa diagonale, indica divieto di sosta",
     "imageHints": [
       "foto segnale qb_84"
@@ -1265,7 +1265,7 @@
       "B20002"
     ]
   },
-  "/signs/qb_940.png": {
+  "/signs/divieto_di_segnalazioni_acustiche_qb_940.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo sotto recante freccia nera verso l'alto, indica inizio del divieto di sosta.",
     "imageHints": [
       "foto segnale qb_940"
@@ -1283,7 +1283,7 @@
       "B22071"
     ]
   },
-  "/signs/qb_85.png": {
+  "/signs/divieto_di_transito_qb_85.png": {
     "description": "Cerchio rosso con disco blu al centro attraversato da una X rossa (due strisce incrociate), indica divieto di fermata",
     "imageHints": [
       "foto segnale qb_85"
@@ -1316,7 +1316,7 @@
       "B19959"
     ]
   },
-  "/signs/qb_89.png": {
+  "/signs/un_parcheggio_autorizzato_e_qb_89.png": {
     "description": "Pannello blu verticale con lettera \"P\" bianca grande in alto e freccia bianca curva a destra in basso, con sottopannello bianco \"300 m\" — indica parcheggio a 300 metri svoltando a destra",
     "imageHints": [
       "foto segnale qb_89",
@@ -1341,7 +1341,7 @@
       "B19982"
     ]
   },
-  "/signs/qb_90.png": {
+  "/signs/divieto_di_segnalazioni_acustiche_qb_90.png": {
     "description": "Cartello rettangolare bianco con scritta \"COMUNE DI ROMA\" in alto, cerchio di divieto di sosta al centro, scritta \"passo carrabile\" e numero autorizzazione \"2468/1994\" in basso — indica passo carrabile con divieto di sosta",
     "imageHints": [
       "foto segnale qb_90"
@@ -1371,7 +1371,7 @@
       "B21389"
     ]
   },
-  "/signs/qb_91.png": {
+  "/signs/divieto_di_transito_ai_veicoli_a_braccia_qb_91.png": {
     "description": "Cartello rettangolare con cerchio di divieto di sosta in alto e due riquadri blu in basso: \"P\" (parcheggio) e simbolo di disabile in sedia a rotelle — indica divieto di sosta con eccezione per disabili",
     "imageHints": [
       "foto segnale qb_91"
@@ -1399,7 +1399,7 @@
       "B20001"
     ]
   },
-  "/signs/qb_92.png": {
+  "/signs/divieto_di_segnalazioni_acustiche_qb_92.png": {
     "description": "Pannello composito: in alto cerchio di divieto di sosta con orari \"7,00-9,00 / 17,00-20,00\"; in basso riquadro blu \"P\" (parcheggio) con orari \"9,00-17,00 / 20,00-7,00\" — indica alternanza divieto di sosta e parcheggio per fasce orarie",
     "imageHints": [
       "foto segnale qb_92"
@@ -1428,7 +1428,7 @@
       "B22026"
     ]
   },
-  "/signs/qb_148.png": {
+  "/signs/il_divieto_di_sosta_puo_essere_segnalato_qb_148.png": {
     "description": "Cartello rettangolare bianco con cerchio di divieto di sosta (blu barrato di rosso), scritta \"Lun - Ven 21,00 - 4,00\" e sagoma di spazzatrice stradale — divieto di sosta per pulizia strade dal lunedì al venerdì negli orari indicati",
     "imageHints": [
       "foto segnale qb_148"
@@ -1449,7 +1449,7 @@
       "B20021"
     ]
   },
-  "/signs/qb_151.png": {
+  "/signs/divieto_di_transito_per_autotreni_ed_autoarticolati_qb_151.png": {
     "description": "Cartello rettangolare bianco con cerchio rosso di divieto di transito (cerchio rosso con centro bianco, senza barra) e due sagome nere di autoarticolati sottostanti — indica divieto di transito per autocarri con rimorchio e autoarticolati",
     "imageHints": [
       "foto segnale qb_151"
@@ -1475,7 +1475,7 @@
       "B20032"
     ]
   },
-  "/signs/qb_97.png": {
+  "/signs/preavviso_di_direzione_obbligatoria_a_sinistra_e_qb_97.png": {
     "description": "Cerchio blu di obbligo con freccia bianca curva verso sinistra, indica direzione obbligatoria a sinistra",
     "imageHints": [
       "foto segnale qb_97"
@@ -1518,7 +1518,7 @@
       "B20157"
     ]
   },
-  "/signs/qb_2.png": {
+  "/signs/dosso_qb_2.png": {
     "description": "Triangolo rosso di pericolo con profilo di dosso stradale nero (gobba convessa), indica presenza di dosso sulla carreggiata",
     "imageHints": [
       "foto segnale qb_2"
@@ -1556,7 +1556,7 @@
       "B20668"
     ]
   },
-  "/signs/qb_93.png": {
+  "/signs/direzione_obbligatoria_diritto_e_qb_93.png": {
     "description": "Cerchio blu di obbligo con freccia bianca dritta verso l'alto, indica direzione obbligatoria dritto",
     "imageHints": [
       "foto segnale qb_93"
@@ -1603,7 +1603,7 @@
       "B21287"
     ]
   },
-  "/signs/qb_21.png": {
+  "/signs/strettoia_asimmetrica_destra_qb_21.png": {
     "description": "Triangolo rosso di pericolo con due barre nere verticali che si restringono sul lato destro, indica strettoia asimmetrica a destra",
     "imageHints": [
       "foto segnale qb_21"
@@ -1621,7 +1621,7 @@
       "B20638"
     ]
   },
-  "/signs/qb_94.png": {
+  "/signs/direzione_obbligatoria_a_sinistra_e_qb_94.png": {
     "description": "Cerchio blu di obbligo con freccia bianca orizzontale verso sinistra, indica direzione obbligatoria a sinistra (svolta)",
     "imageHints": [
       "foto segnale qb_94"
@@ -1660,7 +1660,7 @@
       "B20239"
     ]
   },
-  "/signs/qb_95.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_95.png": {
     "description": "Cerchio blu di obbligo con freccia bianca orizzontale verso destra, indica direzione obbligatoria a destra (svolta)",
     "imageHints": [
       "foto segnale qb_95"
@@ -1708,7 +1708,7 @@
       "B20108"
     ]
   },
-  "/signs/qb_96.png": {
+  "/signs/preavviso_di_direzione_obbligatoria_a_destra_e_qb_96.png": {
     "description": "Cerchio blu di obbligo con freccia bianca curva verso destra, indica direzione obbligatoria a destra",
     "imageHints": [
       "foto segnale qb_96"
@@ -1745,7 +1745,7 @@
       "B21739"
     ]
   },
-  "/signs/qb_28.png": {
+  "/signs/doppio_senso_di_circolazione_qb_28.png": {
     "description": "Triangolo rosso di pericolo con due frecce nere verticali opposte (una verso il basso e una verso l'alto), indica doppio senso di circolazione",
     "imageHints": [
       "foto segnale qb_28"
@@ -1765,7 +1765,7 @@
       "B20571"
     ]
   },
-  "/signs/qb_19.png": {
+  "/signs/strettoia_simmetrica_qb_19.png": {
     "description": "Triangolo rosso di pericolo con due barre nere verticali che si restringono al centro da entrambi i lati, indica strettoia simmetrica",
     "imageHints": [
       "foto segnale qb_19"
@@ -1780,7 +1780,7 @@
       "B20156"
     ]
   },
-  "/signs/qb_98.png": {
+  "/signs/direzioni_consentite_destra_e_sinistra_qb_98.png": {
     "description": "Cerchio blu di obbligo con due frecce bianche che divergono dal basso verso sinistra e verso destra, indica preavviso di direzione obbligatoria a sinistra o a destra",
     "imageHints": [
       "foto segnale qb_98"
@@ -1819,7 +1819,7 @@
       "B20217"
     ]
   },
-  "/signs/qb_99.png": {
+  "/signs/direzioni_consentite_diritto_e_destra_qb_99.png": {
     "description": "Cerchio blu di obbligo con due frecce bianche: una dritta verso l'alto e una curva verso destra, indica preavviso di direzione obbligatoria dritto o a destra",
     "imageHints": [
       "foto segnale qb_99"
@@ -1851,7 +1851,7 @@
       "B20219"
     ]
   },
-  "/signs/qb_100.png": {
+  "/signs/direzioni_consentite_diritto_e_sinistra_qb_100.png": {
     "description": "Cerchio blu di obbligo con due frecce bianche: una diritta verso l'alto e una curva verso sinistra, indica direzione obbligatoria dritto o a sinistra",
     "imageHints": [
       "foto segnale qb_100"
@@ -1877,7 +1877,7 @@
       "B20223"
     ]
   },
-  "/signs/qb_101.png": {
+  "/signs/passaggio_obbligatorio_a_sinistra_qb_101.png": {
     "description": "Cerchio blu di obbligo con freccia bianca diagonale verso il basso-sinistra, indica obbligo di passare a sinistra dell'ostacolo.",
     "imageHints": [
       "foto segnale qb_101"
@@ -1910,7 +1910,7 @@
       "B20262"
     ]
   },
-  "/signs/qb_102.png": {
+  "/signs/passaggio_obbligatorio_a_destra_qb_102.png": {
     "description": "Cerchio blu di obbligo con freccia bianca diagonale verso il basso-destra, indica obbligo di passare a destra dell'ostacolo.",
     "imageHints": [
       "foto segnale qb_102"
@@ -1939,7 +1939,7 @@
       "B20259"
     ]
   },
-  "/signs/qb_103.png": {
+  "/signs/passaggi_consentiti_qb_103.png": {
     "description": "Cerchio blu di obbligo con due frecce bianche divergenti verso il basso (una a sinistra e una a destra), indica obbligo di passare a destra o a sinistra dell'ostacolo.",
     "imageHints": [
       "foto segnale qb_103"
@@ -1976,7 +1976,7 @@
       "B20273"
     ]
   },
-  "/signs/qb_104.png": {
+  "/signs/rotatoria_e_qb_104.png": {
     "description": "Cerchio blu di obbligo con tre frecce circolari bianche in senso antiorario, indica obbligo di circolare in rotatoria",
     "imageHints": [
       "foto segnale qb_104"
@@ -2002,7 +2002,7 @@
       "B20292"
     ]
   },
-  "/signs/qb_105.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_105.png": {
     "description": "Cerchio blu di obbligo con numero 30 bianco su sfondo blu, indica velocità minima obbligatoria di 30 km/h",
     "imageHints": [
       "foto segnale qb_105"
@@ -2041,7 +2041,7 @@
       "B21631"
     ]
   },
-  "/signs/qb_106.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_106.png": {
     "description": "Cerchio blu con numero 30 barrato da una striscia rossa diagonale, indica fine dell'obbligo di velocità minima di 30 km/h",
     "imageHints": [
       "foto segnale qb_106"
@@ -2065,7 +2065,7 @@
       "B20328"
     ]
   },
-  "/signs/qb_107.png": {
+  "/signs/catene_o_pneumatici_invernali_obbligatori_qb_107.png": {
     "description": "Cerchio blu di obbligo con pneumatico dotato di catene da neve, indica obbligo di uso di catene da neve o pneumatici invernali",
     "imageHints": [
       "foto segnale qb_107"
@@ -2096,7 +2096,7 @@
       "B21510"
     ]
   },
-  "/signs/qb_108.png": {
+  "/signs/attraversamento_pedonale_qb_108.png": {
     "description": "Cerchio blu di obbligo con figura stilizzata di pedone in bianco, indica percorso obbligatorio per pedoni",
     "imageHints": [
       "foto segnale qb_108"
@@ -2120,7 +2120,7 @@
       "B20348"
     ]
   },
-  "/signs/qb_109.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_109.png": {
     "description": "Cerchio blu con figura stilizzata di pedone barrata da striscia rossa diagonale, indica fine del percorso obbligatorio per pedoni",
     "imageHints": [
       "foto segnale qb_109"
@@ -2141,7 +2141,7 @@
       "B20355"
     ]
   },
-  "/signs/qb_110.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_110.png": {
     "description": "Cerchio blu di obbligo con bicicletta bianca, indica pista ciclabile obbligatoria (percorso riservato ai ciclisti)",
     "imageHints": [
       "foto segnale qb_110"
@@ -2163,7 +2163,7 @@
       "B20365"
     ]
   },
-  "/signs/qb_111.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_111.png": {
     "description": "Cerchio blu con bicicletta bianca barrata da striscia rossa diagonale, indica fine della pista ciclabile obbligatoria",
     "imageHints": [
       "foto segnale qb_111"
@@ -2186,7 +2186,7 @@
       "B20374"
     ]
   },
-  "/signs/qb_112.png": {
+  "/signs/attraversamento_ciclabile_qb_112.png": {
     "description": "Cerchio blu diviso verticalmente da linea bianca: a sinistra pedone, a destra bicicletta, indica percorso misto pedonale e ciclabile con corsie fisicamente separate",
     "imageHints": [
       "foto segnale qb_112"
@@ -2211,7 +2211,7 @@
       "B20386"
     ]
   },
-  "/signs/qb_113.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_113.png": {
     "description": "Cerchio blu con pedone in alto e bicicletta in basso senza separazione, indica percorso promiscuo pedoni e ciclisti (uso comune della stessa corsia)",
     "imageHints": [
       "foto segnale qb_113"
@@ -2232,7 +2232,7 @@
       "B20393"
     ]
   },
-  "/signs/qb_114.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_114.png": {
     "description": "Cerchio blu con pedone e bicicletta separati barrati da striscia rossa diagonale, indica fine del percorso misto pedonale/ciclabile con corsie separate",
     "imageHints": [
       "foto segnale qb_114"
@@ -2254,7 +2254,7 @@
       "B20401"
     ]
   },
-  "/signs/qb_115.png": {
+  "/signs/fine_del_divieto_di_sorpasso_e_qb_115.png": {
     "description": "Cerchio blu con pedone e bicicletta sovrapposti barrati da striscia rossa diagonale, indica fine del percorso promiscuo pedoni e ciclisti",
     "imageHints": [
       "foto segnale qb_115"
@@ -2276,7 +2276,7 @@
       "B20408"
     ]
   },
-  "/signs/qb_116.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_116.png": {
     "description": "Cerchio blu di obbligo con figura di cavaliere su cavallo in bianco, indica percorso obbligatorio per animali (pista equestre)",
     "imageHints": [
       "foto segnale qb_116"
@@ -2301,7 +2301,7 @@
       "B20418"
     ]
   },
-  "/signs/qb_117.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_117.png": {
     "description": "Cerchio blu con cavaliere su cavallo barrato da striscia rossa diagonale, indica fine del percorso obbligatorio per cavalieri",
     "imageHints": [
       "foto segnale qb_117"
@@ -2321,7 +2321,7 @@
       "B20425"
     ]
   },
-  "/signs/qb_118.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_118.png": {
     "description": "Segnale di precedenza. Cerchio rosso con sfondo bianco, barra orizzontale nera e scritta \"DOGANA / DOUANE\", indica obbligo di fermarsi al posto di controllo doganale.",
     "imageHints": [
       "foto segnale qb_118"
@@ -2345,7 +2345,7 @@
       "B20433"
     ]
   },
-  "/signs/qb_119.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_119.png": {
     "description": "Segnale di precedenza. Cerchio rosso con sfondo bianco, barra orizzontale nera e scritta \"ALT / POLIZIA\", indica obbligo di fermarsi al posto di blocco della polizia.",
     "imageHints": [
       "foto segnale qb_119"
@@ -2370,7 +2370,7 @@
       "B20446"
     ]
   },
-  "/signs/qb_120.png": {
+  "/signs/direzione_obbligatoria_a_destra_e_qb_120.png": {
     "description": "Segnale di precedenza. Cerchio rosso con sfondo bianco, barra orizzontale nera e scritta \"ALT / STAZIONE\", indica obbligo di fermarsi alla stazione di controllo.",
     "imageHints": [
       "foto segnale qb_120"
@@ -2395,7 +2395,7 @@
       "B20453"
     ]
   },
-  "/signs/qb_150.png": {
+  "/signs/preavviso_deviazione_autocarri_qb_150.png": {
     "description": "Cartello rettangolare bianco con cerchio blu di obbligo (freccia curva a destra) e sagoma nera di camion — indica preavviso di obbligo di svoltare a destra per i veicoli pesanti.",
     "imageHints": [
       "foto segnale qb_150"
@@ -2422,7 +2422,7 @@
       "B20465"
     ]
   },
-  "/signs/qb_40.png": {
+  "/signs/dare_precedenza_qb_40.png": {
     "description": "Triangolo rovesciato con bordo rosso e centro bianco (vertice in basso), indica dare precedenza ai veicoli provenienti da destra e da sinistra",
     "imageHints": [
       "foto segnale qb_40"
@@ -2461,7 +2461,7 @@
       "B22714"
     ]
   },
-  "/signs/qb_41.png": {
+  "/signs/dare_precedenza_qb_41.png": {
     "description": "Ottagono rosso con scritta \"STOP\" bianca al centro, indica obbligo di fermarsi e dare precedenza",
     "imageHints": [
       "foto segnale qb_41"
@@ -2496,7 +2496,7 @@
       "B22885"
     ]
   },
-  "/signs/qb_42.png": {
+  "/signs/preavviso_di_dare_precedenza_qb_42.png": {
     "description": "Triangolo rovesciato di dare precedenza con pannello integrativo sopra recante scritta \"320 m\", indica preavviso di intersezione con obbligo di dare precedenza a 320 metri",
     "imageHints": [
       "foto segnale qb_42"
@@ -2523,7 +2523,7 @@
       "B20522"
     ]
   },
-  "/signs/qb_43.png": {
+  "/signs/preavviso_di_dare_precedenza_qb_43.png": {
     "description": "Triangolo rovesciato di dare precedenza con pannello integrativo sopra recante scritta \"STOP 320 m\", indica preavviso di intersezione con obbligo di fermarsi (stop) a 320 metri",
     "imageHints": [
       "foto segnale qb_43"
@@ -2546,7 +2546,7 @@
       "B20534"
     ]
   },
-  "/signs/qb_44.png": {
+  "/signs/intersezione_con_precedenza_a_destra_qb_44.png": {
     "description": "Triangolo rosso di pericolo con croce nera a X al centro, indica intersezione con diritto di precedenza (incrocio pericoloso)",
     "imageHints": [
       "foto segnale qb_44"
@@ -2567,7 +2567,7 @@
       "B20545"
     ]
   },
-  "/signs/qb_45.png": {
+  "/signs/dare_precedenza_qb_45.png": {
     "description": "Segnale di precedenza. Cerchio rosso con freccia nera verso il basso (senso di marcia) e freccia rossa più piccola verso l'alto (senso opposto), indica dare precedenza nei sensi unici alternati.",
     "imageHints": [
       "foto segnale qb_45"
@@ -2613,7 +2613,7 @@
       "B20707"
     ]
   },
-  "/signs/qb_22.png": {
+  "/signs/ponte_mobile_qb_22.png": {
     "description": "Triangolo rosso di pericolo con ponte levatoio nero aperto sopra onde d'acqua, indica ponte mobile o apribile",
     "imageHints": [
       "foto segnale qb_22"
@@ -2628,7 +2628,7 @@
       "B20563"
     ]
   },
-  "/signs/qb_46.png": {
+  "/signs/intersezione_con_diritto_di_precedenza_qb_46.png": {
     "description": "Quadrato bianco con bordo nero ruotato a 45 gradi (rombo) con rettangolo giallo barrato da striscia nera diagonale, indica fine della strada con diritto di precedenza",
     "imageHints": [
       "foto segnale qb_46"
@@ -2663,7 +2663,7 @@
       "B20671"
     ]
   },
-  "/signs/qb_8.png": {
+  "/signs/passaggio_a_livello_senza_barriere_qb_8.png": {
     "description": "Triangolo rosso di pericolo con sagoma nera di barriera ferroviaria (staccionata con tre pali verticali e due traverse), indica passaggio a livello con barriere",
     "imageHints": [
       "foto segnale qb_8"
@@ -2678,7 +2678,7 @@
       "B20592"
     ]
   },
-  "/signs/qb_47.png": {
+  "/signs/intersezione_con_diritto_di_precedenza_qb_47.png": {
     "description": "Triangolo rosso di pericolo con croce nera a forma di freccia verticale (direzione principale grossa e traverse laterali), indica intersezione con precedenza a destra su strada secondaria",
     "imageHints": [
       "foto segnale qb_47"
@@ -2722,7 +2722,7 @@
       "B22889"
     ]
   },
-  "/signs/qb_48.png": {
+  "/signs/intersezione_con_precedenza_a_destra_qb_48.png": {
     "description": "Triangolo rosso di pericolo con freccia verticale nera grossa (strada principale) e traversa laterale a destra, indica intersezione con immissione da destra su strada con precedenza",
     "imageHints": [
       "foto segnale qb_48"
@@ -2752,7 +2752,7 @@
       "B21681"
     ]
   },
-  "/signs/qb_49.png": {
+  "/signs/intersezione_con_diritto_di_precedenza_qb_49.png": {
     "description": "Triangolo rosso di pericolo con freccia verticale nera grossa (strada principale) e traversa laterale a sinistra, indica intersezione con immissione da sinistra su strada con precedenza",
     "imageHints": [
       "foto segnale qb_49"
@@ -2778,7 +2778,7 @@
       "B21447"
     ]
   },
-  "/signs/qb_50.png": {
+  "/signs/confluenza_a_destra_qb_50.png": {
     "description": "Triangolo rosso di pericolo con freccia verticale nera grossa e diramazione obliqua a destra in basso, indica confluenza laterale da destra su strada con precedenza",
     "imageHints": [
       "foto segnale qb_50"
@@ -2801,7 +2801,7 @@
       "B20652"
     ]
   },
-  "/signs/qb_51.png": {
+  "/signs/confluenza_a_sinistra_qb_51.png": {
     "description": "Triangolo rosso di pericolo con freccia verticale nera grossa e diramazione obliqua a sinistra in basso, indica confluenza laterale da sinistra su strada con precedenza",
     "imageHints": [
       "foto segnale qb_51"
@@ -2824,7 +2824,7 @@
       "B20664"
     ]
   },
-  "/signs/qb_52.png": {
+  "/signs/diritto_di_precedenza_qb_52.png": {
     "description": "Segnale di precedenza. Quadrato bianco con bordo nero ruotato a 45 gradi (rombo) con rombo giallo pieno al centro, indica strada con diritto di precedenza.",
     "imageHints": [
       "foto segnale qb_52"
@@ -2857,7 +2857,7 @@
       "B20688"
     ]
   },
-  "/signs/qb_53.png": {
+  "/signs/intersezione_con_diritto_di_precedenza_qb_53.png": {
     "description": "Quadrato blu con freccia rossa verso il basso a sinistra (senso opposto) e freccia bianca verso l'alto a destra (nostro senso), indica diritto di precedenza nei sensi unici alternati",
     "imageHints": [
       "foto segnale qb_53"
@@ -2886,7 +2886,7 @@
       "B20708"
     ]
   },
-  "/signs/qb_502.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_502.png": {
     "description": "Vista dall'alto di strada grigia a corsia unica con linea di mezzeria tratteggiata bianca al centro e linee di margine continue ai lati, indica segnaletica orizzontale di linea discontinua (sorpasso consentito)",
     "imageHints": [
       "foto segnale qb_502"
@@ -2949,7 +2949,7 @@
       "B22872"
     ]
   },
-  "/signs/qb_501.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_501.png": {
     "description": "Vista dall'alto di strada grigia a due corsie separate da linea bianca continua al centro, indica segnaletica orizzontale di separazione corsie con divieto di invasione della corsia opposta (divieto di sorpasso).",
     "imageHints": [
       "foto segnale qb_501"
@@ -2977,7 +2977,7 @@
       "B20920"
     ]
   },
-  "/signs/qb_509.png": {
+  "/signs/la_doppia_striscia_continua_qb_509.png": {
     "description": "Vista dall'alto di strada grigia a due corsie separate da doppia linea bianca continua al centro, indica segnaletica orizzontale di doppia striscia continua (divieto assoluto di sorpasso).",
     "imageHints": [
       "foto segnale qb_509"
@@ -3006,7 +3006,7 @@
       "B20893"
     ]
   },
-  "/signs/qb_543.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_543.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con strisce pedonali zebrate, corsie di canalizzazione, semafori (punti neri agli angoli) e segnaletica orizzontale completa — intersezione a raso regolata da semafori.",
     "imageHints": [
       "foto segnale qb_543"
@@ -3028,7 +3028,7 @@
       "B20742"
     ]
   },
-  "/signs/qb_547.png": {
+  "/signs/accensione_delle_luci_e_qb_547.png": {
     "description": "Vista dall'alto di incrocio a T con corsie di preselezione: due corsie a sinistra con linea tratteggiata e tre corsie a destra con frecce direzionali bianche ripetute (sinistra, dritto, destra).",
     "imageHints": [
       "foto segnale qb_547"
@@ -3059,7 +3059,7 @@
       "B20755"
     ]
   },
-  "/signs/qb_595.png": {
+  "/signs/isola_di_traffico_qb_595.png": {
     "description": "Vista dall'alto di incrocio a Y con tre veicoli: A (arancione) proveniente dall'alto, B (rosso) proveniente dal basso, C (bianco/nero) proveniente da sinistra — situazione di precedenza a intersezione con isola di traffico.",
     "imageHints": [
       "foto segnale qb_595"
@@ -3083,7 +3083,7 @@
       "B20802"
     ]
   },
-  "/signs/qb_567.png": {
+  "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_567.png": {
     "description": "Vista dall'alto di strada a due corsie con automobile nera sulla corsia di destra che procede verso destra, linea di mezzeria tratteggiata bianca al centro e linea continua di margine a destra.",
     "imageHints": [
       "foto segnale qb_567"
@@ -3107,7 +3107,7 @@
       "B20770"
     ]
   },
-  "/signs/qb_566.png": {
+  "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_566.png": {
     "description": "Vista dall'alto di strada a due corsie con automobile nera sulla corsia di destra che procede verso destra, linea di mezzeria tratteggiata bianca al centro e linea continua bianca di margine.",
     "imageHints": [
       "foto segnale qb_566"
@@ -3130,7 +3130,7 @@
       "B20779"
     ]
   },
-  "/signs/qb_670.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_670.png": {
     "description": "Striscia orizzontale di margine con segmenti alternati bianchi, neri e gialli — segnaletica orizzontale di delimitazione del bordo del marciapiede con divieto di sosta (giallo-nero).",
     "imageHints": [
       "foto segnale qb_670"
@@ -3162,7 +3162,7 @@
       "B20841"
     ]
   },
-  "/signs/qb_546.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_546.png": {
     "description": "Vista dall'alto di strada a due corsie con linea gialla a zig-zag sul lato destro e scritta \"BUS\" — indica fermata autobus con divieto di sosta e fermata nella zona delimitata.",
     "imageHints": [
       "foto segnale qb_546"
@@ -3190,7 +3190,7 @@
       "B20798"
     ]
   },
-  "/signs/qb_596.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_596.png": {
     "description": "Vista dall'alto di incrocio a Y con tre veicoli: A (arancione) proveniente dall'alto, B (rosso) proveniente dal basso, C (bianco/nero) proveniente da sinistra — situazione di precedenza con linea di arresto e obbligo di dare precedenza.",
     "imageHints": [
       "foto segnale qb_596"
@@ -3207,7 +3207,7 @@
       "B20809"
     ]
   },
-  "/signs/qb_574.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_574.png": {
     "description": "Vista dall'alto di incrocio a croce con automobile blu sulla corsia sinistra che si avvicina all'incrocio, con strisce bianche di canalizzazione e corsie di preselezione.",
     "imageHints": [
       "foto segnale qb_574"
@@ -3233,7 +3233,7 @@
       "B20820"
     ]
   },
-  "/signs/qb_564.png": {
+  "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_564.png": {
     "description": "Vista dall'alto di tre corsie (A, B, C) in avvicinamento a un incrocio con frecce direzionali: corsia A frecce verso destra, corsia B frecce bidirezionali (sinistra-destra), corsia C frecce verso sinistra.",
     "imageHints": [
       "foto segnale qb_564"
@@ -3249,7 +3249,7 @@
       "B20826"
     ]
   },
-  "/signs/qb_565.png": {
+  "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_565.png": {
     "description": "Vista dall'alto di tre corsie (A, B, C) in avvicinamento a un incrocio con frecce direzionali: corsia A frecce verso destra, corsia B frecce bidirezionali (sinistra-destra), corsia C frecce verso destra.",
     "imageHints": [
       "foto segnale qb_565"
@@ -3270,7 +3270,7 @@
       "B20834"
     ]
   },
-  "/signs/qb_534.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_534.png": {
     "description": "Vista dall'alto di attraversamento pedonale con strisce bianche orizzontali (zebratura) su carreggiata grigia, con frecce nere che indicano la direzione di attraversamento consigliata per i pedoni.",
     "imageHints": [
       "foto segnale qb_534"
@@ -3285,7 +3285,7 @@
       "B20846"
     ]
   },
-  "/signs/qb_517.png": {
+  "/signs/attraversamento_pedonale_qb_517.png": {
     "description": "Vista dall'alto di attraversamento pedonale con strisce bianche orizzontali (zebratura) su carreggiata grigia — passaggio pedonale classico.",
     "imageHints": [
       "foto segnale qb_517"
@@ -3318,7 +3318,7 @@
       "B20904"
     ]
   },
-  "/signs/qb_563.png": {
+  "/signs/la_striscia_bianca_continua_qb_563.png": {
     "description": "Vista dall'alto di incrocio a T con marciapiede (area bianca) in alto e in basso, carreggiata grigia con linea tratteggiata e linea continua di margine.",
     "imageHints": [
       "foto segnale qb_563"
@@ -3344,7 +3344,7 @@
       "B20969"
     ]
   },
-  "/signs/qb_545.png": {
+  "/signs/attraversamento_pedonale_qb_545.png": {
     "description": "Vista dall'alto di intersezione con attraversamento pedonale zebrato, linee gialle a zig-zag ai lati (fermata autobus), linea tratteggiata di mezzeria e corsie delimitate.",
     "imageHints": [
       "foto segnale qb_545"
@@ -3359,7 +3359,7 @@
       "B20898"
     ]
   },
-  "/signs/qb_528.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_528.png": {
     "description": "Numero \"50\" bianco dipinto sulla carreggiata grigia — segnaletica orizzontale che indica il limite massimo di velocità a 50 km/h.",
     "imageHints": [
       "foto segnale qb_528"
@@ -3376,7 +3376,7 @@
       "B20927"
     ]
   },
-  "/signs/qb_535.png": {
+  "/signs/dosso_artificiale_qb_535.png": {
     "description": "Segnaletica orizzontale a strisce orizzontali gialle e nere alternate a forma di chevron/V rovesciata verso il basso — indica ostacolo fisso o protezione di manufatto stradale.",
     "imageHints": [
       "foto segnale qb_535"
@@ -3397,7 +3397,7 @@
       "B20930"
     ]
   },
-  "/signs/qb_445.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_445.png": {
     "description": "Vista dall'alto di area parcheggio con due automobili bianche parcheggiate in stalli delimitati da linee gialle, area tratteggiata gialla a sinistra con simbolo disabile e colonnina — parcheggio riservato disabili.",
     "imageHints": [
       "foto segnale qb_445"
@@ -3415,7 +3415,7 @@
       "B20932"
     ]
   },
-  "/signs/qb_513.png": {
+  "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_513.png": {
     "description": "Vista dall'alto di strada a due corsie con piazzola di sosta di emergenza (allargamento trapezoidale) sul lato destro, linea tratteggiata di mezzeria e linee di margine.",
     "imageHints": [
       "foto segnale qb_513"
@@ -3433,7 +3433,7 @@
       "B20939"
     ]
   },
-  "/signs/qb_505.png": {
+  "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_505.png": {
     "description": "Vista dall'alto di intersezione a T con strada principale orizzontale (due corsie, linea tratteggiata) e strada secondaria che si immette dall'alto con linea tratteggiata di dare precedenza, che si ferma all'intersezione.",
     "imageHints": [
       "foto segnale qb_505"
@@ -3450,7 +3450,7 @@
       "B20943"
     ]
   },
-  "/signs/qb_506.png": {
+  "/signs/asse_il_centro_della_carreggiata_qb_506.png": {
     "description": "Vista dall'alto di incrocio a croce con strada principale orizzontale a due corsie (linee tratteggiate) e strada secondaria verticale — intersezione senza segnaletica di precedenza",
     "imageHints": [
       "foto segnale qb_506"
@@ -3468,7 +3468,7 @@
       "B20942"
     ]
   },
-  "/signs/qb_537.png": {
+  "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_537.png": {
     "description": "Vista dall'alto di intersezione a T con corsia di decelerazione sulla sinistra che curva verso il basso, zone tratteggiate di separazione e carreggiata principale orizzontale a due corsie.",
     "imageHints": [
       "foto segnale qb_537"
@@ -3484,7 +3484,7 @@
       "B20944"
     ]
   },
-  "/signs/qb_512.png": {
+  "/signs/in_una_strada_a_doppio_senso_la_striscia_bianca_discontinua_qb_512.png": {
     "description": "Vista dall'alto di curva stradale con frecce nere che indicano i due sensi di marcia: freccia a sinistra (senso opposto) e freccia a destra (nostro senso), con linea tratteggiata di mezzeria e linea continua.",
     "imageHints": [
       "foto segnale qb_512"
@@ -3499,7 +3499,7 @@
       "B20937"
     ]
   },
-  "/signs/qb_531.png": {
+  "/signs/passaggio_a_livello_qb_531.png": {
     "description": "Vista dall'alto di strada verticale a due corsie in prossimità di un passaggio a livello: linea continua di arresto bianca in alto, croce di Sant'Andrea bianca e cancelletto tratteggiato in basso a destra.",
     "imageHints": [
       "foto segnale qb_531"
@@ -3524,7 +3524,7 @@
       "B20953"
     ]
   },
-  "/signs/qb_568.png": {
+  "/signs/la_striscia_bianca_continua_qb_568.png": {
     "description": "Vista dall'alto di incrocio a croce con automobile bianca/nera sulla corsia sinistra in avvicinamento, con corsie di preselezione delimitate da linee bianche e marciapiedi.",
     "imageHints": [
       "foto segnale qb_568"
@@ -3539,7 +3539,7 @@
       "B20964"
     ]
   },
-  "/signs/qb_515.png": {
+  "/signs/la_striscia_bianca_continua_qb_515.png": {
     "description": "Vista dall'alto di intersezione a T vista dal braccio inferiore con scritta \"STOP\" bianca dipinta sulla carreggiata e linea di arresto continua, indica obbligo di fermarsi prima dell'incrocio.",
     "imageHints": [
       "foto segnale qb_515"
@@ -3554,7 +3554,7 @@
       "B20965"
     ]
   },
-  "/signs/qb_154.png": {
+  "/signs/la_luce_rossa_del_semaforo_e_qb_154.png": {
     "description": "Semaforo veicolare a tre luci verticali (rosso in alto, giallo al centro, verde in basso) — rappresenta un normale semaforo per la circolazione veicolare",
     "imageHints": [
       "foto segnale qb_154"
@@ -3626,7 +3626,7 @@
       "B21082"
     ]
   },
-  "/signs/qb_155.png": {
+  "/signs/semafori_veicolari_di_corsia_qb_155.png": {
     "description": "Tre semafori verticali affiancati, ciascuno con tre luci a freccia (rossa, gialla, verde) nelle direzioni avanti, destra e inversione di marcia — indicano semafori direzionali per corsie specifiche",
     "imageHints": [
       "foto segnale qb_155"
@@ -3666,7 +3666,7 @@
       "B21096"
     ]
   },
-  "/signs/qb_162.png": {
+  "/signs/passaggio_a_livello_senza_barriere_qb_162.png": {
     "description": "Due dischi ferroviari affiancati su palo bianco: disco sinistro con semiluna rossa illuminata (segnale di fermata), disco destro con semiluna marrone (segnale di via libera) — indicano segnali luminosi al passaggio a livello",
     "imageHints": [
       "foto segnale qb_162"
@@ -3712,7 +3712,7 @@
       "B21204"
     ]
   },
-  "/signs/qb_156.png": {
+  "/signs/semaforo_verticale_qb_156.png": {
     "description": "Semaforo ferroviario verticale a tre luci: striscia bianca orizzontale in alto, triangolo giallo al centro, striscia bianca verticale in basso — indica segnale di avviso luminoso per passaggio a livello",
     "imageHints": [
       "foto segnale qb_156"
@@ -3747,7 +3747,7 @@
       "B21105"
     ]
   },
-  "/signs/qb_159.png": {
+  "/signs/lanterne_semaforiche_per_corsie_reversibili_qb_159.png": {
     "description": "Due pannelli: A) tre cerchi neri con simboli (X arancione = corsia chiusa, freccia verde giù = corsia aperta, freccia gialla diagonale = cambio corsia); B) barriera con semafori a frecce sulle corsie — indicano segnali di gestione delle corsie autostradali",
     "imageHints": [
       "foto segnale qb_159"
@@ -3778,7 +3778,7 @@
       "B21156"
     ]
   },
-  "/signs/qb_157.png": {
+  "/signs/semaforo_pedonale_qb_157.png": {
     "description": "Semaforo pedonale a tre luci verticali: figura umana stilizzata rossa (stop) in alto, gialla al centro, verde camminante in basso — indica semaforo per il attraversamento pedonale",
     "imageHints": [
       "foto segnale qb_157"
@@ -3815,7 +3815,7 @@
       "B21115"
     ]
   },
-  "/signs/qb_158.png": {
+  "/signs/semaforo_per_velocipedi_biciclette_e_qb_158.png": {
     "description": "Semaforo ciclabile a tre luci verticali: bicicletta rossa in alto, gialla al centro, verde in basso — indica semaforo dedicato ai ciclisti",
     "imageHints": [
       "foto segnale qb_158"
@@ -3841,7 +3841,7 @@
       "B21126"
     ]
   },
-  "/signs/qb_160.png": {
+  "/signs/lanterne_semaforiche_gialle_lampeggianti_qb_160.png": {
     "description": "Tre luci gialle lampeggianti: A) disco giallo pieno, B) cerchio nero con pedone giallo stilizzato, C) cerchio nero con bicicletta gialla — indicano segnali luminosi gialli lampeggianti di avviso (semaforo lampeggiante)",
     "imageHints": [
       "foto segnale qb_160"
@@ -3864,7 +3864,7 @@
       "B21134"
     ]
   },
-  "/signs/qb_161.png": {
+  "/signs/semaforo_pedonale_qb_161.png": {
     "description": "Pannello rettangolare verticale bianco con tre cerchi neri sovrapposti contenenti i numeri \"50\", \"40\", \"30\" in bianco — indica segnale luminoso a messaggio variabile per limite di velocità",
     "imageHints": [
       "foto segnale qb_161"
@@ -3896,7 +3896,7 @@
       "B21149"
     ]
   },
-  "/signs/qb_383.png": {
+  "/signs/segnali_del_vigile_qb_383.png": {
     "description": "Agente del traffico (vigile urbano) visto frontalmente con braccia distese orizzontalmente a destra e a sinistra, in un incrocio — indica alt (semaforo rosso) per i veicoli provenienti dalla sua direzione e da quella opposta.",
     "imageHints": [
       "foto segnale qb_383"
@@ -3922,7 +3922,7 @@
       "B21167"
     ]
   },
-  "/signs/qb_384.png": {
+  "/signs/segnali_del_vigile_qb_384.png": {
     "description": "Agente del traffico (vigile urbano) visto di tre quarti con braccio destro alzato verso sinistra e braccio sinistro abbassato lungo il fianco, in un incrocio — indica via libera per i veicoli che provengono da sinistra.",
     "imageHints": [
       "foto segnale qb_384"
@@ -3947,7 +3947,7 @@
       "B21175"
     ]
   },
-  "/signs/qb_385.png": {
+  "/signs/segnali_del_vigile_qb_385.png": {
     "description": "Agente del traffico (vigile urbano) visto frontalmente con braccio destro alzato verticalmente verso l'alto, in un incrocio — indica attenzione/precauzione (equivalente al giallo del semaforo), tutti si devono fermare.",
     "imageHints": [
       "foto segnale qb_385"
@@ -3974,7 +3974,7 @@
       "B21183"
     ]
   },
-  "/signs/qb_386.png": {
+  "/signs/segnali_del_vigile_qb_386.png": {
     "description": "Agente del traffico (vigile urbano) visto di tre quarti con braccia distese lateralmente, in un incrocio — indica via libera per i veicoli che provengono dalla sua destra e dalla sua sinistra.",
     "imageHints": [
       "foto segnale qb_386"
@@ -4000,7 +4000,7 @@
       "B21193"
     ]
   },
-  "/signs/qb_184.png": {
+  "/signs/preavviso_di_diramazione_autostradale_e_qb_184.png": {
     "description": "Pannello rettangolare verde con tre righe bianche: \"FIRENZE 180\", \"BOLOGNA 285\", \"MILANO 472\" — cartello chilometrico su autostrada con distanze dalle principali città",
     "imageHints": [
       "foto segnale qb_184"
@@ -4027,7 +4027,7 @@
       "B21733"
     ]
   },
-  "/signs/qb_199.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_199.png": {
     "description": "Pannello rettangolare verde con bordi arrotondati e scritta \"E 55\" in bianco — indica la numerazione della strada europea E55",
     "imageHints": [
       "foto segnale qb_199"
@@ -4053,7 +4053,7 @@
       "B21546"
     ]
   },
-  "/signs/qb_201.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_201.png": {
     "description": "Pannello rettangolare blu con bordi arrotondati e scritta \"SS 2\" in bianco — indica il numero della strada statale SS 2",
     "imageHints": [
       "foto segnale qb_201"
@@ -4077,7 +4077,7 @@
       "B21255"
     ]
   },
-  "/signs/qb_203.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_203.png": {
     "description": "Pannello rettangolare bianco con bordo nero e scritta \"SC 19\" — indica il numero della strada comunale SC 19",
     "imageHints": [
       "foto segnale qb_203"
@@ -4099,7 +4099,7 @@
       "B21264"
     ]
   },
-  "/signs/qb_260.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_260.png": {
     "description": "Segnale di indicazione. Cartello marrone rettangolare con simbolo nero di tenda da campeggio sopra e caravan/roulotte sotto su sfondo bianco, indica area di campeggio e sosta camper.",
     "imageHints": [
       "foto segnale qb_260"
@@ -4122,7 +4122,7 @@
       "B21273"
     ]
   },
-  "/signs/qb_274.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_274.png": {
     "description": "Cartello rettangolare bianco con scritta \"POLIZIA STRADALE\" in alto e campi \"localita'\" , \"indirizzo\" e \"telefoni\" sotto (dati oscurati in grigio) — indica sede della Polizia Stradale",
     "imageHints": [
       "foto segnale qb_274"
@@ -4146,7 +4146,7 @@
       "B21282"
     ]
   },
-  "/signs/qb_153.png": {
+  "/signs/senso_unico_frontale_qb_153.png": {
     "description": "Pannello quadrato blu con bordi arrotondati e grande freccia bianca verso l'alto — indica senso unico con direzione obbligatoria in avanti",
     "imageHints": [
       "foto segnale qb_153"
@@ -4167,7 +4167,7 @@
       "B21291"
     ]
   },
-  "/signs/qb_152.png": {
+  "/signs/senso_unico_parallelo_qb_152.png": {
     "description": "Due pannelli rettangolari blu con frecce bianche: A) freccia verso sinistra, B) freccia verso destra — indicano il senso di circolazione obbligatorio (senso unico)",
     "imageHints": [
       "foto segnale qb_152"
@@ -4190,7 +4190,7 @@
       "B21301"
     ]
   },
-  "/signs/qb_206.png": {
+  "/signs/progressiva_distanziometrica_autostradale_e_qb_206.png": {
     "description": "Due pannelli affiancati: quadrato bianco con numero \"54\" e rettangolare verde con \"PIACENZA 4\" — indica il numero chilometrico progressivo e la distanza dalla destinazione (Piacenza a 4 km)",
     "imageHints": [
       "foto segnale qb_206"
@@ -4220,7 +4220,7 @@
       "B21618"
     ]
   },
-  "/signs/qb_272.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_272.png": {
     "description": "Segnale di indicazione. Cartello rettangolare arancione con scritta \"TAXI\" nera in grande al centro — indica postazione o stazione taxi.",
     "imageHints": [
       "foto segnale qb_272"
@@ -4243,7 +4243,7 @@
       "B21322"
     ]
   },
-  "/signs/qb_253.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_253.png": {
     "description": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco in alto contenente sagoma nera di cornetta telefonica — indica telefono pubblico o colonnina SOS.",
     "imageHints": [
       "foto segnale qb_253"
@@ -4267,7 +4267,7 @@
       "B21332"
     ]
   },
-  "/signs/qb_254.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_254.png": {
     "description": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco in alto contenente sagoma nera di pompa di benzina — indica stazione di rifornimento carburante.",
     "imageHints": [
       "foto segnale qb_254"
@@ -4292,7 +4292,7 @@
       "B21343"
     ]
   },
-  "/signs/qb_282.png": {
+  "/signs/preavviso_di_deviazione_e_qb_282.png": {
     "description": "Cartello giallo di preavviso lavori in corso con freccia nera che devia a sinistra, triangolo rosso di pericolo lavori, scritta \"NOVARA\" e pannello bianco \"2 km\" sotto — indica deviazione per lavori in corso a 2 km, direzione Novara",
     "imageHints": [
       "foto segnale qb_282"
@@ -4319,7 +4319,7 @@
       "B21354"
     ]
   },
-  "/signs/qb_166.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_166.png": {
     "description": "Cartello di indicazione rettangolare con riquadro blu \"SS 32\", destinazioni \"SORA / NAPOLI\", frecce (dritto e a destra), simboli centro e stazione — cartello di preavviso di incrocio con indicazione di destinazioni",
     "imageHints": [
       "foto segnale qb_166"
@@ -4347,7 +4347,7 @@
       "B21446"
     ]
   },
-  "/signs/qb_167.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_167.png": {
     "description": "Cartello di indicazione complesso con riquadri blu per destinazioni (Austria, Tarvisio, Tolmezzo a sinistra; Trieste, Grado, Cividale a destra), frecce direzionali multiple, simbolo ospedale, segnale di divieto di accesso integrato — cartello di intersezione con destinazioni multiple",
     "imageHints": [
       "foto segnale qb_167"
@@ -4372,7 +4372,7 @@
       "B21379"
     ]
   },
-  "/signs/qb_168.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_168.png": {
     "description": "Cartello di indicazione con riquadro verde \"tangenziale / autostrade A1 A13\", destinazioni locali e schema grafico di rotatoria con frecce — cartello di preavviso di rotatoria con indicazioni autostradali e locali",
     "imageHints": [
       "foto segnale qb_168"
@@ -4393,7 +4393,7 @@
       "B21387"
     ]
   },
-  "/signs/qb_169.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_169.png": {
     "description": "Cartello di indicazione con riquadro blu \"PESCARA\", riquadro verde \"A24 ROMA - L'AQUILA\", frecce direzionali e segnale di divieto per autocarri integrato — cartello di preavviso di biforcazione con indicazioni autostradali",
     "imageHints": [
       "foto segnale qb_169"
@@ -4414,7 +4414,7 @@
       "B21399"
     ]
   },
-  "/signs/qb_170.png": {
+  "/signs/passaggio_a_livello_con_barriere_o_semibarriere_qb_170.png": {
     "description": "Cartello blu di indicazione con destinazioni \"PORTO TORRES\" (dritto), \"S. GIOVANNI\" (destra), \"nuraghe Speranza\" in riquadro marrone (sinistra) e segnale di passaggio a livello integrato — cartello di incrocio con indicazione di interesse turistico-culturale",
     "imageHints": [
       "foto segnale qb_170"
@@ -4438,7 +4438,7 @@
       "B21410"
     ]
   },
-  "/signs/qb_171.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_171.png": {
     "description": "Cartello blu di indicazione autostradale con due corsie separate da linea tratteggiata: \"BARI\" con freccia curva a sinistra, \"PESCARA\" con freccia dritta — preavviso di biforcazione autostradale.",
     "imageHints": [
       "foto segnale qb_171"
@@ -4466,7 +4466,7 @@
       "B21906"
     ]
   },
-  "/signs/qb_172.png": {
+  "/signs/segnale_di_preselezione_urbano_qb_172.png": {
     "description": "Cartello di indicazione a tre corsie con destinazioni multiple: \"TERNI\" (blu, sinistra), \"SS 4 Salaria / Terminillo\" (marroni, dritto), \"centro / via Cintia\" (destra) — cartello di preavviso di intersezione a tre direzioni",
     "imageHints": [
       "foto segnale qb_172"
@@ -4494,7 +4494,7 @@
       "B21725"
     ]
   },
-  "/signs/qb_214.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_214.png": {
     "description": "Cartello bianco rettangolare con riquadro blu in alto contenente letto bianco con croce rossa (ospedale) e freccia nera verso sinistra sotto — indica ospedale/pronto soccorso a sinistra",
     "imageHints": [
       "foto segnale qb_214"
@@ -4518,7 +4518,7 @@
       "B21566"
     ]
   },
-  "/signs/qb_173.png": {
+  "/signs/preavviso_di_diramazione_autostradale_e_qb_173.png": {
     "description": "Cartello verde autostradale con \"A1 BOLOGNA\" e freccia dritta verso l'alto, \"← Linate\" con simbolo aeroporto a sinistra — indica preavviso autostradale: dritto per Bologna, svolta a sinistra per aeroporto di Linate",
     "imageHints": [
       "foto segnale qb_173"
@@ -4540,7 +4540,7 @@
       "B21451"
     ]
   },
-  "/signs/qb_174.png": {
+  "/signs/preavviso_di_diramazione_urbana_e_qb_174.png": {
     "description": "Cartello rettangolare bianco con bordo nero, scritta \"MILANO\" e due frecce (dritto e curva a destra) con scritta \"centro\" — cartello di indicazione su strada extraurbana principale.",
     "imageHints": [
       "foto segnale qb_174"
@@ -4565,7 +4565,7 @@
       "B21461"
     ]
   },
-  "/signs/qb_182.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_182.png": {
     "description": "Cartello con scritta \"uscita FROSINONE\", riquadro blu con più destinazioni (alcune in riquadri marroni per mete turistiche: Circeo, Campocatino) e pannello \"500 m\" — preavviso di uscita autostradale con distanza",
     "imageHints": [
       "foto segnale qb_182"
@@ -4584,7 +4584,7 @@
       "B21469"
     ]
   },
-  "/signs/qb_183.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_183.png": {
     "description": "Due pannelli sovrapposti: pannello bianco con \"MONTECOMPATRI\" barrato da striscia rossa diagonale (fine centro abitato); pannello blu con distanze in km (S. Cesareo 7, Frosinone 63, Napoli 190) — fine centro abitato con indicatore di distanze",
     "imageHints": [
       "foto segnale qb_183"
@@ -4609,7 +4609,7 @@
       "B21483"
     ]
   },
-  "/signs/qb_186.png": {
+  "/signs/area_pedonale_qb_186.png": {
     "description": "Cartello composito \"area pedonale\" con cerchio blu (pedone obbligatorio) e pannello arancione con categorie ammesse (disabili, polizia/ambulanze, veicoli merci negli orari 14-16/24-9, residenti) — segnale di inizio zona pedonale con eccezioni",
     "imageHints": [
       "foto segnale qb_186"
@@ -4634,7 +4634,7 @@
       "B21501"
     ]
   },
-  "/signs/qb_187.png": {
+  "/signs/zona_a_traffico_limitato_qb_187.png": {
     "description": "Cartello composito \"zona traffico limitato\" con cerchio rosso vuoto (divieto di transito, senza barra) e pannello con categorie ammesse e orari — segnale di inizio Zona a Traffico Limitato (ZTL).",
     "imageHints": [
       "foto segnale qb_187"
@@ -4657,7 +4657,7 @@
       "B21500"
     ]
   },
-  "/signs/qb_189.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_189.png": {
     "description": "Cartello informativo blu \"STELVIO\" con riquadro verde \"aperto / ouvert / open / geöffnet\" (in quattro lingue) e simbolo pneumatico con catene — indica che il Passo dello Stelvio è aperto con obbligo di catene da neve",
     "imageHints": [
       "foto segnale qb_189"
@@ -4678,7 +4678,7 @@
       "B21511"
     ]
   },
-  "/signs/qb_193.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_193.png": {
     "description": "Cartello informativo blu \"STELVIO\" con riquadro rosso \"chiuso / ferme / closed / geschlossen\", due pneumatici e testo \"fino a TRAFOI\" — indica che il Passo dello Stelvio è chiuso fino alla località di Trafoi",
     "imageHints": [
       "foto segnale qb_193"
@@ -4699,7 +4699,7 @@
       "B21519"
     ]
   },
-  "/signs/qb_194.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_194.png": {
     "description": "Pannello rettangolare verticale blu con schema stilizzato di autostrada (due carreggiate bianche con spartitraffico e cavalcavia) — indica inizio di autostrada",
     "imageHints": [
       "foto segnale qb_194"
@@ -4725,7 +4725,7 @@
       "B21690"
     ]
   },
-  "/signs/qb_197.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_197.png": {
     "description": "Cartello verticale blu con bandiera italiana e scritta \"ITALIA\", quattro righe con limiti di velocità: 50 km/h (centro abitato), 90 km/h (extraurbana secondaria), 110 km/h (extraurbana principale), 130 km/h (autostrada) — indica i limiti di velocità vigenti in Italia per ogni tipo di strada",
     "imageHints": [
       "foto segnale qb_197"
@@ -4750,7 +4750,7 @@
       "B21540"
     ]
   },
-  "/signs/qb_200.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_200.png": {
     "description": "Pannello verde a forma di scudo pentagonale con scritta \"A25\" in bianco — indica il numero dell'autostrada A25",
     "imageHints": [
       "foto segnale qb_200"
@@ -4774,7 +4774,7 @@
       "B21632"
     ]
   },
-  "/signs/qb_207.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_207.png": {
     "description": "Pannello rettangolare bianco con bordo nero arrotondato e scritta \"TARANTO\" — indica il nome del centro abitato (cartello toponomastico)",
     "imageHints": [
       "foto segnale qb_207"
@@ -4795,7 +4795,7 @@
       "B21558"
     ]
   },
-  "/signs/qb_210.png": {
+  "/signs/primo_soccorso_qb_210.png": {
     "description": "Cartello bianco rettangolare con riquadro bianco in alto contenente croce rossa grande e freccia nera verso destra sotto — indica pronto soccorso/punto di primo soccorso a destra",
     "imageHints": [
       "foto segnale qb_210"
@@ -4816,7 +4816,7 @@
       "B21565"
     ]
   },
-  "/signs/qb_216.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_216.png": {
     "description": "Due pannelli sovrapposti: pannello marrone in alto con onde blu e bianche stilizzate (corso d'acqua) e pannello bianco sotto con scritta \"fiume Arno\" — indica attraversamento del fiume Arno",
     "imageHints": [
       "foto segnale qb_216"
@@ -4835,7 +4835,7 @@
       "B21573"
     ]
   },
-  "/signs/qb_217.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_217.png": {
     "description": "Cartello marrone rettangolare con due riquadri bianchi: \"i\" stilizzata (informazioni turistiche) a sinistra e letto nero (alloggio) a destra, con pannello bianco \"150 m\" sotto — indica punto informazioni e alloggio a 150 metri",
     "imageHints": [
       "foto segnale qb_217"
@@ -4856,7 +4856,7 @@
       "B21580"
     ]
   },
-  "/signs/qb_218.png": {
+  "/signs/attraversamento_pedonale_qb_218.png": {
     "description": "Quadrato blu con triangolo bianco al centro contenente figura stilizzata nera di pedone su strisce pedonali — indica attraversamento pedonale (segnale di indicazione)",
     "imageHints": [
       "foto segnale qb_218"
@@ -4893,7 +4893,7 @@
       "B21587"
     ]
   },
-  "/signs/qb_219.png": {
+  "/signs/bambini_qb_219.png": {
     "description": "Quadrato arancione con figure stilizzate nere di due bambini che corrono con cartelle scolastiche — segnale temporaneo di pericolo bambini/zona scuola (cantiere o lavori in prossimità di scuola)",
     "imageHints": [
       "foto segnale qb_219"
@@ -4914,7 +4914,7 @@
       "B21597"
     ]
   },
-  "/signs/qb_220.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_220.png": {
     "description": "Quadrato rosso con scritta \"SOS\" bianca grande al centro — indica punto di emergenza/soccorso stradale (colonnina SOS)",
     "imageHints": [
       "foto segnale qb_220"
@@ -4935,7 +4935,7 @@
       "B21604"
     ]
   },
-  "/signs/qb_224.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_224.png": {
     "description": "Segnale di indicazione. Quadrato blu con simbolo a T: barra orizzontale rossa in alto e barra verticale bianca sotto — indica strada senza uscita (fondo cieco).",
     "imageHints": [
       "foto segnale qb_224"
@@ -4960,7 +4960,7 @@
       "B21745"
     ]
   },
-  "/signs/qb_225.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_225.png": {
     "description": "Segnale di indicazione. Quadrato blu con schema stradale a H: barra verticale bianca a sinistra (strada aperta) e barra verticale rossa a destra (strada chiusa) collegate da barra orizzontale — indica preselezione con strada senza uscita a destra.",
     "imageHints": [
       "foto segnale qb_225"
@@ -4985,7 +4985,7 @@
       "B21676"
     ]
   },
-  "/signs/qb_226.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_226.png": {
     "description": "Quadrato blu con numero \"60\" bianco grande al centro — indica velocità consigliata di 60 km/h",
     "imageHints": [
       "foto segnale qb_226"
@@ -5010,7 +5010,7 @@
       "B21640"
     ]
   },
-  "/signs/qb_228.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_228.png": {
     "description": "Quadrato blu con sagoma bianca di automobile vista frontalmente — indica inizio di strada riservata ai veicoli a motore (strada extraurbana principale/superstrada)",
     "imageHints": [
       "foto segnale qb_228"
@@ -5034,7 +5034,7 @@
       "B21668"
     ]
   },
-  "/signs/qb_230.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_230.png": {
     "description": "Quadrato verde con sagoma di galleria/tunnel (semicerchio nero con contorno bianco e piccola luce bianca in fondo) — indica inizio galleria autostradale.",
     "imageHints": [
       "foto segnale qb_230"
@@ -5061,7 +5061,7 @@
       "B22109"
     ]
   },
-  "/signs/qb_231.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_231.png": {
     "description": "Quadrato verde con arco bianco su sfondo verde (forma di cavalcavia/sovrappasso) — indica fine galleria autostradale.",
     "imageHints": [
       "foto segnale qb_231"
@@ -5082,7 +5082,7 @@
       "B21662"
     ]
   },
-  "/signs/qb_236.png": {
+  "/signs/attraversamento_ciclabile_qb_236.png": {
     "description": "Quadrato blu con figura stilizzata bianca di ciclista su bicicletta — indica itinerario o percorso consigliato per biciclette",
     "imageHints": [
       "foto segnale qb_236"
@@ -5105,7 +5105,7 @@
       "B21672"
     ]
   },
-  "/signs/qb_238.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_238.png": {
     "description": "Pannello rettangolare grigio/bianco con schema di percorso urbano: rettangoli grigi (isolati) e linea nera con freccia a sinistra che indica un percorso alternativo — indica itinerario consigliato per determinate categorie di veicoli",
     "imageHints": [
       "foto segnale qb_238"
@@ -5127,7 +5127,7 @@
       "B21682"
     ]
   },
-  "/signs/qb_239.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_239.png": {
     "description": "Quadrato blu con sagoma bianca di superstrada/autostrada e freccia bianca che compie un'inversione a U verso sinistra — indica inversione di marcia consentita (svincolo per inversione)",
     "imageHints": [
       "foto segnale qb_239"
@@ -5150,7 +5150,7 @@
       "B21692"
     ]
   },
-  "/signs/qb_240.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_240.png": {
     "description": "Pannello blu verticale con schema bianco di piazzola di sosta/emergenza: corsia laterale che si allarga a destra formando una baia — indica piazzola di sosta o area di emergenza.",
     "imageHints": [
       "foto segnale qb_240"
@@ -5174,7 +5174,7 @@
       "B21702"
     ]
   },
-  "/signs/qb_242.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_242.png": {
     "description": "Quadrato blu con due frecce bianche verso l'alto (due corsie) e cerchio rosso di divieto camion sulla corsia sinistra — indica divieto di transito per i veicoli merci sulla corsia sinistra.",
     "imageHints": [
       "foto segnale qb_242"
@@ -5199,7 +5199,7 @@
       "B21712"
     ]
   },
-  "/signs/qb_243.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_243.png": {
     "description": "Pannello verde rettangolare con tre frecce bianche verso l'alto (tre corsie) e cerchi blu di velocità minima: \"90\" sulla prima corsia e \"60\" sulla seconda — indica corsie con velocità minima differenziata su autostrada.",
     "imageHints": [
       "foto segnale qb_243"
@@ -5222,7 +5222,7 @@
       "B21721"
     ]
   },
-  "/signs/qb_245.png": {
+  "/signs/uso_corsie_disponibili_qb_245.png": {
     "description": "Pannello bianco rettangolare con tre frecce nere verso l'alto (tre corsie) separate da linea gialla verticale, cerchio blu di obbligo autobus sulla terza corsia a destra — indica corsia riservata agli autobus",
     "imageHints": [
       "foto segnale qb_245"
@@ -5244,7 +5244,7 @@
       "B21729"
     ]
   },
-  "/signs/qb_247.png": {
+  "/signs/uso_corsie_disponibili_qb_247.png": {
     "description": "Quadrato blu con due frecce bianche verso l'alto, la seconda curva verso destra in basso — indica riduzione da due a una corsia, con confluenza della corsia destra.",
     "imageHints": [
       "foto segnale qb_247"
@@ -5268,7 +5268,7 @@
       "B21738"
     ]
   },
-  "/signs/qb_248.png": {
+  "/signs/uso_corsie_disponibili_qb_248.png": {
     "description": "Pannello verde rettangolare con due frecce bianche dritte verso l'alto e una freccia più piccola curva a sinistra — indica immissione di una corsia da sinistra su autostrada.",
     "imageHints": [
       "foto segnale qb_248"
@@ -5291,7 +5291,7 @@
       "B21748"
     ]
   },
-  "/signs/qb_250.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_qb_250.png": {
     "description": "Cartello bianco rettangolare con freccia nera curva verso destra in alto e due sagome nere di autotreni/autoarticolati sotto — indica percorso consigliato per autocarri pesanti (svolta a destra).",
     "imageHints": [
       "foto segnale qb_250"
@@ -5318,7 +5318,7 @@
       "B21759"
     ]
   },
-  "/signs/qb_256.png": {
+  "/signs/la_fermata_qb_256.png": {
     "description": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco in alto contenente sagoma nera di autobus visto di lato — indica fermata autobus di linea.",
     "imageHints": [
       "foto segnale qb_256"
@@ -5339,7 +5339,7 @@
       "B21766"
     ]
   },
-  "/signs/qb_265.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_265.png": {
     "description": "Cartello bianco rettangolare con riquadro blu \"P\" in alto a sinistra, croce nera (+) a destra, sagoma di autobus in riquadro al centro, e numeri rossi \"8\" e \"45\" a destra — indica parcheggio di scambio con linee autobus 8 e 45.",
     "imageHints": [
       "foto segnale qb_265"
@@ -5363,7 +5363,7 @@
       "B21776"
     ]
   },
-  "/signs/qb_270.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_270.png": {
     "description": "Cartello blu rettangolare con riquadro bianco contenente sagoma nera di vagone ferroviario con automobile e valigia all'interno — indica trasporto auto al seguito su treno (autotrasporto ferroviario)",
     "imageHints": [
       "foto segnale qb_270"
@@ -5384,7 +5384,7 @@
       "B21783"
     ]
   },
-  "/signs/qb_273.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_273.png": {
     "description": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco contenente sagoma nera di camper/autocaravan con freccia verso il basso e piattaforma — indica area di scarico acque reflue per camper.",
     "imageHints": [
       "foto segnale qb_273"
@@ -5408,7 +5408,7 @@
       "B21792"
     ]
   },
-  "/signs/qb_252.png": {
+  "/signs/segnale_di_preselezione_extraurbano_e_qb_252.png": {
     "description": "Segnale di indicazione. Cartello blu rettangolare con riquadro bianco contenente sagoma nera di martello — indica officina meccanica o servizio di assistenza.",
     "imageHints": [
       "foto segnale qb_252"
@@ -5431,7 +5431,7 @@
       "B21800"
     ]
   },
-  "/signs/qb_163.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_163.png": {
     "description": "Pannello quadrato blu con 12 stelle dorate disposte in cerchio e scritta \"ITALIA\" al centro in bianco — indica cartello di confine di Stato, ingresso nel territorio italiano",
     "imageHints": [
       "foto segnale qb_163"
@@ -5447,7 +5447,7 @@
       "B21809"
     ]
   },
-  "/signs/qb_164.png": {
+  "/signs/segnale_di_itinerario_extraurbano_qb_164.png": {
     "description": "Pannello quadrato blu con 12 stelle dorate e scritta \"FRANCE\" più pannello bianco con \"1 km\" — indica avviso di confine di Stato con la Francia distante 1 km",
     "imageHints": [
       "foto segnale qb_164"
@@ -5465,7 +5465,7 @@
       "B21818"
     ]
   },
-  "/signs/qb_284.png": {
+  "/signs/direzione_obbligatoria_per_autotreni_ed_autoarticolati_e_qb_284.png": {
     "description": "Cartello giallo rettangolare con cerchio blu di obbligo (freccia bianca dritto) in alto e due sagome nere di autotreni/autoarticolati sotto — indica percorso obbligatorio per veicoli pesanti (diritto)",
     "imageHints": [
       "foto segnale qb_284"
@@ -5493,7 +5493,7 @@
       "B21903"
     ]
   },
-  "/signs/qb_144.png": {
+  "/signs/barriere_normali_qb_144.png": {
     "description": "Pannello quadrato bianco con numero \"1°\" e scritta \"tornante\", indica il numero progressivo del tornante (primo tornante della serie)",
     "imageHints": [
       "foto segnale qb_144"
@@ -5522,7 +5522,7 @@
       "B21835"
     ]
   },
-  "/signs/qb_251.png": {
+  "/signs/direzione_consigliata_agli_autocarri_qb_251.png": {
     "description": "Cartello giallo rettangolare con freccia nera verso destra in alto e sagoma nera di autocarro sotto — indica percorso consigliato per autocarri (svolta a destra)",
     "imageHints": [
       "foto segnale qb_251"
@@ -5547,7 +5547,7 @@
       "B21845"
     ]
   },
-  "/signs/qb_275.png": {
+  "/signs/lavori_qb_275.png": {
     "description": "Segnale temporaneo di pericolo. Triangolo con sfondo giallo e bordo rosso, con figura stilizzata nera di operaio che scava con pala — indica lavori in corso",
     "imageHints": [
       "foto segnale qb_275"
@@ -5572,7 +5572,7 @@
       "B21855"
     ]
   },
-  "/signs/qb_276.png": {
+  "/signs/barriere_normali_qb_276.png": {
     "description": "Barriera di sbarramento stradale su due pali verticali con strisce diagonali rosse e bianche alternate — indica strada chiusa per cantiere/lavori",
     "imageHints": [
       "foto segnale qb_276"
@@ -5598,7 +5598,7 @@
       "B21865"
     ]
   },
-  "/signs/qb_278.png": {
+  "/signs/barriere_normali_qb_278.png": {
     "description": "Cono stradale a strisce orizzontali alternate rosse e bianche con base nera — delineatore di cantiere/lavori in corso.",
     "imageHints": [
       "foto segnale qb_278"
@@ -5624,7 +5624,7 @@
       "B21874"
     ]
   },
-  "/signs/qb_279.png": {
+  "/signs/pannello_applicato_sui_veicoli_operatrici_e_qb_279.png": {
     "description": "Pannello quadrato con strisce a V rosse e bianche (chevron) e cerchio blu di obbligo con freccia bianca diagonale verso il basso-destra al centro — indica passaggio obbligatorio a destra del veicolo da cantiere.",
     "imageHints": [
       "foto segnale qb_279"
@@ -5653,7 +5653,7 @@
       "B23944"
     ]
   },
-  "/signs/qb_280.png": {
+  "/signs/presegnale_di_cantiere_mobile_qb_280.png": {
     "description": "Due pannelli affiancati: a sinistra pannello giallo con schema di restringimento corsia (corsia sinistra chiusa con barra rossa, frecce nere che deviano il traffico) e a destra triangolo rosso/giallo di lavori in corso con sottopannello \"500 m\" — indica preavviso restringimento carreggiata per lavori a 500 metri",
     "imageHints": [
       "foto segnale qb_280"
@@ -5676,7 +5676,7 @@
       "B21890"
     ]
   },
-  "/signs/qb_283.png": {
+  "/signs/preavviso_deviazione_autocarri_qb_283.png": {
     "description": "Cartello giallo di preavviso con schema stradale: freccia nera dritta verso \"LUCCA\" in alto, deviazioni laterali verso \"LA LIMA\", \"LE PIASTRE\" a sinistra e \"S.MARCELLO PISTOIESE\", \"PONTEPETRI\" a destra, cerchio rosso con \"7t\" (limite peso) — indica percorso alternativo con divieto di transito per veicoli oltre 7 tonnellate.",
     "imageHints": [
       "foto segnale qb_283"
@@ -5699,7 +5699,7 @@
       "B21900"
     ]
   },
-  "/signs/qb_285.png": {
+  "/signs/segnale_di_corsia_chiusa_chiusura_corsia_di_qb_285.png": {
     "description": "Pannello giallo verticale con due frecce nere: una dritta verso l'alto e una diagonale che converge da destra, con barra rossa diagonale a destra — indica fine restringimento carreggiata e rientro della corsia chiusa.",
     "imageHints": [
       "foto segnale qb_285"
@@ -5723,7 +5723,7 @@
       "B21911"
     ]
   },
-  "/signs/qb_288.png": {
+  "/signs/uso_corsie_disponibili_qb_288.png": {
     "description": "Pannello giallo verticale con due frecce nere verso l'alto (due corsie), due sagome di automobile sotto le frecce e sagoma di autocarro visto da dietro al centro in basso — indica disposizione corsie per categorie di veicoli in zona cantiere.",
     "imageHints": [
       "foto segnale qb_288"
@@ -5746,7 +5746,7 @@
       "B21920"
     ]
   },
-  "/signs/qb_289.png": {
+  "/signs/delineatori_modulari_di_curva_e_qb_289.png": {
     "description": "Due delineatori stradali verticali (paletti) grigio/nero con catarifrangenti gialli: a sinistra con due cerchi gialli, a destra con rettangolo giallo — delineatori di margine stradale per curve.",
     "imageHints": [
       "foto segnale qb_289"
@@ -5776,7 +5776,7 @@
       "B21938"
     ]
   },
-  "/signs/qb_290.png": {
+  "/signs/delineatori_normali_di_margine_per_strade_a_doppio_senso_qb_290.png": {
     "description": "Due delineatori stradali verticali (paletti) grigio/nero: a sinistra con rettangolo bianco, a destra con rettangolo rosso — delineatori di margine: bianco per lato destro della strada, rosso per lato sinistro.",
     "imageHints": [
       "foto segnale qb_290"
@@ -5797,7 +5797,7 @@
       "B21939"
     ]
   },
-  "/signs/qb_291.png": {
+  "/signs/intersezione_qb_291.png": {
     "description": "Paletto delineatore giallo rettangolare verticale su base nera a gradino — delineatore speciale per cantieri o ostacoli temporanei.",
     "imageHints": [
       "foto segnale qb_291"
@@ -5827,7 +5827,7 @@
       "B21982"
     ]
   },
-  "/signs/qb_292.png": {
+  "/signs/delineatore_per_strade_di_montagna_e_qb_292.png": {
     "description": "Paletto delineatore verticale nero e giallo a strisce alternate — palina di confine stradale o delineatore flessibile.",
     "imageHints": [
       "foto segnale qb_292"
@@ -5854,7 +5854,7 @@
       "B21959"
     ]
   },
-  "/signs/qb_293.png": {
+  "/signs/delineatore_di_curva_stretta_o_di_tornante_e_qb_293.png": {
     "description": "Barriera direzionale orizzontale su due pali con chevron (frecce a V) bianche e nere che puntano verso sinistra — indica ostacolo da aggirare a sinistra (curva a sinistra).",
     "imageHints": [
       "foto segnale qb_293"
@@ -5879,7 +5879,7 @@
       "B21970"
     ]
   },
-  "/signs/qb_294.png": {
+  "/signs/delineatore_per_strade_di_montagna_e_qb_294.png": {
     "description": "Barriera direzionale orizzontale su due pali con chevron (frecce a V) bianche e nere che puntano sia a sinistra che a destra (divergenti dal centro) — indica ostacolo da aggirare su entrambi i lati.",
     "imageHints": [
       "foto segnale qb_294"
@@ -5905,7 +5905,7 @@
       "B21980"
     ]
   },
-  "/signs/qb_295.png": {
+  "/signs/delineatore_di_curva_stretta_o_di_tornante_e_qb_295.png": {
     "description": "Pannello quadrato singolo su palo con chevron (freccia a V) bianca e nera che punta verso destra — indica direzione curva a destra o ostacolo da aggirare a destra.",
     "imageHints": [
       "foto segnale qb_295"
@@ -5930,7 +5930,7 @@
       "B21989"
     ]
   },
-  "/signs/qb_297.png": {
+  "/signs/preavviso_di_semaforo_temporaneo_qb_297.png": {
     "description": "Segnale temporaneo di pericolo. Triangolo con sfondo giallo e bordo rosso, con tre cerchi verticali (rosso pieno in alto, giallo vuoto al centro, verde pieno in basso) — segnale di preavviso di semaforo in zona cantiere.",
     "imageHints": [
       "foto segnale qb_297"
@@ -5952,7 +5952,7 @@
       "B21997"
     ]
   },
-  "/signs/qb_299.png": {
+  "/signs/delineatore_speciale_di_ostacolo_e_qb_299.png": {
     "description": "Delineatore di ostacolo su base conica grigia: cerchio blu di obbligo con freccia bianca diagonale verso il basso-destra, cilindro giallo sotto — indica passaggio obbligatorio a destra dell'ostacolo.",
     "imageHints": [
       "foto segnale qb_299"
@@ -5978,7 +5978,7 @@
       "B22006"
     ]
   },
-  "/signs/qb_121.png": {
+  "/signs/distanza_qb_121.png": {
     "description": "Due pannelli integrativi rettangolari bianchi con bordo nero: A) \"320 m\" e B) \"3,8 km\" — indicano la distanza dal segnale all'inizio del tratto soggetto alla norma",
     "imageHints": [
       "foto segnale qb_121"
@@ -6001,7 +6001,7 @@
       "B22016"
     ]
   },
-  "/signs/qb_122.png": {
+  "/signs/estesa_qb_122.png": {
     "description": "Due pannelli integrativi rettangolari bianchi con frecce nere verso l'alto: A) \"↑ 380 m ↑\" e B) \"↑ 2,8 km ↑\" — indicano la lunghezza del tratto soggetto alla norma segnalata",
     "imageHints": [
       "foto segnale qb_122"
@@ -6019,7 +6019,7 @@
       "B22023"
     ]
   },
-  "/signs/qb_907.png": {
+  "/signs/segnale_di_corsia_qb_907.png": {
     "description": "Triangolo rosso di pericolo con doppia curva a S nera (prima a destra poi a sinistra), con pannello integrativo bianco sotto recante frecce verso l'alto e scritta \"380 m\" — indica doppia curva pericolosa per 380 metri.",
     "imageHints": [
       "foto segnale qb_907"
@@ -6034,7 +6034,7 @@
       "B22020"
     ]
   },
-  "/signs/qb_901.png": {
+  "/signs/distanza_qb_901.png": {
     "description": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvallamenti), con pannello integrativo bianco sotto recante frecce verso l'alto e scritta \"380 m\" — indica strada deformata per 380 metri.",
     "imageHints": [
       "foto segnale qb_901"
@@ -6049,7 +6049,7 @@
       "B22024"
     ]
   },
-  "/signs/qb_924.png": {
+  "/signs/segnale_di_corsia_qb_924.png": {
     "description": "Cerchio rosso di divieto di transito (centro bianco senza simboli) con pannello integrativo bianco sotto recante orario \"7,30 - 19,00\" — indica divieto di transito nella fascia oraria 7:30-19:00.",
     "imageHints": [
       "foto segnale qb_924"
@@ -6064,7 +6064,7 @@
       "B22027"
     ]
   },
-  "/signs/qb_123.png": {
+  "/signs/fasce_orarie_di_tutti_i_giorni_qb_123.png": {
     "description": "Due pannelli integrativi rettangolari bianchi con bordo nero: A) \"0 - 24\" e B) \"7,30 - 19,00\" — indicano gli orari di validità del segnale a cui sono abbinati",
     "imageHints": [
       "foto segnale qb_123"
@@ -6081,7 +6081,7 @@
       "B22034"
     ]
   },
-  "/signs/qb_935.png": {
+  "/signs/segnale_di_corsia_qb_935.png": {
     "description": "Cerchio rosso di divieto di transito ai motocicli (sagoma nera di motociclista) con pannello integrativo bianco sotto recante orario \"7,30 - 19,00\" — indica divieto di transito ai motocicli nella fascia 7:30-19:00.",
     "imageHints": [
       "foto segnale qb_935"
@@ -6096,7 +6096,7 @@
       "B22030"
     ]
   },
-  "/signs/qb_934.png": {
+  "/signs/segnale_di_corsia_qb_934.png": {
     "description": "Cerchio rosso con tromba/clacson nera barrata da striscia rossa diagonale (divieto segnalazioni acustiche) con pannello integrativo bianco sotto recante orario \"7,30 - 19,00\" — indica divieto di uso del clacson nella fascia 7:30-19:00.",
     "imageHints": [
       "foto segnale qb_934"
@@ -6111,7 +6111,7 @@
       "B22031"
     ]
   },
-  "/signs/qb_964.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_964.png": {
     "description": "Cerchio blu di obbligo con figura stilizzata bianca di pedone (percorso pedonale obbligatorio) con pannello integrativo bianco sotto recante croce (†) e orario \"8,00 - 20,00\" — indica obbligo di percorso pedonale nei giorni festivi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_964"
@@ -6127,7 +6127,7 @@
       "B22037"
     ]
   },
-  "/signs/qb_124.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_124.png": {
     "description": "Pannello integrativo rettangolare bianco con croce (†) e orario \"8,00 - 20,00\", indica che il divieto è valido nei giorni festivi negli orari indicati",
     "imageHints": [
       "foto segnale qb_124"
@@ -6147,7 +6147,7 @@
       "B22045"
     ]
   },
-  "/signs/qb_938.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_938.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo bianco sotto recante croce (†) e orario \"8,00 - 20,00\" — indica divieto di sosta nei giorni festivi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_938"
@@ -6162,7 +6162,7 @@
       "B22038"
     ]
   },
-  "/signs/qb_965.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_965.png": {
     "description": "Cerchio blu di obbligo con bicicletta bianca (pista ciclabile obbligatoria) con pannello integrativo bianco sotto recante croce (†) e orario \"8,00 - 20,00\" — indica pista ciclabile obbligatoria nei giorni festivi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_965"
@@ -6177,7 +6177,7 @@
       "B22039"
     ]
   },
-  "/signs/qb_925.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_925.png": {
     "description": "Cerchio rosso di divieto di transito (centro bianco senza simboli) con pannello integrativo bianco sotto recante croce (†) e orario \"8,00 - 20,00\" — indica divieto di transito nei giorni festivi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_925"
@@ -6192,7 +6192,7 @@
       "B22040"
     ]
   },
-  "/signs/qb_960.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_960.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante croce (†) e orario \"8,00 - 20,00\" — indica parcheggio consentito nei giorni festivi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_960"
@@ -6207,7 +6207,7 @@
       "B22044"
     ]
   },
-  "/signs/qb_936.png": {
+  "/signs/fasce_orarie_dei_giorni_festivi_qb_936.png": {
     "description": "Cerchio rosso di divieto di transito ai motocicli (sagoma nera di motociclista) con pannello integrativo bianco sotto recante croce (†) e orario \"8,00 - 20,00\" — indica divieto di transito ai motocicli nei giorni festivi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_936"
@@ -6222,7 +6222,7 @@
       "B22046"
     ]
   },
-  "/signs/qb_125.png": {
+  "/signs/fasce_orarie_dei_giorni_lavorativi_qb_125.png": {
     "description": "Pannello integrativo rettangolare bianco con simbolo martello e piccone incrociati e orario \"8,00 - 20,00\", indica che il divieto è valido nei giorni feriali negli orari indicati",
     "imageHints": [
       "foto segnale qb_125"
@@ -6243,7 +6243,7 @@
       "B22057"
     ]
   },
-  "/signs/qb_928.png": {
+  "/signs/fasce_orarie_dei_giorni_lavorativi_qb_928.png": {
     "description": "Cerchio rosso di divieto di transito (centro bianco) con pannello integrativo bianco sotto recante martelli incrociati (✕) e orario \"8,00 - 20,00\" — indica divieto di transito nei giorni lavorativi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_928"
@@ -6258,7 +6258,7 @@
       "B22048"
     ]
   },
-  "/signs/qb_945.png": {
+  "/signs/fasce_orarie_dei_giorni_lavorativi_qb_945.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo bianco sotto recante martelli incrociati e orario \"8,00 - 20,00\" — indica divieto di sosta nei giorni lavorativi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_945"
@@ -6273,7 +6273,7 @@
       "B22050"
     ]
   },
-  "/signs/qb_937.png": {
+  "/signs/fasce_orarie_dei_giorni_lavorativi_qb_937.png": {
     "description": "Cerchio rosso di divieto di transito ai veicoli merci (sagoma nera di autocarro) con pannello integrativo bianco sotto recante martelli incrociati e orario \"8,00 - 20,00\" — indica divieto di transito ai camion nei giorni lavorativi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_937"
@@ -6288,7 +6288,7 @@
       "B22052"
     ]
   },
-  "/signs/qb_961.png": {
+  "/signs/fasce_orarie_dei_giorni_lavorativi_qb_961.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante martelli incrociati e orario \"8,00 - 20,00\" — indica parcheggio consentito nei giorni lavorativi 8:00-20:00.",
     "imageHints": [
       "foto segnale qb_961"
@@ -6303,7 +6303,7 @@
       "B22056"
     ]
   },
-  "/signs/qb_926.png": {
+  "/signs/segnale_di_corsia_qb_926.png": {
     "description": "Cerchio rosso di divieto di transito (centro bianco) con pannello integrativo bianco sotto recante sagoma nera di autoarticolato (camion con rimorchio) — indica divieto di transito limitato agli autoarticolati.",
     "imageHints": [
       "foto segnale qb_926"
@@ -6319,7 +6319,7 @@
       "B22068"
     ]
   },
-  "/signs/qb_954.png": {
+  "/signs/segnale_di_corsia_qb_954.png": {
     "description": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pannello integrativo bianco sotto recante sagoma nera di autoarticolato (camion con rimorchio) — indica divieto di fermata limitato agli autoarticolati.",
     "imageHints": [
       "foto segnale qb_954"
@@ -6334,7 +6334,7 @@
       "B22060"
     ]
   },
-  "/signs/qb_941.png": {
+  "/signs/segnale_di_corsia_qb_941.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo bianco sotto recante sagoma nera di autoarticolato (camion con rimorchio) — indica divieto di sosta limitato agli autoarticolati.",
     "imageHints": [
       "foto segnale qb_941"
@@ -6350,7 +6350,7 @@
       "B22067"
     ]
   },
-  "/signs/qb_126.png": {
+  "/signs/limitazione_qb_126.png": {
     "description": "Pannello integrativo rettangolare bianco con sagoma nera di autoarticolato (camion con rimorchio), indica che il segnale si applica ai veicoli pesanti",
     "imageHints": [
       "foto segnale qb_126"
@@ -6369,7 +6369,7 @@
       "B22066"
     ]
   },
-  "/signs/qb_958.png": {
+  "/signs/inizio_qb_958.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante freccia nera verso l'alto — indica inizio della zona di parcheggio (nella direzione indicata).",
     "imageHints": [
       "foto segnale qb_958"
@@ -6384,7 +6384,7 @@
       "B22072"
     ]
   },
-  "/signs/qb_953.png": {
+  "/signs/inizio_qb_953.png": {
     "description": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pannello integrativo bianco sotto recante freccia nera verso l'alto — indica inizio della zona di divieto di fermata.",
     "imageHints": [
       "foto segnale qb_953"
@@ -6399,7 +6399,7 @@
       "B22073"
     ]
   },
-  "/signs/qb_963.png": {
+  "/signs/inizio_qb_963.png": {
     "description": "Cerchio blu di obbligo con figura stilizzata bianca di pedone (percorso pedonale) con pannello integrativo bianco sotto recante freccia nera verso l'alto — indica inizio del percorso pedonale obbligatorio.",
     "imageHints": [
       "foto segnale qb_963"
@@ -6414,7 +6414,7 @@
       "B22074"
     ]
   },
-  "/signs/qb_128.png": {
+  "/signs/inizio_qb_128.png": {
     "description": "Due pannelli integrativi: A) rettangolare verticale bianco con freccia nera verso l'alto, B) rettangolare orizzontale bianco con freccia nera verso sinistra — indicano la direzione di applicazione del segnale",
     "imageHints": [
       "foto segnale qb_128"
@@ -6429,7 +6429,7 @@
       "B22078"
     ]
   },
-  "/signs/qb_959.png": {
+  "/signs/segnale_di_corsia_qb_959.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante freccia nera verso sinistra — indica parcheggio a sinistra.",
     "imageHints": [
       "foto segnale qb_959"
@@ -6444,7 +6444,7 @@
       "B22079"
     ]
   },
-  "/signs/qb_939.png": {
+  "/signs/divieto_di_sosta_qb_939.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo bianco sotto recante due frecce nere (su e giù) — indica continuazione del divieto di sosta (zona intermedia).",
     "imageHints": [
       "foto segnale qb_939"
@@ -6459,7 +6459,7 @@
       "B22081"
     ]
   },
-  "/signs/qb_930.png": {
+  "/signs/continuazione_qb_930.png": {
     "description": "Cerchio rosso di divieto di sorpasso (auto rossa a sinistra che sorpassa auto nera a destra) con pannello integrativo bianco sotto recante due frecce nere (su e giù) — indica continuazione del divieto di sorpasso (zona intermedia).",
     "imageHints": [
       "foto segnale qb_930"
@@ -6474,7 +6474,7 @@
       "B22082"
     ]
   },
-  "/signs/qb_933.png": {
+  "/signs/continuazione_qb_933.png": {
     "description": "Cerchio rosso di limite massimo di velocità \"80\" con pannello integrativo bianco sotto recante due frecce nere (su e giù) — indica continuazione del limite di velocità 80 km/h (zona intermedia).",
     "imageHints": [
       "foto segnale qb_933"
@@ -6489,7 +6489,7 @@
       "B22083"
     ]
   },
-  "/signs/qb_914.png": {
+  "/signs/continuazione_qb_914.png": {
     "description": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolevole con pannello integrativo bianco sotto recante due frecce nere orizzontali (sinistra e destra) — indica strada sdrucciolevole in entrambe le direzioni.",
     "imageHints": [
       "foto segnale qb_914"
@@ -6504,7 +6504,7 @@
       "B22084"
     ]
   },
-  "/signs/qb_951.png": {
+  "/signs/segnale_di_corsia_qb_951.png": {
     "description": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pannello integrativo bianco sotto recante due frecce nere (su e giù) — indica continuazione del divieto di fermata (zona intermedia).",
     "imageHints": [
       "foto segnale qb_951"
@@ -6519,7 +6519,7 @@
       "B22085"
     ]
   },
-  "/signs/qb_956.png": {
+  "/signs/segnale_di_corsia_qb_956.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante due frecce nere orizzontali (sinistra e destra) — indica parcheggio su entrambi i lati.",
     "imageHints": [
       "foto segnale qb_956"
@@ -6534,7 +6534,7 @@
       "B22088"
     ]
   },
-  "/signs/qb_944.png": {
+  "/signs/segnale_di_corsia_qb_944.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo bianco sotto recante freccia nera verso il basso — indica fine della zona di divieto di sosta.",
     "imageHints": [
       "foto segnale qb_944"
@@ -6549,7 +6549,7 @@
       "B22093"
     ]
   },
-  "/signs/qb_952.png": {
+  "/signs/segnale_di_corsia_qb_952.png": {
     "description": "Cerchio rosso con disco blu attraversato da X rossa (divieto di fermata) con pannello integrativo bianco sotto recante freccia nera verso destra — indica fine del divieto di fermata.",
     "imageHints": [
       "foto segnale qb_952"
@@ -6564,7 +6564,7 @@
       "B22094"
     ]
   },
-  "/signs/qb_970.png": {
+  "/signs/segnale_di_corsia_qb_970.png": {
     "description": "Segnale temporaneo di pericolo. Triangolo con sfondo giallo e bordo rosso, con operaio che scava (lavori in corso), con pannello integrativo bianco sotto recante freccia nera verso il basso — indica il punto esatto dei lavori in corso.",
     "imageHints": [
       "foto segnale qb_970"
@@ -6579,7 +6579,7 @@
       "B22095"
     ]
   },
-  "/signs/qb_957.png": {
+  "/signs/segnale_di_corsia_qb_957.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante freccia nera verso destra — indica parcheggio a destra.",
     "imageHints": [
       "foto segnale qb_957"
@@ -6594,7 +6594,7 @@
       "B22096"
     ]
   },
-  "/signs/qb_903.png": {
+  "/signs/segnale_di_corsia_qb_903.png": {
     "description": "Triangolo rosso di pericolo con profilo di strada deformata nera (dossi e avvallamenti) con pannello integrativo bianco sotto recante freccia nera verso il basso — indica il punto esatto di inizio della strada deformata.",
     "imageHints": [
       "foto segnale qb_903"
@@ -6609,7 +6609,7 @@
       "B22097"
     ]
   },
-  "/signs/qb_915.png": {
+  "/signs/segnale_di_corsia_qb_915.png": {
     "description": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolevole con pannello integrativo bianco sotto recante freccia nera verso destra — indica strada sdrucciolevole a destra.",
     "imageHints": [
       "foto segnale qb_915"
@@ -6624,7 +6624,7 @@
       "B22098"
     ]
   },
-  "/signs/qb_131.png": {
+  "/signs/segni_orizzontali_in_rifacimento_qb_131.png": {
     "description": "Pannello indicatore quadrato grigio con simbolo di spazzola su fondo chiaro (autolavaggio), indica servizio di lavaggio veicoli nelle vicinanze",
     "imageHints": [
       "foto segnale qb_131"
@@ -6645,7 +6645,7 @@
       "B22113"
     ]
   },
-  "/signs/qb_132.png": {
+  "/signs/incidente_qb_132.png": {
     "description": "Pannello quadrato rosso con due automobili bianche in collisione angolare (incidente), indica zona ad alta frequenza di incidenti o pericolo di collisione",
     "imageHints": [
       "foto segnale qb_132"
@@ -6669,7 +6669,7 @@
       "B22123"
     ]
   },
-  "/signs/qb_133.png": {
+  "/signs/continuazione_qb_133.png": {
     "description": "Pannello integrativo rettangolare bianco con due locomotive a vapore nere affiancate, indica passaggio a livello con doppio binario (più binari)",
     "imageHints": [
       "foto segnale qb_133"
@@ -6691,7 +6691,7 @@
       "B22132"
     ]
   },
-  "/signs/qb_919.png": {
+  "/signs/segnale_di_corsia_qb_919.png": {
     "description": "Triangolo rosso di pericolo con punto esclamativo nero (altri pericoli) con pannello integrativo bianco sotto recante due locomotive a vapore nere affiancate — indica pericolo di passaggio a livello senza barriere con doppio binario.",
     "imageHints": [
       "foto segnale qb_919"
@@ -6707,7 +6707,7 @@
       "B22127"
     ]
   },
-  "/signs/qb_134.png": {
+  "/signs/lavori_qb_134.png": {
     "description": "Pannello integrativo rettangolare bianco con fiocco di neve e sagoma di spazzaneve, indica presenza di veicoli spazzaneve in servizio",
     "imageHints": [
       "foto segnale qb_134"
@@ -6733,7 +6733,7 @@
       "B22144"
     ]
   },
-  "/signs/qb_135.png": {
+  "/signs/strada_sdrucciolevole_qb_135.png": {
     "description": "Pannello integrativo rettangolare bianco con tre linee ondulate blu parallele, indica presenza di acqua sulla carreggiata (guado, allagamento o strada scivolosa per acqua)",
     "imageHints": [
       "foto segnale qb_135"
@@ -6756,7 +6756,7 @@
       "B22154"
     ]
   },
-  "/signs/qb_904.png": {
+  "/signs/segnale_di_corsia_qb_904.png": {
     "description": "Triangolo rosso di pericolo con profilo di cunetta nera (depressione/avvallamento) con pannello integrativo bianco sotto recante tre linee ondulate blu — indica cunetta soggetta ad allagamento.",
     "imageHints": [
       "foto segnale qb_904"
@@ -6771,7 +6771,7 @@
       "B22147"
     ]
   },
-  "/signs/qb_136.png": {
+  "/signs/altri_pericoli_qb_136.png": {
     "description": "Pannello quadrato bianco con automobili in coda su tre corsie (traffico congestionato), indica preavviso di coda o traffico intenso nelle vicinanze.",
     "imageHints": [
       "foto segnale qb_136"
@@ -6799,7 +6799,7 @@
       "B22209"
     ]
   },
-  "/signs/qb_137.png": {
+  "/signs/lavori_qb_137.png": {
     "description": "Pannello integrativo rettangolare bianco con sagoma di spazzaneve con lama frontale e conducente, indica presenza di mezzo sgombraneve in servizio",
     "imageHints": [
       "foto segnale qb_137"
@@ -6826,7 +6826,7 @@
       "B22176"
     ]
   },
-  "/signs/qb_916.png": {
+  "/signs/segnale_di_corsia_qb_916.png": {
     "description": "Triangolo rosso di pericolo con automobile nera che sbanda su strada sdrucciolevole con pannello integrativo blu sotto recante due fiocchi di neve bianchi — indica strada sdrucciolevole per ghiaccio o neve.",
     "imageHints": [
       "foto segnale qb_916"
@@ -6842,7 +6842,7 @@
       "B22182"
     ]
   },
-  "/signs/qb_138.png": {
+  "/signs/strada_sdrucciolevole_qb_138.png": {
     "description": "Pannello rettangolare blu con due fiocchi di neve bianchi, indica condizioni invernali o strada con neve/ghiaccio",
     "imageHints": [
       "foto segnale qb_138"
@@ -6866,7 +6866,7 @@
       "B22188"
     ]
   },
-  "/signs/qb_139.png": {
+  "/signs/barriere_normali_qb_139.png": {
     "description": "Pannello integrativo rettangolare bianco con rappresentazione di detriti o materiale che cade da un pendio/versante, indica pericolo di frana o caduta materiali sulla carreggiata",
     "imageHints": [
       "foto segnale qb_139"
@@ -6896,7 +6896,7 @@
       "B22200"
     ]
   },
-  "/signs/qb_140.png": {
+  "/signs/salita_ripida_qb_140.png": {
     "description": "Pannello quadrato bianco con sagoma nera di camion che tampona un'automobile (frecce di urto), indica pericolo di tamponamento e necessità di rispettare la distanza di sicurezza",
     "imageHints": [
       "foto segnale qb_140"
@@ -6920,7 +6920,7 @@
       "B22212"
     ]
   },
-  "/signs/qb_968.png": {
+  "/signs/segnale_di_corsia_qb_968.png": {
     "description": "Triangolo rosso di pericolo con salita ripida nera (profilo inclinato con scritta \"10%\") con pannello integrativo bianco sotto recante sagoma di camion che tampona un'automobile — indica salita ripida (10%) con pericolo di tamponamento.",
     "imageHints": [
       "foto segnale qb_968"
@@ -6935,7 +6935,7 @@
       "B22204"
     ]
   },
-  "/signs/qb_141.png": {
+  "/signs/la_sosta_e_vietata_qb_141.png": {
     "description": "Pannello integrativo rettangolare bianco con sagoma nera di carro attrezzi che traina un'automobile, indica servizio di soccorso stradale nelle vicinanze",
     "imageHints": [
       "foto segnale qb_141"
@@ -6958,7 +6958,7 @@
       "B22223"
     ]
   },
-  "/signs/qb_942.png": {
+  "/signs/segnale_di_corsia_qb_942.png": {
     "description": "Cerchio rosso con disco blu barrato da striscia rossa diagonale (divieto di sosta) con pannello integrativo bianco sotto recante sagoma di carro attrezzi che traina un'automobile — indica divieto di sosta con rimozione forzata.",
     "imageHints": [
       "foto segnale qb_942"
@@ -6975,7 +6975,7 @@
       "B22217"
     ]
   },
-  "/signs/qb_142.png": {
+  "/signs/segnale_di_corsia_qb_142.png": {
     "description": "Pannello integrativo rettangolare bianco con freccia nera verso il basso, indica che il divieto o la norma si applica esattamente nel punto in cui è collocato il segnale",
     "imageHints": [
       "foto segnale qb_142"
@@ -6996,7 +6996,7 @@
       "B22229"
     ]
   },
-  "/signs/qb_143.png": {
+  "/signs/delineatore_di_curva_stretta_o_di_tornante_e_qb_143.png": {
     "description": "Due pannelli rettangolari bianchi: A) scritta \"tornante\" e B) scritta \"3 tornanti\" — indicano rispettivamente un tornante singolo o una serie di tre tornanti.",
     "imageHints": [
       "foto segnale qb_143"
@@ -7020,7 +7020,7 @@
       "B22242"
     ]
   },
-  "/signs/qb_145.png": {
+  "/signs/segnale_di_corsia_qb_145.png": {
     "description": "Pannello quadrato bianco con scritta \"lun - ven / 21,00 - 4,00\" e sagoma di spazzatrice stradale, indica divieto di sosta per pulizia strade dal lunedì al venerdì negli orari indicati",
     "imageHints": [
       "foto segnale qb_145"
@@ -7041,7 +7041,7 @@
       "B22249"
     ]
   },
-  "/signs/qb_146.png": {
+  "/signs/strada_extraurbana_principale_qb_146.png": {
     "description": "Tre pannelli quadrati bianchi A, B, C con schemi grafici di intersezioni stradali in nero, indicano la geometria dell'incrocio (schema planimetrico dell'intersezione)",
     "imageHints": [
       "foto segnale qb_146"
@@ -7067,7 +7067,7 @@
       "B22260"
     ]
   },
-  "/signs/qb_967.png": {
+  "/signs/distanza_di_sicurezza_e_qb_967.png": {
     "description": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrativo bianco sotto recante scritta \"eccetto\" e sagoma nera di autobus — indica senso vietato con eccezione per gli autobus.",
     "imageHints": [
       "foto segnale qb_967"
@@ -7082,7 +7082,7 @@
       "B22261"
     ]
   },
-  "/signs/qb_962.png": {
+  "/signs/distanza_di_sicurezza_e_qb_962.png": {
     "description": "Quadrato blu con lettera \"P\" bianca (parcheggio) con pannello integrativo bianco sotto recante scritta \"eccetto\" e sagoma nera di autobus — indica parcheggio con divieto (eccezione) per gli autobus.",
     "imageHints": [
       "foto segnale qb_962"
@@ -7097,7 +7097,7 @@
       "B22263"
     ]
   },
-  "/signs/qb_127.png": {
+  "/signs/eccezione_qb_127.png": {
     "description": "Pannello integrativo rettangolare bianco con scritta \"eccetto\" e sagoma nera di autobus, indica che il segnale non si applica agli autobus (eccezione)",
     "imageHints": [
       "foto segnale qb_127"
@@ -7115,7 +7115,7 @@
       "B22269"
     ]
   },
-  "/signs/qb_929.png": {
+  "/signs/distanza_di_sicurezza_e_qb_929.png": {
     "description": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrativo bianco sotto recante scritta \"eccetto\" e sagoma nera di autobus — indica senso vietato con eccezione per gli autobus.",
     "imageHints": [
       "foto segnale qb_929"
@@ -7130,7 +7130,7 @@
       "B22266"
     ]
   },
-  "/signs/qb_927.png": {
+  "/signs/distanza_di_sicurezza_e_qb_927.png": {
     "description": "Cerchio rosso con barra orizzontale bianca (senso vietato) con pannello integrativo bianco sotto recante scritta \"eccetto\" e sagoma nera di autobus — indica senso vietato con eccezione per gli autobus.",
     "imageHints": [
       "foto segnale qb_927"
@@ -7145,7 +7145,7 @@
       "B22267"
     ]
   },
-  "/signs/qb_301.png": {
+  "/signs/distanza_di_sicurezza_e_qb_301.png": {
     "description": "Tre cerchi rossi di limite massimo di velocità disposti a triangolo: \"60\" in alto, \"80\" in basso a sinistra e \"100\" in basso a destra — indica limiti di velocità differenziati per categorie di veicoli o per corsia.",
     "imageHints": [
       "foto segnale qb_301"
@@ -7166,7 +7166,7 @@
       "B22438"
     ]
   },
-  "/signs/qb_554.png": {
+  "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_554.png": {
     "description": "Vista dall'alto di strada a tre corsie (A, B, C) nello stesso senso di marcia, separate da linee tratteggiate bianche, con lettere A (destra), B (centro), C (sinistra).",
     "imageHints": [
       "foto segnale qb_554"
@@ -7185,7 +7185,7 @@
       "B22869"
     ]
   },
-  "/signs/qb_559.png": {
+  "/signs/strada_a_tre_carreggiate_e_otto_corsie_e_qb_559.png": {
     "description": "Vista dall'alto di strada a sei corsie (tre per senso di marcia) separate da spartitraffico verde centrale (aiuola), con linee tratteggiate bianche tra le corsie dello stesso senso — indica carreggiata a doppio senso con spartitraffico centrale.",
     "imageHints": [
       "foto segnale qb_559"
@@ -7200,7 +7200,7 @@
       "B22792"
     ]
   },
-  "/signs/qb_601.png": {
+  "/signs/svolta_a_sinistra_qb_601.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con due veicoli: N (nero, a sinistra) e A (rosso, a destra), con traiettorie tratteggiate che indicano le possibili manovre di svolta — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_601"
@@ -7218,7 +7218,7 @@
       "B22858"
     ]
   },
-  "/signs/qb_602.png": {
+  "/signs/segnale_di_preavviso_di_intersezione_urbana_con_rotatoria_e_qb_602.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con due veicoli: S (rosso, in basso) e H (nero, a destra), segnali di obbligo rotatoria visibili, con traiettorie tratteggiate — situazione di precedenza a intersezione con rotatoria.",
     "imageHints": [
       "foto segnale qb_602"
@@ -7233,7 +7233,7 @@
       "B22805"
     ]
   },
-  "/signs/qb_599.png": {
+  "/signs/intersezione_incrocio_a_raso_qb_599.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con due veicoli: A (nero, a sinistra) e G (rosso, a destra), con traiettorie tratteggiate di svolta — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_599"
@@ -7250,7 +7250,7 @@
       "B22854"
     ]
   },
-  "/signs/qb_558.png": {
+  "/signs/strada_a_tre_carreggiate_e_otto_corsie_e_qb_558.png": {
     "description": "Vista dall'alto di strada a quattro corsie (due per senso, A e B) separate da spartitraffico verde centrale, con linee tratteggiate bianche tra corsie dello stesso senso — carreggiata a doppio senso con due corsie per senso e spartitraffico.",
     "imageHints": [
       "foto segnale qb_558"
@@ -7266,7 +7266,7 @@
       "B22830"
     ]
   },
-  "/signs/qb_562.png": {
+  "/signs/strada_a_tre_carreggiate_e_otto_corsie_e_qb_562.png": {
     "description": "Vista dall'alto di quattro carreggiate separate da tre spartitraffico verdi (aiuole), ciascuna con una corsia e linee tratteggiate — strada a carreggiate separate multiple.",
     "imageHints": [
       "foto segnale qb_562"
@@ -7281,7 +7281,7 @@
       "B22814"
     ]
   },
-  "/signs/qb_552.png": {
+  "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_552.png": {
     "description": "Vista dall'alto di strada a sei corsie (tre per senso di marcia) separate da doppia linea bianca continua al centro, con linee tratteggiate tra corsie dello stesso senso — carreggiata a doppio senso con tre corsie per direzione.",
     "imageHints": [
       "foto segnale qb_552"
@@ -7298,7 +7298,7 @@
       "B22875"
     ]
   },
-  "/signs/qb_536.png": {
+  "/signs/debbono_essere_tenuti_il_piu_possibile_vicino_al_margine_qb_536.png": {
     "description": "Vista dall'alto di strada a corsia unica con linea di mezzeria mista: tratti tratteggiati alternati a tratti puntinati (più corti), con margini a linea tratteggiata — segnaletica orizzontale di linea di mezzeria mista.",
     "imageHints": [
       "foto segnale qb_536"
@@ -7313,7 +7313,7 @@
       "B22828"
     ]
   },
-  "/signs/qb_550.png": {
+  "/signs/strada_extraurbana_a_doppio_senso_con_quattro_corsie_e_qb_550.png": {
     "description": "Vista dall'alto di strada a quattro corsie (due per senso) separate da linea continua bianca al centro, con linee tratteggiate tra corsie dello stesso senso e linee continue di margine — carreggiata a doppio senso con divieto di sorpasso.",
     "imageHints": [
       "foto segnale qb_550"
@@ -7335,7 +7335,7 @@
       "B22873"
     ]
   },
-  "/signs/qb_511.png": {
+  "/signs/su_una_qb_511.png": {
     "description": "Vista dall'alto di strada a una corsia per senso di marcia con piste ciclabili laterali delimitate da linee gialle continue su entrambi i lati, simboli di bicicletta bianca agli angoli — strada con corsie ciclabili riservate.",
     "imageHints": [
       "foto segnale qb_511"
@@ -7350,7 +7350,7 @@
       "B22836"
     ]
   },
-  "/signs/qb_570.png": {
+  "/signs/in_prossimita_o_in_corrispondenza_degli_incroci_e_qb_570.png": {
     "description": "Vista dall'alto di incrocio a T: automobile blu sulla corsia sinistra in avvicinamento all'incrocio dal braccio sinistro, con linee bianche di corsia e marciapiedi.",
     "imageHints": [
       "foto segnale qb_570"
@@ -7365,7 +7365,7 @@
       "B22847"
     ]
   },
-  "/signs/qb_572.png": {
+  "/signs/la_svolta_a_destra_si_qb_572.png": {
     "description": "Vista dall'alto di incrocio a T: automobile nera sulla corsia destra in avvicinamento all'incrocio dal braccio sinistro, con linee bianche di corsia e marciapiedi.",
     "imageHints": [
       "foto segnale qb_572"
@@ -7382,7 +7382,7 @@
       "B22856"
     ]
   },
-  "/signs/qb_676.png": {
+  "/signs/ammessa_la_marcia_per_file_qb_676.png": {
     "description": "Vista dall'alto di tre automobili parcheggiate in stalli paralleli obliqui lungo il bordo stradale: B (blu), E (rosso), S (verde), con linea tratteggiata di mezzeria e corsia di scorrimento in alto — parcheggio a spina di pesce.",
     "imageHints": [
       "foto segnale qb_676"
@@ -7397,7 +7397,7 @@
       "B22984"
     ]
   },
-  "/signs/qb_642.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_642.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro utenti: O (auto nera, in alto), M (motociclista, a destra), A (auto arancione, in basso a sinistra), T (tram verde, al centro a destra con scritta TRAM), segnale di pericolo motocicli — situazione di precedenza con tram.",
     "imageHints": [
       "foto segnale qb_642"
@@ -7420,7 +7420,7 @@
       "B23256"
     ]
   },
-  "/signs/qb_608.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_608.png": {
     "description": "Vista dall'alto di incrocio a T con tre utenti: C (auto arancione, a sinistra), B (autobus rosso, in alto a destra con scritta AUTOBUS), H (autobus blu, in basso con scritta AUTOBUS) — situazione di precedenza con autobus.",
     "imageHints": [
       "foto segnale qb_608"
@@ -7445,7 +7445,7 @@
       "B23251"
     ]
   },
-  "/signs/qb_615.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_615.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: R (rosso, in alto), A (arancione, a destra), C (blu, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_615"
@@ -7469,7 +7469,7 @@
       "B23164"
     ]
   },
-  "/signs/qb_618.png": {
+  "/signs/ordine_di_qb_618.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: C (arancione, in alto), L (blu, a sinistra), H (rosso, a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_618"
@@ -7484,7 +7484,7 @@
       "B23076"
     ]
   },
-  "/signs/qb_662.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_662.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: E (rosso, in alto), A (blu, a sinistra), B (arancione, a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_662"
@@ -7512,7 +7512,7 @@
       "B23454"
     ]
   },
-  "/signs/qb_659.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_659.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: R (arancione, a destra in alto), C (rosso, in basso a sinistra), A (blu, in basso a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_659"
@@ -7532,7 +7532,7 @@
       "B23414"
     ]
   },
-  "/signs/qb_640.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_640.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: R (verde, a destra), B (camion rosso, a sinistra), D (blu, in basso), L (nero, al centro a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_640"
@@ -7554,7 +7554,7 @@
       "B23109"
     ]
   },
-  "/signs/qb_632.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_632.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (nero, in alto), P (arancione, a sinistra), N (rosso, a destra), D (blu, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_632"
@@ -7582,7 +7582,7 @@
       "B23158"
     ]
   },
-  "/signs/qb_646.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_646.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: C (camion rosso, in alto con spartitraffico verde), A (arancione, a destra), D (blu, a sinistra), H (verde, in basso con spartitraffico verde) con traiettorie tratteggiate — situazione di precedenza con strada a doppia carreggiata.",
     "imageHints": [
       "foto segnale qb_646"
@@ -7604,7 +7604,7 @@
       "B23424"
     ]
   },
-  "/signs/qb_637.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_637.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: D (blu, a sinistra), L (nero, a destra in alto), A (verde, in basso a sinistra), C (rosso, in basso a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_637"
@@ -7623,7 +7623,7 @@
       "B23339"
     ]
   },
-  "/signs/qb_643.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_643.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: H (rosso, in alto), D (blu, a destra), L (arancione, in basso a sinistra), B (verde, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_643"
@@ -7645,7 +7645,7 @@
       "B23428"
     ]
   },
-  "/signs/qb_638.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_638.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (nero, in alto), R (arancione, a destra), D (blu, in basso a sinistra), N (rosso, in basso a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_638"
@@ -7671,7 +7671,7 @@
       "B23345"
     ]
   },
-  "/signs/qb_667.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_667.png": {
     "description": "Vista dall'alto di incrocio irregolare (più di quattro bracci) con tre veicoli: C (rosso, in alto a destra), A (arancione, a destra), P (blu, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione irregolare.",
     "imageHints": [
       "foto segnale qb_667"
@@ -7690,7 +7690,7 @@
       "B23384"
     ]
   },
-  "/signs/qb_668.png": {
+  "/signs/incrociamo_un_veicolo_con_fari_abbaglianti_accesi_qb_668.png": {
     "description": "Vista dall'alto di incrocio irregolare con tre veicoli: C (nero, in alto), N (rosso, a sinistra), S (blu, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione irregolare.",
     "imageHints": [
       "foto segnale qb_668"
@@ -7710,7 +7710,7 @@
       "B23297"
     ]
   },
-  "/signs/qb_669.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_669.png": {
     "description": "Vista dall'alto di incrocio irregolare con cinque veicoli: L (nero, in alto a sinistra), R (camion rosso, in alto a destra), E (verde, a destra), A (rosso, in basso a sinistra), C (blu, in basso) con traiettorie tratteggiate — situazione di precedenza complessa a intersezione irregolare.",
     "imageHints": [
       "foto segnale qb_669"
@@ -7733,7 +7733,7 @@
       "B23439"
     ]
   },
-  "/signs/qb_665.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_665.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con cinque veicoli: E (rosso, in alto), A (arancione, a sinistra), V (blu, a destra), C (nero, in basso a sinistra), H (verde, in basso a destra) con traiettorie tratteggiate — situazione di precedenza complessa.",
     "imageHints": [
       "foto segnale qb_665"
@@ -7755,7 +7755,7 @@
       "B23456"
     ]
   },
-  "/signs/qb_647.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_647.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza (triangolo rovesciato): B (rosso, in alto con dare precedenza a sinistra), H (arancione, a sinistra), L (blu, a destra), O (verde, in basso con dare precedenza a destra) — situazione di precedenza con segnali.",
     "imageHints": [
       "foto segnale qb_647"
@@ -7775,7 +7775,7 @@
       "B23399"
     ]
   },
-  "/signs/qb_655.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_655.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza: A (blu, in alto con dare precedenza a destra), R (camion rosso, a destra), E (verde, a sinistra), S (camion bianco, in basso con dare precedenza a sinistra) — situazione di precedenza con veicoli pesanti.",
     "imageHints": [
       "foto segnale qb_655"
@@ -7797,7 +7797,7 @@
       "B23400"
     ]
   },
-  "/signs/qb_654.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_654.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con segnali di dare precedenza: R (verde, in alto con dare precedenza a destra), A (rosso, a destra), C (camion rosso, a sinistra), H (blu, in basso con dare precedenza a sinistra) — situazione di precedenza con camion.",
     "imageHints": [
       "foto segnale qb_654"
@@ -7816,7 +7816,7 @@
       "B23260"
     ]
   },
-  "/signs/qb_648.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_648.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tram e segnali di dare precedenza: B (blu, in alto con dare precedenza a sinistra), T (tram verde con scritta TRAM, a destra), G (rosso, a sinistra), P (in basso con dare precedenza a destra) — situazione di precedenza con tram.",
     "imageHints": [
       "foto segnale qb_648"
@@ -7842,7 +7842,7 @@
       "B23351"
     ]
   },
-  "/signs/qb_650.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_650.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: N (autocarro rosso con scritta AUTOCARRO, in alto), R (filobus blu scuro con scritta FILOBUS, a destra), E (verde, a sinistra), L (arancione, in basso) con traiettorie tratteggiate — situazione di precedenza con autocarro e filobus.",
     "imageHints": [
       "foto segnale qb_650"
@@ -7866,7 +7866,7 @@
       "B23359"
     ]
   },
-  "/signs/qb_652.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_652.png": {
     "description": "Vista dall'alto di incrocio irregolare a tre bracci con tre veicoli: A (camion rosso, in alto a sinistra), F (autobus blu con scritta AUTOBUS, in alto a destra), H (arancione, in basso a sinistra), L (blu, in basso a destra) con traiettorie tratteggiate — situazione di precedenza con autobus.",
     "imageHints": [
       "foto segnale qb_652"
@@ -7881,7 +7881,7 @@
       "B23276"
     ]
   },
-  "/signs/qb_617.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_617.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: N (nero, in alto), R (rosso, a destra), A (blu, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_617"
@@ -7903,7 +7903,7 @@
       "B23317"
     ]
   },
-  "/signs/qb_639.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_639.png": {
     "description": "Vista dall'alto di incrocio a T con tram e tre veicoli: A (nero, in alto), C (camion rosso con scritta TRAM accanto, al centro), B (arancione, in basso a sinistra), T (zona tram a destra) con traiettorie tratteggiate — situazione di precedenza con tram.",
     "imageHints": [
       "foto segnale qb_639"
@@ -7920,7 +7920,7 @@
       "B23301"
     ]
   },
-  "/signs/qb_651.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_651.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con spartitraffico verde e quattro veicoli: E (verde, in alto a sinistra), S (arancione, in alto a destra), D (rosso, in basso a sinistra), A (blu, a destra) con traiettorie tratteggiate — situazione di precedenza con strada a doppia carreggiata.",
     "imageHints": [
       "foto segnale qb_651"
@@ -7938,7 +7938,7 @@
       "B23308"
     ]
   },
-  "/signs/qb_614.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_614.png": {
     "description": "Vista dall'alto di incrocio irregolare a tre bracci con tre veicoli: A (arancione, in alto), R (blu, in basso a sinistra), T (rosso, a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione irregolare.",
     "imageHints": [
       "foto segnale qb_614"
@@ -7956,7 +7956,7 @@
       "B23326"
     ]
   },
-  "/signs/qb_631.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_631.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: D (autocarro rosso con scritta AUTOCARRO, in alto), R (arancione, a sinistra), F (filobus blu scuro con scritta FILOBUS, a destra) con traiettorie tratteggiate — situazione di precedenza con autocarro e filobus.",
     "imageHints": [
       "foto segnale qb_631"
@@ -7972,7 +7972,7 @@
       "B23370"
     ]
   },
-  "/signs/qb_663.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_663.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: R (rosso, in alto), B (arancione, a destra), T (blu, in basso a sinistra), D (nero, in basso a destra) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_663"
@@ -7989,7 +7989,7 @@
       "B23369"
     ]
   },
-  "/signs/qb_607.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_607.png": {
     "description": "Vista dall'alto di incrocio a T con tre utenti: T (tram verde con scritta TRAM, a sinistra), P (rosso, in alto a destra), M (autobus blu con scritta AUTOBUS, in basso) con traiettorie tratteggiate — situazione di precedenza con tram e autobus.",
     "imageHints": [
       "foto segnale qb_607"
@@ -8010,7 +8010,7 @@
       "B23381"
     ]
   },
-  "/signs/qb_620.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_620.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con spartitraffico verde e tre veicoli: B (rosso, in alto), C (arancione, a destra), P (blu, a sinistra) con traiettorie tratteggiate — situazione di precedenza con strada a doppia carreggiata.",
     "imageHints": [
       "foto segnale qb_620"
@@ -8026,7 +8026,7 @@
       "B23402"
     ]
   },
-  "/signs/qb_613.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_613.png": {
     "description": "Vista dall'alto di incrocio a T con tram e due veicoli: O (nero, in alto), A (camion rosso con scritta TRAM accanto, al centro a destra), T (zona tram in basso a destra) con traiettorie tratteggiate — situazione di precedenza con tram.",
     "imageHints": [
       "foto segnale qb_613"
@@ -8042,7 +8042,7 @@
       "B23415"
     ]
   },
-  "/signs/qb_616.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_616.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: T (arancione, in alto), S (rosso, a destra), B (blu, a sinistra) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_616"
@@ -8058,7 +8058,7 @@
       "B23408"
     ]
   },
-  "/signs/qb_660.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_660.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con tre veicoli: H (rosso, in alto), D (arancione, a destra), B (blu, a sinistra) con traiettorie tratteggiate — situazione di precedenza a intersezione.",
     "imageHints": [
       "foto segnale qb_660"
@@ -8074,7 +8074,7 @@
       "B23425"
     ]
   },
-  "/signs/qb_644.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_644.png": {
     "description": "Vista dall'alto di incrocio a quattro bracci con quattro veicoli: B (verde, in alto), L (blu, a destra), D (arancione, in basso a sinistra), P (rosso, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione con quattro veicoli.",
     "imageHints": [
       "foto segnale qb_644"
@@ -8090,7 +8090,7 @@
       "B23432"
     ]
   },
-  "/signs/qb_606.png": {
+  "/signs/obbligatorio_dare_la_precedenza_a_destra_e_a_qb_606.png": {
     "description": "Vista dall'alto di incrocio a Y (tre bracci) con tre veicoli: E (arancione, a sinistra), C (rosso, in alto a destra), M (blu, in basso) con traiettorie tratteggiate — situazione di precedenza a intersezione a Y.",
     "imageHints": [
       "foto segnale qb_606"
@@ -8105,7 +8105,7 @@
       "B23440"
     ]
   },
-  "/signs/qb_304.png": {
+  "/signs/pannelli_posteriori_trasporto_cose_qb_304.png": {
     "description": "Pannello rettangolare con strisce diagonali alternate gialle e rosse — pannello posteriore per veicoli lenti, macchine operatrici o trasporti eccezionali.",
     "imageHints": [
       "foto segnale qb_304"
@@ -8124,7 +8124,7 @@
       "B23950"
     ]
   },
-  "/signs/qb_302.png": {
+  "/signs/pannelli_posteriori_trasporto_cose_qb_302.png": {
     "description": "Pannello quadrato con strisce diagonali alternate rosse e bianche con catarifrangenti (cerchi bianchi) ai quattro angoli — pannello per carico sporgente o trasporto eccezionale.",
     "imageHints": [
       "foto segnale qb_302"
@@ -8159,7 +8159,7 @@
       "B24074"
     ]
   },
-  "/signs/qb_305.png": {
+  "/signs/pannelli_posteriori_trasporto_cose_qb_305.png": {
     "description": "Pannello rettangolare giallo con bordo rosso — pannello posteriore per autoveicoli con massa superiore a 3,5 tonnellate (contrassegno veicoli lenti).",
     "imageHints": [
       "foto segnale qb_305"
@@ -8178,7 +8178,7 @@
       "B23951"
     ]
   },
-  "/signs/qb_303.png": {
+  "/signs/ammessa_la_marcia_per_file_qb_303.png": {
     "description": "Pannello di pericolo (ADR) rettangolare arancione diviso in due righe con numeri neri: \"33\" in alto (numero di pericolo: liquido molto infiammabile) e \"1203\" in basso (numero ONU: benzina).",
     "imageHints": [
       "foto segnale qb_303"
@@ -8195,7 +8195,7 @@
       "B23949"
     ]
   },
-  "/signs/qb_695.png": {
+  "/signs/simbolo_proiettori_abbaglianti_e_qb_695.png": {
     "description": "Simbolo stilizzato nero di faro/proiettore con fascio di luce a forma di cono e linee orizzontali parallele — spia delle luci abbaglianti (fari di profondita) del veicolo.",
     "imageHints": [
       "foto segnale qb_695"
@@ -8225,7 +8225,7 @@
       "B24211"
     ]
   },
-  "/signs/qb_696.png": {
+  "/signs/simbolo_proiettori_anabbaglianti_e_qb_696.png": {
     "description": "Simbolo stilizzato nero di faro/proiettore con fascio di luce a forma di cono e linee orizzontali parallele — spia delle luci anabbaglianti del veicolo.",
     "imageHints": [
       "foto segnale qb_696"
@@ -8242,7 +8242,7 @@
       "B24209"
     ]
   },
-  "/signs/qb_697.png": {
+  "/signs/simbolo_degli_indicatori_di_direzione_qb_697.png": {
     "description": "Due frecce stilizzate nere opposte (una verso sinistra e una verso destra) — simbolo degli indicatori di direzione (frecce di emergenza / quattro frecce lampeggianti).",
     "imageHints": [
       "foto segnale qb_697"
@@ -8270,7 +8270,7 @@
       "B24312"
     ]
   },
-  "/signs/qb_698.png": {
+  "/signs/simbolo_del_segnale_di_emergenza_qb_698.png": {
     "description": "Due triangoli concentrici neri con vertice in alto (triangolo grande esterno e triangolo piccolo interno) — simbolo del triangolo di emergenza / segnalazione di pericolo.",
     "imageHints": [
       "foto segnale qb_698"
@@ -8292,7 +8292,7 @@
       "B24222"
     ]
   },
-  "/signs/qb_704.png": {
+  "/signs/simbolo_della_riserva_carburante_qb_704.png": {
     "description": "Simbolo stilizzato nero di termometro immerso in onde d'acqua — spia della temperatura del liquido di raffreddamento del motore.",
     "imageHints": [
       "foto segnale qb_704"
@@ -8316,7 +8316,7 @@
       "B24282"
     ]
   },
-  "/signs/qb_705.png": {
+  "/signs/simbolo_della_batteria_qb_705.png": {
     "description": "Simbolo stilizzato nero di batteria con polo negativo (-) a sinistra e polo positivo (+) a destra — spia della batteria / alternatore del veicolo.",
     "imageHints": [
       "foto segnale qb_705"
@@ -8338,7 +8338,7 @@
       "B24290"
     ]
   },
-  "/signs/qb_706.png": {
+  "/signs/simbolo_della_riserva_carburante_qb_706.png": {
     "description": "Simbolo stilizzato nero di oliera/ampolla d'olio con goccia che cade dal beccuccio — spia della pressione dell'olio motore.",
     "imageHints": [
       "foto segnale qb_706"
@@ -8362,7 +8362,7 @@
       "B24300"
     ]
   },
-  "/signs/qb_721.png": {
+  "/signs/simbolo_del_segnale_di_emergenza_qb_721.png": {
     "description": "Simbolo stilizzato nero di cerchio con punto esclamativo al centro e due parentesi curve ai lati — spia del freno di stazionamento inserito o anomalia dell'impianto frenante.",
     "imageHints": [
       "foto segnale qb_721"
@@ -8388,7 +8388,7 @@
       "B24311"
     ]
   },
-  "/signs/qb_707.png": {
+  "/signs/cinture_di_sicurezza_qb_707.png": {
     "description": "Simbolo stilizzato nero di persona seduta con cintura di sicurezza allacciata diagonalmente — spia della cintura di sicurezza non allacciata.",
     "imageHints": [
       "foto segnale qb_707"
@@ -8409,49 +8409,49 @@
       "B24317"
     ]
   },
-  "/signs/qb_5.png": {
+  "/signs/curva_a_sinistra_qb_5.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con una freccia curva nera rivolta a sinistra. Indica una curva pericolosa a sinistra.",
     "imageHints": [
       "foto segnale qb_5"
     ]
   },
-  "/signs/qb_14.png": {
+  "/signs/strettoia_simmetrica_qb_14.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con la sagoma nera di un tram. Indica l'attraversamento tranviario o la vicinanza di una linea tranviaria.",
     "imageHints": [
       "foto segnale qb_14"
     ]
   },
-  "/signs/qb_4.png": {
+  "/signs/curva_a_destra_qb_4.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con una freccia curva nera rivolta a destra. Indica una curva pericolosa a destra.",
     "imageHints": [
       "foto segnale qb_4"
     ]
   },
-  "/signs/qb_9.png": {
+  "/signs/attraversamento_tranviario_qb_9.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con la sagoma nera di una locomotiva a vapore con fumo. Indica un passaggio a livello senza barriere.",
     "imageHints": [
       "foto segnale qb_9"
     ]
   },
-  "/signs/qb_17.png": {
+  "/signs/cunetta_qb_17.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con un profilo di discesa nera e la scritta '10%'. Indica una discesa pericolosa con pendenza del 10%.",
     "imageHints": [
       "foto segnale qb_17"
     ]
   },
-  "/signs/qb_24.png": {
+  "/signs/strada_sdrucciolevole_qb_24.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con la sagoma nera di un'automobile su una strada ondulata che sbanda. Indica strada sdrucciolevole.",
     "imageHints": [
       "foto segnale qb_24"
     ]
   },
-  "/signs/qb_30.png": {
+  "/signs/sbocco_su_molo_qb_30.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con la sagoma nera di un'automobile che precipita da una banchina verso l'acqua (onde). Indica banchina pericolosa o scarpata pericolosa.",
     "imageHints": [
       "foto segnale qb_30"
     ]
   },
-  "/signs/qb_31.png": {
+  "/signs/caduta_massi_qb_31.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con la sagoma nera di un'automobile da cui schizzano sassi e pietrisco. Indica materiale instabile sulla carreggiata (strada con pietrisco).",
     "imageHints": [
       "foto segnale qb_31"
@@ -8463,49 +8463,49 @@
       "foto segnale ministeriale_086"
     ]
   },
-  "/signs/qb_10.png": {
+  "/signs/passaggio_a_livello_senza_barriere_qb_10.png": {
     "description": "Segnale di passaggio a livello: croce di Sant'Andrea semplice (una X) con barre bianche bordate di rosso. Indica un passaggio a livello con un solo binario.",
     "imageHints": [
       "foto segnale qb_10"
     ]
   },
-  "/signs/qb_11.png": {
+  "/signs/passaggio_a_livello_senza_barriere_qb_11.png": {
     "description": "Segnale di passaggio a livello: doppia croce di Sant'Andrea (due X sovrapposte) con barre bianche bordate di rosso. Indica un passaggio a livello con due o piu binari.",
     "imageHints": [
       "foto segnale qb_11"
     ]
   },
-  "/signs/qb_20.png": {
+  "/signs/strettoia_simmetrica_qb_20.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con due barre nere verticali di cui quella sinistra si restringe. Indica un restringimento della carreggiata a sinistra.",
     "imageHints": [
       "foto segnale qb_20"
     ]
   },
-  "/signs/qb_26.png": {
+  "/signs/animali_domestici_qb_26.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, con la sagoma nera di una mucca (bovino). Indica la possibile presenza di animali domestici vaganti sulla strada.",
     "imageHints": [
       "foto segnale qb_26"
     ]
   },
-  "/signs/qb_27.png": {
+  "/signs/animali_selvatici_qb_27.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, raffigura un cervo nero che salta. Indica la possibile presenza di animali selvatici vaganti sulla carreggiata.",
     "imageHints": [
       "foto segnale qb_27"
     ]
   },
-  "/signs/qb_13.png": {
+  "/signs/passaggio_a_livello_con_barriere_o_semibarriere_qb_13.png": {
     "description": "Pannelli distanziometrici di passaggio a livello: tre pannelli rettangolari verticali bianchi con bordo nero, con rispettivamente tre, due e una barra rossa diagonale. Indicano la distanza progressiva da un passaggio a livello (150m, 100m, 50m).",
     "imageHints": [
       "foto segnale qb_13"
     ]
   },
-  "/signs/qb_36.png": {
+  "/signs/aeromobili_a_bassa_quota_qb_36.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, raffigura la sagoma nera di un aeroplano. Indica la vicinanza di un aeroporto con possibile sorvolo a bassa quota degli aerei.",
     "imageHints": [
       "foto segnale qb_36"
     ]
   },
-  "/signs/qb_33.png": {
+  "/signs/caduta_massi_qb_33.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, raffigura una parete rocciosa nera con massi che cadono da sinistra. Indica il pericolo di caduta massi dalla parete a sinistra della strada.",
     "imageHints": [
       "foto segnale qb_33"
@@ -8517,7 +8517,7 @@
       "foto segnale direzione_obbligatoria_a_sinistra"
     ]
   },
-  "/signs/qb_18.png": {
+  "/signs/salita_ripida_qb_18.png": {
     "description": "Segnale di pericolo: triangolo con bordo rosso e sfondo bianco, raffigura un profilo nero di salita ripida con la scritta '10%'. Indica una salita ripida con pendenza del 10%.",
     "imageHints": [
       "foto segnale qb_18"
@@ -8571,19 +8571,19 @@
       "segnale stop ottagonale rosso"
     ]
   },
-  "/signs/qb_902.png": {
+  "/signs/strada_deformata_qb_902.png": {
     "description": "Segnale di pericolo triangolare con bordo rosso e sfondo bianco, raffigurante una strada deformata (cunetta o dosso). Sotto il triangolo un pannello integrativo rettangolare bianco indica la distanza '320 m'.",
     "imageHints": [
       "segnale pericolo strada deformata con pannello 320 m"
     ]
   },
-  "/signs/qb_906.png": {
+  "/signs/passaggio_a_livello_con_barriere_o_semibarriere_qb_906.png": {
     "description": "Segnale di pericolo triangolare con bordo rosso e sfondo bianco, raffigurante una doppia curva pericolosa (la prima a destra). Sotto il triangolo un pannello integrativo rettangolare bianco indica '2,8 km' di estensione del tratto pericoloso.",
     "imageHints": [
       "segnale pericolo doppia curva con pannello 2,8 km"
     ]
   },
-  "/signs/qb_905.png": {
+  "/signs/strada_deformata_qb_905.png": {
     "description": "Segnale di pericolo triangolare con bordo rosso e sfondo bianco, raffigurante una doppia curva pericolosa (la prima a destra). Sotto il triangolo un pannello integrativo rettangolare bianco indica '3,8 km' di estensione del tratto pericoloso.",
     "imageHints": [
       "segnale pericolo doppia curva con pannello 3,8 km"
