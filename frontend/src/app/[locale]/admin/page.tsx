@@ -77,7 +77,16 @@ function StatsTab({ isAr }: { isAr: boolean }) {
     if (token) getAdminStats(token).then(setStats);
   }, []);
 
-  if (!stats) return <p>Loading...</p>;
+  if (!stats) return (
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+      {[...Array(5)].map((_, i) => (
+        <div key={i} className="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
+          <div className="h-4 w-16 bg-gray-200 dark:bg-gray-700 rounded animate-pulse mb-2" />
+          <div className="h-8 w-12 bg-gray-200 dark:bg-gray-700 rounded animate-pulse" />
+        </div>
+      ))}
+    </div>
+  );
 
   const cards = [
     { label: isAr ? "الأسئلة" : "Domande", value: stats.questions, color: "text-blue-600" },

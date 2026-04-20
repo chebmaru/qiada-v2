@@ -34,7 +34,59 @@ export default function ExamPage() {
   const [showExplanation, setShowExplanation] = useState(false);
   const feedbackTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // localStorage key for saving progress
+  const storageKey = `quiz_progress_${topicKey || chapterId || "exam"}`;
+
+  // Save answers to localStorage whenever they change
   useEffect(() => {
+    if (phase === "active" && attemptId && answers.size > 0) {
+      const saved = {
+        attemptId,
+        current,
+        answers: Array.from(answers.entries()),
+        timeLeft,
+        ts: Date.now(),
+      };
+      try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch {}
+    }
+  }, [answers, current, timeLeft, phase, attemptId, storageKey]);
+
+  // Clear saved progress on result
+  useEffect(() => {
+    if (phase === "result") {
+      try { localStorage.removeItem(storageKey); } catch {}
+    }
+  }, [phase, storageKey]);
+
+  useEffect(() => {
+    // Try to recover saved progress (less than 2 hours old)
+    try {
+      const raw = localStorage.getItem(storageKey);
+      if (raw) {
+        const saved = JSON.parse(raw);
+        if (saved.ts && Date.now() - saved.ts < 2 * 60 * 60 * 1000) {
+          // Recovery: re-fetch quiz with same attemptId
+          const start = isPractice
+            ? startPractice({ topicKey, chapterId, count: 20 })
+            : startExam();
+          start
+            .then((data) => {
+              // If same attempt or questions match, restore answers
+              setAttemptId(data.attemptId);
+              setQuestions(data.questions);
+              setTimeLeft(saved.timeLeft || data.timeLimitSeconds || 0);
+              if (saved.answers) setAnswers(new Map(saved.answers));
+              if (saved.current) setCurrent(saved.current);
+              setPhase("active");
+            })
+            .catch((e) => setError(e.message));
+          return;
+        } else {
+          localStorage.removeItem(storageKey);
+        }
+      }
+    } catch {}
+
     const start = isPractice
       ? startPractice({ topicKey, chapterId, count: 20 })
       : startExam();
@@ -94,19 +146,28 @@ export default function ExamPage() {
   const handleSubmit = useCallback(async () => {
     if (phase !== "active") return;
     setPhase("submitting");
-    try {
-      const answerArray = questions.map((q) => ({
-        questionId: q.id,
-        answer: answers.get(q.id) ?? false,
-      }));
-      const res = await submitQuiz(attemptId, answerArray);
-      setResult(res);
-      setPhase("result");
-    } catch (e: any) {
-      setError(e.message);
-      setPhase("active");
+    const answerArray = questions.map((q) => ({
+      questionId: q.id,
+      answer: answers.get(q.id) ?? false,
+    }));
+
+    // Retry up to 3 times on network failure
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await submitQuiz(attemptId, answerArray);
+        setResult(res);
+        setPhase("result");
+        return;
+      } catch (e: any) {
+        if (attempt < 2) {
+          await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+          continue;
+        }
+        setError(isAr ? "خطأ في الشبكة. إجاباتك محفوظة، أعد المحاولة." : "Errore di rete. Le risposte sono salvate, riprova.");
+        setPhase("active");
+      }
     }
-  }, [phase, questions, answers, attemptId]);
+  }, [phase, questions, answers, attemptId, isAr]);
 
   const goToQuestion = (i: number) => {
     setFeedback(null);
