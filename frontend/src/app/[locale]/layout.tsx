@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import BottomNav from "@/components/BottomNav";
 import Onboarding from "@/components/Onboarding";
 import OfflineSync from "@/components/OfflineSync";
+import Analytics from "@/components/Analytics";
 
 export default async function LocaleLayout({
   children,
@@ -34,6 +35,7 @@ export default async function LocaleLayout({
             {children}
             <BottomNav />
             <Onboarding />
+            <Analytics />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
