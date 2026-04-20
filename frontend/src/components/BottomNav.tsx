@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 
 const HomeIcon = ({ active }: { active: boolean }) => (
@@ -35,7 +35,9 @@ const UserIcon = ({ active }: { active: boolean }) => (
 
 export default function BottomNav() {
   const t = useTranslations();
+  const locale = useLocale();
   const pathname = usePathname();
+  const isAr = locale === "ar";
 
   const tabs = [
     { href: "/" as const, label: t("common.home"), Icon: HomeIcon },
@@ -70,6 +72,18 @@ export default function BottomNav() {
             </Link>
           );
         })}
+
+        {/* Language switcher */}
+        <Link
+          href={pathname}
+          locale={isAr ? "it" : "ar"}
+          className="flex flex-col items-center justify-center gap-0.5 w-full h-full text-[10px] font-medium text-[var(--muted)]"
+        >
+          <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 text-white text-xs font-bold flex items-center justify-center">
+            {isAr ? "IT" : "ع"}
+          </div>
+          <span>{isAr ? "Italiano" : "العربية"}</span>
+        </Link>
       </div>
     </nav>
   );
