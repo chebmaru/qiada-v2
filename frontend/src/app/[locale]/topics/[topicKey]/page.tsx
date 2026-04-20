@@ -20,6 +20,36 @@ function formatTrickText(text: string): string[] {
   if (sentences.length >= 2) {
     return sentences;
   }
+  // Split on commas that are outside parentheses (for "X (es. ...), Y (es. ...), Z" patterns)
+  // Only if the text is long enough to warrant splitting
+  if (text.length > 100) {
+    const parts: string[] = [];
+    let depth = 0;
+    let current = "";
+    for (const char of text) {
+      if (char === "(") depth++;
+      else if (char === ")") depth--;
+      if (char === "," && depth === 0) {
+        const trimmed = current.trim();
+        if (trimmed) parts.push(trimmed);
+        current = "";
+      } else {
+        current += char;
+      }
+    }
+    if (current.trim()) parts.push(current.trim());
+    // Only use comma-split if we get 3+ meaningful items (not tiny fragments)
+    if (parts.length >= 3 && parts.every((p) => p.length > 15)) {
+      // Check if first part contains intro pattern like "contengono/parlano di:"
+      const colonIdx = parts[0].indexOf(":");
+      if (colonIdx > 0 && colonIdx < parts[0].length - 5) {
+        const intro = parts[0].substring(0, colonIdx + 1).trim();
+        const firstItem = parts[0].substring(colonIdx + 1).trim();
+        return [intro, firstItem, ...parts.slice(1)].filter(Boolean);
+      }
+      return parts;
+    }
+  }
   return [text];
 }
 
@@ -144,26 +174,11 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
         {t("common.back")}
       </Link>
 
-      {/* Title + sign */}
-      <div className="flex items-start gap-4 mb-6">
-        <div className="flex-1">
-          <h1 className="text-2xl font-bold mb-1">{isAr ? topic.titleAr : topic.titleIt}</h1>
-          <p className="text-sm text-gray-500">{questions.length} {t("common.questions").toLowerCase()}</p>
-        </div>
-        {signUrl && (
-          <SignImage src={signUrl} size="md" className="h-20 flex-shrink-0" />
-        )}
-      </div>
+      {/* Title */}
+      <h1 className="text-2xl font-bold mb-1">{isAr ? topic.titleAr : topic.titleIt}</h1>
+      <p className="text-sm text-gray-500 mb-6">{questions.length} {t("common.questions").toLowerCase()}</p>
 
-      {/* Didactic illustration */}
-      <img
-        src={`/didattica/${topicKey}.svg`}
-        alt=""
-        className="w-full rounded-lg mb-6 hidden"
-        onLoad={(e) => (e.currentTarget.className = "w-full rounded-lg mb-6")}
-      />
-
-      {/* Didactic content */}
+      {/* 1. Didactic content */}
       {(isAr ? topic.contentAr : topic.contentIt) && (
         <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 rounded-xl p-4 mb-6">
           <div className="flex items-center gap-2 mb-2">
@@ -177,6 +192,21 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
           <p className="whitespace-pre-line text-sm leading-relaxed">
             {isAr ? topic.contentAr : topic.contentIt}
           </p>
+        </div>
+      )}
+
+      {/* 2. Didactic SVG illustration */}
+      <img
+        src={`/didattica/${topicKey}.svg`}
+        alt=""
+        className="w-full rounded-lg mb-6 hidden"
+        onLoad={(e) => (e.currentTarget.className = "w-full rounded-lg mb-6")}
+      />
+
+      {/* 3. Sign photo */}
+      {signUrl && (
+        <div className="flex justify-center mb-6">
+          <img src={signUrl} alt={isAr ? topic.titleAr : topic.titleIt} className="max-h-40 rounded-xl border border-[var(--card-border)] shadow-sm" />
         </div>
       )}
 
