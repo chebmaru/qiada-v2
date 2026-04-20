@@ -73,6 +73,9 @@ export default function DashboardPage() {
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
       <h1 className="text-2xl font-extrabold tracking-tight mb-6">{isAr ? "لوحة التقدم" : "I tuoi progressi"}</h1>
 
+      {/* Virtual License Card */}
+      <VirtualLicense stats={stats} isAr={isAr} />
+
       {/* Stat cards */}
       <div className="grid grid-cols-2 gap-3 mb-6">
         <StatCard
@@ -155,6 +158,83 @@ export default function DashboardPage() {
         </>
       )}
     </main>
+  );
+}
+
+function VirtualLicense({ stats, isAr }: { stats: DashboardStats; isAr: boolean }) {
+  // Calculate level based on questions answered + accuracy
+  const coverage = Math.min(stats.uniqueQuestions / 6845, 1); // % of all questions seen
+  const accuracyFactor = stats.accuracy / 100;
+  const examFactor = stats.totalExams > 0 ? Math.min(stats.passedExams / stats.totalExams, 1) : 0;
+  const score = Math.round((coverage * 40 + accuracyFactor * 40 + examFactor * 20));
+
+  const level = score >= 90 ? 5 : score >= 70 ? 4 : score >= 50 ? 3 : score >= 25 ? 2 : 1;
+  const stars = Array.from({ length: 5 }, (_, i) => i < level);
+
+  const levelLabels = isAr
+    ? ["مبتدئ", "طالب", "ممارس", "متقدم", "جاهز للامتحان"]
+    : ["Principiante", "Studente", "Praticante", "Avanzato", "Pronto all'esame"];
+
+  const levelColors = [
+    "from-gray-400 to-gray-500",
+    "from-blue-400 to-blue-600",
+    "from-cyan-400 to-blue-500",
+    "from-purple-400 to-indigo-600",
+    "from-amber-400 to-yellow-500",
+  ];
+
+  return (
+    <div className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${levelColors[level - 1]} p-[1px] mb-6`}>
+      <div className="bg-gray-950/80 backdrop-blur-sm rounded-2xl p-5">
+        <div className="flex items-start justify-between mb-4">
+          <div>
+            <p className="text-[10px] uppercase tracking-widest text-gray-400 mb-1">
+              {isAr ? "رخصة قيادة افتراضية" : "Patente Virtuale"}
+            </p>
+            <p className="text-lg font-bold text-white">{levelLabels[level - 1]}</p>
+          </div>
+          <div className="text-end">
+            <p className="text-3xl font-black text-white">{score}</p>
+            <p className="text-[10px] text-gray-400">/100</p>
+          </div>
+        </div>
+
+        {/* Stars */}
+        <div className="flex gap-1 mb-4">
+          {stars.map((filled, i) => (
+            <svg key={i} className={`w-5 h-5 ${filled ? "text-yellow-400" : "text-gray-700"}`} fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          ))}
+        </div>
+
+        {/* Progress breakdown */}
+        <div className="grid grid-cols-3 gap-3 text-center">
+          <div>
+            <p className="text-xs text-gray-400">{isAr ? "التغطية" : "Copertura"}</p>
+            <p className="text-sm font-bold text-white">{Math.round(coverage * 100)}%</p>
+          </div>
+          <div>
+            <p className="text-xs text-gray-400">{isAr ? "الدقة" : "Precisione"}</p>
+            <p className="text-sm font-bold text-white">{stats.accuracy}%</p>
+          </div>
+          <div>
+            <p className="text-xs text-gray-400">{isAr ? "الاختبارات" : "Esami"}</p>
+            <p className="text-sm font-bold text-white">{stats.passedExams}/{stats.totalExams}</p>
+          </div>
+        </div>
+
+        {/* Streak badge */}
+        {stats.streak > 0 && (
+          <div className="mt-3 flex items-center justify-center gap-1.5 bg-orange-500/20 rounded-full py-1 px-3">
+            <span className="text-orange-400">🔥</span>
+            <span className="text-xs font-medium text-orange-300">
+              {stats.streak} {isAr ? "يوم متتالي" : "giorni consecutivi"}
+            </span>
+          </div>
+        )}
+      </div>
+    </div>
   );
 }
 
