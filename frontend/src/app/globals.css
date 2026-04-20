@@ -114,6 +114,17 @@ html[lang="ar"] {
   }
 }
 
+/* Skeleton placeholder */
+.skeleton {
+  background: linear-gradient(90deg, var(--card-border) 25%, transparent 50%, var(--card-border) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
 /* Gradient text */
 .text-gradient {
   background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));

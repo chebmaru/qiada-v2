@@ -1,28 +1,23 @@
 "use client";
 
-import { Link } from "@/i18n/navigation";
-
 interface EmptyStateProps {
   icon: React.ReactNode;
   title: string;
-  description: string;
-  action?: { label: string; href: string };
+  description?: string;
+  action?: React.ReactNode;
 }
 
 export default function EmptyState({ icon, title, description, action }: EmptyStateProps) {
   return (
     <div className="flex flex-col items-center justify-center py-16 px-6 text-center">
-      <div className="text-gray-300 dark:text-gray-600 mb-4">{icon}</div>
+      <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center shadow-lg shadow-blue-500/25 mb-4">
+        {icon}
+      </div>
       <h3 className="text-lg font-semibold mb-1">{title}</h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400 max-w-xs mb-6">{description}</p>
-      {action && (
-        <Link
-          href={action.href}
-          className="bg-blue-600 text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition"
-        >
-          {action.label}
-        </Link>
+      {description && (
+        <p className="text-sm text-[var(--muted)] max-w-xs mb-6">{description}</p>
       )}
+      {action && <div className="mt-4">{action}</div>}
     </div>
   );
 }

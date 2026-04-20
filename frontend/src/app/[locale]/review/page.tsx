@@ -5,6 +5,8 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getReviewQuestions, getWeakQuestions, startPractice, type ReviewQuestion } from "@/lib/api";
 import TTSButton from "@/components/TTSButton";
+import { SkeletonList } from "@/components/Skeleton";
+import EmptyState from "@/components/EmptyState";
 
 type Tab = "due" | "weak";
 
@@ -45,14 +47,31 @@ export default function ReviewPage() {
   };
 
   if (loading) {
-    return <main className="flex-1 flex items-center justify-center"><p>{t("common.loading")}</p></main>;
+    return (
+      <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
+        <div className="h-8 w-40 skeleton rounded mb-2" />
+        <div className="h-5 w-64 skeleton rounded mb-4" />
+        <div className="flex gap-2 mb-6">
+          <div className="flex-1 h-10 skeleton rounded-xl" />
+          <div className="flex-1 h-10 skeleton rounded-xl" />
+        </div>
+        <SkeletonList />
+      </main>
+    );
   }
 
   if (error) {
     return (
       <main className="flex-1 flex flex-col items-center justify-center p-6">
-        <p className="text-red-500 mb-4">{error}</p>
-        <Link href="/login" className="bg-blue-600 text-white px-6 py-2 rounded-lg">
+        <EmptyState
+          icon={
+            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+          }
+          title={error}
+        />
+        <Link href="/login" className="btn-primary px-6 py-2.5 text-sm mt-4">
           {t("common.login")}
         </Link>
       </main>
@@ -61,8 +80,8 @@ export default function ReviewPage() {
 
   return (
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
-      <h1 className="text-2xl font-bold mb-2">{isAr ? "المراجعة" : "Revisione"}</h1>
-      <p className="text-sm text-gray-500 mb-4">
+      <h1 className="text-2xl font-extrabold tracking-tight mb-2">{isAr ? "المراجعة" : "Revisione"}</h1>
+      <p className="text-sm text-[var(--muted)] mb-4">
         {isAr
           ? "أسئلة تحتاج مراجعة بناء على أدائك السابق"
           : "Domande da ripassare in base al tuo rendimento"}
@@ -72,10 +91,10 @@ export default function ReviewPage() {
       <div className="flex gap-2 mb-6">
         <button
           onClick={() => setTab("due")}
-          className={`flex-1 py-2.5 rounded-lg text-sm font-medium transition ${
+          className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition ${
             tab === "due"
-              ? "bg-blue-600 text-white"
-              : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
+              ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg shadow-blue-500/25"
+              : "bg-[var(--card)] border border-[var(--card-border)] text-[var(--muted)]"
           }`}
         >
           {isAr ? "موعد المراجعة" : "Da ripassare"}
@@ -83,10 +102,10 @@ export default function ReviewPage() {
         </button>
         <button
           onClick={() => setTab("weak")}
-          className={`flex-1 py-2.5 rounded-lg text-sm font-medium transition ${
+          className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition ${
             tab === "weak"
-              ? "bg-orange-600 text-white"
-              : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
+              ? "bg-gradient-to-r from-orange-500 to-red-500 text-white shadow-lg shadow-orange-500/25"
+              : "bg-[var(--card)] border border-[var(--card-border)] text-[var(--muted)]"
           }`}
         >
           {isAr ? "نقاط الضعف" : "Punti deboli"}
@@ -96,32 +115,43 @@ export default function ReviewPage() {
 
       {/* Empty state */}
       {questions.length === 0 && (
-        <div className="text-center py-12">
-          <p className="text-4xl mb-4">{tab === "due" ? "🎉" : "💪"}</p>
-          <p className="text-lg font-medium mb-2">
-            {tab === "due"
+        <EmptyState
+          icon={
+            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              {tab === "due"
+                ? <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                : <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+              }
+            </svg>
+          }
+          title={
+            tab === "due"
               ? isAr ? "لا توجد أسئلة للمراجعة الآن" : "Nessuna domanda da ripassare!"
-              : isAr ? "لا توجد نقاط ضعف" : "Nessun punto debole!"}
-          </p>
-          <p className="text-sm text-gray-500 mb-6">
-            {tab === "due"
+              : isAr ? "لا توجد نقاط ضعف" : "Nessun punto debole!"
+          }
+          description={
+            tab === "due"
               ? isAr ? "استمر في التدريب وستظهر هنا الأسئلة" : "Continua a esercitarti e le domande appariranno qui"
-              : isAr ? "أنت بارع في كل شيء" : "Sei preparato su tutto"}
-          </p>
-          <Link href="/quiz" className="bg-blue-600 text-white px-6 py-2.5 rounded-lg font-medium">
-            {isAr ? "ابدأ اختبار" : "Fai un quiz"}
-          </Link>
-        </div>
+              : isAr ? "أنت بارع في كل شيء" : "Sei preparato su tutto"
+          }
+          action={
+            <Link href="/quiz" className="btn-primary px-6 py-2.5 text-sm">
+              {isAr ? "ابدأ اختبار" : "Fai un quiz"}
+            </Link>
+          }
+        />
       )}
 
       {/* Question list */}
       {questions.length > 0 && (
         <>
-          {/* Start practice with these questions */}
           <Link
             href={`/quiz/exam?review=${tab}`}
-            className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg font-medium mb-4 hover:bg-blue-700 transition"
+            className="btn-primary flex items-center justify-center gap-2 py-3 mb-4 text-center"
           >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+            </svg>
             {isAr
               ? `تدرب على ${Math.min(questions.length, 20)} سؤال`
               : `Esercitati su ${Math.min(questions.length, 20)} domande`}
@@ -135,10 +165,7 @@ export default function ReviewPage() {
                 : 0;
 
               return (
-                <div
-                  key={q.id}
-                  className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden"
-                >
+                <div key={q.id} className="card overflow-hidden">
                   <button
                     onClick={() => toggleExpand(q.id)}
                     className="w-full text-start p-4"
@@ -149,21 +176,21 @@ export default function ReviewPage() {
                           <img
                             src={q.imageUrl}
                             alt=""
-                            className="h-12 rounded mb-2 border border-gray-200 dark:border-gray-700"
+                            className="h-12 rounded-lg mb-2 border border-[var(--card-border)]"
                           />
                         )}
                         <p className="text-sm font-medium line-clamp-2" dir="ltr">
                           {q.textIt}
                         </p>
-                        <p className="text-sm text-gray-500 line-clamp-1 mt-1" dir="rtl">
+                        <p className="text-sm text-[var(--muted)] line-clamp-1 mt-1" dir="rtl">
                           {q.textAr}
                         </p>
                       </div>
                       <div className="flex flex-col items-end gap-1 shrink-0">
                         <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                           q.isTrue
-                            ? "bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300"
-                            : "bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300"
+                            ? "bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300"
+                            : "bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300"
                         }`}>
                           {q.isTrue ? t("common.true") : t("common.false")}
                         </span>
@@ -173,40 +200,41 @@ export default function ReviewPage() {
                           </span>
                         )}
                         {tab === "due" && q.interval > 0 && (
-                          <span className="text-xs text-gray-400">
+                          <span className="text-xs text-[var(--muted)]">
                             {q.interval}d
                           </span>
                         )}
+                        <svg className={`w-4 h-4 text-[var(--muted)] transition-transform ${isOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                        </svg>
                       </div>
                     </div>
                   </button>
 
                   {isOpen && (
-                    <div className="border-t border-gray-100 dark:border-gray-800 px-4 py-3 bg-gray-50 dark:bg-gray-950">
+                    <div className="border-t border-[var(--card-border)] px-4 py-3 bg-black/[0.02] dark:bg-white/[0.02]">
                       <div className="flex items-center gap-2 mb-2">
                         <TTSButton text={q.textIt} lang="it" />
-                        <span className="text-xs text-gray-400">{q.code}</span>
+                        <span className="text-xs text-[var(--muted)]">{q.code}</span>
                       </div>
 
-                      {/* Stats */}
-                      <div className="flex gap-4 text-xs text-gray-500 mb-3">
-                        <span>✅ {q.timesCorrect}</span>
-                        <span>❌ {q.timesWrong}</span>
+                      <div className="flex gap-4 text-xs text-[var(--muted)] mb-3">
+                        <span className="text-emerald-600">+{q.timesCorrect}</span>
+                        <span className="text-red-500">-{q.timesWrong}</span>
                         <span>EF: {q.easeFactor.toFixed(1)}</span>
                         <span>Rep: {q.repetitions}</span>
                       </div>
 
-                      {/* Explanation */}
                       {(q.explanationIt || q.explanationAr) && (
                         <div className="text-sm">
-                          <p className="font-medium text-gray-700 dark:text-gray-300 mb-1">
+                          <p className="font-medium mb-1">
                             {t("common.explanation")}:
                           </p>
-                          <p dir="ltr" className="text-gray-600 dark:text-gray-400 mb-1">
+                          <p dir="ltr" className="text-[var(--muted)] mb-1">
                             {q.explanationIt}
                           </p>
                           {q.explanationAr && (
-                            <p dir="rtl" className="text-gray-500">
+                            <p dir="rtl" className="text-[var(--muted)]">
                               {q.explanationAr}
                             </p>
                           )}

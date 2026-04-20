@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getTopicStats, getChapterProgress, getDashboard, type TopicStat, type ChapterProgress, type DashboardStats } from "@/lib/api";
+import { SkeletonList, SkeletonCard } from "@/components/Skeleton";
+import EmptyState from "@/components/EmptyState";
 
 type SortKey = "accuracy" | "totalWrong" | "totalSeen";
 
@@ -43,19 +45,34 @@ export default function StatsPage() {
   }, []);
 
   if (loading) {
-    return <main className="flex-1 flex items-center justify-center"><p>{t("common.loading")}</p></main>;
+    return (
+      <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
+        <div className="h-8 w-40 skeleton rounded mb-2" />
+        <div className="h-5 w-60 skeleton rounded mb-6" />
+        <div className="grid grid-cols-3 gap-3 mb-6">
+          <SkeletonCard /><SkeletonCard /><SkeletonCard />
+        </div>
+        <SkeletonList />
+      </main>
+    );
   }
 
   if (error) {
     return (
       <main className="flex-1 flex flex-col items-center justify-center p-6">
-        <p className="text-red-500 mb-4">{error}</p>
-        <Link href="/login" className="bg-blue-600 text-white px-6 py-2 rounded-lg">{t("common.login")}</Link>
+        <EmptyState
+          icon={
+            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+          }
+          title={error}
+        />
+        <Link href="/login" className="btn-primary px-6 py-2.5 text-sm mt-4">{t("common.login")}</Link>
       </main>
     );
   }
 
-  // Sort and filter topics
   const filtered = topicStats
     .filter((t) => !filterChapter || t.chapterId === filterChapter)
     .sort((a, b) => {
@@ -69,38 +86,38 @@ export default function StatsPage() {
 
   return (
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
-      <h1 className="text-2xl font-bold mb-2">{isAr ? "الإحصائيات" : "Statistiche"}</h1>
-      <p className="text-sm text-gray-500 mb-6">
+      <h1 className="text-2xl font-extrabold tracking-tight mb-2">{isAr ? "الإحصائيات" : "Statistiche"}</h1>
+      <p className="text-sm text-[var(--muted)] mb-6">
         {isAr ? "تحليل مفصل لأدائك" : "Analisi dettagliata del tuo rendimento"}
       </p>
 
       {/* Summary cards */}
       {stats && (
         <div className="grid grid-cols-3 gap-3 mb-6">
-          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-3 text-center">
-            <p className="text-xs text-gray-500">{isAr ? "أسئلة فريدة" : "Domande viste"}</p>
+          <div className="card p-3 text-center">
+            <p className="text-xs text-[var(--muted)]">{isAr ? "أسئلة فريدة" : "Domande viste"}</p>
             <p className="text-xl font-bold">{stats.uniqueQuestions}</p>
-            <p className="text-xs text-gray-400">/6845</p>
+            <p className="text-xs text-[var(--muted)]">/6845</p>
           </div>
-          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-3 text-center">
-            <p className="text-xs text-gray-500">{isAr ? "الدقة" : "Precisione"}</p>
-            <p className={`text-xl font-bold ${stats.accuracy >= 80 ? "text-green-600" : stats.accuracy >= 60 ? "text-yellow-600" : "text-red-600"}`}>
+          <div className="card p-3 text-center">
+            <p className="text-xs text-[var(--muted)]">{isAr ? "الدقة" : "Precisione"}</p>
+            <p className={`text-xl font-bold ${stats.accuracy >= 80 ? "text-emerald-600" : stats.accuracy >= 60 ? "text-amber-600" : "text-red-500"}`}>
               {stats.accuracy}%
             </p>
           </div>
-          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-3 text-center">
-            <p className="text-xs text-gray-500">{isAr ? "نقاط ضعف" : "Punti deboli"}</p>
-            <p className="text-xl font-bold text-red-600">{weakTopics.length}</p>
+          <div className="card p-3 text-center">
+            <p className="text-xs text-[var(--muted)]">{isAr ? "نقاط ضعف" : "Punti deboli"}</p>
+            <p className="text-xl font-bold text-red-500">{weakTopics.length}</p>
           </div>
         </div>
       )}
 
       {/* Prediction */}
       {stats && stats.totalExams >= 3 && (
-        <div className={`rounded-lg p-4 mb-6 text-center border ${
+        <div className={`card p-4 mb-6 text-center ${
           stats.avgScore >= 83
-            ? "bg-green-50 dark:bg-green-950 border-green-200 dark:border-green-800"
-            : "bg-yellow-50 dark:bg-yellow-950 border-yellow-200 dark:border-yellow-800"
+            ? "border-emerald-200 dark:border-emerald-800 bg-emerald-50/50 dark:bg-emerald-950/30"
+            : "border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30"
         }`}>
           <p className="text-sm font-medium">
             {stats.avgScore >= 83
@@ -113,12 +130,12 @@ export default function StatsPage() {
       {/* Strong topics */}
       {strongTopics.length > 0 && (
         <div className="mb-6">
-          <h2 className="text-sm font-bold text-green-600 mb-2">
+          <h2 className="text-sm font-bold text-emerald-600 mb-2">
             {isAr ? `نقاط القوة (${strongTopics.length})` : `Punti forti (${strongTopics.length})`}
           </h2>
           <div className="flex flex-wrap gap-1.5">
             {strongTopics.slice(0, 10).map((t) => (
-              <span key={t.topicKey} className="text-xs bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 px-2 py-1 rounded-full">
+              <span key={t.topicKey} className="text-xs bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 px-2.5 py-1 rounded-full font-medium">
                 {isAr ? t.titleAr : t.titleIt} {t.accuracy}%
               </span>
             ))}
@@ -129,7 +146,7 @@ export default function StatsPage() {
       {/* Weak topics */}
       {weakTopics.length > 0 && (
         <div className="mb-6">
-          <h2 className="text-sm font-bold text-red-600 mb-2">
+          <h2 className="text-sm font-bold text-red-500 mb-2">
             {isAr ? `نقاط الضعف (${weakTopics.length})` : `Punti deboli (${weakTopics.length})`}
           </h2>
           <div className="space-y-2">
@@ -137,12 +154,12 @@ export default function StatsPage() {
               <Link
                 key={t.topicKey}
                 href={`/topics/${t.topicKey}`}
-                className="flex items-center justify-between p-3 bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 rounded-lg"
+                className="card flex items-center justify-between p-3 border-red-200 dark:border-red-800 bg-red-50/50 dark:bg-red-950/30"
               >
                 <span className="text-sm font-medium">{isAr ? t.titleAr : t.titleIt}</span>
                 <div className="flex items-center gap-3 text-xs">
-                  <span className="text-red-600 font-bold">{t.accuracy}%</span>
-                  <span className="text-gray-500">{t.totalWrong} err</span>
+                  <span className="text-red-500 font-bold">{t.accuracy}%</span>
+                  <span className="text-[var(--muted)]">{t.totalWrong} err</span>
                 </div>
               </Link>
             ))}
@@ -154,7 +171,7 @@ export default function StatsPage() {
       <div className="mb-4">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-bold">{isAr ? "جميع المواضيع" : "Tutti gli argomenti"}</h2>
-          <span className="text-xs text-gray-400">{filtered.length} {isAr ? "موضوع" : "argomenti"}</span>
+          <span className="text-xs text-[var(--muted)]">{filtered.length} {isAr ? "موضوع" : "argomenti"}</span>
         </div>
 
         {/* Sort + filter */}
@@ -162,7 +179,7 @@ export default function StatsPage() {
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as SortKey)}
-            className="text-xs px-2 py-1.5 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
+            className="text-xs px-3 py-2 rounded-xl border border-[var(--card-border)] bg-[var(--card)] focus:outline-none focus:ring-2 focus:ring-blue-500/30"
           >
             <option value="accuracy">{isAr ? "الأقل دقة" : "Meno precisi"}</option>
             <option value="totalWrong">{isAr ? "الأكثر أخطاء" : "Più errori"}</option>
@@ -171,7 +188,7 @@ export default function StatsPage() {
           <select
             value={filterChapter ?? ""}
             onChange={(e) => setFilterChapter(e.target.value ? Number(e.target.value) : null)}
-            className="text-xs px-2 py-1.5 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
+            className="text-xs px-3 py-2 rounded-xl border border-[var(--card-border)] bg-[var(--card)] focus:outline-none focus:ring-2 focus:ring-blue-500/30"
           >
             <option value="">{isAr ? "جميع الفصول" : "Tutti i capitoli"}</option>
             {chapters.map((ch) => (
@@ -184,43 +201,45 @@ export default function StatsPage() {
       </div>
 
       {filtered.length === 0 ? (
-        <div className="text-center py-12">
-          <p className="text-4xl mb-4">📊</p>
-          <p className="text-lg font-medium mb-2">
-            {isAr ? "لا توجد إحصائيات بعد" : "Nessuna statistica ancora"}
-          </p>
-          <p className="text-sm text-gray-500 mb-6">
-            {isAr ? "ابدأ بالتدريب لرؤية تقدمك" : "Inizia a esercitarti per vedere i tuoi progressi"}
-          </p>
-          <Link href="/quiz" className="bg-blue-600 text-white px-6 py-2.5 rounded-lg font-medium">
-            {isAr ? "ابدأ اختبار" : "Fai un quiz"}
-          </Link>
-        </div>
+        <EmptyState
+          icon={
+            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+            </svg>
+          }
+          title={isAr ? "لا توجد إحصائيات بعد" : "Nessuna statistica ancora"}
+          description={isAr ? "ابدأ بالتدريب لرؤية تقدمك" : "Inizia a esercitarti per vedere i tuoi progressi"}
+          action={
+            <Link href="/quiz" className="btn-primary px-6 py-2.5 text-sm">
+              {isAr ? "ابدأ اختبار" : "Fai un quiz"}
+            </Link>
+          }
+        />
       ) : (
         <div className="space-y-2">
           {filtered.map((t) => (
             <Link
               key={t.topicKey}
               href={`/topics/${t.topicKey}`}
-              className="flex items-center justify-between p-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg"
+              className="card flex items-center justify-between p-3"
             >
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium truncate">{isAr ? t.titleAr : t.titleIt}</p>
-                <p className="text-xs text-gray-400 mt-0.5">
-                  {t.totalSeen} {isAr ? "سؤال" : "dom"} · {t.totalCorrect}✓ {t.totalWrong}✗
+                <p className="text-xs text-[var(--muted)] mt-0.5">
+                  {t.totalSeen} {isAr ? "سؤال" : "dom"} · <span className="text-emerald-600">{t.totalCorrect}</span> · <span className="text-red-500">{t.totalWrong}</span>
                 </p>
               </div>
               <div className="flex items-center gap-2 shrink-0">
                 <div className="w-16 h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                   <div
                     className={`h-full rounded-full ${
-                      t.accuracy >= 90 ? "bg-green-500" : t.accuracy >= 70 ? "bg-blue-500" : t.accuracy >= 50 ? "bg-yellow-500" : "bg-red-500"
+                      t.accuracy >= 90 ? "bg-emerald-500" : t.accuracy >= 70 ? "bg-blue-500" : t.accuracy >= 50 ? "bg-amber-500" : "bg-red-500"
                     }`}
                     style={{ width: `${t.accuracy}%` }}
                   />
                 </div>
                 <span className={`text-xs font-bold w-8 text-end ${
-                  t.accuracy >= 90 ? "text-green-600" : t.accuracy >= 70 ? "text-blue-600" : "text-red-600"
+                  t.accuracy >= 90 ? "text-emerald-600" : t.accuracy >= 70 ? "text-blue-600" : "text-red-500"
                 }`}>
                   {t.accuracy}%
                 </span>

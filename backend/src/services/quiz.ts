@@ -74,6 +74,9 @@ export class QuizService {
       textAr: questions.textAr,
       imageUrl: questions.imageUrl,
       chapterId: questions.chapterId,
+      isTrue: questions.isTrue,
+      explanationIt: questions.explanationIt,
+      explanationAr: questions.explanationAr,
     }).from(questions)
       .where(where)
       .orderBy(sql`random()`)

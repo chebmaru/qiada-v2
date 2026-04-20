@@ -16,25 +16,33 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
 
   const [topic, setTopic] = useState<Topic | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [topicLoading, setTopicLoading] = useState(true);
+  const [questionsLoading, setQuestionsLoading] = useState(true);
   const [showAnswers, setShowAnswers] = useState<Set<number>>(new Set());
   const [signUrl, setSignUrl] = useState<string | null>(null);
   const [tricks, setTricks] = useState<TopicTricks | null>(null);
 
+  // Phase 1: load topic info fast (cached)
+  useEffect(() => {
+    getTopics().then((data) => {
+      const found = data.find((t) => t.topicKey === topicKey);
+      setTopic(found || null);
+    }).finally(() => setTopicLoading(false));
+  }, [topicKey]);
+
+  // Phase 2: load questions + tricks in parallel (slower)
   useEffect(() => {
     Promise.all([
-      getTopics().then((data) => {
-        const found = data.find((t) => t.topicKey === topicKey);
-        setTopic(found || null);
-      }),
       getQuestions({ topicKey, limit: 100 }).then((data) => setQuestions(data.data)),
       fetch("/didattica/topic-signs.json")
         .then((r) => r.json())
         .then((map: Record<string, string>) => setSignUrl(map[topicKey] || null))
         .catch(() => {}),
       getTricks(topicKey).then(setTricks).catch(() => {}),
-    ]).finally(() => setLoading(false));
+    ]).finally(() => setQuestionsLoading(false));
   }, [topicKey]);
+
+  const loading = topicLoading;
 
   const toggleAnswer = (id: number) => {
     setShowAnswers((prev) => {
@@ -79,7 +87,11 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
           }
           title={isAr ? "الموضوع غير موجود" : "Argomento non trovato"}
           description={isAr ? "هذا الموضوع غير موجود" : "L'argomento richiesto non esiste"}
-          action={{ label: t("common.topics"), href: "/topics" }}
+          action={
+            <Link href="/topics" className="btn-primary px-6 py-2.5 text-sm">
+              {t("common.topics")}
+            </Link>
+          }
         />
       </main>
     );
@@ -205,7 +217,11 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
       </div>
 
       {/* Questions */}
-      {questions.length === 0 ? (
+      {questionsLoading ? (
+        <div className="space-y-3">
+          <SkeletonCard /><SkeletonCard /><SkeletonCard />
+        </div>
+      ) : questions.length === 0 ? (
         <EmptyState
           icon={
             <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>

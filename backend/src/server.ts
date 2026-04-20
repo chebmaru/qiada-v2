@@ -26,7 +26,9 @@ const db = createDb(env.DATABASE_URL);
 app.decorate('db', db);
 
 // Plugins
-await app.register(cors, { origin: env.FRONTEND_URL });
+await app.register(cors, {
+  origin: env.NODE_ENV === 'development' ? true : env.FRONTEND_URL,
+});
 await app.register(jwt, { secret: env.JWT_SECRET });
 await app.register(helmet, { contentSecurityPolicy: false }); // CSP handled by nginx
 await app.register(rateLimit, { max: 100, timeWindow: '1 minute' });

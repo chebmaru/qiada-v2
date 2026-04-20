@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+const API_BASE = '/api';
 
 async function fetchApi<T>(path: string, options?: RequestInit): Promise<T> {
   const headers: Record<string, string> = { ...options?.headers as Record<string, string> };
@@ -22,6 +22,9 @@ export interface QuizQuestion {
   textAr: string;
   imageUrl: string | null;
   chapterId: number;
+  isTrue?: boolean;
+  explanationIt?: string;
+  explanationAr?: string;
 }
 
 export interface QuizStart {
@@ -97,9 +100,17 @@ export interface Topic {
   questionCount: number;
 }
 
-export function getTopics(chapterId?: number) {
+let topicsCache: { data: Topic[]; ts: number } | null = null;
+const TOPICS_CACHE_TTL = 5 * 60 * 1000; // 5 min
+
+export async function getTopics(chapterId?: number) {
+  if (!chapterId && topicsCache && Date.now() - topicsCache.ts < TOPICS_CACHE_TTL) {
+    return topicsCache.data;
+  }
   const params = chapterId ? `?chapterId=${chapterId}` : '';
-  return fetchApi<Topic[]>(`/topics${params}`);
+  const data = await fetchApi<Topic[]>(`/topics${params}`);
+  if (!chapterId) topicsCache = { data, ts: Date.now() };
+  return data;
 }
 
 // Questions
