@@ -53,6 +53,51 @@ function formatTrickText(text: string): string[] {
   return [text];
 }
 
+function SvgViewer({ src }: { src: string }) {
+  const [loaded, setLoaded] = useState(false);
+  const [fullscreen, setFullscreen] = useState(false);
+
+  return (
+    <>
+      {/* Inline preview — tap to expand */}
+      <div className={`relative mb-6 ${loaded ? "" : "hidden"}`}>
+        <img
+          src={src}
+          alt=""
+          className="w-full rounded-lg cursor-pointer"
+          onLoad={() => setLoaded(true)}
+          onClick={() => setFullscreen(true)}
+        />
+        <div className="absolute bottom-2 right-2 bg-black/50 text-white text-xs px-2 py-1 rounded-full pointer-events-none sm:hidden">
+          Tap per ingrandire
+        </div>
+      </div>
+
+      {/* Fullscreen overlay */}
+      {fullscreen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-2"
+          onClick={() => setFullscreen(false)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white bg-black/50 rounded-full w-10 h-10 flex items-center justify-center text-xl z-10"
+            onClick={() => setFullscreen(false)}
+          >
+            ✕
+          </button>
+          <div className="w-full h-full overflow-auto" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={src}
+              alt=""
+              className="min-w-[800px] max-w-none"
+            />
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
 function TrickContent({ text, dir }: { text: string; dir?: string }) {
   const parts = formatTrickText(text);
   if (parts.length <= 1) {
@@ -195,13 +240,8 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
         </div>
       )}
 
-      {/* 2. Didactic SVG illustration */}
-      <img
-        src={`/didattica/${topicKey}.svg`}
-        alt=""
-        className="w-full rounded-lg mb-6 hidden"
-        onLoad={(e) => (e.currentTarget.className = "w-full rounded-lg mb-6")}
-      />
+      {/* 2. Didactic SVG illustration — tap to open fullscreen on mobile */}
+      <SvgViewer src={`/didattica/${topicKey}.svg`} />
 
       {/* 3. Sign photo */}
       {signUrl && (
