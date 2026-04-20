@@ -226,13 +226,16 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
       {/* 1. Didactic content */}
       {(isAr ? topic.contentAr : topic.contentIt) && (
         <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 rounded-xl p-4 mb-6">
-          <div className="flex items-center gap-2 mb-2">
-            <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span className="text-xs font-semibold text-blue-700 dark:text-blue-300 uppercase tracking-wide">
-              {isAr ? "محتوى تعليمي" : "Contenuto didattico"}
-            </span>
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-2">
+              <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="text-xs font-semibold text-blue-700 dark:text-blue-300 uppercase tracking-wide">
+                {isAr ? "محتوى تعليمي" : "Contenuto didattico"}
+              </span>
+            </div>
+            <TTSButton text={(isAr ? topic.contentAr : topic.contentIt)!} lang={isAr ? "ar" : "it"} />
           </div>
           <p className="whitespace-pre-line text-sm leading-relaxed">
             {isAr ? topic.contentAr : topic.contentIt}
@@ -265,28 +268,40 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
           <div className="space-y-3">
             {(isAr ? tricks.truePatternsAR : tricks.truePatternsIT) && (
               <div className="bg-green-100/50 dark:bg-green-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-2">{isAr ? "صحيح" : "VERO"}</p>
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-xs font-semibold text-green-700 dark:text-green-400">{isAr ? "صحيح" : "VERO"}</p>
+                  <TTSButton text={(isAr ? tricks.truePatternsAR : tricks.truePatternsIT)!} lang={isAr ? "ar" : "it"} />
+                </div>
                 <TrickContent text={(isAr ? tricks.truePatternsAR : tricks.truePatternsIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
 
             {(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT) && (
               <div className="bg-red-100/50 dark:bg-red-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-2">{isAr ? "خطأ" : "FALSO"}</p>
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-xs font-semibold text-red-700 dark:text-red-400">{isAr ? "خطأ" : "FALSO"}</p>
+                  <TTSButton text={(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT)!} lang={isAr ? "ar" : "it"} />
+                </div>
                 <TrickContent text={(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
 
             {(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT) && (
               <div className="bg-blue-100/50 dark:bg-blue-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 mb-2">{isAr ? "قاعدة للتذكر" : "Regola da ricordare"}</p>
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">{isAr ? "قاعدة للتذكر" : "Regola da ricordare"}</p>
+                  <TTSButton text={(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT)!} lang={isAr ? "ar" : "it"} />
+                </div>
                 <TrickContent text={(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
 
             {(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT) && (
               <div className="bg-orange-100/50 dark:bg-orange-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-orange-700 dark:text-orange-400 mb-2">{isAr ? "خطأ شائع" : "Errore comune"}</p>
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-xs font-semibold text-orange-700 dark:text-orange-400">{isAr ? "خطأ شائع" : "Errore comune"}</p>
+                  <TTSButton text={(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT)!} lang={isAr ? "ar" : "it"} />
+                </div>
                 <TrickContent text={(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
