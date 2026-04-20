@@ -15,14 +15,14 @@ declare const self: ServiceWorkerGlobalScope;
 
 const apiCache: RuntimeCaching[] = [
   {
-    matcher: ({ url }) => url.pathname.startsWith("/api/topics") || url.pathname.startsWith("/api/chapters") || url.pathname.startsWith("/api/glossary"),
+    matcher: ({ url }) => url.pathname.startsWith("/api/topics") || url.pathname.startsWith("/api/chapters") || url.pathname.startsWith("/api/glossary") || url.pathname.startsWith("/api/questions") || url.pathname.startsWith("/api/tricks") || url.pathname.startsWith("/api/keywords") || url.pathname.startsWith("/api/confusing-pairs"),
     handler: new StaleWhileRevalidate({
       cacheName: "api-data",
-      plugins: [new ExpirationPlugin({ maxEntries: 50, maxAgeSeconds: 24 * 60 * 60 })],
+      plugins: [new ExpirationPlugin({ maxEntries: 200, maxAgeSeconds: 24 * 60 * 60 })],
     }),
   },
   {
-    matcher: ({ url }) => url.pathname.startsWith("/signs/"),
+    matcher: ({ url }) => url.pathname.startsWith("/signs/") || url.pathname.startsWith("/didattica/"),
     handler: new CacheFirst({
       cacheName: "sign-images",
       plugins: [new ExpirationPlugin({ maxEntries: 500, maxAgeSeconds: 30 * 24 * 60 * 60 })],
