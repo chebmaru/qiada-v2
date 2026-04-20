@@ -9,6 +9,42 @@ import { SkeletonCard, SkeletonLine } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
 import SignImage from "@/components/SignImage";
 
+function formatTrickText(text: string): string[] {
+  // Split on numbered patterns like "1)" "2)" etc.
+  const numbered = text.split(/\d+\)\s*/);
+  if (numbered.length > 2) {
+    return numbered.filter((s) => s.trim()).map((s) => s.replace(/[.,]\s*$/, "").trim());
+  }
+  // Split on sentences ending with period followed by uppercase or keyword patterns
+  const sentences = text.split(/\.\s+(?=[A-ZÈ])/).map((s) => s.replace(/\.$/, "").trim()).filter(Boolean);
+  if (sentences.length >= 2) {
+    return sentences;
+  }
+  return [text];
+}
+
+function TrickContent({ text, dir }: { text: string; dir?: string }) {
+  const parts = formatTrickText(text);
+  if (parts.length <= 1) {
+    return <p className="text-sm leading-relaxed" dir={dir}>{text}</p>;
+  }
+  // First part might be intro (ends with ":"), rest are items
+  const hasIntro = parts[0].endsWith(":");
+  return (
+    <div dir={dir}>
+      {hasIntro && <p className="text-sm font-medium mb-1.5">{parts[0]}</p>}
+      <ul className="space-y-1">
+        {(hasIntro ? parts.slice(1) : parts).map((item, i) => (
+          <li key={i} className="text-sm leading-relaxed flex items-start gap-2">
+            <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-current opacity-40 shrink-0" />
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function TopicDetailPage({ params }: { params: Promise<{ topicKey: string }> }) {
   const { topicKey } = use(params);
   const t = useTranslations();
@@ -159,29 +195,29 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
           <div className="space-y-3">
             {(isAr ? tricks.truePatternsAR : tricks.truePatternsIT) && (
               <div className="bg-green-100/50 dark:bg-green-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-1">{isAr ? "صحيح" : "VERO"}</p>
-                <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.truePatternsAR : tricks.truePatternsIT}</p>
+                <p className="text-xs font-semibold text-green-700 dark:text-green-400 mb-2">{isAr ? "صحيح" : "VERO"}</p>
+                <TrickContent text={(isAr ? tricks.truePatternsAR : tricks.truePatternsIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
 
             {(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT) && (
               <div className="bg-red-100/50 dark:bg-red-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-1">{isAr ? "خطأ" : "FALSO"}</p>
-                <p className="text-sm whitespace-pre-line" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT}</p>
+                <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-2">{isAr ? "خطأ" : "FALSO"}</p>
+                <TrickContent text={(isAr ? tricks.falsePatternsAR : tricks.falsePatternsIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
 
             {(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT) && (
               <div className="bg-blue-100/50 dark:bg-blue-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 mb-1">{isAr ? "قاعدة للتذكر" : "Regola da ricordare"}</p>
-                <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT}</p>
+                <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 mb-2">{isAr ? "قاعدة للتذكر" : "Regola da ricordare"}</p>
+                <TrickContent text={(isAr ? tricks.memoryRuleAR : tricks.memoryRuleIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
 
             {(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT) && (
               <div className="bg-orange-100/50 dark:bg-orange-900/30 rounded-lg p-3">
-                <p className="text-xs font-semibold text-orange-700 dark:text-orange-400 mb-1">{isAr ? "خطأ شائع" : "Errore comune"}</p>
-                <p className="text-sm" dir={isAr ? "rtl" : "ltr"}>{isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT}</p>
+                <p className="text-xs font-semibold text-orange-700 dark:text-orange-400 mb-2">{isAr ? "خطأ شائع" : "Errore comune"}</p>
+                <TrickContent text={(isAr ? tricks.commonMistakeAR : tricks.commonMistakeIT)!} dir={isAr ? "rtl" : "ltr"} />
               </div>
             )}
           </div>
