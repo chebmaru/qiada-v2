@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;
@@ -21,16 +23,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0c0f1a;
-    --foreground: #e2e8f0;
-    --card: #151a2e;
-    --card-border: #1e293b;
-    --muted: #94a3b8;
-    --gradient-start: #3b82f6;
-    --gradient-end: #8b5cf6;
-  }
+:root.dark {
+  --background: #0c0f1a;
+  --foreground: #e2e8f0;
+  --card: #151a2e;
+  --card-border: #1e293b;
+  --muted: #94a3b8;
+  --gradient-start: #3b82f6;
+  --gradient-end: #8b5cf6;
 }
 
 body {
@@ -79,10 +79,8 @@ html[lang="ar"] {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px -5px rgb(0 0 0 / 0.08), 0 4px 10px -6px rgb(0 0 0 / 0.04);
 }
-@media (prefers-color-scheme: dark) {
-  .card:hover {
-    box-shadow: 0 8px 25px -5px rgb(0 0 0 / 0.3);
-  }
+:root.dark .card:hover {
+  box-shadow: 0 8px 25px -5px rgb(0 0 0 / 0.3);
 }
 
 /* Gradient primary button */
@@ -108,10 +106,8 @@ html[lang="ar"] {
   backdrop-filter: blur(12px) saturate(180%);
   -webkit-backdrop-filter: blur(12px) saturate(180%);
 }
-@media (prefers-color-scheme: dark) {
-  .glass {
-    background: rgb(15 23 42 / 0.8);
-  }
+:root.dark .glass {
+  background: rgb(15 23 42 / 0.8);
 }
 
 /* Skeleton placeholder */

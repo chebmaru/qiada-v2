@@ -2,9 +2,11 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import ThemeProvider from "@/components/ThemeProvider";
 import Navbar from "@/components/Navbar";
 import BottomNav from "@/components/BottomNav";
 import Onboarding from "@/components/Onboarding";
+import OfflineSync from "@/components/OfflineSync";
 
 export default async function LocaleLayout({
   children,
@@ -23,14 +25,17 @@ export default async function LocaleLayout({
   const dir = locale === "ar" ? "rtl" : "ltr";
 
   return (
-    <html lang={locale} dir={dir} className="h-full">
+    <html lang={locale} dir={dir} className="h-full" suppressHydrationWarning>
       <body className="min-h-full flex flex-col bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100">
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-          <BottomNav />
-          <Onboarding />
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            <OfflineSync />
+            {children}
+            <BottomNav />
+            <Onboarding />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

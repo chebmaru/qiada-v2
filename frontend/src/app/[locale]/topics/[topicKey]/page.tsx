@@ -7,6 +7,7 @@ import { getTopics, getQuestions, getTricks, type Topic, type Question, type Top
 import TTSButton from "@/components/TTSButton";
 import { SkeletonCard, SkeletonLine } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
+import SignImage from "@/components/SignImage";
 
 export default function TopicDetailPage({ params }: { params: Promise<{ topicKey: string }> }) {
   const { topicKey } = use(params);
@@ -114,13 +115,11 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
           <p className="text-sm text-gray-500">{questions.length} {t("common.questions").toLowerCase()}</p>
         </div>
         {signUrl && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={signUrl} alt="" className="h-20 flex-shrink-0" />
+          <SignImage src={signUrl} size="md" className="h-20 flex-shrink-0" />
         )}
       </div>
 
       {/* Didactic illustration */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/didattica/${topicKey}.svg`}
         alt=""
@@ -244,7 +243,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
                 </span>
                 <div className="flex-1 min-w-0">
                   {q.imageUrl && (
-                    <img src={q.imageUrl} alt="" className="max-h-32 rounded-lg mb-2 border border-gray-200 dark:border-gray-700" />
+                    <SignImage src={q.imageUrl} size="md" className="rounded-lg mb-2 border border-gray-200 dark:border-gray-700" />
                   )}
                   <div className="flex items-start gap-1" dir="ltr">
                     <TTSButton text={q.textIt} lang="it" />

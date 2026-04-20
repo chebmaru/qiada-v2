@@ -7,6 +7,7 @@ import { getReviewQuestions, getWeakQuestions, startPractice, type ReviewQuestio
 import TTSButton from "@/components/TTSButton";
 import { SkeletonList } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
+import SignImage from "@/components/SignImage";
 
 type Tab = "due" | "weak";
 
@@ -173,11 +174,7 @@ export default function ReviewPage() {
                     <div className="flex items-start justify-between gap-2">
                       <div className="flex-1 min-w-0">
                         {q.imageUrl && (
-                          <img
-                            src={q.imageUrl}
-                            alt=""
-                            className="h-12 rounded-lg mb-2 border border-[var(--card-border)]"
-                          />
+                          <SignImage src={q.imageUrl} size="sm" className="rounded-lg mb-2 border border-[var(--card-border)]" />
                         )}
                         <p className="text-sm font-medium line-clamp-2" dir="ltr">
                           {q.textIt}

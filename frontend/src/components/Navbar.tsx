@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { getUser, logout } from "@/lib/auth";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Navbar() {
   const t = useTranslations();
@@ -137,6 +138,9 @@ export default function Navbar() {
               </div>
             )}
           </div>
+
+          {/* Theme toggle */}
+          <ThemeToggle />
 
           {/* Language switcher */}
           <Link

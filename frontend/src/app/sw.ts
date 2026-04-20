@@ -2,8 +2,8 @@
 /// <reference lib="esnext" />
 /// <reference lib="webworker" />
 import { defaultCache } from "@serwist/turbopack/worker";
-import type { PrecacheEntry, SerwistGlobalConfig } from "serwist";
-import { Serwist } from "serwist";
+import type { PrecacheEntry, SerwistGlobalConfig, RuntimeCaching } from "serwist";
+import { Serwist, CacheFirst, StaleWhileRevalidate, ExpirationPlugin } from "serwist";
 
 declare global {
   interface WorkerGlobalScope extends SerwistGlobalConfig {
@@ -13,12 +13,29 @@ declare global {
 
 declare const self: ServiceWorkerGlobalScope;
 
+const apiCache: RuntimeCaching[] = [
+  {
+    matcher: ({ url }) => url.pathname.startsWith("/api/topics") || url.pathname.startsWith("/api/chapters") || url.pathname.startsWith("/api/glossary"),
+    handler: new StaleWhileRevalidate({
+      cacheName: "api-data",
+      plugins: [new ExpirationPlugin({ maxEntries: 50, maxAgeSeconds: 24 * 60 * 60 })],
+    }),
+  },
+  {
+    matcher: ({ url }) => url.pathname.startsWith("/signs/"),
+    handler: new CacheFirst({
+      cacheName: "sign-images",
+      plugins: [new ExpirationPlugin({ maxEntries: 500, maxAgeSeconds: 30 * 24 * 60 * 60 })],
+    }),
+  },
+];
+
 const serwist = new Serwist({
   precacheEntries: self.__SW_MANIFEST,
   skipWaiting: true,
   clientsClaim: true,
   navigationPreload: true,
-  runtimeCaching: defaultCache,
+  runtimeCaching: [...defaultCache, ...apiCache],
 });
 
 // Handle push notifications

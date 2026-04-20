@@ -7,6 +7,7 @@ import { useSearchParams } from "next/navigation";
 import { startExam, startPractice, submitQuiz, type QuizQuestion, type QuizResult } from "@/lib/api";
 import TTSButton from "@/components/TTSButton";
 import { SkeletonQuizCard } from "@/components/Skeleton";
+import SignImage from "@/components/SignImage";
 
 type Phase = "loading" | "active" | "submitting" | "result";
 
@@ -335,11 +336,7 @@ export default function ExamPage() {
           <div className="flex-1 flex flex-col justify-center">
             {q.imageUrl && (
               <div className="flex justify-center mb-4">
-                <img
-                  src={q.imageUrl}
-                  alt=""
-                  className="max-h-48 rounded-xl border border-[var(--card-border)] shadow-sm"
-                />
+                <SignImage src={q.imageUrl} size="lg" className="rounded-xl border border-[var(--card-border)] shadow-sm" />
               </div>
             )}
 
