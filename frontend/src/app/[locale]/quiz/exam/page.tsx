@@ -106,6 +106,11 @@ export default function ExamPage() {
         trackEvent("quiz_start", { mode: isDemo ? "demo" : isPractice ? "practice" : "exam", questions: data.questions.length });
       })
       .catch((e) => {
+        // Handle auth errors — redirect to login
+        if (e.message === 'Unauthorized' || e.message === 'No token') {
+          router.push("/login");
+          return;
+        }
         // Handle subscription expired — redirect to activate with reason
         if (e.message === 'Subscription expired') {
           router.push("/activate?reason=expired");
