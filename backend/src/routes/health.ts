@@ -220,8 +220,9 @@ export const healthRoutes: FastifyPluginAsync = async (app) => {
     return { user: userInfo, events, quizzes };
   });
 
-  // Backward compatible summary
-  app.get('/analytics/summary', async () => {
+  // Backward compatible summary (admin only)
+  app.get('/analytics/summary', async (req, reply) => {
+    await requireAdmin(req, reply);
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 

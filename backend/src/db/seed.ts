@@ -2,13 +2,14 @@ import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
-import { sql } from 'drizzle-orm';
+import { sql, eq } from 'drizzle-orm';
 import { config } from 'dotenv';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 config({ path: resolve(__dirname, '../../../.env') });
 import * as schema from './schema/index.js';
+import { hashPassword } from '../services/auth.js';
 
 const contentDir = resolve(import.meta.dirname, '../../../content/source');
 
@@ -237,6 +238,31 @@ async function seed() {
     console.log(`  [${q.code}] ${q.isTrue ? 'VERO' : 'FALSO'} — topic=${q.topicKey}`);
     console.log(`    IT: ${q.textIt.slice(0, 80)}...`);
     console.log(`    AR: ${q.textAr.slice(0, 80)}...`);
+  }
+
+  // ═══ ADMIN USER ═══
+  console.log('\n─── Admin user ───');
+  const adminEmail = process.env.ADMIN_EMAIL || 'admin@qiada.app';
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  if (!adminPassword) {
+    console.log('  ⚠️  ADMIN_PASSWORD not set in .env — skipping admin creation');
+  } else {
+    const [existing] = await db.select({ id: schema.users.id })
+      .from(schema.users)
+      .where(eq(schema.users.email, adminEmail));
+    if (existing) {
+      console.log(`  ℹ️  Admin already exists: ${adminEmail} (id=${existing.id})`);
+    } else {
+      const hash = await hashPassword(adminPassword);
+      const [admin] = await db.insert(schema.users).values({
+        email: adminEmail,
+        passwordHash: hash,
+        nameIt: 'Admin',
+        nameAr: 'مسؤول',
+        role: 'admin',
+      }).returning({ id: schema.users.id });
+      console.log(`  ✅ Admin created: ${adminEmail} (id=${admin.id})`);
+    }
   }
 
   console.log('\n═══════════════════════════════════════');
