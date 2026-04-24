@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { getToken, isLoggedIn } from "@/lib/auth";
 import { isPushSupported, subscribeToPush, unsubscribeFromPush, isPushSubscribed } from "@/lib/push";
+import { downloadAllForOffline, getOfflineQuestionCount } from "@/lib/offline-db";
 import { getProfile, updateProfile, type UserProfile } from "@/lib/api";
 import { Link } from "@/i18n/navigation";
 import EmptyState from "@/components/EmptyState";
@@ -24,10 +25,14 @@ export default function SettingsPage() {
   const [newPassword, setNewPassword] = useState("");
   const [profileLoading, setProfileLoading] = useState(true);
   const [profileMsg, setProfileMsg] = useState("");
+  const [offlineCount, setOfflineCount] = useState(0);
+  const [dlProgress, setDlProgress] = useState<string | null>(null);
+  const [dlPct, setDlPct] = useState(0);
 
   useEffect(() => {
     setPushSupported(isPushSupported());
     isPushSubscribed().then(setPushEnabled);
+    getOfflineQuestionCount().then(setOfflineCount);
 
     const token = getToken();
     if (token) {
@@ -227,6 +232,62 @@ export default function SettingsPage() {
             {loading ? "..." : pushEnabled ? t("pushDisable") : t("pushEnable")}
           </button>
         )}
+      </div>
+
+      {/* Offline download section */}
+      <div className="card p-6 mt-4">
+        <div className="flex items-center gap-3 mb-2">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center">
+            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+          </div>
+          <h2 className="text-lg font-semibold">{isAr ? "الاستخدام بدون انترنت" : "Uso offline"}</h2>
+        </div>
+        <p className="text-sm text-[var(--muted)] mb-3">
+          {isAr
+            ? "حمل جميع الأسئلة للدراسة بدون انترنت. يفضل استخدام WiFi."
+            : "Scarica tutte le domande per studiare senza internet. Consigliato il WiFi."}
+        </p>
+
+        {offlineCount > 0 && (
+          <p className="text-xs text-emerald-600 font-medium mb-3">
+            {isAr ? `${offlineCount} سؤال محفوظ محليا` : `${offlineCount} domande salvate localmente`}
+          </p>
+        )}
+
+        {dlProgress && (
+          <div className="mb-3">
+            <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden mb-1">
+              <div className="h-full bg-blue-500 rounded-full transition-all duration-300" style={{ width: `${dlPct}%` }} />
+            </div>
+            <p className="text-xs text-[var(--muted)]">{dlProgress}</p>
+          </div>
+        )}
+
+        <button
+          onClick={async () => {
+            setDlProgress("...");
+            setDlPct(0);
+            try {
+              const result = await downloadAllForOffline((step, pct) => {
+                setDlProgress(step);
+                setDlPct(pct);
+              });
+              setOfflineCount(result.questions);
+              setDlProgress(null);
+            } catch {
+              setDlProgress(isAr ? "خطأ في التحميل" : "Errore nel download");
+              setTimeout(() => setDlProgress(null), 3000);
+            }
+          }}
+          disabled={!!dlProgress}
+          className="btn-primary px-5 py-2.5 text-sm disabled:opacity-50"
+        >
+          {dlProgress ? "..." : offlineCount > 0
+            ? (isAr ? "تحديث البيانات" : "Aggiorna dati")
+            : (isAr ? "حمل الكل" : "Scarica tutto")}
+        </button>
       </div>
     </main>
   );

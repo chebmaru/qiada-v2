@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { dismissOnboarding } from './helpers';
 
 test.describe('Internationalization', () => {
   test('Italian pages have ltr direction', async ({ page }) => {
@@ -14,18 +15,20 @@ test.describe('Internationalization', () => {
   });
 
   test('language switcher navigates between locales', async ({ page }) => {
+    await dismissOnboarding(page);
     await page.goto('/it/glossary');
     await page.waitForLoadState('networkidle');
     // Find the language switcher (the circle button with "ع" or "IT")
     const switcher = page.locator('a').filter({ hasText: /^(ع|IT)$/ }).first();
     if (await switcher.isVisible()) {
       await switcher.click();
-      await page.waitForURL(/\/ar\//);
+      await page.waitForURL(/\/ar\//, { timeout: 10000 });
       await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
     }
   });
 
   test('quiz page loads in both locales', async ({ page }) => {
+    await dismissOnboarding(page);
     await page.goto('/it/quiz');
     await expect(page.locator('h1').first()).toBeVisible();
     await page.goto('/ar/quiz');

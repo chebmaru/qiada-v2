@@ -1,5 +1,5 @@
 import type { FastifyPluginAsync } from 'fastify';
-import { eq } from 'drizzle-orm';
+import { eq, gt, desc, and } from 'drizzle-orm';
 import { z } from 'zod';
 import { users } from '../db/schema/users.js';
 import { accessCodes } from '../db/schema/access-codes.js';
@@ -21,8 +21,8 @@ const activateCodeSchema = z.object({
 });
 
 export const authRoutes: FastifyPluginAsync = async (app) => {
-  // POST /api/auth/register
-  app.post('/auth/register', async (req, reply) => {
+  // POST /api/auth/register (rate limited: 5/min)
+  app.post('/auth/register', { config: { rateLimit: { max: 5, timeWindow: '1 minute' } } }, async (req, reply) => {
     const body = registerSchema.parse(req.body);
 
     // Check duplicate
@@ -45,8 +45,8 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
     return reply.code(201).send({ token, user });
   });
 
-  // POST /api/auth/login
-  app.post('/auth/login', async (req, reply) => {
+  // POST /api/auth/login (rate limited: 10/min)
+  app.post('/auth/login', { config: { rateLimit: { max: 10, timeWindow: '1 minute' } } }, async (req, reply) => {
     const body = loginSchema.parse(req.body);
 
     const [user] = await app.db.select()
@@ -92,18 +92,23 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
       return reply.code(409).send({ error: 'Code already used' });
     }
 
-    // Activate: set timestamps
+    // Atomic activate: WHERE isUsed = false prevents race condition
     const now = new Date();
     const expiresAt = new Date(now.getTime() + ac.durationMinutes * 60 * 1000);
 
-    await app.db.update(accessCodes)
+    const [updated] = await app.db.update(accessCodes)
       .set({
         isUsed: true,
         userId,
         activatedAt: now,
         expiresAt,
       })
-      .where(eq(accessCodes.id, ac.id));
+      .where(and(eq(accessCodes.id, ac.id), eq(accessCodes.isUsed, false)))
+      .returning({ id: accessCodes.id });
+
+    if (!updated) {
+      return reply.code(409).send({ error: 'Code already used' });
+    }
 
     return { message: 'Code activated', expiresAt: expiresAt.toISOString(), durationMinutes: ac.durationMinutes };
   });
@@ -162,18 +167,49 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
 
     if (!user) return reply.code(404).send({ error: 'User not found' });
 
-    // Get active access code
+    // Get active (non-expired) access code — most recent first
+    const now = new Date();
     const activeCode = await app.db.select({
       expiresAt: accessCodes.expiresAt,
       durationMinutes: accessCodes.durationMinutes,
+      activatedAt: accessCodes.activatedAt,
     }).from(accessCodes)
       .where(eq(accessCodes.userId, decoded.id))
-      .orderBy(accessCodes.expiresAt)
+      .orderBy(desc(accessCodes.expiresAt))
       .limit(1);
+
+    const sub = activeCode[0] || null;
+    const isActive = sub?.expiresAt ? new Date(sub.expiresAt) > now : false;
 
     return {
       ...user,
-      subscription: activeCode[0] || null,
+      subscription: isActive ? sub : null,
+      subscriptionExpired: sub && !isActive ? true : undefined,
     };
+  });
+
+  // POST /api/auth/refresh — refresh JWT token
+  app.post('/auth/refresh', async (req, reply) => {
+    let decoded: { id: number; email: string; role: string };
+    try {
+      decoded = await req.jwtVerify<{ id: number; email: string; role: string }>();
+    } catch {
+      return reply.code(401).send({ error: 'Token expired or invalid' });
+    }
+
+    // Verify user still exists and is active
+    const [user] = await app.db.select({
+      id: users.id,
+      email: users.email,
+      role: users.role,
+      isActive: users.isActive,
+    }).from(users).where(eq(users.id, decoded.id));
+
+    if (!user || !user.isActive) {
+      return reply.code(401).send({ error: 'Account disabled or not found' });
+    }
+
+    const token = app.jwt.sign({ id: user.id, email: user.email, role: user.role });
+    return { token, user: { id: user.id, email: user.email, role: user.role } };
   });
 };

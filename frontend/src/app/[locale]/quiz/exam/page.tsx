@@ -2,12 +2,13 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { useRouter } from "@/i18n/navigation";
+import { useRouter, Link } from "@/i18n/navigation";
 import { useSearchParams } from "next/navigation";
-import { startExam, startPractice, submitQuiz, type QuizQuestion, type QuizResult } from "@/lib/api";
+import { startExam, startPractice, startDemo, submitQuiz, type QuizQuestion, type QuizResult } from "@/lib/api";
 import TTSButton from "@/components/TTSButton";
 import { SkeletonQuizCard } from "@/components/Skeleton";
 import SignImage from "@/components/SignImage";
+import { trackEvent } from "@/hooks/useAnalytics";
 
 type Phase = "loading" | "active" | "submitting" | "result";
 
@@ -20,6 +21,7 @@ export default function ExamPage() {
 
   const topicKey = searchParams.get("topic") || undefined;
   const chapterId = searchParams.get("chapter") ? Number(searchParams.get("chapter")) : undefined;
+  const isDemo = searchParams.get("demo") === "1";
   const isPractice = !!(topicKey || chapterId);
 
   const [phase, setPhase] = useState<Phase>("loading");
@@ -66,9 +68,11 @@ export default function ExamPage() {
         const saved = JSON.parse(raw);
         if (saved.ts && Date.now() - saved.ts < 2 * 60 * 60 * 1000) {
           // Recovery: re-fetch quiz with same attemptId
-          const start = isPractice
-            ? startPractice({ topicKey, chapterId, count: 20 })
-            : startExam();
+          const start = isDemo
+            ? startDemo()
+            : isPractice
+              ? startPractice({ topicKey, chapterId, count: 20 })
+              : startExam();
           start
             .then((data) => {
               // If same attempt or questions match, restore answers
@@ -87,9 +91,11 @@ export default function ExamPage() {
       }
     } catch {}
 
-    const start = isPractice
-      ? startPractice({ topicKey, chapterId, count: 20 })
-      : startExam();
+    const start = isDemo
+      ? startDemo()
+      : isPractice
+        ? startPractice({ topicKey, chapterId, count: 20 })
+        : startExam();
 
     start
       .then((data) => {
@@ -97,8 +103,16 @@ export default function ExamPage() {
         setQuestions(data.questions);
         setTimeLeft(data.timeLimitSeconds || 0);
         setPhase("active");
+        trackEvent("quiz_start", { mode: isDemo ? "demo" : isPractice ? "practice" : "exam", questions: data.questions.length });
       })
-      .catch((e) => setError(e.message));
+      .catch((e) => {
+        // Handle subscription expired — redirect to activate with reason
+        if (e.message === 'Subscription expired') {
+          router.push("/activate?reason=expired");
+          return;
+        }
+        setError(e.message);
+      });
   }, []);
 
   useEffect(() => {
@@ -117,6 +131,22 @@ export default function ExamPage() {
       if (feedbackTimer.current) clearTimeout(feedbackTimer.current);
     };
   }, []);
+
+  // Keyboard shortcuts: V/1 = true, F/2 = false, arrow keys for navigation
+  useEffect(() => {
+    if (phase !== "active") return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      switch (e.key.toLowerCase()) {
+        case "v": case "1": handleAnswer(true); break;
+        case "f": case "2": handleAnswer(false); break;
+        case "arrowleft": goToQuestion(Math.max(0, current - 1)); break;
+        case "arrowright": goToQuestion(Math.min(questions.length - 1, current + 1)); break;
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [phase, current, questions.length]);
 
   const handleAnswer = (answer: boolean) => {
     const q = questions[current];
@@ -146,10 +176,12 @@ export default function ExamPage() {
   const handleSubmit = useCallback(async () => {
     if (phase !== "active") return;
     setPhase("submitting");
-    const answerArray = questions.map((q) => ({
-      questionId: q.id,
-      answer: answers.get(q.id) ?? false,
-    }));
+    const answerArray = questions
+      .filter((q) => answers.has(q.id))
+      .map((q) => ({
+        questionId: q.id,
+        answer: answers.get(q.id)!,
+      }));
 
     // Retry up to 3 times on network failure
     for (let attempt = 0; attempt < 3; attempt++) {
@@ -157,6 +189,7 @@ export default function ExamPage() {
         const res = await submitQuiz(attemptId, answerArray);
         setResult(res);
         setPhase("result");
+        trackEvent("quiz_complete", { mode: isDemo ? "demo" : isPractice ? "practice" : "exam", score: res.score, passed: res.passed });
         return;
       } catch (e: any) {
         if (attempt < 2) {
@@ -318,6 +351,27 @@ export default function ExamPage() {
             </div>
           )}
 
+          {isDemo && (
+            <div className="card p-5 mb-6 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 border-blue-200 dark:border-blue-800">
+              <p className="font-semibold mb-2 text-center">
+                {isAr ? "هذه كانت نسخة تجريبية من 5 أسئلة" : "Questa era una demo di 5 domande"}
+              </p>
+              <p className="text-sm text-[var(--muted)] text-center mb-4">
+                {isAr
+                  ? "سجل وأدخل كود التفعيل للوصول إلى 6,845 سؤال + اختبارات كاملة"
+                  : "Registrati e attiva il codice per accedere a 6.845 domande + esami completi"}
+              </p>
+              <div className="flex gap-3 justify-center">
+                <Link href="/register" className="btn-primary px-6 py-2.5 text-sm">
+                  {isAr ? "سجل الآن" : "Registrati"}
+                </Link>
+                <Link href="/login" className="px-6 py-2.5 text-sm rounded-xl border border-[var(--card-border)] bg-[var(--card)] font-medium">
+                  {isAr ? "تسجيل الدخول" : "Accedi"}
+                </Link>
+              </div>
+            </div>
+          )}
+
           <div className="flex gap-3 justify-center">
             <button
               onClick={() => window.location.reload()}
@@ -348,7 +402,12 @@ export default function ExamPage() {
       {/* Header: timer + progress */}
       <div className="sticky top-0 glass border-b border-[var(--card-border)] px-4 py-3 z-10">
         <div className="flex items-center justify-between max-w-2xl mx-auto">
-          <span className={`font-mono text-lg font-bold ${timeLeft > 0 && timeLeft < 300 ? "text-red-500 animate-pulse" : ""}`}>
+          <span
+            className={`font-mono text-lg font-bold ${timeLeft > 0 && timeLeft < 300 ? "text-red-500 animate-pulse" : ""}`}
+            role="timer"
+            aria-label={isAr ? "الوقت المتبقي" : "Tempo rimanente"}
+            aria-live={timeLeft > 0 && timeLeft < 60 ? "assertive" : "off"}
+          >
             {timeLeft > 0 ? formatTime(timeLeft) : (
               <span className="text-sm text-[var(--muted)]">{isAr ? "بدون وقت" : "Libero"}</span>
             )}
@@ -405,15 +464,18 @@ export default function ExamPage() {
               <TTSButton text={q.textIt} lang="it" />
               <p className="text-lg font-medium leading-relaxed">{q.textIt}</p>
             </div>
-            <p className="text-lg font-medium mb-6 text-[var(--muted)] leading-relaxed" dir="rtl">
-              {q.textAr}
-            </p>
+            <div className="flex items-start gap-2 mb-6" dir="rtl">
+              <TTSButton text={q.textAr} lang="ar" />
+              <p className="text-lg font-medium text-[var(--muted)] leading-relaxed">{q.textAr}</p>
+            </div>
 
             {/* V/F buttons */}
-            <div className="flex gap-4">
+            <div className="flex gap-4" role="group" aria-label={isAr ? "اختر الإجابة" : "Scegli la risposta"}>
               <button
                 onClick={() => handleAnswer(true)}
                 disabled={isPractice && hasAnsweredCurrent}
+                aria-label={`${t("common.true")} (V)`}
+                aria-pressed={q ? answers.get(q.id) === true : undefined}
                 className={`flex-1 py-4 rounded-xl text-xl font-bold transition-all duration-200 disabled:cursor-default ${getPracticeButtonStyle(true)}`}
               >
                 {t("common.true")}
@@ -421,10 +483,18 @@ export default function ExamPage() {
               <button
                 onClick={() => handleAnswer(false)}
                 disabled={isPractice && hasAnsweredCurrent}
+                aria-label={`${t("common.false")} (F)`}
+                aria-pressed={q ? answers.get(q.id) === false : undefined}
                 className={`flex-1 py-4 rounded-xl text-xl font-bold transition-all duration-200 disabled:cursor-default ${getPracticeButtonStyle(false)}`}
               >
                 {t("common.false")}
               </button>
+            </div>
+
+            {/* Screen reader announcement for answer feedback */}
+            <div aria-live="polite" className="sr-only">
+              {feedback === "correct" && (isAr ? "إجابة صحيحة" : "Risposta corretta")}
+              {feedback === "wrong" && (isAr ? "إجابة خاطئة" : "Risposta sbagliata")}
             </div>
 
             {/* Practice feedback: explanation on wrong answer */}

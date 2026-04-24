@@ -50,7 +50,8 @@ describe('GET /api/questions/random', () => {
     expect(body[0]).toHaveProperty('code');
     expect(body[0]).toHaveProperty('textIt');
     expect(body[0]).toHaveProperty('textAr');
-    expect(body[0]).toHaveProperty('isTrue');
+    // isTrue must NOT be exposed publicly (security fix)
+    expect(body[0]).not.toHaveProperty('isTrue');
   });
 });
 

@@ -1,12 +1,24 @@
+import { refreshToken } from './auth';
+
 const API_BASE = '/api';
 
 async function fetchApi<T>(path: string, options?: RequestInit): Promise<T> {
   const headers: Record<string, string> = { ...options?.headers as Record<string, string> };
   if (options?.body) headers['Content-Type'] = 'application/json';
-  const res = await fetch(`${API_BASE}${path}`, {
+  let res = await fetch(`${API_BASE}${path}`, {
     ...options,
     headers,
   });
+
+  // Auto-refresh on 401 if we have a token
+  if (res.status === 401 && headers.authorization) {
+    const newToken = await refreshToken();
+    if (newToken) {
+      headers.authorization = `Bearer ${newToken}`;
+      res = await fetch(`${API_BASE}${path}`, { ...options, headers });
+    }
+  }
+
   if (!res.ok) {
     const err = await res.json().catch(() => ({ error: res.statusText }));
     throw new Error(err.error || `API error ${res.status}`);
@@ -55,17 +67,32 @@ export interface QuizResult {
 }
 
 export function startExam() {
-  return fetchApi<QuizStart>('/quiz/exam', { method: 'POST' });
+  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
+  return fetchApi<QuizStart>('/quiz/exam', {
+    method: 'POST',
+    headers: token ? { authorization: `Bearer ${token}` } : {},
+  });
+}
+
+export function startDemo() {
+  return fetchApi<QuizStart>('/quiz/demo', { method: 'POST' });
 }
 
 export function startPractice(opts: { topicKey?: string; chapterId?: number; count?: number }) {
-  return fetchApi<QuizStart>('/quiz/practice', { method: 'POST', body: JSON.stringify(opts) });
+  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
+  return fetchApi<QuizStart>('/quiz/practice', {
+    method: 'POST',
+    body: JSON.stringify(opts),
+    headers: token ? { authorization: `Bearer ${token}` } : {},
+  });
 }
 
 export function submitQuiz(attemptId: number, answers: Array<{ questionId: number; answer: boolean }>) {
+  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
   return fetchApi<QuizResult>('/quiz/submit', {
     method: 'POST',
     body: JSON.stringify({ attemptId, answers }),
+    headers: token ? { authorization: `Bearer ${token}` } : {},
   });
 }
 
@@ -307,7 +334,16 @@ export interface UserProfile {
   nameIt: string;
   nameAr: string;
   createdAt: string;
-  subscription: { expiresAt: string; durationMinutes: number } | null;
+  subscription: { expiresAt: string; durationMinutes: number; activatedAt: string } | null;
+  subscriptionExpired?: boolean;
+}
+
+export function activateCode(token: string, code: string) {
+  return fetchApi<{ message: string; expiresAt: string; durationMinutes: number }>('/auth/activate', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify({ code }),
+  });
 }
 
 export function getProfile(token: string) {
@@ -382,6 +418,86 @@ export function deleteTopic(token: string, id: number) {
   return fetchApi<{ message: string; id: number }>(`/admin/topics/${id}`, {
     method: 'DELETE',
     headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+// Admin — Access Codes
+export interface AccessCode {
+  id: number;
+  code: string;
+  durationMinutes: number;
+  isUsed: boolean;
+  activatedAt: string | null;
+  expiresAt: string | null;
+  userId: number | null;
+  createdAt: string;
+}
+
+export function getAdminCodes(token: string) {
+  return fetchApi<AccessCode[]>('/admin/codes', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function createAdminCodes(token: string, data: { count: number; durationMinutes: number }) {
+  return fetchApi<AccessCode[]>('/admin/codes', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify(data),
+  });
+}
+
+export function extendCode(token: string, id: number, addMinutes: number) {
+  return fetchApi<AccessCode>(`/admin/codes/${id}/extend`, {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify({ addMinutes }),
+  });
+}
+
+export function revokeCode(token: string, id: number) {
+  return fetchApi<AccessCode>(`/admin/codes/${id}/revoke`, {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function deleteCode(token: string, id: number) {
+  return fetchApi<{ message: string; id: number }>(`/admin/codes/${id}`, {
+    method: 'DELETE',
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+// Admin — Users
+export interface AdminUser {
+  id: number;
+  email: string;
+  nameIt: string;
+  nameAr: string;
+  role: string;
+  isActive: boolean;
+  createdAt: string;
+}
+
+export function getAdminUsers(token: string) {
+  return fetchApi<AdminUser[]>('/admin/users', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function toggleUserActive(token: string, id: number) {
+  return fetchApi<{ id: number; email: string; isActive: boolean }>(`/admin/users/${id}/toggle`, {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+  });
+}
+
+export function changeUserRole(token: string, id: number, role: 'student' | 'admin') {
+  return fetchApi<{ id: number; email: string; role: string }>(`/admin/users/${id}/role`, {
+    method: 'PUT',
+    headers: { authorization: `Bearer ${token}` },
+    body: JSON.stringify({ role }),
   });
 }
 

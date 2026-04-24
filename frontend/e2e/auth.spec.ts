@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { dismissOnboarding } from './helpers';
 
 test.describe('Authentication', () => {
   test('login page has email and password fields', async ({ page }) => {
@@ -8,11 +9,12 @@ test.describe('Authentication', () => {
   });
 
   test('login with invalid credentials shows error', async ({ page }) => {
+    await dismissOnboarding(page);
     await page.goto('/it/login');
     await page.fill('input[type="email"]', 'fake@test.com');
     await page.fill('input[type="password"]', 'wrongpassword');
     await page.locator('button[type="submit"]').click();
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(3000);
     // Should show error or stay on login
     expect(page.url()).toContain('/login');
   });
@@ -24,10 +26,11 @@ test.describe('Authentication', () => {
   });
 
   test('dashboard redirects to login when not authenticated', async ({ page }) => {
+    await dismissOnboarding(page);
     await page.goto('/it/dashboard');
     await page.waitForTimeout(2000);
     // Should show login prompt or redirect
     const text = await page.textContent('body');
-    expect(text).toMatch(/(accedere|login|دخول)/i);
+    expect(text).toMatch(/(accedere|Accedi|login|دخول)/i);
   });
 });

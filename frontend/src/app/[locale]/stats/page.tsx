@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { getTopicStats, getChapterProgress, getDashboard, type TopicStat, type ChapterProgress, type DashboardStats } from "@/lib/api";
 import { SkeletonList, SkeletonCard } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
+import SubscriptionGate from "@/components/SubscriptionGate";
 
 type SortKey = "accuracy" | "totalWrong" | "totalSeen";
 
@@ -85,6 +86,7 @@ export default function StatsPage() {
   const strongTopics = topicStats.filter((t) => t.accuracy >= 90 && t.totalSeen >= 5);
 
   return (
+    <SubscriptionGate>
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
       <h1 className="text-2xl font-extrabold tracking-tight mb-2">{isAr ? "الإحصائيات" : "Statistiche"}</h1>
       <p className="text-sm text-[var(--muted)] mb-6">
@@ -249,5 +251,6 @@ export default function StatsPage() {
         </div>
       )}
     </main>
+    </SubscriptionGate>
   );
 }

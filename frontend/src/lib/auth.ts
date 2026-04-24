@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+const API_BASE = '/api';
 
 export interface AuthResponse {
   token: string;
@@ -56,4 +56,46 @@ export function getUser(): { id: number; email: string; role: string } | null {
 
 export function isLoggedIn(): boolean {
   return !!getToken();
+}
+
+/** Check if JWT is expired (with 60s buffer) */
+export function isTokenExpired(): boolean {
+  const token = getToken();
+  if (!token) return true;
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1]));
+    if (!payload.exp) return false; // no expiry = never expires (legacy tokens)
+    return payload.exp * 1000 < Date.now() + 60_000; // 60s buffer
+  } catch { return true; }
+}
+
+/** Refresh token silently. Returns new token or null on failure. */
+export async function refreshToken(): Promise<string | null> {
+  const token = getToken();
+  if (!token) return null;
+  try {
+    const res = await fetch('/api/auth/refresh', {
+      method: 'POST',
+      headers: { authorization: `Bearer ${token}` },
+    });
+    if (!res.ok) {
+      logout();
+      return null;
+    }
+    const data = await res.json();
+    localStorage.setItem('token', data.token);
+    localStorage.setItem('user', JSON.stringify(data.user));
+    return data.token;
+  } catch {
+    return null;
+  }
+}
+
+/** Get valid token — refreshes if about to expire */
+export async function getValidToken(): Promise<string | null> {
+  if (!isLoggedIn()) return null;
+  if (isTokenExpired()) {
+    return refreshToken();
+  }
+  return getToken();
 }

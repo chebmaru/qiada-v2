@@ -1,7 +1,9 @@
 import { test, expect } from '@playwright/test';
+import { dismissOnboarding } from './helpers';
 
 test.describe('Dark Mode', () => {
   test('theme toggle cycles through modes', async ({ page }) => {
+    await dismissOnboarding(page);
     await page.goto('/it');
     await page.waitForLoadState('networkidle');
 
@@ -24,6 +26,7 @@ test.describe('Dark Mode', () => {
   });
 
   test('dark mode persists across navigation', async ({ page }) => {
+    await dismissOnboarding(page);
     await page.goto('/it');
     await page.waitForLoadState('networkidle');
 

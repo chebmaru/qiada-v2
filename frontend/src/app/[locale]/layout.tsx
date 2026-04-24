@@ -8,6 +8,7 @@ import BottomNav from "@/components/BottomNav";
 import Onboarding from "@/components/Onboarding";
 import OfflineSync from "@/components/OfflineSync";
 import Analytics from "@/components/Analytics";
+import ErrorBoundary from "@/components/ErrorBoundary";
 
 export default async function LocaleLayout({
   children,
@@ -30,9 +31,16 @@ export default async function LocaleLayout({
       <body className="min-h-full flex flex-col bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100">
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
+            <a href="#main-content" className="skip-to-main">
+              {locale === "ar" ? "انتقل إلى المحتوى" : "Vai al contenuto"}
+            </a>
             <Navbar />
             <OfflineSync />
-            {children}
+            <ErrorBoundary locale={locale as "it" | "ar"}>
+              <div id="main-content" role="main">
+                {children}
+              </div>
+            </ErrorBoundary>
             <BottomNav />
             <Onboarding />
             <Analytics />

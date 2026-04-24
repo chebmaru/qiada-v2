@@ -50,7 +50,7 @@ describe('POST /api/auth/register', () => {
       url: '/api/auth/register',
       payload: { email: 'not-email', password: 'test123' },
     });
-    expect(res.statusCode).toBe(500); // Zod validation error
+    expect(res.statusCode).toBe(400); // Zod validation error
   });
 });
 

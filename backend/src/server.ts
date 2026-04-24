@@ -18,8 +18,21 @@ import { adminRoutes } from './routes/admin.js';
 import { pushRoutes } from './routes/push.js';
 import { tricksRoutes } from './routes/tricks.js';
 import { confusingPairsRoutes } from './routes/confusing-pairs.js';
+import { ZodError } from 'zod';
 
 const app = Fastify({ logger: true });
+
+// Global error handler: Zod validation → 400
+app.setErrorHandler((error, _req, reply) => {
+  if (error instanceof ZodError) {
+    return reply.code(400).send({ error: 'Validation failed', details: error.flatten().fieldErrors });
+  }
+  if (error.statusCode) {
+    return reply.code(error.statusCode).send({ error: error.message });
+  }
+  app.log.error(error);
+  return reply.code(500).send({ error: 'Internal server error' });
+});
 
 // DB
 const db = createDb(env.DATABASE_URL);
@@ -29,8 +42,24 @@ app.decorate('db', db);
 await app.register(cors, {
   origin: env.NODE_ENV === 'development' ? true : env.FRONTEND_URL,
 });
-await app.register(jwt, { secret: env.JWT_SECRET });
-await app.register(helmet, { contentSecurityPolicy: false }); // CSP handled by nginx
+await app.register(jwt, {
+  secret: env.JWT_SECRET,
+  sign: { expiresIn: env.JWT_EXPIRES_IN },
+});
+await app.register(helmet, {
+  contentSecurityPolicy: env.NODE_ENV === 'production' ? {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'", "'unsafe-inline'"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
+      imgSrc: ["'self'", "data:", "blob:"],
+      connectSrc: ["'self'"],
+      fontSrc: ["'self'"],
+      objectSrc: ["'none'"],
+      frameAncestors: ["'none'"],
+    },
+  } : false,
+});
 await app.register(rateLimit, { max: 100, timeWindow: '1 minute' });
 
 // Routes

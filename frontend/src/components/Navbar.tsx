@@ -54,6 +54,7 @@ export default function Navbar() {
           { href: "/review" as const, label: t("common.review") },
           { href: "/stats" as const, label: t("common.stats") },
           { href: "/settings" as const, label: t("common.settings") },
+          ...(user.role === "admin" ? [{ href: "/admin" as const, label: "Admin" }] : []),
         ]
       : []),
   ];
@@ -62,7 +63,7 @@ export default function Navbar() {
     pathname === href || (href !== "/" && pathname.startsWith(href));
 
   return (
-    <nav className="hidden md:block sticky top-0 z-40 glass border-b border-[var(--card-border)]">
+    <nav aria-label="Desktop navigation" className="hidden md:block sticky top-0 z-40 glass border-b border-[var(--card-border)]">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between h-14">
         <Link href="/" className="text-xl font-extrabold text-gradient tracking-tight">
           {t("common.appName")}

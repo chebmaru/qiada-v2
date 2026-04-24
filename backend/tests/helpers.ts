@@ -1,6 +1,7 @@
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import jwt from '@fastify/jwt';
+import { ZodError } from 'zod';
 import { createDb } from '../src/db/connection.js';
 import { healthRoutes } from '../src/routes/health.js';
 import { chapterRoutes } from '../src/routes/chapters.js';
@@ -24,6 +25,17 @@ export async function buildApp() {
   const app = Fastify({ logger: false });
   const db = createDb(dbUrl);
   app.decorate('db', db);
+
+  // Zod validation → 400 (same as production server)
+  app.setErrorHandler((error, _req, reply) => {
+    if (error instanceof ZodError) {
+      return reply.code(400).send({ error: 'Validation failed', details: error.flatten().fieldErrors });
+    }
+    if (error.statusCode) {
+      return reply.code(error.statusCode).send({ error: error.message });
+    }
+    return reply.code(500).send({ error: 'Internal server error' });
+  });
 
   await app.register(cors);
   await app.register(jwt, { secret: 'test-secret-min-32-chars-long-enough' });

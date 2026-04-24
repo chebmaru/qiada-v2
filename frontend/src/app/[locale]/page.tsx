@@ -1,12 +1,17 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import { getDashboard, type DashboardStats } from "@/lib/api";
+
+const DailyGoal = lazy(() => import("@/components/DailyGoal"));
 
 export default function HomePage() {
   const t = useTranslations();
+  const locale = useLocale();
+  const isAr = locale === "ar";
   const [stats, setStats] = useState<DashboardStats | null>(null);
 
   useEffect(() => {
@@ -54,6 +59,31 @@ export default function HomePage() {
                 {stats.accuracy}%
               </strong> {t("home.accuracy")}
             </span>
+          </div>
+        </Link>
+      )}
+
+      {/* Daily goal — only for logged in users */}
+      {stats && (
+        <Suspense fallback={<div className="h-20 skeleton rounded-xl mb-4" />}>
+          <DailyGoal />
+        </Suspense>
+      )}
+
+      {/* Demo CTA — for non-logged users */}
+      {!stats && (
+        <Link
+          href="/quiz/exam?demo=1"
+          className="flex items-center gap-4 p-4 mb-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-white hover:from-emerald-600 hover:to-teal-600 transition"
+        >
+          <div className="flex-shrink-0 w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+            </svg>
+          </div>
+          <div>
+            <p className="font-bold">{isAr ? "جرب الآن — 5 أسئلة" : "Prova ora — 5 domande"}</p>
+            <p className="text-xs text-emerald-100">{isAr ? "بدون تسجيل" : "Senza registrazione"}</p>
           </div>
         </Link>
       )}

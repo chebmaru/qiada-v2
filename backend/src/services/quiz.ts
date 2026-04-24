@@ -4,11 +4,10 @@ import { questions } from '../db/schema/questions.js';
 import { quizAttempts } from '../db/schema/quiz-attempts.js';
 import { chapters } from '../db/schema/chapters.js';
 
-// D.M. 37/2017: 40 domande, distribuzione per capitolo in base al peso ministeriale
-// Max 4 errori per passare, 30 minuti di tempo
-const EXAM_QUESTIONS = 40;
-const EXAM_TIME_SECONDS = 30 * 60;
-const MAX_ERRORS_TO_PASS = 4;
+// D.Lgs 59/2011 aggiornato 20/12/2021: 30 domande, 20 minuti, max 3 errori
+const EXAM_QUESTIONS = 30;
+const EXAM_TIME_SECONDS = 20 * 60;
+const MAX_ERRORS_TO_PASS = 3;
 
 interface QuizQuestion {
   id: number;
@@ -74,9 +73,6 @@ export class QuizService {
       textAr: questions.textAr,
       imageUrl: questions.imageUrl,
       chapterId: questions.chapterId,
-      isTrue: questions.isTrue,
-      explanationIt: questions.explanationIt,
-      explanationAr: questions.explanationAr,
     }).from(questions)
       .where(where)
       .orderBy(sql`random()`)
@@ -102,7 +98,7 @@ export class QuizService {
   /**
    * Submit answers and calculate result
    */
-  async submit(payload: SubmitPayload) {
+  async submit(payload: SubmitPayload, userId?: number) {
     // Get the attempt
     const [attempt] = await this.db.select()
       .from(quizAttempts)
@@ -110,6 +106,19 @@ export class QuizService {
 
     if (!attempt) throw new Error('Attempt not found');
     if (attempt.submittedAt) throw new Error('Already submitted');
+
+    // Ownership check: if attempt has a userId, submitter must match
+    if (attempt.userId && userId && attempt.userId !== userId) {
+      throw new Error('Not your attempt');
+    }
+
+    // Time limit enforcement for exams (30s grace period for network delay)
+    if (attempt.mode === 'exam') {
+      const elapsed = (Date.now() - attempt.startedAt.getTime()) / 1000;
+      if (elapsed > EXAM_TIME_SECONDS + 30) {
+        throw new Error('Time limit exceeded');
+      }
+    }
 
     // Get correct answers for the questions in this attempt
     const questionIds = (attempt.snapshot as { questionIds: number[] }).questionIds;

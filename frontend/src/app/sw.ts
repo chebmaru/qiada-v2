@@ -13,6 +13,17 @@ declare global {
 
 declare const self: ServiceWorkerGlobalScope;
 
+// Filter precache: only app shell (JS/CSS/HTML/icons), skip heavy assets
+// Signs (3600+ PNGs) and didattica (SVGs up to 3MB) are runtime-cached instead
+const SKIP_PRECACHE = ["/signs/", "/didattica/", "/icons/icon-512"];
+const MAX_PRECACHE_SIZE = 500_000; // 500KB per entry
+
+const filteredManifest = (self.__SW_MANIFEST ?? []).filter((entry) => {
+  const url = typeof entry === "string" ? entry : entry.url;
+  if (SKIP_PRECACHE.some((skip) => url.includes(skip))) return false;
+  return true;
+});
+
 const apiCache: RuntimeCaching[] = [
   {
     matcher: ({ url }) => url.pathname.startsWith("/api/topics") || url.pathname.startsWith("/api/chapters") || url.pathname.startsWith("/api/glossary") || url.pathname.startsWith("/api/questions") || url.pathname.startsWith("/api/tricks") || url.pathname.startsWith("/api/keywords") || url.pathname.startsWith("/api/confusing-pairs"),
@@ -28,10 +39,17 @@ const apiCache: RuntimeCaching[] = [
       plugins: [new ExpirationPlugin({ maxEntries: 500, maxAgeSeconds: 30 * 24 * 60 * 60 })],
     }),
   },
+  {
+    matcher: ({ url }) => url.pathname.match(/\.(png|jpg|webp|svg|ico)$/),
+    handler: new CacheFirst({
+      cacheName: "static-images",
+      plugins: [new ExpirationPlugin({ maxEntries: 100, maxAgeSeconds: 30 * 24 * 60 * 60 })],
+    }),
+  },
 ];
 
 const serwist = new Serwist({
-  precacheEntries: self.__SW_MANIFEST,
+  precacheEntries: filteredManifest,
   skipWaiting: true,
   clientsClaim: true,
   navigationPreload: true,

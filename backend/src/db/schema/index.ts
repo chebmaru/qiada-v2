@@ -10,3 +10,4 @@ export { quizAttempts } from './quiz-attempts.js';
 export { userQuestionStats } from './user-question-stats.js';
 export { userProgress, userDailyActivity } from './user-progress.js';
 export { pushSubscriptions } from './push-subscriptions.js';
+export { analyticsEvents } from './analytics.js';

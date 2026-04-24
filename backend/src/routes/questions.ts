@@ -2,8 +2,19 @@ import type { FastifyPluginAsync } from 'fastify';
 import { eq, sql, and } from 'drizzle-orm';
 import { questions } from '../db/schema/questions.js';
 
+// Public-safe fields (never expose isTrue, explanations)
+const publicFields = {
+  id: questions.id,
+  code: questions.code,
+  textIt: questions.textIt,
+  textAr: questions.textAr,
+  imageUrl: questions.imageUrl,
+  chapterId: questions.chapterId,
+  topicKey: questions.topicKey,
+};
+
 export const questionRoutes: FastifyPluginAsync = async (app) => {
-  // GET /api/questions — paginated, filterable
+  // GET /api/questions — paginated, filterable (no answers exposed)
   app.get<{
     Querystring: { chapterId?: string; topicKey?: string; limit?: string; offset?: string }
   }>('/questions', async (req) => {
@@ -21,14 +32,14 @@ export const questionRoutes: FastifyPluginAsync = async (app) => {
     const where = conditions.length > 0 ? and(...conditions) : undefined;
 
     const [rows, [{ total }]] = await Promise.all([
-      app.db.select().from(questions).where(where).limit(limit).offset(offset),
+      app.db.select(publicFields).from(questions).where(where).limit(limit).offset(offset),
       app.db.select({ total: sql<number>`count(*)` }).from(questions).where(where),
     ]);
 
     return { data: rows, total: Number(total), limit, offset };
   });
 
-  // GET /api/questions/random — random N questions
+  // GET /api/questions/random — random N questions (no answers exposed)
   app.get<{
     Querystring: { n?: string; chapterId?: string }
   }>('/questions/random', async (req) => {
@@ -40,17 +51,15 @@ export const questionRoutes: FastifyPluginAsync = async (app) => {
     }
     const where = conditions.length > 0 ? and(...conditions) : undefined;
 
-    const rows = await app.db.select().from(questions)
+    return app.db.select(publicFields).from(questions)
       .where(where)
       .orderBy(sql`random()`)
       .limit(n);
-
-    return rows;
   });
 
-  // GET /api/questions/:code — single question by ministerial code
+  // GET /api/questions/:code — single question by ministerial code (no answers exposed)
   app.get<{ Params: { code: string } }>('/questions/:code', async (req, reply) => {
-    const [row] = await app.db.select().from(questions)
+    const [row] = await app.db.select(publicFields).from(questions)
       .where(eq(questions.code, req.params.code));
     if (!row) return reply.code(404).send({ error: 'Question not found' });
     return row;

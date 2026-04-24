@@ -48,7 +48,7 @@ export default function BottomNav() {
   ];
 
   return (
-    <nav className="md:hidden fixed bottom-0 inset-x-0 glass border-t border-[var(--card-border)] z-50 pb-[env(safe-area-inset-bottom)]">
+    <nav aria-label="Main navigation" className="md:hidden fixed bottom-0 inset-x-0 glass border-t border-[var(--card-border)] z-50 pb-[env(safe-area-inset-bottom)]">
       <div className="flex items-center justify-around h-16">
         {tabs.map(({ href, label, Icon }) => {
           const active = pathname === href || (href !== "/" && pathname.startsWith(href));
@@ -56,7 +56,7 @@ export default function BottomNav() {
             <Link
               key={href}
               href={href}
-              className={`flex flex-col items-center justify-center gap-0.5 w-full h-full text-[10px] font-medium transition-all ${
+              className={`flex flex-col items-center justify-center gap-0.5 w-full h-full text-[11px] font-medium transition-all ${
                 active
                   ? "text-blue-600 dark:text-blue-400"
                   : "text-[var(--muted)]"
@@ -77,7 +77,8 @@ export default function BottomNav() {
         <Link
           href={pathname}
           locale={isAr ? "it" : "ar"}
-          className="flex flex-col items-center justify-center gap-0.5 w-full h-full text-[10px] font-medium text-[var(--muted)]"
+          aria-label={isAr ? "Passa all'italiano" : "التبديل إلى العربية"}
+          className="flex flex-col items-center justify-center gap-0.5 w-full h-full text-[11px] font-medium text-[var(--muted)]"
         >
           <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 text-white text-xs font-bold flex items-center justify-center">
             {isAr ? "IT" : "ع"}

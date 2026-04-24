@@ -8,7 +8,7 @@
   --foreground: #0f172a;
   --card: #ffffff;
   --card-border: #e2e8f0;
-  --muted: #64748b;
+  --muted: #475569;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
   --gradient-start: #2563eb;
@@ -65,12 +65,31 @@ html[lang="ar"] body {
   border-radius: 4px;
 }
 
-/* Force Western Arabic numerals */
+/* Minimum readable font — no text smaller than 12px */
 * {
   font-variant-numeric: lining-nums;
 }
 html[lang="ar"] {
   font-feature-settings: "lnum";
+}
+
+/* Skip to main content — accessibility */
+.skip-to-main {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 0 0 0.5rem 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: top 0.2s;
+}
+.skip-to-main:focus {
+  top: 0;
 }
 
 /* ---- Design system ---- */

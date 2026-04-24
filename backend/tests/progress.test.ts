@@ -1,23 +1,38 @@
 import { describe, it, expect, afterAll } from 'vitest';
 import { buildApp } from './helpers.js';
+import { accessCodes } from '../src/db/schema/access-codes.js';
 
 const app = await buildApp();
 afterAll(() => app.close());
 
-// Create a test user and get token
-async function getAuthToken() {
+// Create a test user with active subscription and return token
+let codeCounter = 0;
+async function getAuthTokenWithSub() {
   const email = `progress-test-${Date.now()}@test.com`;
   const res = await app.inject({
     method: 'POST',
     url: '/api/auth/register',
     payload: { email, password: 'test123456' },
   });
-  return res.json().token;
+  const { token, user } = res.json();
+
+  // Give them a subscription
+  codeCounter++;
+  await app.db.insert(accessCodes).values({
+    code: `PROG-TEST-${Date.now()}-${codeCounter}`,
+    durationMinutes: 60 * 24 * 7,
+    userId: user.id,
+    isUsed: true,
+    activatedAt: new Date(),
+    expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+  });
+
+  return token;
 }
 
 describe('Progress endpoints (require auth)', () => {
   it('GET /api/progress/dashboard returns empty stats for new user', async () => {
-    const token = await getAuthToken();
+    const token = await getAuthTokenWithSub();
     const res = await app.inject({
       method: 'GET',
       url: '/api/progress/dashboard',
@@ -32,7 +47,7 @@ describe('Progress endpoints (require auth)', () => {
   });
 
   it('GET /api/progress/chapters returns chapter progress', async () => {
-    const token = await getAuthToken();
+    const token = await getAuthTokenWithSub();
     const res = await app.inject({
       method: 'GET',
       url: '/api/progress/chapters',
@@ -49,9 +64,9 @@ describe('Progress endpoints (require auth)', () => {
   });
 
   it('SM-2 updates after quiz submission with auth', async () => {
-    const token = await getAuthToken();
+    const token = await getAuthTokenWithSub();
 
-    // Start quiz
+    // Start quiz (user has subscription now)
     const startRes = await app.inject({
       method: 'POST',
       url: '/api/quiz/exam',
@@ -86,7 +101,7 @@ describe('Progress endpoints (require auth)', () => {
   });
 
   it('GET /api/progress/review returns due questions', async () => {
-    const token = await getAuthToken();
+    const token = await getAuthTokenWithSub();
     const res = await app.inject({
       method: 'GET',
       url: '/api/progress/review',

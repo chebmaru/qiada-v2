@@ -64,29 +64,29 @@ export default function GlossaryPage() {
         {filtered.map((term) => (
           <div key={term.id} className="card p-4">
             <div className="flex justify-between items-start mb-2">
-              <div className="flex items-center gap-1">
-                <TTSButton text={term.termIt} lang="it" />
-                <h3 className="font-bold text-gradient">
-                  {isAr ? term.termAr : term.termIt}
-                </h3>
-              </div>
+              <h3 className="font-bold text-gradient">
+                {isAr ? term.termAr : term.termIt}
+              </h3>
               <span className="text-xs bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full font-medium">
                 {term.category}
               </span>
             </div>
-            <p className="text-sm text-[var(--muted)] mb-1">
-              {isAr ? term.termIt : term.termAr}
-            </p>
-            <div className="flex items-start gap-1 mt-2">
-              <TTSButton text={term.definitionIt} lang="it" />
-              <p className="text-sm">
-                {isAr ? term.definitionAr : term.definitionIt}
+            <div className="flex items-center gap-1 mb-1">
+              <TTSButton text={term.termIt} lang="it" />
+              <p className="text-sm text-[var(--muted)]">
+                {isAr ? term.termIt : term.termAr}
               </p>
             </div>
+            <p className="text-sm mt-2">
+              {isAr ? term.definitionAr : term.definitionIt}
+            </p>
             {(isAr ? term.definitionIt : term.definitionAr) && (
-              <p className="text-sm text-[var(--muted)] mt-1">
-                {isAr ? term.definitionIt : term.definitionAr}
-              </p>
+              <div className="flex items-start gap-1 mt-1">
+                <TTSButton text={term.definitionIt} lang="it" />
+                <p className="text-sm text-[var(--muted)]">
+                  {isAr ? term.definitionIt : term.definitionAr}
+                </p>
+              </div>
             )}
           </div>
         ))}

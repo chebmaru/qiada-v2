@@ -8,6 +8,7 @@ import TTSButton from "@/components/TTSButton";
 import { SkeletonList } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
 import SignImage from "@/components/SignImage";
+import SubscriptionGate from "@/components/SubscriptionGate";
 
 type Tab = "due" | "weak";
 
@@ -80,6 +81,7 @@ export default function ReviewPage() {
   }
 
   return (
+    <SubscriptionGate>
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
       <h1 className="text-2xl font-extrabold tracking-tight mb-2">{isAr ? "المراجعة" : "Revisione"}</h1>
       <p className="text-sm text-[var(--muted)] mb-4">
@@ -246,5 +248,6 @@ export default function ReviewPage() {
         </>
       )}
     </main>
+    </SubscriptionGate>
   );
 }

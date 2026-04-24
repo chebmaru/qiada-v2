@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, use } from "react";
+import React, { useState, useEffect, use } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getTopics, getQuestions, getTricks, type Topic, type Question, type TopicTricks } from "@/lib/api";
@@ -56,17 +56,60 @@ function formatTrickText(text: string): string[] {
 function SvgViewer({ src }: { src: string }) {
   const [loaded, setLoaded] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
+  const triggerRef = React.useRef<HTMLImageElement>(null);
+  const dialogRef = React.useRef<HTMLDivElement>(null);
+
+  // Focus trap + keyboard
+  useEffect(() => {
+    if (!fullscreen) return;
+    document.body.style.overflow = "hidden";
+
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setFullscreen(false);
+        return;
+      }
+      // Tab trap within dialog
+      if (e.key === "Tab" && dialogRef.current) {
+        const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
+          'button, [href], [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handler);
+    return () => {
+      window.removeEventListener("keydown", handler);
+      document.body.style.overflow = "";
+      triggerRef.current?.focus();
+    };
+  }, [fullscreen]);
 
   return (
     <>
       {/* Inline preview — tap to expand */}
       <div className={`relative mb-6 ${loaded ? "" : "hidden"}`}>
         <img
+          ref={triggerRef}
           src={src}
-          alt=""
+          alt="Schema didattico"
           className="w-full rounded-lg cursor-pointer"
           onLoad={() => setLoaded(true)}
           onClick={() => setFullscreen(true)}
+          role="button"
+          tabIndex={0}
+          aria-label="Apri schema a schermo intero"
+          onKeyDown={(e) => { if (e.key === "Enter") setFullscreen(true); }}
         />
         <div className="absolute bottom-2 right-2 bg-black/50 text-white text-xs px-2 py-1 rounded-full pointer-events-none sm:hidden">
           Tap per ingrandire
@@ -76,10 +119,16 @@ function SvgViewer({ src }: { src: string }) {
       {/* Fullscreen overlay */}
       {fullscreen && (
         <div
+          ref={dialogRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Schema a schermo intero"
           className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-2"
           onClick={() => setFullscreen(false)}
         >
           <button
+            autoFocus
+            aria-label="Chiudi"
             className="absolute top-4 right-4 text-white bg-black/50 rounded-full w-10 h-10 flex items-center justify-center text-xl z-10"
             onClick={() => setFullscreen(false)}
           >
@@ -249,7 +298,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
       {/* 3. Sign photo */}
       {signUrl && (
         <div className="flex justify-center mb-6">
-          <img src={signUrl} alt={isAr ? topic.titleAr : topic.titleIt} className="max-h-40 rounded-xl border border-[var(--card-border)] shadow-sm" />
+          <SignImage src={signUrl} alt={isAr ? topic.titleAr : topic.titleIt} size="lg" className="rounded-xl border border-[var(--card-border)] shadow-sm" />
         </div>
       )}
 
@@ -370,7 +419,10 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
                     <TTSButton text={q.textIt} lang="it" />
                     <p className="font-medium text-sm leading-relaxed">{q.textIt}</p>
                   </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 leading-relaxed" dir="rtl">{q.textAr}</p>
+                  <div className="flex items-start gap-1 mt-1" dir="rtl">
+                    <TTSButton text={q.textAr} lang="ar" />
+                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{q.textAr}</p>
+                  </div>
 
                   <button
                     onClick={() => toggleAnswer(q.id)}

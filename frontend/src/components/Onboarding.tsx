@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { useTranslations } from "next-intl";
 
 const STORAGE_KEY = "qiada_onboarding_done";
@@ -39,17 +39,57 @@ export default function Onboarding() {
   const t = useTranslations();
   const [step, setStep] = useState(0);
   const [visible, setVisible] = useState(false);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const previousFocusRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     if (!localStorage.getItem(STORAGE_KEY)) {
+      previousFocusRef.current = document.activeElement as HTMLElement;
       setVisible(true);
     }
   }, []);
 
-  const dismiss = () => {
+  // Focus trap + keyboard navigation
+  useEffect(() => {
+    if (!visible) return;
+    document.body.style.overflow = "hidden";
+
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        dismiss();
+        return;
+      }
+      // Tab trap
+      if (e.key === "Tab" && dialogRef.current) {
+        const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handler);
+    return () => {
+      window.removeEventListener("keydown", handler);
+      document.body.style.overflow = "";
+    };
+  }, [visible]);
+
+  const dismiss = useCallback(() => {
     localStorage.setItem(STORAGE_KEY, "1");
     setVisible(false);
-  };
+    document.body.style.overflow = "";
+    previousFocusRef.current?.focus();
+  }, []);
 
   if (!visible) return null;
 
@@ -57,11 +97,17 @@ export default function Onboarding() {
   const isLast = step === steps.length - 1;
 
   return (
-    <div className="fixed inset-0 z-[100] bg-black/60 flex items-end sm:items-center justify-center">
+    <div
+      className="fixed inset-0 z-[100] bg-black/60 flex items-end sm:items-center justify-center"
+      role="dialog"
+      aria-modal="true"
+      aria-label={t(current.titleKey)}
+      ref={dialogRef}
+    >
       <div className="bg-white dark:bg-gray-900 w-full sm:max-w-sm sm:rounded-2xl rounded-t-2xl p-6 pb-8 shadow-xl">
         {/* Skip */}
         <div className="flex justify-end mb-4">
-          <button onClick={dismiss} className="text-xs text-gray-400 hover:text-gray-600 transition">
+          <button autoFocus onClick={dismiss} className="text-xs text-gray-400 hover:text-gray-600 transition">
             {t("onboarding.skip")}
           </button>
         </div>
@@ -76,7 +122,7 @@ export default function Onboarding() {
         </div>
 
         {/* Dots */}
-        <div className="flex justify-center gap-1.5 mb-6">
+        <div className="flex justify-center gap-1.5 mb-6" aria-label={`${step + 1} / ${steps.length}`}>
           {steps.map((_, i) => (
             <div
               key={i}

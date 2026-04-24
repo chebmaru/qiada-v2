@@ -3,9 +3,10 @@
 import { useState, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { getDashboard, getChapterProgress, type DashboardStats, type ChapterProgress } from "@/lib/api";
+import { getDashboard, getChapterProgress, getProfile, type DashboardStats, type ChapterProgress } from "@/lib/api";
 import { SkeletonList, SkeletonCard } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
+import SubscriptionGate from "@/components/SubscriptionGate";
 
 export default function DashboardPage() {
   const t = useTranslations();
@@ -16,6 +17,8 @@ export default function DashboardPage() {
   const [chapters, setChapters] = useState<ChapterProgress[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [subDaysLeft, setSubDaysLeft] = useState<number | null>(null);
+  const [subExpiresAt, setSubExpiresAt] = useState<string | null>(null);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -28,10 +31,20 @@ export default function DashboardPage() {
     Promise.all([
       getDashboard(token),
       getChapterProgress(token),
+      getProfile(token),
     ])
-      .then(([dash, chaps]) => {
+      .then(([dash, chaps, profile]) => {
         setStats(dash);
         setChapters(chaps);
+        if (profile.subscription?.expiresAt) {
+          const expires = new Date(profile.subscription.expiresAt);
+          const now = new Date();
+          const days = Math.ceil((expires.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+          if (days <= 7 && days > 0) {
+            setSubDaysLeft(days);
+            setSubExpiresAt(profile.subscription.expiresAt);
+          }
+        }
       })
       .catch(() => setError(isAr ? "خطأ في تحميل البيانات" : "Errore nel caricamento"))
       .finally(() => setLoading(false));
@@ -70,8 +83,37 @@ export default function DashboardPage() {
   if (!stats) return null;
 
   return (
+    <SubscriptionGate>
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
       <h1 className="text-2xl font-extrabold tracking-tight mb-6">{isAr ? "لوحة التقدم" : "I tuoi progressi"}</h1>
+
+      {/* Subscription expiry warning — only shown in last 7 days */}
+      {subDaysLeft !== null && (
+        <div className={`card p-4 mb-6 border ${subDaysLeft <= 2 ? "border-red-300 dark:border-red-800 bg-red-50/50 dark:bg-red-950/30" : "border-amber-300 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30"}`}>
+          <div className="flex items-center gap-3">
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${subDaysLeft <= 2 ? "bg-red-100 dark:bg-red-900 text-red-600" : "bg-amber-100 dark:bg-amber-900 text-amber-600"}`}>
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div className="flex-1">
+              <p className="text-sm font-semibold">
+                {isAr
+                  ? `ينتهي اشتراكك خلال ${subDaysLeft} ${subDaysLeft === 1 ? "يوم" : "أيام"}`
+                  : `Il tuo abbonamento scade tra ${subDaysLeft} giorn${subDaysLeft === 1 ? "o" : "i"}`}
+              </p>
+              {subExpiresAt && (
+                <p className="text-xs text-[var(--muted)]">
+                  {new Date(subExpiresAt).toLocaleString(isAr ? "ar" : "it", { dateStyle: "medium", timeStyle: "short" })}
+                </p>
+              )}
+            </div>
+            <Link href="/activate" className="text-xs font-semibold text-gradient shrink-0">
+              {isAr ? "تجديد" : "Rinnova"}
+            </Link>
+          </div>
+        </div>
+      )}
 
       {/* Virtual License Card */}
       <VirtualLicense stats={stats} isAr={isAr} />
@@ -148,7 +190,7 @@ export default function DashboardPage() {
                       day.questionsAnswered > 20 ? "bg-emerald-500" : day.questionsAnswered > 0 ? "bg-emerald-300 dark:bg-emerald-700" : "bg-gray-200 dark:bg-gray-700"
                     }`}
                   />
-                  <span className="text-[10px] text-[var(--muted)] mt-1 block">
+                  <span className="text-[11px] text-[var(--muted)] mt-1 block">
                     {day.date.slice(-2)}
                   </span>
                 </div>
@@ -158,6 +200,7 @@ export default function DashboardPage() {
         </>
       )}
     </main>
+    </SubscriptionGate>
   );
 }
 
@@ -188,14 +231,14 @@ function VirtualLicense({ stats, isAr }: { stats: DashboardStats; isAr: boolean 
       <div className="bg-gray-950/80 backdrop-blur-sm rounded-2xl p-5">
         <div className="flex items-start justify-between mb-4">
           <div>
-            <p className="text-[10px] uppercase tracking-widest text-gray-400 mb-1">
+            <p className="text-[11px] uppercase tracking-widest text-gray-400 mb-1">
               {isAr ? "رخصة قيادة افتراضية" : "Patente Virtuale"}
             </p>
             <p className="text-lg font-bold text-white">{levelLabels[level - 1]}</p>
           </div>
           <div className="text-end">
             <p className="text-3xl font-black text-white">{score}</p>
-            <p className="text-[10px] text-gray-400">/100</p>
+            <p className="text-[11px] text-gray-400">/100</p>
           </div>
         </div>
 
