@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { getKeywordHints, type KeywordHint } from "@/lib/api";
 import { SkeletonList } from "@/components/Skeleton";
+import AuthGate from "@/components/AuthGate";
 
 export default function TricksPage() {
   const t = useTranslations("tricks");
@@ -30,6 +31,7 @@ export default function TricksPage() {
   }
 
   return (
+    <AuthGate>
     <main className="flex-1 p-4 max-w-3xl mx-auto w-full">
       <h1 className="text-2xl font-extrabold tracking-tight mb-2">{t("title")}</h1>
       <p className="text-[var(--muted)] text-sm mb-8">{t("subtitle")}</p>
@@ -84,5 +86,6 @@ export default function TricksPage() {
         </div>
       </div>
     </main>
+    </AuthGate>
   );
 }

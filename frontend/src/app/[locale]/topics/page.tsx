@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getTopics, getChapters, getTopicStats, type Topic, type Chapter, type TopicStat } from "@/lib/api";
 import { SkeletonList } from "@/components/Skeleton";
+import AuthGate from "@/components/AuthGate";
 
 type SortMode = "default" | "alpha" | "questions" | "accuracy";
 
@@ -120,6 +121,7 @@ export default function TopicsPage() {
   }
 
   return (
+    <AuthGate>
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full pb-24">
       <h1 className="text-2xl font-bold mb-1">{t("common.topics")}</h1>
       <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
@@ -264,6 +266,7 @@ export default function TopicsPage() {
         </div>
       )}
     </main>
+    </AuthGate>
   );
 }
 

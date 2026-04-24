@@ -8,6 +8,7 @@ import TTSButton from "@/components/TTSButton";
 import { SkeletonCard, SkeletonLine } from "@/components/Skeleton";
 import EmptyState from "@/components/EmptyState";
 import SignImage from "@/components/SignImage";
+import AuthGate from "@/components/AuthGate";
 
 function formatTrickText(text: string): string[] {
   // Split on numbered patterns like "1)" "2)" etc.
@@ -259,6 +260,7 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
   }
 
   return (
+    <AuthGate>
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
       {/* Back link */}
       <Link href="/topics" className="text-blue-600 text-sm mb-4 inline-flex items-center gap-1 hover:underline">
@@ -459,5 +461,6 @@ export default function TopicDetailPage({ params }: { params: Promise<{ topicKey
         </div>
       )}
     </main>
+    </AuthGate>
   );
 }

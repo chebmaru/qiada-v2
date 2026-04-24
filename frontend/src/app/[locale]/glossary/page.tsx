@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { getGlossary, type GlossaryTerm } from "@/lib/api";
 import TTSButton from "@/components/TTSButton";
 import { SkeletonList } from "@/components/Skeleton";
+import AuthGate from "@/components/AuthGate";
 
 export default function GlossaryPage() {
   const t = useTranslations();
@@ -45,6 +46,7 @@ export default function GlossaryPage() {
   }
 
   return (
+    <AuthGate>
     <main className="flex-1 p-4 max-w-2xl mx-auto w-full">
       <h1 className="text-2xl font-extrabold tracking-tight mb-4">{t("common.glossary")}</h1>
 
@@ -92,5 +94,6 @@ export default function GlossaryPage() {
         ))}
       </div>
     </main>
+    </AuthGate>
   );
 }
