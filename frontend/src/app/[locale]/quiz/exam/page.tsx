@@ -116,8 +116,8 @@ export default function ExamPage() {
   }, []);
 
   useEffect(() => {
-    if (phase !== "active" || isPractice) return;
-    if (timeLeft <= 0) {
+    if (phase !== "active" || isPractice || timeLeft === 0) return;
+    if (timeLeft < 0) {
       handleSubmit();
       return;
     }
