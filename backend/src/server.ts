@@ -23,7 +23,7 @@ import { ZodError } from 'zod';
 const app = Fastify({ logger: true });
 
 // Global error handler: Zod validation → 400
-app.setErrorHandler((error, _req, reply) => {
+app.setErrorHandler((error: Error & { statusCode?: number }, _req, reply) => {
   if (error instanceof ZodError) {
     return reply.code(400).send({ error: 'Validation failed', details: error.flatten().fieldErrors });
   }
