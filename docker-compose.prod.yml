@@ -7,6 +7,8 @@ services:
       POSTGRES_USER: ${DB_USER:-qiada}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
       POSTGRES_DB: ${DB_NAME:-qiada_v2}
+    ports:
+      - "127.0.0.1:5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
@@ -21,6 +23,8 @@ services:
       dockerfile: Dockerfile
     container_name: qiada-backend
     restart: unless-stopped
+    ports:
+      - "127.0.0.1:3001:3001"
     environment:
       DATABASE_URL: postgresql://${DB_USER:-qiada}:${DB_PASSWORD}@db:5432/${DB_NAME:-qiada_v2}
       JWT_SECRET: ${JWT_SECRET}
@@ -30,6 +34,8 @@ services:
       VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
       VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
       VAPID_SUBJECT: ${VAPID_SUBJECT:-mailto:admin@qiada.app}
+    volumes:
+      - ./content:/content:ro
     depends_on:
       db:
         condition: service_healthy
@@ -47,23 +53,11 @@ services:
         NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-/api}
     container_name: qiada-frontend
     restart: unless-stopped
+    ports:
+      - "127.0.0.1:3002:3000"
     environment:
       NODE_ENV: production
     depends_on:
-      - backend
-
-  nginx:
-    image: nginx:alpine
-    container_name: qiada-nginx
-    restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx/certs:/etc/nginx/certs:ro
-    depends_on:
-      - frontend
       - backend
 
 volumes:
