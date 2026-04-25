@@ -469,10 +469,13 @@ export default function ExamPage() {
               <TTSButton text={q.textIt} lang="it" />
               <p className="text-lg font-medium leading-relaxed">{q.textIt}</p>
             </div>
-            <div className="flex items-start gap-2 mb-6" dir="rtl">
-              <TTSButton text={q.textAr} lang="ar" />
-              <p className="text-lg font-medium text-[var(--muted)] leading-relaxed">{q.textAr}</p>
-            </div>
+            {(isDemo || isPractice) && (
+              <div className="flex items-start gap-2 mb-6" dir="rtl">
+                <TTSButton text={q.textAr} lang="ar" />
+                <p className="text-lg font-medium text-[var(--muted)] leading-relaxed">{q.textAr}</p>
+              </div>
+            )}
+            {!isDemo && !isPractice && <div className="mb-6" />}
 
             {/* V/F buttons */}
             <div className="flex gap-4" role="group" aria-label={isAr ? "اختر الإجابة" : "Scegli la risposta"}>
